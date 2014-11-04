@@ -1,0 +1,14 @@
+
+****************************************************************************
+
+data=/hlpUsers/jdegen/projects/modals/data
+results=/hlpUsers/jdegen/projects/modals/results
+
+init ID
+
+add StringVar Context=2-b
+add StringVar Sentence
+add CategoricalVar Modal=must:Must,haveto:HaveTo,gotta:Gotta
+add CategoricalVar TensePerson=third:Third,non-third:First,past:Past
+add NodeVar Node
+****************************************************************************
