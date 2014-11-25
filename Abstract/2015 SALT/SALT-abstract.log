@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  25 NOV 2014 11:41
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  25 NOV 2014 11:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -851,7 +851,7 @@ Package: ulem 2012/05/18
 )
 \c@saveenumi=\count178
 
-No file SALT-abstract.aux.
+(./SALT-abstract.aux)
 \openout1 = `SALT-abstract.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 99.
@@ -868,6 +868,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 99.
 LaTeX Font Info:    ... okay on input line 99.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 99.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 99.
+
 (/usr/local/texlive/2012/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
@@ -1026,8 +1027,8 @@ Package natbib Warning: There were undefined citations.
 
 (./SALT-abstract.aux) ) 
 Here is how much of TeX's memory you used:
- 16444 strings out of 493488
- 283234 string characters out of 3141326
+ 16446 strings out of 493488
+ 283270 string characters out of 3141326
  375658 words of memory out of 3000000
  19364 multiletter control sequences out of 15000+200000
  10376 words of font info for 40 fonts, out of 3000000 for 9000
