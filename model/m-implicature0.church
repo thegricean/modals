@@ -1,0 +1,290 @@
+; Helper functions
+
+(define (count lst match n)
+   (if (null? lst)
+      n
+      (if (equal? (first lst) match)
+          (count (cdr lst) match (+ 1 n))
+          (count (cdr lst) match n))))
+
+(define factorial
+  (lambda(n)
+    (if (= n 0)
+      1
+      (* n (factorial (- n 1))))))
+
+(define (get-probs utterances)
+   (second (listener utterance depth)))
+
+(define (interpret-state)
+   (list (sum (slice (second (listener 'bare depth)) 1
+                     (/ (length (second (listener 'bare depth))) 2)))
+         (sum (slice (second (listener 'must depth)) 1
+                     (/ (length (second (listener 'must depth))) 2)))
+   ))
+
+(define (filter pred lst)
+ (fold (lambda (x y)
+         (if (pred x)
+             (pair x y)
+             y))
+       '()
+       lst))
+
+(define (zip a b)
+  (if (equal? (length a) 0)
+      '()
+      (pair (list (first a) (first b)) (zip (rest a) (rest b)))))
+
+
+; Calculates probability of it raining in k out of n worlds 
+(define binomial-prob
+  (lambda (total k prior)
+    (*(* (/ (factorial total) (* (factorial k) (factorial (- total k))))
+       (* (expt prior k) (expt (- 1 prior) (- total k)))))))
+
+
+(define get-n-items
+     (lambda (lst num)
+         (if (> num 0)
+             (cons (car lst) (get-n-items (cdr lst) (- num 1)))
+             '()))) ;'
+
+(define slice
+     (lambda (lst start count)
+         (if (> start 1)
+             (slice (cdr lst) (- start 1) count)
+             (get-n-items lst count))))
+
+; Total number of possible worlds (including actual world)
+
+(define rain-prior 0.5)
+(define umbrella-given-rain 0.8)
+(define umbrella-given-no-rain 0.2)
+(define see-rain-given-rain 0.5)
+(define see-rain-given-no-rain 0.001)
+(define see-umbrella-given-umbrella 0.5)
+(define see-umbrella-given-no-umbrella 0.001)
+
+
+(define utterances (list
+                     'bare
+                     'must
+                     ;'probably
+                     
+                     ))
+
+(define (utterance-prior) (multinomial utterances '(0.9 0.1)))
+
+(define goals
+   (list
+         'is-it-raining?
+         'is-there-umbrella?
+         'see-rain?
+         'see-umbrella?
+         
+         ))
+
+(define (goal-prior) (multinomial goals '(0.1 0.1 0.1 0.1)))
+
+
+
+(define (literal-interpretation utterance rain-state umbrella-state 
+                                observe-rain observe-umbrella goal bare-evidence must-evidence)
+   (case utterance
+         ;(('null) #t)
+         (('bare) (if (equal? bare-evidence 'rain) 
+                      (and rain-state observe-rain)
+                      (and rain-state observe-umbrella)))
+         ;(('bare) (and this-world (equal? direct-evidence 1)))
+         
+         (('must) (if (equal? must-evidence 'rain)
+                      (and rain-state observe-rain)
+                      (and rain-state observe-umbrella)))
+         ;(('must) (and (equal? state total) (equal? indirect-evidence 1)))
+         
+         ;(('probably) (> n-rains 2))
+         ;(('might) (> n-rains 0))
+         ))
+
+(define (goal-satisfied? goal listener-interp speaker-world)
+   (case goal  
+     (('is-it-raining?) (equal? (first listener-interp) (first speaker-world)))
+     (('is-there-umbrella?) (equal? (second listener-interp) (second speaker-world)))
+     (('see-rain?) (equal? (third listener-interp) (third speaker-world)))
+     (('see-umbrella?) (equal? (fourth listener-interp) (fourth speaker-world)))
+   ))
+
+
+(define speaker
+   (mem (lambda (rain-state umbrella-state observe-rain observe-umbrella goal bare-evidence must-evidence
+                            depth)
+   (enumeration-query
+    (define utterance (utterance-prior))
+    utterance
+     (goal-satisfied? goal (apply multinomial (listener utterance depth bare-evidence must-evidence))
+                      (list rain-state umbrella-state observe-rain observe-umbrella
+                            bare-evidence must-evidence goal))
+    ))))
+
+(define (sample-lexicon bare-evidence must-evidence)
+    (define bare-evidence 
+      (if (equal? bare-evidence 'null)
+          (if (flip 0)
+              'rain 
+              'umbrella)
+          bare-evidence))
+    (define must-evidence 
+      (if (equal? must-evidence 'null)
+          (if (flip)
+              'rain 
+              'umbrella)
+          must-evidence))
+    
+    (list bare-evidence must-evidence)
+)
+
+(define listener
+   (mem (lambda (utterance depth bare-evidence must-evidence)
+   (enumeration-query
+    ; Sample whether it's raining based on rain prior
+    (define rain-state (flip rain-prior))
+    ; Sample whether there's an umbrella
+    (define umbrella-state (if rain-state 
+                               (flip umbrella-given-rain)
+                               (flip umbrella-given-no-rain)
+                               ))
+    ; Sample whether speaker sees rain
+    (define observe-rain (if rain-state
+                             (flip see-rain-given-rain)
+                             (flip see-rain-given-no-rain)))
+    ; Sample whether speaker sees umbrella
+    (define observe-umbrella (if umbrella-state
+                                 (flip see-umbrella-given-umbrella)
+                                 (flip see-umbrella-given-no-umbrella)))
+    
+    ; Samples goal
+    (define goal (goal-prior))
+    
+    (define lexicon
+      (sample-lexicon bare-evidence must-evidence))
+    
+    (append (list rain-state umbrella-state observe-rain observe-umbrella goal) lexicon)
+
+    (if (equal? depth 0)
+        (literal-interpretation utterance rain-state umbrella-state observe-rain observe-umbrella
+                                goal bare-evidence must-evidence)
+        (equal? utterance
+                (apply multinomial (raise-to-power 
+                                    (speaker 
+                                     rain-state umbrella-state observe-rain observe-umbrella goal
+                                     bare-evidence must-evidence
+                                              (- depth 1)) alpha)))
+    )))))
+
+(define (raise-to-power speaker-dist alpha)
+(list (first speaker-dist) (map (lambda (x) (pow x alpha)) (second speaker-dist))))
+
+(define depth 5)
+(define alpha 3)
+
+
+(define (interpret utterance)
+   (listener utterance depth 'null 'null))
+
+
+; Change the utterance you want to interpret here
+(define bare (interpret 'bare))
+(define must (interpret 'must))
+
+
+;; ; Helper function that lets you see the marginal posterior probability of 
+;; ; this-world, state, direct-evidence, and indirect evidence
+
+
+ (zip 
+ (list (sum (map (lambda (y) (second y))
+           (filter (lambda (x) 
+                     (equal? (first (first x)) #t) ;marginal probability of raining in this world
+                     )
+                   (zip (first bare) (second bare)))))
+ (sum (map (lambda (y) (second y))
+           (filter (lambda (x) 
+                     (equal? (second (first x)) #t) ;marginal probability of there being umbrellas
+                     )
+                   (zip (first bare) (second bare)))))
+ (sum (map (lambda (y) (second y))
+           (filter (lambda (x) 
+                     (equal? (third (first x)) #t) ;marginal probability of seeing rain
+                     )
+                   (zip (first bare) (second bare)))))
+ (sum (map (lambda (y) (second y))
+           (filter (lambda (x) 
+                     (equal? (fourth (first x)) #t) ;marginal probabilit of seeing umbrella
+                     )
+                   (zip (first bare) (second bare)))))
+ (sum (map (lambda (y) (second y))
+            (filter (lambda (x) 
+                      (equal? (fifth (first x)) 'is-it-raining?) ;marginal probability of raining in this world
+                      )
+                   (zip (first bare) (second bare)))))
+  (sum (map (lambda (y) (second y))
+            (filter (lambda (x) 
+                      (equal? (fifth (first x)) 'is-there-umbrella?) ;marginal probability of raining in this world
+                      )
+                   (zip (first bare) (second bare)))))
+  (sum (map (lambda (y) (second y))
+            (filter (lambda (x) 
+                      (equal? (fifth (first x)) 'see-rain?) ;marginal probability of raining in this world
+                      )
+                   (zip (first bare) (second bare)))))
+  (sum (map (lambda (y) (second y))
+            (filter (lambda (x) 
+                      (equal? (fifth (first x)) 'see-umbrella?) ;marginal probability of raining in this world
+                      )
+                   (zip (first bare) (second bare)))))
+       )
+ 
+ (list (sum (map (lambda (y) (second y))
+           (filter (lambda (x) 
+                     (equal? (first (first x)) #t) ;marginal probability of raining in this world
+                     )
+                   (zip (first must) (second must)))))
+ (sum (map (lambda (y) (second y))
+           (filter (lambda (x) 
+                     (equal? (second (first x)) #t) ;marginal probability of there being umbrellas
+                     )
+                   (zip (first must) (second must)))))
+ (sum (map (lambda (y) (second y))
+           (filter (lambda (x) 
+                     (equal? (third (first x)) #t) ;marginal probability of seeing rain
+                     )
+                   (zip (first must) (second must)))))
+ (sum (map (lambda (y) (second y))
+           (filter (lambda (x) 
+                     (equal? (fourth (first x)) #t) ;marginal probabilit of seeing umbrella
+                     )
+                   (zip (first must) (second must)))))
+(sum (map (lambda (y) (second y))
+            (filter (lambda (x) 
+                      (equal? (fifth (first x)) 'is-it-raining?) ;marginal probability of raining in this world
+                      )
+                   (zip (first must) (second must)))))
+  (sum (map (lambda (y) (second y))
+            (filter (lambda (x) 
+                      (equal? (fifth (first x)) 'is-there-umbrella?) ;marginal probability of raining in this world
+                      )
+                   (zip (first must) (second must)))))
+  (sum (map (lambda (y) (second y))
+            (filter (lambda (x) 
+                      (equal? (fifth (first x)) 'see-rain?) ;marginal probability of raining in this world
+                      )
+                   (zip (first must) (second must)))))
+  (sum (map (lambda (y) (second y))
+            (filter (lambda (x) 
+                      (equal? (fifth (first x)) 'see-umbrella?) ;marginal probability of raining in this world
+                      )
+                   (zip (first must) (second must)))))      
+       ))
+
+;(barplot (interpret 'bare))

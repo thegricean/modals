@@ -58,9 +58,9 @@
 
 ; Total number of possible worlds (including actual world)
 
-(define rain-prior 0.5)
+(define rain-prior 0.2)
 (define umbrella-given-rain 0.8)
-(define umbrella-given-no-rain 0.5)
+(define umbrella-given-no-rain 0.2)
 (define see-rain-given-rain 0.8)
 (define see-rain-given-no-rain 0.01)
 (define see-umbrella-given-umbrella 0.8)
@@ -84,7 +84,7 @@
          
          ))
 
-(define (goal-prior) (multinomial goals '(0.6 0.2 0.2)))
+(define (goal-prior) (multinomial goals '(0.8 0.1 0.1)))
 
 
 
@@ -94,7 +94,7 @@
          (('bare) (equal? rain-state #t))
          ;(('bare) (and this-world (equal? direct-evidence 1)))
          
-         (('must) (equal? umbrella-state #t))
+         (('must) (equal? rain-state #t))
          ;(('must) (and (equal? state total) (equal? indirect-evidence 1)))
          
          ;(('probably) (> n-rains 2))
@@ -161,7 +161,7 @@
 
 
 ; Change the utterance you want to interpret here
-(define interpretation (interpret 'must))
+(define interpretation (interpret 'bare))
 
 
 ; Helper function that lets you see the marginal posterior probability of 
