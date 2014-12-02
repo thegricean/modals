@@ -1,0 +1,199 @@
+; Helper functions
+
+(define (count lst match n)
+   (if (null? lst)
+      n
+      (if (equal? (first lst) match)
+          (count (cdr lst) match (+ 1 n))
+          (count (cdr lst) match n))))
+
+(define factorial
+  (lambda(n)
+    (if (= n 0)
+      1
+      (* n (factorial (- n 1))))))
+
+(define (get-probs utterances)
+   (second (listener utterance depth)))
+
+(define (interpret-state)
+   (list (sum (slice (second (listener 'bare depth)) 1
+                     (/ (length (second (listener 'bare depth))) 2)))
+         (sum (slice (second (listener 'must depth)) 1
+                     (/ (length (second (listener 'must depth))) 2)))
+   ))
+
+(define (filter pred lst)
+ (fold (lambda (x y)
+         (if (pred x)
+             (pair x y)
+             y))
+       '()
+       lst))
+
+(define (zip a b)
+  (if (equal? (length a) 0)
+      '()
+      (pair (list (first a) (first b)) (zip (rest a) (rest b)))))
+
+
+; Calculates probability of it raining in k out of n worlds 
+(define binomial-prob
+  (lambda (total k prior)
+    (*(* (/ (factorial total) (* (factorial k) (factorial (- total k))))
+       (* (expt prior k) (expt (- 1 prior) (- total k)))))))
+
+
+(define get-n-items
+     (lambda (lst num)
+         (if (> num 0)
+             (cons (car lst) (get-n-items (cdr lst) (- num 1)))
+             '()))) ;'
+
+(define slice
+     (lambda (lst start count)
+         (if (> start 1)
+             (slice (cdr lst) (- start 1) count)
+             (get-n-items lst count))))
+
+; Total number of possible worlds (including actual world)
+(define total 5)
+(define rain-prior 0.5)
+(define umbrella-given-rain-prior 0.8)
+(define umbrella-given-norain-prior 0.3)
+
+
+(define utterances (list
+                     'bare
+                     'must
+                     'probably
+                     ;'might
+                     
+                     ))
+
+(define (utterance-prior) (multinomial utterances '(0.1 0.1 0.1)))
+
+(define goals
+   (list
+         'is-it-raining?
+         'how-many-worlds?
+         'see-rain?
+         'see-umbrella?
+         
+         ))
+
+(define (goal-prior) (multinomial goals '(0 0 0.1 0.1)))
+
+
+
+(define (literal-interpretation utterance this-world-raining n-rains observe-rain observe-umbrella)
+   (case utterance
+         ;(('null) #t)
+         (('bare) (equal? this-world-raining #t))
+         ;(('bare) (and this-world (equal? direct-evidence 1)))
+         
+         (('must) (equal? n-rains total))
+         ;(('must) (and (equal? state total) (equal? indirect-evidence 1)))
+         
+         (('probably) (> n-rains 2))
+         ;(('might) (> n-rains 0))
+         ))
+
+(define (goal-satisfied? goal listener-interp speaker-world)
+   (case goal  
+     (('is-it-raining?) (equal? (first listener-interp) (first speaker-world)))
+     (('how-many-worlds?) (equal? (second listener-interp) (second speaker-world)))
+     (('see-rain?) (equal? (third listener-interp) (third speaker-world)))
+     (('see-umbrella?) (equal? (fourth listener-interp) (fourth speaker-world)))
+   ))
+
+
+(define speaker
+   (mem (lambda (this-world-raining n-rains observe-rain observe-umbrella goal depth)
+   (enumeration-query
+    (define utterance (utterance-prior))
+    utterance
+     (goal-satisfied? goal (apply multinomial (listener utterance depth))
+                      (list this-world-raining n-rains observe-rain observe-umbrella))
+    ))))
+
+(define listener
+   (mem (lambda (utterance depth)
+   (enumeration-query
+    ; Sample whether it's raining in each world based on rain prior
+    (define rain-states (map flip (list rain-prior rain-prior rain-prior rain-prior rain-prior)))
+    ; Sample whether there is an umbrella in each world based on whether it's raining
+    (define umbrella-states (map (lambda (x) 
+                                     (if x 
+                                      (flip umbrella-given-rain-prior)
+                                      (flip umbrella-given-norain-prior))) rain-states))
+    
+    ; Zip the two states together, so now each element in the list is a pair indiciating
+    ; whether it's raining and whether there is an umbrella
+    (define states (zip rain-states umbrella-states))
+    ; Choose the actual world. Setting it as the first of the states is equivalent to randomy
+    ; selecting it from all the worlds, since all the worlds are random anyway, and order doesn't
+    ; matter
+    (define this-world (first states))
+    ; Whether it's raining in this world
+    (define this-world-raining (first this-world))
+    ; Whether there's an umbrella in this world
+    (define this-world-umbrella (second this-world))
+    ; How many worlds are raining
+    (define n-rains (count rain-states #t 0))
+    ; How many worlds have umbrellas
+    (define n-umbrellas (count umbrella-states #t 0))
+    ; How many worlds are raiing and have umbrellas
+    (define n-rains-and-umbrellas (count states '(#t #t) 0))
+    ; Whether you observe rain depends on whether it's raining
+    (define observe-rain (if this-world-raining (flip 0.5) (flip 0.01)))
+    ; Whether you observe umbrella depends on whether you think there are umbrellas
+    ; in the possible worlds, and what that tells you about the probability of rain
+    ; THIS IS INCOHERENT AND DOESN'T QUITE MAKE SENSE BUT WAS THE BEST I COULD DO AT THE TIME
+    (define observe-umbrella (if (equal? n-umbrellas 0)
+                                 (flip 0)
+                                 (flip (/ n-rains-and-umbrellas n-umbrellas))))
+    ; Samples goal
+    (define goal (goal-prior))
+    
+    (list this-world-raining n-rains observe-rain observe-umbrella)
+
+    (if (equal? depth 0)
+        (literal-interpretation utterance this-world-raining n-rains observe-rain observe-umbrella)
+        (equal? utterance
+                (apply multinomial (raise-to-power (speaker this-world-raining n-rains observe-rain observe-umbrella
+                                                            goal (- depth 1)) alpha)))
+    )))))
+
+(define (raise-to-power speaker-dist alpha)
+(list (first speaker-dist) (map (lambda (x) (pow x alpha)) (second speaker-dist))))
+
+(define depth 1)
+(define alpha 1)
+
+
+(define (interpret utterance)
+   (listener utterance depth))
+
+
+; Change the utterance you want to interpret here
+(define interpretation (interpret 'bare))
+
+
+; Helper function that lets you see the marginal posterior probability of 
+; this-world, state, direct-evidence, and indirect evidence
+
+
+(sum (map (lambda (y) (second y))
+          (filter (lambda (x) 
+                    ;(equal? (first (first x)) #t) ;marginal probability of raining in this world
+                    ;(equal? (second (first x)) total) ;marginal probability of all possible worlds raining
+                    (equal? (third (first x)) #t) ;marginal probability of seeing rain
+                    ;(equal? (fourth (first x)) #t) ;marginal probabilit of seeing umbrella
+                    ;(equal? (fifth (first x)) 'is-it-raining?)
+                    ;(and (equal? (second (first x)) 1) 
+                    ;     (equal? (first (first x)) #t))
+                    )
+
+                  (zip (first interpretation) (second interpretation)))))
+

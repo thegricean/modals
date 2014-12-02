@@ -1,0 +1,265 @@
+; Helper functions
+
+
+(define (filter pred lst)
+ (fold (lambda (x y)
+         (if (pred x)
+             (pair x y)
+             y))
+       '()
+       lst))
+
+(define (zip a b)
+  (if (equal? (length a) 0)
+      '()
+      (pair (list (first a) (first b)) (zip (rest a) (rest b)))))
+
+(define (raise-to-power speaker-dist alpha)
+(list (first speaker-dist) (map (lambda (x) (pow x alpha)) (second speaker-dist))))
+
+
+
+; List of utterances
+
+(define utterances (list
+                     'rain
+                     'must-rain
+                     'umbrella
+                     'must-umbrella
+                     ))
+
+(define goals
+   (list
+         'is-it-raining?
+         'is-there-umbrella?
+         'see-rain?
+         'see-umbrella?
+         ;'raining-and-umbrella?
+         ;'raining-and-see-rain?
+         ;'raining-and-see-umbrella?
+         
+         ))
+
+; Lexical uncertainty: literal interpretation changes depending on whether the semantics of 
+; "bare" and "must" involve direct or indirect evidence. bare-direct? indicates whether
+; "bare" involves direct evidence; must-direct? indicates wether "must" invovles direct evidence.
+
+(define (literal-interpretation utterance rain-state umbrella-state 
+                                observe-rain observe-umbrella goal 
+                                bare-direct? must-direct?)
+   (case utterance
+         
+         (('rain) (if (equal? bare-direct? #t) 
+                      (and rain-state observe-rain)
+                      (and rain-state observe-umbrella)))
+         
+         (('must-rain) (if (equal? must-direct? #t)
+                      (and rain-state observe-rain)
+                      (and rain-state observe-umbrella)))
+         
+         (('umbrella) (if (equal? bare-direct? #t) 
+                      (and umbrella-state observe-umbrella)
+                      (and umbrella-state observe-rain)))
+         
+         (('must-umbrella) (if (equal? must-direct? #t)
+                      (and umbrella-state observe-umbrella)
+                      (and rain-state observe-rain)))
+         
+         ))
+
+(define (goal-satisfied? goal listener-interp speaker-world)
+   (case goal  
+     (('is-it-raining?) (equal? (first listener-interp) (first speaker-world)))
+     (('is-there-umbrella?) (equal? (second listener-interp) (second speaker-world)))
+     (('see-rain?) (equal? (third listener-interp) (third speaker-world)))
+     (('see-umbrella?) (equal? (fourth listener-interp) (fourth speaker-world)))
+     (('raining-and-umbrella?) (and (equal? (first listener-interp) (first speaker-world))
+                                     (equal? (second listener-interp) (second speaker-world))))
+     (('raining-and-see-rain?) (and (equal? (first listener-interp) (first speaker-world))
+                                     (equal? (third listener-interp) (third speaker-world))))
+     (('raining-and-see-umbrella?) (and (equal? (first listener-interp) (first speaker-world))
+                                         (equal? (fourth listener-interp) (fourth speaker-world))))
+   ))
+
+
+(define speaker
+   (mem (lambda (rain-state umbrella-state observe-rain observe-umbrella goal 
+                            bare-direct? must-direct?
+                            depth)
+   (enumeration-query
+    (define utterance (utterance-prior))
+    utterance
+     (goal-satisfied? goal (apply multinomial (listener utterance depth 
+                                                        bare-direct? must-direct?))
+                      (list rain-state umbrella-state observe-rain observe-umbrella
+                            bare-direct? must-direct? goal))
+    ))))
+
+; Initializes the uncertainty in the highest level pragmatic listener by flipping a coin.
+; All subsequent listeners inherent the free variable
+(define (sample-lexicon bare-direct? must-direct?)
+    (define bare-direct? 
+      (if (equal? bare-direct? 'unknown)
+          (flip)
+          bare-direct?))
+    (define must-direct?
+      (if (equal? must-direct? 'unknown)
+          (flip)
+          must-direct?))
+    (list bare-direct? must-direct?)
+)
+
+(define listener
+   (mem (lambda (utterance depth bare-direct? must-direct?)
+   (enumeration-query
+    ; Sample whether it's raining based on rain prior
+    (define rain-state (flip rain-prior))
+    ; Sample whether there's an umbrella
+    (define umbrella-state (if rain-state 
+                               (flip umbrella-given-rain)
+                               (flip umbrella-given-no-rain)
+                               ))
+    ; Sample whether speaker sees rain
+    (define observe-rain (if rain-state
+                             (flip see-rain-given-rain)
+                             (flip see-rain-given-no-rain)))
+    ; Sample whether speaker sees umbrella
+    (define observe-umbrella (if umbrella-state
+                                 (flip see-umbrella-given-umbrella)
+                                 (flip see-umbrella-given-no-umbrella)))
+    
+    ; Samples goal
+    (define goal (goal-prior))
+    
+    (define lexicon
+      (sample-lexicon bare-direct? must-direct?))
+    
+    (append (list rain-state umbrella-state observe-rain observe-umbrella goal) lexicon)
+
+    (if (equal? depth 0)
+        (literal-interpretation utterance rain-state umbrella-state observe-rain observe-umbrella
+                                goal bare-direct? must-direct?)
+        (equal? utterance
+                (apply multinomial (raise-to-power 
+                                    (speaker 
+                                     rain-state umbrella-state observe-rain observe-umbrella goal
+                                     bare-direct? must-direct?
+                                              (- depth 1)) alpha)))
+    )))))
+
+
+ ; Priors and parameters
+
+(define rain-prior 0.5)
+(define umbrella-given-rain 0.6)
+(define umbrella-given-no-rain 0.1)
+(define see-rain-given-rain 0.5)
+(define see-rain-given-no-rain 0.01)
+(define see-umbrella-given-umbrella 0.5)
+(define see-umbrella-given-no-umbrella 0.01)
+
+
+(define (utterance-prior) (multinomial utterances '(0.2 0.1 0.2 0.1)))
+
+(define (goal-prior) (multinomial goals '(0.1 0.1 0.1 0.1)))
+
+(define depth 5)
+(define alpha 5)
+
+
+
+(define (interpret utterance)
+   (listener utterance depth 'unknown 'unknown))
+
+; Change the utterance you want to interpret here
+(define utt1 (interpret 'rain))
+(define utt2 (interpret 'must-rain))
+
+;; ; Very ugly helper function that lets you see the marginal posterior probability of 
+;; ; this-world, state, direct-evidence, and indirect evidence. Zip lets you more easily
+;; ; compare marginal probabilities for the two utterances
+
+(zip 
+ (list (sum (map (lambda (y) (second y))
+           (filter (lambda (x) 
+                     (equal? (first (first x)) #t) ;marginal probability of raining in this world
+                     )
+                   (zip (first utt1) (second utt1)))))
+ (sum (map (lambda (y) (second y))
+           (filter (lambda (x) 
+                     (equal? (second (first x)) #t) ;marginal probability of there being umbrellas
+                     )
+                   (zip (first utt1) (second utt1)))))
+ (sum (map (lambda (y) (second y))
+           (filter (lambda (x) 
+                     (equal? (third (first x)) #t) ;marginal probability of seeing rain
+                     )
+                   (zip (first utt1) (second utt1)))))
+ (sum (map (lambda (y) (second y))
+           (filter (lambda (x) 
+                     (equal? (fourth (first x)) #t) ;marginal probabilit of seeing umbrella
+                     )
+                   (zip (first utt1) (second utt1)))))
+ (sum (map (lambda (y) (second y))
+            (filter (lambda (x) 
+                      (equal? (fifth (first x)) 'is-it-raining?) ;marginal probability of this goal
+                      )
+                   (zip (first utt1) (second utt1)))))
+  (sum (map (lambda (y) (second y))
+            (filter (lambda (x) 
+                      (equal? (fifth (first x)) 'is-there-umbrella?) ;marginal probability of this goal
+                      )
+                   (zip (first utt1) (second utt1)))))
+  (sum (map (lambda (y) (second y))
+            (filter (lambda (x) 
+                      (equal? (fifth (first x)) 'see-rain?) ;marginal probability of this goal
+                      )
+                   (zip (first utt1) (second utt1)))))
+  (sum (map (lambda (y) (second y))
+            (filter (lambda (x) 
+                      (equal? (fifth (first x)) 'see-umbrella?) ;marginal probability of this goal 
+                      )
+                   (zip (first utt1) (second utt1)))))
+       )
+ 
+ (list (sum (map (lambda (y) (second y))
+           (filter (lambda (x) 
+                     (equal? (first (first x)) #t) ;marginal probability of raining in this world
+                     )
+                   (zip (first utt2) (second utt2)))))
+ (sum (map (lambda (y) (second y))
+           (filter (lambda (x) 
+                     (equal? (second (first x)) #t) ;marginal probability of there being umbrellas
+                     )
+                   (zip (first utt2) (second utt2)))))
+ (sum (map (lambda (y) (second y))
+           (filter (lambda (x) 
+                     (equal? (third (first x)) #t) ;marginal probability of seeing rain
+                     )
+                   (zip (first utt2) (second utt2)))))
+ (sum (map (lambda (y) (second y))
+           (filter (lambda (x) 
+                     (equal? (fourth (first x)) #t) ;marginal probabilit of seeing umbrella
+                     )
+                   (zip (first utt2) (second utt2)))))
+(sum (map (lambda (y) (second y))
+            (filter (lambda (x) 
+                      (equal? (fifth (first x)) 'is-it-raining?) ;marginal probability of this goal
+                      )
+                   (zip (first utt2) (second utt2)))))
+  (sum (map (lambda (y) (second y))
+            (filter (lambda (x) 
+                      (equal? (fifth (first x)) 'is-there-umbrella?) ;marginal probability of this goal
+                      )
+                   (zip (first utt2) (second utt2)))))
+  (sum (map (lambda (y) (second y))
+            (filter (lambda (x) 
+                      (equal? (fifth (first x)) 'see-rain?) ;marginal probability of this goal
+                      )
+                   (zip (first utt2) (second utt2)))))
+  (sum (map (lambda (y) (second y))
+            (filter (lambda (x) 
+                      (equal? (fifth (first x)) 'see-umbrella?) ;marginal probability of this goal
+                      )
+                   (zip (first utt2) (second utt2)))))      
+       ))
