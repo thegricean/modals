@@ -1,0 +1,13 @@
+"","evidence","domain","N","prob","sd","se","ci"
+"11","You take a sip of the coffee and feel that it is cold.","coffee",14,0.944285714285714,0.0923800083030194,0.024689595746945,0.0533386287924371
+"12","You touch the coffee cup and feel that it is cold.","coffee",12,0.899166666666667,0.138462882018863,0.0399707911031811,0.0879751180552245
+"6","You know that the coffee has been on the table for an hour.","coffee",14,0.845,0.129481213368522,0.0346053098891987,0.0747602268318067
+"10","You see that there is no steam coming from the coffee.","coffee",10,0.601,0.319285661020556,0.10096699130574,0.228403202588463
+"8","You look outside and see Fluffy; the neighbor's dog; standing on the porch and barking.","dog",18,0.955,0.0886002257333468,0.0208832734769028,0.0440598556977228
+"4","You hear the sound of a dog barking.","dog",10,0.727,0.269652039158287,0.0852714619449099,0.192897448420953
+"2","You are listening to music with your earphones. You look out the window and see that the mailman has just arrived at your neighbor's doorstep; when all of a sudden he jumps back.","dog",11,0.666363636363636,0.114653628575177,0.034569369712421,0.0770253557449228
+"1","You are listening to music with your earphones. You know that your neighbor's dog often barks in the evening.","dog",11,0.645454545454546,0.106335660656587,0.0320614080211322,0.071437268861269
+"7","You look out the window and see raindrops falling from the sky.","rain",9,0.961111111111111,0.0416666666666667,0.0138888888888889,0.032027835211169
+"5","You hear the sound of water dripping on the roof.","rain",21,0.884761904761905,0.0802258716137785,0.0175067204459023,0.0365183789316543
+"9","You see a person come in from outside with wet hair and wet clothes.","rain",12,0.833333333333333,0.199969694673665,0.0577262785248039,0.12705468238041
+"3","You check the weather report on the Internet; which says it is raining.","rain",8,0.775,0.153808786670797,0.0543796180304979,0.128587363587268
