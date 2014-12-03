@@ -158,7 +158,8 @@ var allConditions =
 ["You look out the window and see raindrops falling from the sky.", 
 "You hear the sound of water dripping on the roof.",
 "You check the weather report on the Internet, which says it is raining.",
-"You see a person come in from outside with wet hair and wet clothes."
+"You see a person come in from outside with wet hair and wet clothes.",
+"Earlier today, you had seen dark clouds in the sky."
 ],
 "proposition": "it is raining"},
 {"domain": "coffee", "scenario": "Imagine that there is a cup of coffee on the table in front of you.",
@@ -166,7 +167,8 @@ var allConditions =
 ["You take a sip of the coffee and feel that it is cold.",
 "You touch the coffee cup and feel that it is cold.",
 "You see that there is no steam coming from the coffee.",
-"You know that the coffee has been on the table for an hour."
+"You know that the coffee has been on the table for an hour.",
+"You see that the cup isn't insulated."
 ],
 "proposition": "the coffee is cold"
 },
@@ -175,10 +177,21 @@ var allConditions =
 ["You look outside and see Fluffy, the neighbor's dog, standing on the porch and barking.",
 "You hear the sound of a dog barking.",
 "You are listening to music with your earphones. You know that your neighbor's dog often barks in the evening.",
-"You are listening to music with your earphones. You look out the window and see that the mailman has just arrived at your neighbor's doorstep, when all of a sudden he jumps back."
+"You are listening to music with your earphones. You look out the window and see that the mailman has just arrived at your neighbor's doorstep, when all of a sudden he jumps back.",
+"Your neighbor just got a new dog."
 ],
 "proposition": "the neighbor's dog is barking"
 },
+{"domain": "dinner", "scenario": "Imagine that you are at home.",
+"evidence": 
+["You just prepared dinner and set it out on the table.",
+"Your spouse tells you that dinner is ready.",
+"Dinner is usually ready at around 6pm. You look at the clock and it is 6pm.",
+"You smell food coming from the dining room.",
+"You're hungry."
+],
+"proposition": "dinner is ready"
+}
 //{"sentenceType": "necessary", "sentence": "It must be raining."},
 //{"sentenceType": "likely", "sentence": "It's probably raining."},
 //{"sentenceType": "possible", "sentence": "It might be raining."},

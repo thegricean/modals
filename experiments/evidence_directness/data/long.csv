@@ -1,0 +1,151 @@
+workerID,gender,age,income,language,order,domain,prob,evidence
+1,M,35,4,english,1,coffee,0.93,You take a sip of the coffee and feel that it is cold.
+1,M,35,4,english,2,dog,0.98,You hear the sound of a dog barking.
+1,M,35,4,english,3,rain,0.98,You look out the window and see raindrops falling from the sky.
+2,F,17,10,english,1,coffee,0.95,You take a sip of the coffee and feel that it is cold.
+2,F,17,10,english,2,dog,0.18,You hear the sound of a dog barking.
+2,F,17,10,english,3,rain,0.9,You see a person come in from outside with wet hair and wet clothes.
+3,M,35,4,English,1,dog,0.7,You are listening to music with your earphones. You look out the window and see that the mailman has just arrived at your neighbor's doorstep; when all of a sudden he jumps back.
+3,M,35,4,English,2,rain,1,You look out the window and see raindrops falling from the sky.
+3,M,35,4,English,3,coffee,1,You take a sip of the coffee and feel that it is cold.
+4,M,25,4,ENGLISH,1,coffee,0.88,You see that there is no steam coming from the coffee.
+4,M,25,4,ENGLISH,2,rain,0.79,You see a person come in from outside with wet hair and wet clothes.
+4,M,25,4,ENGLISH,3,dog,0.75,You are listening to music with your earphones. You know that your neighbor's dog often barks in the evening.
+5,M,45,6,english,1,dog,0.89,You hear the sound of a dog barking.
+5,M,45,6,english,2,rain,0.85,You see a person come in from outside with wet hair and wet clothes.
+5,M,45,6,english,3,coffee,0.93,You touch the coffee cup and feel that it is cold.
+6,M,35,4,english,1,dog,1,You look outside and see Fluffy; the neighbor's dog; standing on the porch and barking.
+6,M,35,4,english,2,rain,0.8,You hear the sound of water dripping on the roof.
+6,M,35,4,english,3,coffee,0.82,You know that the coffee has been on the table for an hour.
+7,F,35,4,english,1,dog,0.73,You are listening to music with your earphones. You look out the window and see that the mailman has just arrived at your neighbor's doorstep; when all of a sudden he jumps back.
+7,F,35,4,english,2,rain,0.9,You see a person come in from outside with wet hair and wet clothes.
+7,F,35,4,english,3,coffee,0.52,You touch the coffee cup and feel that it is cold.
+8,M,35,6,English,1,coffee,0.93,You touch the coffee cup and feel that it is cold.
+8,M,35,6,English,2,dog,1,You look outside and see Fluffy; the neighbor's dog; standing on the porch and barking.
+8,M,35,6,English,3,rain,0.53,You see a person come in from outside with wet hair and wet clothes.
+9,F,65,6,English,1,coffee,1,You take a sip of the coffee and feel that it is cold.
+9,F,65,6,English,2,dog,0.67,You are listening to music with your earphones. You know that your neighbor's dog often barks in the evening.
+9,F,65,6,English,3,rain,0.86,You check the weather report on the Internet; which says it is raining.
+10,M,35,4,English,1,dog,0.63,You are listening to music with your earphones. You know that your neighbor's dog often barks in the evening.
+10,M,35,4,English,2,rain,0.87,You check the weather report on the Internet; which says it is raining.
+10,M,35,4,English,3,coffee,1,You touch the coffee cup and feel that it is cold.
+11,F,25,4,English,1,coffee,0.59,You know that the coffee has been on the table for an hour.
+11,F,25,4,English,2,dog,0.96,You look outside and see Fluffy; the neighbor's dog; standing on the porch and barking.
+11,F,25,4,English,3,rain,0.83,You hear the sound of water dripping on the roof.
+12,M,35,4,English,1,dog,1,You look outside and see Fluffy; the neighbor's dog; standing on the porch and barking.
+12,M,35,4,English,2,rain,0.77,You hear the sound of water dripping on the roof.
+12,M,35,4,English,3,coffee,1,You take a sip of the coffee and feel that it is cold.
+13,M,25,0,English,1,coffee,0.76,You touch the coffee cup and feel that it is cold.
+13,M,25,0,English,2,dog,0.55,You are listening to music with your earphones. You look out the window and see that the mailman has just arrived at your neighbor's doorstep; when all of a sudden he jumps back.
+13,M,25,0,English,3,rain,0.98,You hear the sound of water dripping on the roof.
+14,M,35,6,English,1,dog,0.57,You are listening to music with your earphones. You know that your neighbor's dog often barks in the evening.
+14,M,35,6,English,2,rain,1,You hear the sound of water dripping on the roof.
+14,M,35,6,English,3,coffee,1,You see that there is no steam coming from the coffee.
+15,M,55,4,english,1,coffee,0.94,You know that the coffee has been on the table for an hour.
+15,M,55,4,english,2,dog,1,You look outside and see Fluffy; the neighbor's dog; standing on the porch and barking.
+15,M,55,4,english,3,rain,0.92,You hear the sound of water dripping on the roof.
+16,F,35,4,English,1,dog,0.96,You look outside and see Fluffy; the neighbor's dog; standing on the porch and barking.
+16,F,35,4,English,2,rain,0.9,You check the weather report on the Internet; which says it is raining.
+16,F,35,4,English,3,coffee,0.04,You see that there is no steam coming from the coffee.
+17,M,35,10,english,1,dog,0.81,You are listening to music with your earphones. You look out the window and see that the mailman has just arrived at your neighbor's doorstep; when all of a sudden he jumps back.
+17,M,35,10,english,2,rain,0.93,You hear the sound of water dripping on the roof.
+17,M,35,10,english,3,coffee,1,You know that the coffee has been on the table for an hour.
+18,F,35,6,English,1,coffee,0.96,You take a sip of the coffee and feel that it is cold.
+18,F,35,6,English,2,dog,0.52,You hear the sound of a dog barking.
+18,F,35,6,English,3,rain,0.65,You check the weather report on the Internet; which says it is raining.
+19,M,25,4,English,1,dog,1,You look outside and see Fluffy; the neighbor's dog; standing on the porch and barking.
+19,M,25,4,English,2,rain,0.82,You hear the sound of water dripping on the roof.
+19,M,25,4,English,3,coffee,0.99,You know that the coffee has been on the table for an hour.
+20,M,25,0,English,1,dog,0.61,You are listening to music with your earphones. You look out the window and see that the mailman has just arrived at your neighbor's doorstep; when all of a sudden he jumps back.
+20,M,25,0,English,2,rain,1,You see a person come in from outside with wet hair and wet clothes.
+20,M,25,0,English,3,coffee,0.79,You see that there is no steam coming from the coffee.
+21,M,55,6,english,1,dog,0.82,You hear the sound of a dog barking.
+21,M,55,6,english,2,rain,0.92,You hear the sound of water dripping on the roof.
+21,M,55,6,english,3,coffee,0.08,You see that there is no steam coming from the coffee.
+22,F,25,4,English,1,dog,0.98,You look outside and see Fluffy; the neighbor's dog; standing on the porch and barking.
+22,F,25,4,English,2,rain,0.52,You check the weather report on the Internet; which says it is raining.
+22,F,25,4,English,3,coffee,0.97,You take a sip of the coffee and feel that it is cold.
+23,F,45,11,English,1,coffee,0.97,You know that the coffee has been on the table for an hour.
+23,F,45,11,English,2,dog,0.96,You look outside and see Fluffy; the neighbor's dog; standing on the porch and barking.
+23,F,45,11,English,3,rain,0.98,You look out the window and see raindrops falling from the sky.
+24,M,25,0,English,1,coffee,0.81,You know that the coffee has been on the table for an hour.
+24,M,25,0,English,2,dog,0.98,You look outside and see Fluffy; the neighbor's dog; standing on the porch and barking.
+24,M,25,0,English,3,rain,0.95,You see a person come in from outside with wet hair and wet clothes.
+25,M,45,6,English,1,dog,0.99,You look outside and see Fluffy; the neighbor's dog; standing on the porch and barking.
+25,M,45,6,English,2,rain,0.96,You hear the sound of water dripping on the roof.
+25,M,45,6,English,3,coffee,0.74,You see that there is no steam coming from the coffee.
+26,F,25,4,English,1,coffee,0.95,You touch the coffee cup and feel that it is cold.
+26,F,25,4,English,2,dog,1,You hear the sound of a dog barking.
+26,F,25,4,English,3,rain,1,You look out the window and see raindrops falling from the sky.
+27,M,35,4,english,1,coffee,0.97,You touch the coffee cup and feel that it is cold.
+27,M,35,4,english,2,dog,0.55,You are listening to music with your earphones. You know that your neighbor's dog often barks in the evening.
+27,M,35,4,english,3,rain,0.92,You see a person come in from outside with wet hair and wet clothes.
+28,M,45,4,english,1,dog,0.73,You are listening to music with your earphones. You know that your neighbor's dog often barks in the evening.
+28,M,45,4,english,2,rain,0.96,You check the weather report on the Internet; which says it is raining.
+28,M,45,4,english,3,coffee,0.62,You see that there is no steam coming from the coffee.
+29,M,55,4,english,1,dog,0.71,You are listening to music with your earphones. You know that your neighbor's dog often barks in the evening.
+29,M,55,4,english,2,rain,0.96,You see a person come in from outside with wet hair and wet clothes.
+29,M,55,4,english,3,coffee,0.87,You touch the coffee cup and feel that it is cold.
+30,M,35,4,english,1,dog,0.98,You look outside and see Fluffy; the neighbor's dog; standing on the porch and barking.
+30,M,35,4,english,2,rain,0.83,You hear the sound of water dripping on the roof.
+30,M,35,4,english,3,coffee,0.96,You take a sip of the coffee and feel that it is cold.
+31,F,35,4,english,1,coffee,0.82,You know that the coffee has been on the table for an hour.
+31,F,35,4,english,2,dog,0.72,You look outside and see Fluffy; the neighbor's dog; standing on the porch and barking.
+31,F,35,4,english,3,rain,0.87,You look out the window and see raindrops falling from the sky.
+32,F,35,6,English,1,coffee,0.77,You know that the coffee has been on the table for an hour.
+32,F,35,6,English,2,dog,0.53,You are listening to music with your earphones. You look out the window and see that the mailman has just arrived at your neighbor's doorstep; when all of a sudden he jumps back.
+32,F,35,6,English,3,rain,0.87,You hear the sound of water dripping on the roof.
+33,F,25,4,English,1,coffee,0.9,You know that the coffee has been on the table for an hour.
+33,F,25,4,English,2,dog,0.64,You are listening to music with your earphones. You look out the window and see that the mailman has just arrived at your neighbor's doorstep; when all of a sudden he jumps back.
+33,F,25,4,English,3,rain,0.92,You look out the window and see raindrops falling from the sky.
+34,M,25,4,ENglish,1,dog,0.78,You are listening to music with your earphones. You look out the window and see that the mailman has just arrived at your neighbor's doorstep; when all of a sudden he jumps back.
+34,M,25,4,ENglish,2,rain,0.91,You hear the sound of water dripping on the roof.
+34,M,25,4,ENglish,3,coffee,0.98,You touch the coffee cup and feel that it is cold.
+35,M,35,6,English,1,coffee,0.64,You know that the coffee has been on the table for an hour.
+35,M,35,6,English,2,dog,0.76,You hear the sound of a dog barking.
+35,M,35,6,English,3,rain,0.92,You hear the sound of water dripping on the roof.
+36,F,65,6,English,1,coffee,0.65,You see that there is no steam coming from the coffee.
+36,F,65,6,English,2,dog,0.62,You hear the sound of a dog barking.
+36,F,65,6,English,3,rain,0.96,You look out the window and see raindrops falling from the sky.
+37,M,45,4,English,1,dog,0.98,You look outside and see Fluffy; the neighbor's dog; standing on the porch and barking.
+37,M,45,4,English,2,rain,0.79,You hear the sound of water dripping on the roof.
+37,M,45,4,English,3,coffee,0.93,You know that the coffee has been on the table for an hour.
+38,F,25,0,english,1,coffee,1,You touch the coffee cup and feel that it is cold.
+38,F,25,0,english,2,dog,1,You hear the sound of a dog barking.
+38,F,25,0,english,3,rain,1,You hear the sound of water dripping on the roof.
+39,F,35,6,English,1,dog,0.82,You are listening to music with your earphones. You know that your neighbor's dog often barks in the evening.
+39,F,35,6,English,2,rain,0.97,You look out the window and see raindrops falling from the sky.
+39,F,35,6,English,3,coffee,0.98,You take a sip of the coffee and feel that it is cold.
+40,M,45,8,english,1,coffee,0.47,You see that there is no steam coming from the coffee.
+40,M,45,8,english,2,dog,0.47,You are listening to music with your earphones. You know that your neighbor's dog often barks in the evening.
+40,M,45,8,english,3,rain,0.8,You check the weather report on the Internet; which says it is raining.
+41,M,25,4,English,1,dog,0.85,You are listening to music with your earphones. You look out the window and see that the mailman has just arrived at your neighbor's doorstep; when all of a sudden he jumps back.
+41,M,25,4,English,2,rain,0.89,You hear the sound of water dripping on the roof.
+41,M,25,4,English,3,coffee,0.74,You see that there is no steam coming from the coffee.
+42,F,35,4,English,1,coffee,0.68,You take a sip of the coffee and feel that it is cold.
+42,F,35,4,English,2,dog,0.53,You are listening to music with your earphones. You know that your neighbor's dog often barks in the evening.
+42,F,35,4,English,3,rain,1,You see a person come in from outside with wet hair and wet clothes.
+43,M,25,4,English,1,dog,1,You look outside and see Fluffy; the neighbor's dog; standing on the porch and barking.
+43,M,25,4,English,2,rain,0.81,You hear the sound of water dripping on the roof.
+43,M,25,4,English,3,coffee,0.93,You know that the coffee has been on the table for an hour.
+44,M,35,6,English,1,coffee,0.88,You touch the coffee cup and feel that it is cold.
+44,M,35,6,English,2,dog,0.6,You are listening to music with your earphones. You look out the window and see that the mailman has just arrived at your neighbor's doorstep; when all of a sudden he jumps back.
+44,M,35,6,English,3,rain,0.34,You see a person come in from outside with wet hair and wet clothes.
+45,M,35,4,english,1,coffee,0.8,You take a sip of the coffee and feel that it is cold.
+45,M,35,4,english,2,dog,0.97,You look outside and see Fluffy; the neighbor's dog; standing on the porch and barking.
+45,M,35,4,english,3,rain,0.97,You look out the window and see raindrops falling from the sky.
+46,M,35,8,English,1,coffee,1,You touch the coffee cup and feel that it is cold.
+46,M,35,8,English,2,dog,1,You look outside and see Fluffy; the neighbor's dog; standing on the porch and barking.
+46,M,35,8,English,3,rain,0.91,You hear the sound of water dripping on the roof.
+47,F,25,4,english,1,coffee,1,You take a sip of the coffee and feel that it is cold.
+47,F,25,4,english,2,dog,0.53,You are listening to music with your earphones. You look out the window and see that the mailman has just arrived at your neighbor's doorstep; when all of a sudden he jumps back.
+47,F,25,4,english,3,rain,0.73,You hear the sound of water dripping on the roof.
+48,M,25,4,english,1,dog,0.71,You look outside and see Fluffy; the neighbor's dog; standing on the porch and barking.
+48,M,25,4,english,2,rain,0.64,You check the weather report on the Internet; which says it is raining.
+48,M,25,4,english,3,coffee,0.72,You know that the coffee has been on the table for an hour.
+49,F,35,4,english,1,dog,0.5,You hear the sound of a dog barking.
+49,F,35,4,english,2,rain,0.86,You see a person come in from outside with wet hair and wet clothes.
+49,F,35,4,english,3,coffee,1,You take a sip of the coffee and feel that it is cold.
+50,F,55,4,english,1,dog,0.67,You are listening to music with your earphones. You know that your neighbor's dog often barks in the evening.
+50,F,55,4,english,2,rain,0.99,You hear the sound of water dripping on the roof.
+50,F,55,4,english,3,coffee,0.99,You take a sip of the coffee and feel that it is cold.
