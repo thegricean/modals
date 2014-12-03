@@ -5,11 +5,12 @@ source("rscripts/helpers.r")
 load("data/r.RData")
 
 ## analysis of probability of p for SALT abstract
+library(lmerTest)
 baremust = subset(r, item_type %in% c("bare","must"))
 nrow(baremust)
 centered = cbind(baremust, myCenter(baremust[,c("item_type","item")]))
 
-m = lmer(response ~ citem_type + (1|item) + (1|workerid),data=centered)
+m = lmer(response ~ item_type + (1|item) + (1|workerid),data=centered)
 summary(m)
 
 m = lmer(response ~ item_type + (1|item) + (1|workerid),data=r)
