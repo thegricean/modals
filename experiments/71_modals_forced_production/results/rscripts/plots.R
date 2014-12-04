@@ -86,4 +86,36 @@ ggplot(t, aes(x=EvidenceType,y=Proportion,color=ModalChoice,group=ModalChoice)) 
 ggsave("graphs/modal_choices_byevidencetype.pdf")
 
 
+## plot just bare and must
+baremust = r[r$response %in% c("bare","must") & r$EvidenceTypeCategorical != "wishful",]
+baremust = droplevels(baremust)
+nrow(baremust)
 
+t = as.data.frame(prop.table(table(baremust$Directness,baremust$response),mar=1))
+head(t)
+t[t$Var1 == .651,]
+colnames(t) = c("Directness","Modal","Proportion")
+t$ModalChoice = factor(x=as.character(t$Modal),levels=c("bare","must","probably","might"))
+t$Directness = as.numeric(as.character(t$Directness))
+
+ggplot(t, aes(x=Directness,y=Proportion,color=ModalChoice)) +
+  geom_point() +
+  #geom_line()
+  geom_smooth(method="lm")
+ggsave("graphs/baremus_choices_bydirectness.pdf")
+
+
+
+t = as.data.frame(prop.table(table(baremust$EvidenceTypeCategorical,baremust$response),mar=1))
+head(t)
+t[t$Var1 == "inferential",]
+colnames(t) = c("Evidence","Modal","Proportion")
+t$ModalChoice = factor(x=as.character(t$Modal),levels=c("bare","must","probably","might"))
+t$EvidenceType = factor(x=as.character(t$Evidence),levels=c("perceptual","reportative","inferential","wishful"))
+
+ggplot(t, aes(x=EvidenceType,y=Proportion,color=ModalChoice,group=ModalChoice)) +
+  geom_point() +
+  geom_line() 
+#geom_smooth() +
+#facet_wrap(~EvidenceType,scales="free_y")
+ggsave("graphs/baremust_modal_choices_byevidencetype.pdf")

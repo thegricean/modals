@@ -78,4 +78,3 @@ ggplot(t.byDirectness, aes(x=directnessBin, y=Proportion, fill=Modal)) +
   geom_bar(stat="identity", color="black", position=position_dodge()) +
   facet_grid(.~Modal)
   
-agr = aggregate()
