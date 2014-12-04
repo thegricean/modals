@@ -1,8 +1,8 @@
 library(ggplot2)
 theme_set(theme_bw(18))
 #setwd("~/webprojects/68_modals_freeproduction/results/")
-setwd("/Users/titlis/cogsci/projects/stanford/projects/modals/modals/experiments/70_modals_comprehension_evidence/results/")
-
+#setwd("/Users/titlis/cogsci/projects/stanford/projects/modals/modals/experiments/70_modals_comprehension_evidence/results/")
+setwd("../")
 source("rscripts/helpers.r")
 
 load("data/r.RData")
@@ -11,7 +11,7 @@ str(directness)
 head(directness)
 row.names(directness) = paste(directness$domain,directness$evidencetype)
 
-r = read.table("data/modals_results.tsv",quote="", sep="\t", header=T)
+#r = read.table("data/modals_results.tsv",quote="", sep="\t", header=T)
 #r = read.table("data/modals_results.txt",quote="", sep="\t", header=T)
 nrow(r)
 names(r)

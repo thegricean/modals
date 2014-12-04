@@ -68,4 +68,14 @@ ggplot(t, aes(x=Directness,y=Proportion)) +
   geom_smooth() +
   facet_wrap(~Modal)
 
+# Bin by directness with threshold
+
+#dthreshold <- median(t$Directness)
+t$Modal <- factor(t$Modal, levels=c("bare", "must", "might", "probably"))
+t$directnessBin <- cut(t$Directness, breaks=4)
+t.byDirectness <- summarySE(t, measurevar=c("Proportion"), groupvars=c("Modal", "directnessBin"))
+ggplot(t.byDirectness, aes(x=directnessBin, y=Proportion, fill=Modal)) +
+  geom_bar(stat="identity", color="black", position=position_dodge()) +
+  facet_grid(.~Modal)
+  
 agr = aggregate()
