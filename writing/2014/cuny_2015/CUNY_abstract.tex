@@ -1,6 +1,8 @@
-\documentclass[12pt]{article}
+\documentclass[11pt]{article}
 \usepackage[hmargin={1in},vmargin={1in,1in},foot={.6in}]{geometry}   
-\geometry{letterpaper}       
+\geometry{letterpaper} 
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}    
 %\geometry{landscape}          
 %\usepackage[parfill]{parskip}
 \usepackage{color,graphicx}
@@ -15,22 +17,24 @@
 %\usepackage{subfig}
 %\usepackage{vowel}
 %\usepackage{mathrsfs}
-\usepackage{varioref}
-\usepackage{textcomp}
+%\usepackage{varioref}
+%\usepackage{textcomp}
 %\usepackage{avm}
-\usepackage{textcomp}
-\usepackage{mflogo}
-\usepackage{wasysym}
-\usepackage{pstricks, pst-plot, pst-node, pst-tree, colortab}
+%\usepackage{textcomp}
+%\usepackage{mflogo}
+%\usepackage{wasysym}
+%\usepackage{pstricks, pst-plot, pst-node, pst-tree, colortab}
 %\usepackage{qtree}
  %\usepackage{tree-dvips}
- \usepackage{linguex}
+% \usepackage{linguex}
+\usepackage{gb4e}
  \usepackage{multirow}
- \usepackage[stable]{footmisc}
- \usepackage{pifont}
-\usepackage{todonotes}
-\usepackage{natbib}
-\usepackage[normalem]{ulem}
+% \usepackage[stable]{footmisc}
+% \usepackage{pifont}
+%\usepackage{todonotes}
+%\usepackage{natbib}
+\usepackage{apacite}
+%\usepackage[normalem]{ulem}
 
  %\setlength{\parskip}{.55ex plus 0.1ex}
 
@@ -69,87 +73,88 @@
 \renewcommand{\abstractname}{The goal:}
 
 
-%numbering, what you would use in a paper when you don't want the numbering to stop every time you end an example. 
-%\newcommand{\bex}{\begin{enumerate}\setcounter{enumi}{\thesaveenumi}\item{}\begin{enumerate}}
-%\newcommand{\eex}{\end{enumerate}\setcounter{saveenumi}{\theenumi}\end{enumerate}}
+\definecolor{Red}{RGB}{255,0,0}
+\newcommand{\red}[1]{\textcolor{Red}{#1}}
 
-%%these are the brackets used for writing up semantic meanings 
-%\newcommand{\lbr}{\textrm{\textlbrackdbl}}
-%\newcommand{\rbr}{\textrm{\textrbrackdbl}}
-%\renewcommand{\rm}{\textrm}
-
-%this describes the numbering system (roman vs arabic numerals and so forth)
-\renewcommand\theenumi {\alph{enumi}}
-\renewcommand\theenumii {\alph{enumii}}
-\renewcommand\labelenumi {\theenumi. }
-\renewcommand\labelenumii {\theenumii.}
-\labelformat{enumi}{(\theenumi)}
-\labelformat{enumii}{(\theenumi\theenumii)}
-\newcounter{saveenumi}
-
-%\renewcommand{\labelitemi}{\textbf{---}}
-%\renewcommand{\labelitemii}{\textbf{$\cdot$}}
-
-%\linespread{1.5}
-
-%\qtreecenterfalse
-
-%\linespread{1}
 
 \begin{document}
 
-\begin{center}\textbf{Non-literal Quantification as Reasoning about Strength}\\*[5pt]
+\begin{center}\textbf{A cost and information-based account of epistemic \textit{must}}\\*[5pt]
 \end{center}
 
 \vspace{-11pt}
 
-%Semantics of number marking
-%Typology of measure
-%Relation between number marking and classifiers
+%A problem of central importance to psycholinguistics is to explain how speakers, given an intended message, choose an utterance  that maximizes the probability of successfully communicating that message to an audience; and conversely, how listeners, given an utterance that was produced by a presumably cooperative speaker and chosen  against a backdrop of alternatives that may differ in production cost, settle on an interpretation of that utterance. 
 
-We show how a general model of rational inference in communication, together with a standard semantics for quantification and modality, delivers the at times puzzling non-maximal interpretation for universal quantifiers in three seemingly disparate domains. Each of the following sentences admits a non-literal interpretation such that \emph{all} means most, \emph{always} means usually, and \emph{must} means very likely. In addition to weaker interpretations, use of these terms communicates information about the speaker's relationship to the statement she is making. With \emph{all} and \emph{always}, this information concerns the speaker's affective dimension (e.g., feeling positively or negatively about some state of affairs). With \emph{must}, this information concerns the quality of the speaker's evidence. As we show below using both experimental evidence and structured probabilistic models, this evidential information with \emph{must} plays the same role as the affective information with \emph{all} and \emph{always}: Given our prior knowledge about the world, we know it is highly unlikely that the literal, maximal interpretation of the terms could be true. We therefore infer that the speaker intends to communicate 1) a slightly weaker but much more likely statement, and 2) an additional dimension of meaning. 
+A question of central importance to psycholinguistics is how speakers and listeners trade off the burden of production and interpretation cost. Information-theoretic approaches to language as a communicatively efficient system have provided evidence that in production, speakers choose the longer of two meaning-equivalent utterances when syntactic or phonological surprisal is high \cite{jaeger2010, ailed and turk 2004}; in comprehension, more surprising utterances are processed more slowly \cite{levy2008}; in the lexicon, longer words are typically less frequent \cite{zipf, piantadosi}. A related observation in pragmatics is that marked meanings go with marked forms \cite{horn}. In general: speakers invest more effort into communicating more information.
 
-\ex. John ate all of the pie! $\Rightarrow$ John at most of the pie and I am unhappy about it.
+\red{BRIDGE}
 
-\ex. John is always late! $\Rightarrow$ John is usually late and I am unhappy about it.
+It has been proposed that a speaker who produces the \textit{must} utterance in (\ref{must}) will be taken to have made a weaker statement than a speaker who produces the \textit{bare} utterance in (\ref{bare}), despite the semantics of the necessity modal \textit{must} being stronger than that of the bare utterance \cite{XXX}.
 
-\ex. John must be in the kitchen! $\Rightarrow$ John is very likely to be in the kitchen but I do not have direct evidence of this fact.
+\begin{exe}
+\ex\label{bare}  It's raining.
+\ex\label{must} It must be raining.
+\end{exe}
 
-%Previous attempts at capturing these facts treat them as deriving from separate phenomena. Work on \emph{all} and \emph{always} plays games with domain restriction, engineering non-maximal interpretations by restricting the quantificational domain to a carefully-selected subset. 
+Here, we ask whether a speaker's choice between (\ref{bare}) and (\ref{must}) is affected by the directness of her evidence for whether it is raining ($q$); whether listeners' interpretations of  (\ref{bare}) and (\ref{must})  differ with respect to the strength of their resulting belief in $q$; and whether these beliefs are determined in part by the evidence they attribute to the speaker's choice between (\ref{bare}) and (\ref{must}).
 
-\noindent Because it has received the most scrutiny (and been subject to the most contention), we focus here primarily on the epistemic necessity modal \emph{must}. Since \citealt{karttunen1972}, researchers have debated the lexical entry for this modal, arguing about its semantic strength. At issue is the failed inference in \Next: How could $\square$\hspace{2pt}$p$ not entail \emph{p}? \citeauthor{karttunen1972} and decades of semanticists that follow posit that the inference fails because \emph{must p} is a weaker statement than bare \emph{p}.
+In \textbf{Exp.~1 (n=\red{XXX})}, we collected estimates of the directness of a piece of evidence about a proposition. Participants on Amazon's Mechanical Turk rated the probability of $q$ (e.g., of it raining) given a piece of evidence $e$ (e.g., \textit{You hear the sound of water dripping on the roof}) on a sliding scale with endpoints labeled ``impossible" and ``certain". These estimates were used for analysis in Exps.~2 and 3.
 
-\ex. It must be raining. \hfil $\nRightarrow$ \hfil It is raining.
+\textbf{Exp.~2 (n=40)} tested \textbf{whether speakers are more likely to use the more costly \textit{It must be raining} as the directness of the evidence for rain decreases}. On each trial, participants were presented with a piece of evidence (e.g., \textit{You see a person come in from outside with wet hair and wet clothes}) and were asked to choose one of four utterances---bare, \textit{must}, \textit{probably}, \textit{might}---to describe the situation to a friend. Participants were more likely to choose the longer \textit{must} form over the shorter bare form as the directness of evidence decreased ($\beta=5.4, SE=2.4, p<.05$), even when controlling for evidence type (perceptual, reportative, inferential).
 
-\citealt{vonfintelgillies2010} claim that the ``\emph{must} is weak'' mantra cannot be right, showing first that it is not always weak, and then that it never is. They propose instead that \emph{must p} quantifies universally over epistemically possible worlds while presupposing that the speaker has no direct evidence of \emph{p}. However, the strength of \emph{must p} requires the speaker to have direct evidence of something that entails \emph{p}.  \citeauthor{lassiter2014salt} \emph{to appear} shows how this implementation of a strong semantics for \emph{must} makes unreasonable claims about the knowledge states of speakers, and proposes instead a weak probabilistic semantics: \emph{must p} entails that the probability of \emph{p} given the speaker's direct knowledge is greater than chance, and requires that the question of whether \emph{p} not be resolved by this direct knowledge.
+\textbf{Exp.~3 (n=60 \red{or 120})} tested \textbf{whether listeners' estimates of a) the probability of $q$ and b) the directness of speakers' evidence for $q$ differ depending on the observed utterance}; i.e.~whether listeners take into account their knowledge of speakers' likely utterances in different evidential states in interpreting the bare and \textit{must} form. On each trial, participants were presented with an utterance (e.g.~\textit{It's raining}), and were asked a) to rate the probability of $q$ on a sliding scale with endpoints labeled ``impossible" and ``certain"; and b) to select one out of five  pieces of evidence for the speaker knowing about $q$. Participants' believed $q$ was less likely after observing the \textit{must} utterance (\red{$\mu=XXX,sd=XXX$}) than after observing the bare utterance (\red{$\mu=XXX,sd=XXX, \beta=XXX, SE=XXX, p<XXX$}). In addition, average directness of evidence was lower after observing \textit{must} (\red{$\mu=XXX,sd=XXX$}) than after the bare utterance (\red{$\mu=XXX,sd=XXX, \beta=XXX, SE=XXX, p<XXX$}).
 
-Our approach incorporates elements from both \citealt{vonfintelgillies2010} and \citeauthor{lassiter2014salt} \emph{to appear}: \emph{Must} is strong, but reasoning about its strong meaning yields a weaker interpretation. First, to establish the relative strength of \emph{must}, we asked 60 participants on Mechanical Turk to rate the likelihood of a state of affairs given a modalized or bare statement using a continuous slider ranging from "impossible" (0) to "certain" (1). The results qualitatively confirm \citeauthor{karttunen1972}'s original observation, and quantitatively demonstrate the relative weakness of \emph{must}: whereas participants' mean likelihood rating of \emph{p} after hearing a bare statement is .84, after hearing \emph{must} %(also \emph{know}) 
-participants rate \emph{p}'s likelihood significantly lower at .67 ($\beta=-.17, SE=.03, t=-5.78, p<.0001$). 
+Taken together, these results support an M-implicature account of the choice and interpretation of epistemic \textit{must}: the longer, marked, \textit{must} is interpreted by listeners as conveying the marked meaning that the speaker arrived at the conclusion that $q$ via an evidentially less certain route than if they had chosen the shorter, unmarked, bare form. We discuss how a formal model of rational inference in communication in the Bayesian/game-theoretic/information-theoretic tradition \cite{franke, goodman, levy, jaeger} can account for these results.
+
+%%Semantics of number marking
+%%Typology of measure
+%%Relation between number marking and classifiers
 %
-To address the source of \emph{must}'s weakness, we added a free response to the rating paradigm. Participants commented on the epistemic state of the speaker by answering the question: ``How do you think Bob knows about \emph{p}?'' Responses were annotated and separated into three main classes: a) perceptual (direct perceptual or experiential access to the state of the world), b) reportative (hearsay, source is a friend or the weather report, etc.), and c) inferential (state of the world is inferred based on other evidence or the way the world `usually' is). Comparing responses to bare and modal statements, participants attributed perceptual knowledge to the speaker 75\% of the time, whereas in the latter participants attributed perceptual knowledge significantly less often, only 47\% of the time ($\beta=1.5, SE=.54, p<.01$). In other words, \emph{must} communicates information about how the speaker came to their epistemic state. However, the 47\% of responses that do attribute direct perceptual evidence to \emph{must} statements argues against coding evidentiality into the semantics of this modal. We propose a computational model to show that this empirically verified interpretation of \emph{must} does not require encoding weakness or indirectness into the semantics of modals, but can instead arise from pragmatic reasoning. 
-
-Our model follows the basic structure of Rational Speech Act (RSA) models, which view language understanding as recursive reasoning between speaker and listener (cite). We consider the set of utterances $U = \{$ ``must $p$", ``probably $p$", ``$p$"$\}$ and the set of possible worlds $W = \{w_1, \dots, w_A, \dots, w_N\}$, where $w_A$ is the actual world. The model utilizes a simple semantics for utterances, such that ``must $p$" is true if \emph{p} is true for all $w \in W$, ``probably $p$" is true if \emph{p} is true for some $w$, and bare ``$p$" is true if \emph{p} is true for $w_A$.  We assume that the full pragmatic interpretation of an utterance $u$ involves four dimensions: Whether $p$ is true in $w_A$ (denoted as variable $a \in \{0, 1\}$), the number of worlds in which $p$ is true ($n \in \{0, \dots, N\} $), whether the speaker has direct evidence of $p$ ($e_D \in \{0, 1\}$), and whether the speaker has indirect evidence of $p$ ($e_I \in \{0, 1\}$). This results in a four-dimensional meaning of $u$: $m = \{a, n, e_D, e_I\}$. These dimensions are not independent; e.g., it is more likely for $p$ to be true in $w_A$ if $p$ is true in most possible worlds, and there is more likely direct evidence of $p$ if $p$ is true in $w_A.$ Following recent extensions to the basic RSA model (cite), we assume that the speaker's goal is to communicate the value of a particular dimension. For example, her goal may be to communicate that she has indirect evidence about $p$, regardless of whether $p$ is true in all possible worlds. A goal $g$ is thus a projection from the full meaning space to the dimension of interest to the speaker, such that, for example, $g_{e_I}(m) =e_I$. This leads to the following utility function for the speaker:
-\begin{equation}
-U(u | g, m) = \log \sum_{m} \delta_{g(m)=g(m')} L_0(m |u)
-\end{equation}
-Given this utility function, the speaker chooses $u$ using a softmax decision rule ($\lambda$ is an optimality parameter):
-\begin{equation}
-S_1(u | g, m) \propto e^{\lambda U(u | g, m)}
-\end{equation}
-The pragmatic listener $L_1$ marginalizes over possible speaker goals and performs Bayesian inference to recover $m$ given prior knowledge and his internal model of the speaker:
-$$
-L_1 (m | u) \propto P(a, n) P(e_D, e_I | a, n) \sum_{g}{P (g) S_1 (u|g, m)},
-$$
-$P(a, n)$ is the prior probability of the states of the possible worlds, and $P(e_D, e_I | a, n)$ is the probability of getting direct and indirect evidence of $p$ given those states. Consider for example ``must $p$." According to the literal semantics, $p$ is true in all worlds, which entails that $p$ is true in $w_A$. However, the pragmatic listener has prior knowledge that $p$ is extremely unlikely to be true in all worlds ($\because$ if the probability of $p$ in one world is $q$, the probability of $p$ in all worlds is $q^N$). The listener also knows that the more possible worlds there are in which $p$ is true, the more likely the speaker has indirect evidence of $p$. If the speaker's goal is to communicate that she has indirect evidence of $p$, then saying ``must $p$" is maximally informative with respect to that goal. The pragmatic listener thus infers that the number of possible worlds $n$ in which $p$ is true is likely smaller than $N$, but that the speaker has indirect evidence that $p$. Since the probability that $p$ is true in $w_A$ is $\frac{n}{N}$ and $n < N$, the probability that $p$ is true in $w_A$ is less than 1, resulting in the interpretation of ``must $p$" as \emph{probably} $p$. By incorporating standard possible worlds semantics, prior knowledge, and informativity with respect to the speaker's communicative goal, the model produces a nonliteral and weakened interpretation of ``must" as well as a subtext of indirect evidentiality without encoding it in the semantics. 
-
-
-
-
-
-
-
-
-\newpage
+%We show how a general model of rational inference in communication, together with a standard semantics for quantification and modality, delivers the at times puzzling non-maximal interpretation for universal quantifiers in three seemingly disparate domains. Each of the following sentences admits a non-literal interpretation such that \emph{all} means most, \emph{always} means usually, and \emph{must} means very likely. In addition to weaker interpretations, use of these terms communicates information about the speaker's relationship to the statement she is making. With \emph{all} and \emph{always}, this information concerns the speaker's affective dimension (e.g., feeling positively or negatively about some state of affairs). With \emph{must}, this information concerns the quality of the speaker's evidence. As we show below using both experimental evidence and structured probabilistic models, this evidential information with \emph{must} plays the same role as the affective information with \emph{all} and \emph{always}: Given our prior knowledge about the world, we know it is highly unlikely that the literal, maximal interpretation of the terms could be true. We therefore infer that the speaker intends to communicate 1) a slightly weaker but much more likely statement, and 2) an additional dimension of meaning. 
+%\begin{exe}
+%\ex John ate all of the pie! $\Rightarrow$ John at most of the pie and I am unhappy about it.
+%
+%\ex John is always late! $\Rightarrow$ John is usually late and I am unhappy about it.
+%
+%\ex John must be in the kitchen! $\Rightarrow$ John is very likely to be in the kitchen but I do not have direct evidence of this fact.
+%\end{exe}
+%
+%%Previous attempts at capturing these facts treat them as deriving from separate phenomena. Work on \emph{all} and \emph{always} plays games with domain restriction, engineering non-maximal interpretations by restricting the quantificational domain to a carefully-selected subset. 
+%
+%\noindent Because it has received the most scrutiny (and been subject to the most contention), we focus here primarily on the epistemic necessity modal \emph{must}. Since \citealt{karttunen1972}, researchers have debated the lexical entry for this modal, arguing about its semantic strength. At issue is the failed inference in \Next: How could $\square$\hspace{2pt}$p$ not entail \emph{p}? \citeauthor{karttunen1972} and decades of semanticists that follow posit that the inference fails because \emph{must p} is a weaker statement than bare \emph{p}.
+%
+%\ex. It must be raining. \hfil $\nRightarrow$ \hfil It is raining.
+%
+%\citealt{vonfintelgillies2010} claim that the ``\emph{must} is weak'' mantra cannot be right, showing first that it is not always weak, and then that it never is. They propose instead that \emph{must p} quantifies universally over epistemically possible worlds while presupposing that the speaker has no direct evidence of \emph{p}. However, the strength of \emph{must p} requires the speaker to have direct evidence of something that entails \emph{p}.  \citeauthor{lassiter2014salt} \emph{to appear} shows how this implementation of a strong semantics for \emph{must} makes unreasonable claims about the knowledge states of speakers, and proposes instead a weak probabilistic semantics: \emph{must p} entails that the probability of \emph{p} given the speaker's direct knowledge is greater than chance, and requires that the question of whether \emph{p} not be resolved by this direct knowledge.
+%
+%Our approach incorporates elements from both \citealt{vonfintelgillies2010} and \citeauthor{lassiter2014salt} \emph{to appear}: \emph{Must} is strong, but reasoning about its strong meaning yields a weaker interpretation. First, to establish the relative strength of \emph{must}, we asked 60 participants on Mechanical Turk to rate the likelihood of a state of affairs given a modalized or bare statement using a continuous slider ranging from "impossible" (0) to "certain" (1). The results qualitatively confirm \citeauthor{karttunen1972}'s original observation, and quantitatively demonstrate the relative weakness of \emph{must}: whereas participants' mean likelihood rating of \emph{p} after hearing a bare statement is .84, after hearing \emph{must} %(also \emph{know}) 
+%participants rate \emph{p}'s likelihood significantly lower at .67 ($\beta=-.17, SE=.03, t=-5.78, p<.0001$). 
+%%
+%To address the source of \emph{must}'s weakness, we added a free response to the rating paradigm. Participants commented on the epistemic state of the speaker by answering the question: ``How do you think Bob knows about \emph{p}?'' Responses were annotated and separated into three main classes: a) perceptual (direct perceptual or experiential access to the state of the world), b) reportative (hearsay, source is a friend or the weather report, etc.), and c) inferential (state of the world is inferred based on other evidence or the way the world `usually' is). Comparing responses to bare and modal statements, participants attributed perceptual knowledge to the speaker 75\% of the time, whereas in the latter participants attributed perceptual knowledge significantly less often, only 47\% of the time ($\beta=1.5, SE=.54, p<.01$). In other words, \emph{must} communicates information about how the speaker came to their epistemic state. However, the 47\% of responses that do attribute direct perceptual evidence to \emph{must} statements argues against coding evidentiality into the semantics of this modal. We propose a computational model to show that this empirically verified interpretation of \emph{must} does not require encoding weakness or indirectness into the semantics of modals, but can instead arise from pragmatic reasoning. 
+%
+%Our model follows the basic structure of Rational Speech Act (RSA) models, which view language understanding as recursive reasoning between speaker and listener (cite). We consider the set of utterances $U = \{$ ``must $p$", ``probably $p$", ``$p$"$\}$ and the set of possible worlds $W = \{w_1, \dots, w_A, \dots, w_N\}$, where $w_A$ is the actual world. The model utilizes a simple semantics for utterances, such that ``must $p$" is true if \emph{p} is true for all $w \in W$, ``probably $p$" is true if \emph{p} is true for some $w$, and bare ``$p$" is true if \emph{p} is true for $w_A$.  We assume that the full pragmatic interpretation of an utterance $u$ involves four dimensions: Whether $p$ is true in $w_A$ (denoted as variable $a \in \{0, 1\}$), the number of worlds in which $p$ is true ($n \in \{0, \dots, N\} $), whether the speaker has direct evidence of $p$ ($e_D \in \{0, 1\}$), and whether the speaker has indirect evidence of $p$ ($e_I \in \{0, 1\}$). This results in a four-dimensional meaning of $u$: $m = \{a, n, e_D, e_I\}$. These dimensions are not independent; e.g., it is more likely for $p$ to be true in $w_A$ if $p$ is true in most possible worlds, and there is more likely direct evidence of $p$ if $p$ is true in $w_A.$ Following recent extensions to the basic RSA model (cite), we assume that the speaker's goal is to communicate the value of a particular dimension. For example, her goal may be to communicate that she has indirect evidence about $p$, regardless of whether $p$ is true in all possible worlds. A goal $g$ is thus a projection from the full meaning space to the dimension of interest to the speaker, such that, for example, $g_{e_I}(m) =e_I$. This leads to the following utility function for the speaker:
+%\begin{equation}
+%U(u | g, m) = \log \sum_{m} \delta_{g(m)=g(m')} L_0(m |u)
+%\end{equation}
+%Given this utility function, the speaker chooses $u$ using a softmax decision rule ($\lambda$ is an optimality parameter):
+%\begin{equation}
+%S_1(u | g, m) \propto e^{\lambda U(u | g, m)}
+%\end{equation}
+%The pragmatic listener $L_1$ marginalizes over possible speaker goals and performs Bayesian inference to recover $m$ given prior knowledge and his internal model of the speaker:
+%$$
+%L_1 (m | u) \propto P(a, n) P(e_D, e_I | a, n) \sum_{g}{P (g) S_1 (u|g, m)},
+%$$
+%$P(a, n)$ is the prior probability of the states of the possible worlds, and $P(e_D, e_I | a, n)$ is the probability of getting direct and indirect evidence of $p$ given those states. Consider for example ``must $p$." According to the literal semantics, $p$ is true in all worlds, which entails that $p$ is true in $w_A$. However, the pragmatic listener has prior knowledge that $p$ is extremely unlikely to be true in all worlds ($\because$ if the probability of $p$ in one world is $q$, the probability of $p$ in all worlds is $q^N$). The listener also knows that the more possible worlds there are in which $p$ is true, the more likely the speaker has indirect evidence of $p$. If the speaker's goal is to communicate that she has indirect evidence of $p$, then saying ``must $p$" is maximally informative with respect to that goal. The pragmatic listener thus infers that the number of possible worlds $n$ in which $p$ is true is likely smaller than $N$, but that the speaker has indirect evidence that $p$. Since the probability that $p$ is true in $w_A$ is $\frac{n}{N}$ and $n < N$, the probability that $p$ is true in $w_A$ is less than 1, resulting in the interpretation of ``must $p$" as \emph{probably} $p$. By incorporating standard possible worlds semantics, prior knowledge, and informativity with respect to the speaker's communicative goal, the model produces a nonliteral and weakened interpretation of ``must" as well as a subtext of indirect evidentiality without encoding it in the semantics. 
+%
+%
+%
+%
+%
+%
+%
+%
+%\newpage
 
 \bibliographystyle{chicago}
 \bibliography{greg.bib}
