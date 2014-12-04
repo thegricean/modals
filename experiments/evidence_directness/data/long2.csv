@@ -1,0 +1,161 @@
+workerID,gender,age,income,language,order,domain,prob,evidence
+1,M,35,6,english,1,dog,0.75,You look outside and see Fluffy; the neighbor's dog; standing on the porch and barking.
+1,M,35,6,english,2,dinner,0.92,You smell food coming from the dining room.
+1,M,35,6,english,3,coffee,0.75,You see that there is no steam coming from the coffee.
+1,M,35,6,english,4,rain,0.62,You look out the window and see raindrops falling from the sky.
+2,F,35,6,english,1,dog,0.99,You look outside and see Fluffy; the neighbor's dog; standing on the porch and barking.
+2,F,35,6,english,2,rain,0.88,You hear the sound of water dripping on the roof.
+2,F,35,6,english,3,dinner,0.99,You just prepared dinner and set it out on the table.
+2,F,35,6,english,4,coffee,0.6,You see that there is no steam coming from the coffee.
+3,M,45,4,English,1,dinner,0.68,You smell food coming from the dining room.
+3,M,45,4,English,2,rain,0.91,You look out the window and see raindrops falling from the sky.
+3,M,45,4,English,3,coffee,0.47,You see that the cup isn't insulated.
+3,M,45,4,English,4,dog,0.47,You are listening to music with your earphones. You know that your neighbor's dog often barks in the evening.
+4,F,25,8,English ,1,dog,0.57,You are listening to music with your earphones. You know that your neighbor's dog often barks in the evening.
+4,F,25,8,English ,2,rain,0.97,You look out the window and see raindrops falling from the sky.
+4,F,25,8,English ,3,coffee,0.87,You take a sip of the coffee and feel that it is cold.
+4,F,25,8,English ,4,dinner,0.57,You smell food coming from the dining room.
+5,F,25,4,english,1,coffee,0.99,You know that the coffee has been on the table for an hour.
+5,F,25,4,english,2,dog,0.94,You look outside and see Fluffy; the neighbor's dog; standing on the porch and barking.
+5,F,25,4,english,3,dinner,0.46,You're hungry.
+5,F,25,4,english,4,rain,0.92,You look out the window and see raindrops falling from the sky.
+6,F,25,4,English,1,coffee,0.67,You see that the cup isn't insulated.
+6,F,25,4,English,2,dog,1,You hear the sound of a dog barking.
+6,F,25,4,English,3,dinner,0.54,You smell food coming from the dining room.
+6,F,25,4,English,4,rain,0.98,You see a person come in from outside with wet hair and wet clothes.
+7,F,35,8,English,1,dog,0.79,You are listening to music with your earphones. You know that your neighbor's dog often barks in the evening.
+7,F,35,8,English,2,rain,1,You look out the window and see raindrops falling from the sky.
+7,F,35,8,English,3,dinner,0.45,You're hungry.
+7,F,35,8,English,4,coffee,0.95,You take a sip of the coffee and feel that it is cold.
+8,F,65,4,English,1,dog,0.62,Your neighbor just got a new dog.
+8,F,65,4,English,2,rain,0.69,You check the weather report on the Internet; which says it is raining.
+8,F,65,4,English,3,dinner,0.98,Your spouse tells you that dinner is ready.
+8,F,65,4,English,4,coffee,0.72,You touch the coffee cup and feel that it is cold.
+9,F,35,4,English,1,dinner,0.34,You're hungry.
+9,F,35,4,English,2,dog,0.99,You look outside and see Fluffy; the neighbor's dog; standing on the porch and barking.
+9,F,35,4,English,3,rain,0.48,Earlier today; you had seen dark clouds in the sky.
+9,F,35,4,English,4,coffee,0.74,You see that there is no steam coming from the coffee.
+10,M,35,4,English,1,dog,1,You look outside and see Fluffy; the neighbor's dog; standing on the porch and barking.
+10,M,35,4,English,2,rain,1,You look out the window and see raindrops falling from the sky.
+10,M,35,4,English,3,dinner,1,You just prepared dinner and set it out on the table.
+10,M,35,4,English,4,coffee,0.82,You see that there is no steam coming from the coffee.
+11,F,25,6,English,1,coffee,0.99,You know that the coffee has been on the table for an hour.
+11,F,25,6,English,2,dog,0.65,You are listening to music with your earphones. You know that your neighbor's dog often barks in the evening.
+11,F,25,6,English,3,dinner,0.99,You smell food coming from the dining room.
+11,F,25,6,English,4,rain,0.99,You look out the window and see raindrops falling from the sky.
+12,M,25,4,ENGLISH,1,coffee,0.66,You touch the coffee cup and feel that it is cold.
+12,M,25,4,ENGLISH,2,dinner,0.99,Dinner is usually ready at around 6pm. You look at the clock and it is 6pm.
+12,M,25,4,ENGLISH,3,rain,0.78,You check the weather report on the Internet; which says it is raining.
+12,M,25,4,ENGLISH,4,dog,0.77,You hear the sound of a dog barking.
+13,M,35,4,english,1,coffee,1,You touch the coffee cup and feel that it is cold.
+13,M,35,4,english,2,dog,0.54,You are listening to music with your earphones. You look out the window and see that the mailman has just arrived at your neighbor's doorstep; when all of a sudden he jumps back.
+13,M,35,4,english,3,dinner,0.72,You smell food coming from the dining room.
+13,M,35,4,english,4,rain,1,You see a person come in from outside with wet hair and wet clothes.
+14,F,45,8,english,1,dog,0.62,You are listening to music with your earphones. You know that your neighbor's dog often barks in the evening.
+14,F,45,8,english,2,rain,0.84,You check the weather report on the Internet; which says it is raining.
+14,F,45,8,english,3,dinner,0.41,You smell food coming from the dining room.
+14,F,45,8,english,4,coffee,0.47,You see that the cup isn't insulated.
+15,M,45,4,English,1,coffee,1,You know that the coffee has been on the table for an hour.
+15,M,45,4,English,2,dinner,0.83,You're hungry.
+15,M,45,4,English,3,rain,1,You look out the window and see raindrops falling from the sky.
+15,M,45,4,English,4,dog,0.99,You look outside and see Fluffy; the neighbor's dog; standing on the porch and barking.
+16,M,35,4,English,1,dinner,1,Your spouse tells you that dinner is ready.
+16,M,35,4,English,2,dog,0.5,You are listening to music with your earphones. You know that your neighbor's dog often barks in the evening.
+16,M,35,4,English,3,rain,1,You look out the window and see raindrops falling from the sky.
+16,M,35,4,English,4,coffee,0.63,You see that the cup isn't insulated.
+17,F,25,6,english,1,coffee,1,You take a sip of the coffee and feel that it is cold.
+17,F,25,6,english,2,dinner,1,You just prepared dinner and set it out on the table.
+17,F,25,6,english,3,rain,1,You look out the window and see raindrops falling from the sky.
+17,F,25,6,english,4,dog,0.52,Your neighbor just got a new dog.
+18,F,25,0,english,1,coffee,0.78,You see that there is no steam coming from the coffee.
+18,F,25,0,english,2,dinner,0.96,You just prepared dinner and set it out on the table.
+18,F,25,0,english,3,rain,0.84,You hear the sound of water dripping on the roof.
+18,F,25,0,english,4,dog,1,You look outside and see Fluffy; the neighbor's dog; standing on the porch and barking.
+19,M,45,4,english,1,dinner,0.96,You just prepared dinner and set it out on the table.
+19,M,45,4,english,2,rain,0.95,You check the weather report on the Internet; which says it is raining.
+19,M,45,4,english,3,coffee,0.49,You see that the cup isn't insulated.
+19,M,45,4,english,4,dog,0.49,You hear the sound of a dog barking.
+20,M,35,6,English,1,dinner,0.81,Your spouse tells you that dinner is ready.
+20,M,35,6,English,2,rain,0.94,You check the weather report on the Internet; which says it is raining.
+20,M,35,6,English,3,coffee,0.94,You see that the cup isn't insulated.
+20,M,35,6,English,4,dog,1,You look outside and see Fluffy; the neighbor's dog; standing on the porch and barking.
+21,F,35,4,English,1,dinner,0.93,Dinner is usually ready at around 6pm. You look at the clock and it is 6pm.
+21,F,35,4,English,2,rain,0.52,Earlier today; you had seen dark clouds in the sky.
+21,F,35,4,English,3,coffee,0.31,You see that the cup isn't insulated.
+21,F,35,4,English,4,dog,0.53,You hear the sound of a dog barking.
+22,M,25,4,english,1,coffee,0.51,You touch the coffee cup and feel that it is cold.
+22,M,25,4,english,2,dog,1,You look outside and see Fluffy; the neighbor's dog; standing on the porch and barking.
+22,M,25,4,english,3,dinner,1,Your spouse tells you that dinner is ready.
+22,M,25,4,english,4,rain,0.69,You check the weather report on the Internet; which says it is raining.
+23,F,25,4,English,1,coffee,0.72,You see that the cup isn't insulated.
+23,F,25,4,English,2,dinner,0.69,You smell food coming from the dining room.
+23,F,25,4,English,3,rain,0.68,You check the weather report on the Internet; which says it is raining.
+23,F,25,4,English,4,dog,0.81,You hear the sound of a dog barking.
+24,F,55,4,english,1,coffee,0.67,You see that the cup isn't insulated.
+24,F,55,4,english,2,dinner,0.9,You're hungry.
+24,F,55,4,english,3,rain,0.99,You hear the sound of water dripping on the roof.
+24,F,55,4,english,4,dog,0.92,You are listening to music with your earphones. You know that your neighbor's dog often barks in the evening.
+25,M,65,4,English,1,dinner,0.88,Dinner is usually ready at around 6pm. You look at the clock and it is 6pm.
+25,M,65,4,English,2,dog,0.53,Your neighbor just got a new dog.
+25,M,65,4,English,3,rain,0.96,You hear the sound of water dripping on the roof.
+25,M,65,4,English,4,coffee,0.97,You see that there is no steam coming from the coffee.
+26,F,55,4,English,1,dog,0.47,Your neighbor just got a new dog.
+26,F,55,4,English,2,dinner,0.87,You smell food coming from the dining room.
+26,F,55,4,English,3,coffee,0.26,You see that there is no steam coming from the coffee.
+26,F,55,4,English,4,rain,0.72,Earlier today; you had seen dark clouds in the sky.
+27,F,25,10,English,1,dog,0.68,You hear the sound of a dog barking.
+27,F,25,10,English,2,rain,0.44,You check the weather report on the Internet; which says it is raining.
+27,F,25,10,English,3,dinner,0.6,Dinner is usually ready at around 6pm. You look at the clock and it is 6pm.
+27,F,25,10,English,4,coffee,0.76,You take a sip of the coffee and feel that it is cold.
+28,M,17,4,English ,1,coffee,0.61,You see that the cup isn't insulated.
+28,M,17,4,English ,2,dinner,0.67,You just prepared dinner and set it out on the table.
+28,M,17,4,English ,3,rain,0.97,You check the weather report on the Internet; which says it is raining.
+28,M,17,4,English ,4,dog,0.51,Your neighbor just got a new dog.
+29,M,25,6,english,1,dog,0.98,You are listening to music with your earphones. You look out the window and see that the mailman has just arrived at your neighbor's doorstep; when all of a sudden he jumps back.
+29,M,25,6,english,2,dinner,0.98,You smell food coming from the dining room.
+29,M,25,6,english,3,coffee,0.98,You know that the coffee has been on the table for an hour.
+29,M,25,6,english,4,rain,0.98,You see a person come in from outside with wet hair and wet clothes.
+30,M,35,6,English,1,dog,0.86,You hear the sound of a dog barking.
+30,M,35,6,English,2,coffee,1,You take a sip of the coffee and feel that it is cold.
+30,M,35,6,English,3,dinner,0.27,You're hungry.
+30,M,35,6,English,4,rain,0.87,You check the weather report on the Internet; which says it is raining.
+31,M,35,4,english,1,dog,0.27,Your neighbor just got a new dog.
+31,M,35,4,english,2,dinner,0.39,You smell food coming from the dining room.
+31,M,35,4,english,3,coffee,0.5,You see that the cup isn't insulated.
+31,M,35,4,english,4,rain,0.86,You see a person come in from outside with wet hair and wet clothes.
+32,F,35,8,English,1,coffee,0.64,You see that there is no steam coming from the coffee.
+32,F,35,8,English,2,dinner,0.65,You smell food coming from the dining room.
+32,F,35,8,English,3,rain,0.9,You see a person come in from outside with wet hair and wet clothes.
+32,F,35,8,English,4,dog,0.51,You are listening to music with your earphones. You look out the window and see that the mailman has just arrived at your neighbor's doorstep; when all of a sudden he jumps back.
+33,M,35,6,English,1,dog,0.5,You look outside and see Fluffy; the neighbor's dog; standing on the porch and barking.
+33,M,35,6,English,2,dinner,1,Your spouse tells you that dinner is ready.
+33,M,35,6,English,3,coffee,0.79,You know that the coffee has been on the table for an hour.
+33,M,35,6,English,4,rain,0.69,You check the weather report on the Internet; which says it is raining.
+34,F,35,11,English,1,dinner,0.35,You're hungry.
+34,F,35,11,English,2,dog,0.79,You are listening to music with your earphones. You know that your neighbor's dog often barks in the evening.
+34,F,35,11,English,3,rain,0.38,You check the weather report on the Internet; which says it is raining.
+34,F,35,11,English,4,coffee,0.81,You see that there is no steam coming from the coffee.
+35,M,55,6,english,1,coffee,0.71,You touch the coffee cup and feel that it is cold.
+35,M,55,6,english,2,dinner,0.89,Your spouse tells you that dinner is ready.
+35,M,55,6,english,3,rain,0.88,You look out the window and see raindrops falling from the sky.
+35,M,55,6,english,4,dog,0.49,You are listening to music with your earphones. You know that your neighbor's dog often barks in the evening.
+36,M,45,4,english,1,dog,0.64,You are listening to music with your earphones. You look out the window and see that the mailman has just arrived at your neighbor's doorstep; when all of a sudden he jumps back.
+36,M,45,4,english,2,rain,0.59,You check the weather report on the Internet; which says it is raining.
+36,M,45,4,english,3,dinner,0.87,Your spouse tells you that dinner is ready.
+36,M,45,4,english,4,coffee,0.86,You touch the coffee cup and feel that it is cold.
+37,M,25,4,English,1,dog,0.49,Your neighbor just got a new dog.
+37,M,25,4,English,2,rain,0.88,You check the weather report on the Internet; which says it is raining.
+37,M,25,4,English,3,dinner,0.49,You're hungry.
+37,M,25,4,English,4,coffee,0.65,You see that there is no steam coming from the coffee.
+38,M,25,6,English,1,dog,0.66,You are listening to music with your earphones. You look out the window and see that the mailman has just arrived at your neighbor's doorstep; when all of a sudden he jumps back.
+38,M,25,6,English,2,rain,0.88,You see a person come in from outside with wet hair and wet clothes.
+38,M,25,6,English,3,dinner,0.11,You smell food coming from the dining room.
+38,M,25,6,English,4,coffee,0.95,You know that the coffee has been on the table for an hour.
+39,F,55,6,english,1,dog,0.71,You are listening to music with your earphones. You know that your neighbor's dog often barks in the evening.
+39,F,55,6,english,2,rain,0.64,You see a person come in from outside with wet hair and wet clothes.
+39,F,55,6,english,3,dinner,0.92,Your spouse tells you that dinner is ready.
+39,F,55,6,english,4,coffee,0.48,You see that there is no steam coming from the coffee.
+40,F,65,11,English,1,dog,0.68,You are listening to music with your earphones. You look out the window and see that the mailman has just arrived at your neighbor's doorstep; when all of a sudden he jumps back.
+40,F,65,11,English,2,rain,0.88,You see a person come in from outside with wet hair and wet clothes.
+40,F,65,11,English,3,dinner,0.98,You're hungry.
+40,F,65,11,English,4,coffee,0.51,You see that the cup isn't insulated.
