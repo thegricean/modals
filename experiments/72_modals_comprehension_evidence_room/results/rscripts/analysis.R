@@ -38,7 +38,13 @@ agr = aggregate(Directness~item_type,FUN=mean,data=r)
 agr$SD = aggregate(Directness~item_type,FUN=sd,data=r)$Directness
 agr
 
-# ggplot(r, aes(x=Directness,y=response,color=EvidenceTypeCategorical,group=EvidenceTypeCategorical)) +
-#   geom_point() +
-#   geom_smooth(method="lm") +
-#   facet_wrap(~item_type)
+
+## same thing but with p values
+library(lmerTest)
+## analysis of p(rain) after bare vs "must"
+m = lmer(response~citem_type + (1|workerid) + (1|item), data=centered)
+summary(m)
+
+## analysis of evidence after bare vs "must"
+m = lmer(Directness~citem_type + (1|workerid) + (1|item), data=centered)
+summary(m)
