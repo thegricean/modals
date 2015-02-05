@@ -17,7 +17,7 @@ baremust = droplevels(baremust)
 nrow(baremust)
 table(baremust$item_type)
 
-centered = cbind(baremust, myCenter(baremust[,c("item_type","Directness")]))
+centered = cbind(baremust, myCenter(baremust[,c("item_type","Directness","EvidenceDirectnessCategorical")]))
 contrasts(centered$item_type)
 head(centered)
 

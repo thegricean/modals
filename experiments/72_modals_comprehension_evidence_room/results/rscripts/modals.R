@@ -11,6 +11,11 @@ str(directness)
 head(directness)
 row.names(directness) = paste(directness$domain,directness$evidencetype)
 
+dness = read.csv("data/evidence_directness.csv")
+str(dness)
+head(dness)
+row.names(dness) = paste(dness$domain,dness$evidencetype)
+
 r = read.table("data/modals_results.tsv",quote="", sep="\t", header=T)
 #r = read.table("data/modals_results.txt",quote="", sep="\t", header=T)
 nrow(r)
@@ -21,6 +26,7 @@ r$evidence = gsub("'","",r$evidence)
 head(r)
 r$Directness = directness[paste(r$item,r$evidence),]$prob
 r$EvidenceTypeCategorical = directness[paste(r$item,r$evidence),]$type
+r$EvidenceDirectnessCategorical = dness[paste(r$item,r$evidence),]$type
 
 summary(r)
 table(r$item,r$item_type)
