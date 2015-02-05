@@ -9,5 +9,6 @@ writing/2014/cuny_2015/CUNY_abstract.pdf
 *.blg
 *.log
 *.synctex.gz
+*.bbl
 .RData
 .Rhistory
