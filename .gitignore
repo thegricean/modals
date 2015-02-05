@@ -1,0 +1,13 @@
+writing/2014/cuny_2015/CUNY_abstract.pdf
+*.results
+*.question
+*.input
+*.properties
+*.tsv
+*.aux
+*.bbl
+*.blg
+*.log
+*.synctex.gz
+.RData
+.Rhistory
