@@ -147,6 +147,17 @@ It seems to me that there are two things that we could contribute:
 
 oof.
 
+Questions
+---------
+
+1. If "must" is an evidential, why isn't it with other flavors of modality?
+
+2. What's the directionality between evidence and belief strength when observing "must p"? 
+	- vFG: Listener observes "must p" --> gets weak evidence for p for free --> infer less than maximal probability of p
+	- Dan(?): Listener observes "must p" --> gets weak evidence for p for free --> infers weak speaker belief in p. 
+	- Listener observes "must p" --> gets weak evidence for p for free --> infers weak speaker belief in p and less than maximal prbability of p. 	
+	- Listener observes "must p" --> gets weak belief for p for free --> infers weak speaker evidence for p.
+
 Quotes and other useful bits
 ------
 
