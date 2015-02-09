@@ -1,0 +1,241 @@
+workerid,rt,name,item,gender,sentence,item_type,response,slide_number_in_experiment
+0,34955,George,rain,M,It must be raining.,must,"[0.85, u'evidence2']",3
+0,15424,Emily,dinner,F,Dinner is ready.,bare,"[0.96, u'evidence1']",4
+0,11844,Samantha,dog,F,The neighbor&quotechars dog is probably barking.,probably,"[0.74, u'evidence1']",5
+0,12935,Benjamin,coffee,M,The coffee might be cold.,might,"[0.71, u'evidence2']",6
+1,12536,Ashley,rain,F,It must be raining.,must,"[0.89, u'evidence3']",3
+1,8007,Jeffrey,coffee,M,The coffee might be cold.,might,"[0.47, u'evidence3']",4
+1,8280,Donald,dinner,M,Dinner is ready.,bare,"[0.99, u'evidence1']",5
+1,11247,Gary,dog,M,The neighbor&quotechars dog is probably barking.,probably,"[0.75, u'evidence3']",6
+2,12591,Jacob,dinner,M,Dinner must be ready.,must,"[0.33, u'evidence5']",3
+2,9095,Timothy,coffee,M,The coffee might be cold.,might,"[0.77, u'evidence3']",4
+2,10807,Emily,dog,F,The neighbor&quotechars dog is barking.,bare,"[0.98, u'evidence2']",5
+2,13182,Rebecca,rain,F,It&quotechars probably raining.,probably,"[0.81, u'evidence3']",6
+3,26220,John,dog,M,The neighbor&quotechars dog is probably barking.,probably,"[0.82, u'evidence2']",3
+3,22565,Jason,dinner,M,Dinner must be ready.,must,"[0.47, u'evidence4']",4
+3,21767,Janet,coffee,F,The coffee might be cold.,might,"[0.3, u'evidence4']",5
+3,21043,Betty,rain,F,It&quotechars raining.,bare,"[0.97, u'evidence1']",6
+4,17974,Amanda,coffee,F,The coffee is cold.,bare,"[0.95, u'evidence4']",3
+4,15911,Jacob,rain,M,It&quotechars probably raining.,probably,"[0.59, u'evidence4']",4
+4,16983,David,dog,M,The neighbor&quotechars dog might be barking.,might,"[0.54, u'evidence4']",5
+4,11343,Samantha,dinner,F,Dinner must be ready.,must,"[0.62, u'evidence3']",6
+5,20262,Michelle,rain,F,It must be raining.,must,"[0.98, u'evidence2']",3
+5,26924,Virginia,coffee,F,The coffee might be cold.,might,"[0.69, u'evidence2']",4
+5,13243,Dorothy,dinner,F,Dinner is probably ready.,probably,"[0.69, u'evidence4']",5
+5,15309,Joyce,dog,F,The neighbor&quotechars dog is barking.,bare,"[1, u'evidence2']",6
+6,12668,Emily,dog,F,The neighbor&quotechars dog is barking.,bare,"[1, u'evidence2']",3
+6,10572,Julie,rain,F,It might be raining.,might,"[0.61, u'evidence1']",4
+6,15074,Matthew,coffee,M,The coffee is probably cold.,probably,"[0.63, u'evidence3']",5
+6,9193,Virginia,dinner,F,Dinner must be ready.,must,"[0.86, u'evidence3']",6
+7,13992,Donald,rain,M,It might be raining.,might,"[0.49, u'evidence3']",3
+7,11549,George,dog,M,The neighbor&quotechars dog is probably barking.,probably,"[0.27, u'evidence5']",4
+7,8511,Patrick,dinner,M,Dinner is ready.,bare,"[0.96, u'evidence2']",5
+7,7568,Scott,coffee,M,The coffee must be cold.,must,"[0.9, u'evidence3']",6
+8,14975,Brian,rain,M,It must be raining.,must,"[0.9, u'evidence4']",3
+8,8373,John,dinner,M,Dinner is probably ready.,probably,"[0.75, u'evidence3']",4
+8,15062,Patrick,coffee,M,The coffee might be cold.,might,"[0.71, u'evidence2']",5
+8,7701,Linda,dog,F,The neighbor&quotechars dog is barking.,bare,"[1, u'evidence2']",6
+9,25718,Julie,rain,F,It must be raining.,must,"[1, u'evidence2']",3
+9,8844,Ruth,dog,F,The neighbor&quotechars dog is barking.,bare,"[0.85, u'evidence2']",4
+9,11204,Virginia,dinner,F,Dinner might be ready.,might,"[0.42, u'evidence3']",5
+9,17812,Justin,coffee,M,The coffee is probably cold.,probably,"[0.42, u'evidence3']",6
+10,17400,Heather,coffee,F,The coffee is probably cold.,probably,"[0.92, u'evidence1']",3
+10,12177,Christina,dog,F,The neighbor&quotechars dog is barking.,bare,"[0.94, u'evidence2']",4
+10,14523,Kevin,dinner,M,Dinner must be ready.,must,"[0.51, u'evidence4']",5
+10,11715,Melissa,rain,F,It might be raining.,might,"[0.29, u'evidence2']",6
+11,55436,Ronald,rain,M,It&quotechars raining.,bare,"[0.84, u'evidence1']",3
+11,47965,Shirley,dog,F,The neighbor&quotechars dog must be barking.,must,"[0.69, u'evidence3']",4
+11,21179,Jessica,dinner,F,Dinner is probably ready.,probably,"[0.48, u'evidence3']",5
+11,24256,David,coffee,M,The coffee might be cold.,might,"[0.37, u'evidence3']",6
+12,27828,Matthew,coffee,M,The coffee is cold.,bare,"[0.95, u'evidence1']",3
+12,16657,Virginia,rain,F,It might be raining.,might,"[0.47, u'evidence2']",4
+12,77342,Kimberly,dinner,F,Dinner is probably ready.,probably,"[0.47, u'evidence4']",5
+12,32063,Ruth,dog,F,The neighbor&quotechars dog must be barking.,must,"[0.76, u'evidence2']",6
+13,36995,Christopher,rain,M,It must be raining.,must,"[0.82, u'evidence2']",3
+13,25871,John,coffee,M,The coffee is cold.,bare,"[1, u'evidence1']",4
+13,49830,James,dog,M,The neighbor&quotechars dog is probably barking.,probably,"[0.48, u'evidence4']",5
+13,23023,Emma,dinner,F,Dinner might be ready.,might,"[0.33, u'evidence3']",6
+14,21208,Lisa,dinner,F,Dinner might be ready.,might,"[0.62, u'evidence4']",3
+14,16214,Dennis,rain,M,It&quotechars probably raining.,probably,"[0.78, u'evidence2']",4
+14,13393,Amanda,dog,F,The neighbor&quotechars dog must be barking.,must,"[0.83, u'evidence2']",5
+14,8550,Jeffrey,coffee,M,The coffee is cold.,bare,"[0.99, u'evidence1']",6
+15,24904,Justin,rain,M,It&quotechars raining.,bare,"[1, u'evidence2']",3
+15,20727,Brenda,dinner,F,Dinner might be ready.,might,"[0.54, u'evidence4']",4
+15,15287,Christina,coffee,F,The coffee is probably cold.,probably,"[0.7, u'evidence3']",5
+15,25608,David,dog,M,The neighbor&quotechars dog must be barking.,must,"[0.83, u'evidence3']",6
+16,24614,Michael,coffee,M,The coffee must be cold.,must,"[0.61, u'evidence3']",3
+16,15692,Carol,dog,F,The neighbor&quotechars dog might be barking.,might,"[0.46, u'evidence3']",4
+16,14959,Margaret,rain,F,It&quotechars raining.,bare,"[0.97, u'evidence1']",5
+16,14619,Linda,dinner,F,Dinner is probably ready.,probably,"[0.6, u'evidence4']",6
+17,44470,Christopher,dog,M,The neighbor&quotechars dog is barking.,bare,"[0.99, u'evidence2']",3
+17,25564,Michelle,dinner,F,Dinner is probably ready.,probably,"[0.88, u'evidence3']",4
+17,22270,Christina,coffee,F,The coffee must be cold.,must,"[0.9, u'evidence3']",5
+17,41953,Julie,rain,F,It might be raining.,might,"[0.9, u'evidence4']",6
+18,14136,George,dog,M,The neighbor&quotechars dog must be barking.,must,"[0.99, u'evidence2']",3
+18,15351,Jack,dinner,M,Dinner is ready.,bare,"[0.99, u'evidence1']",4
+18,19934,Joshua,rain,M,It&quotechars probably raining.,probably,"[0.75, u'evidence5']",5
+18,15762,Kevin,coffee,M,The coffee might be cold.,might,"[0.61, u'evidence3']",6
+19,20857,Emily,coffee,F,The coffee is probably cold.,probably,"[0.81, u'evidence4']",3
+19,19587,Emily,dog,F,The neighbor&quotechars dog is barking.,bare,"[0.99, u'evidence2']",4
+19,10733,Michelle,dinner,F,Dinner must be ready.,must,"[0.91, u'evidence4']",5
+19,32420,Jacob,rain,M,It might be raining.,might,"[0.49, u'evidence4']",6
+20,17869,Daniel,dinner,M,Dinner is ready.,bare,"[0.82, u'evidence2']",3
+20,16132,Stephanie,dog,F,The neighbor&quotechars dog must be barking.,must,"[0.92, u'evidence2']",4
+20,13885,Cynthia,rain,F,It&quotechars probably raining.,probably,"[0.47, u'evidence5']",5
+20,19866,Mary,coffee,F,The coffee might be cold.,might,"[0.51, u'evidence4']",6
+21,36814,Michelle,rain,F,It&quotechars probably raining.,probably,"[0.7, u'evidence4']",3
+21,16186,Jack,dinner,M,Dinner is ready.,bare,"[0.97, u'evidence1']",4
+21,15966,Emma,coffee,F,The coffee might be cold.,might,"[0.76, u'evidence3']",5
+21,14807,Jonathan,dog,M,The neighbor&quotechars dog must be barking.,must,"[0.86, u'evidence2']",6
+22,16203,Angela,coffee,F,The coffee is cold.,bare,"[1, u'evidence1']",3
+22,14576,Christina,dinner,F,Dinner is probably ready.,probably,"[0.78, u'evidence3']",4
+22,16136,Tyler,dog,M,The neighbor&quotechars dog might be barking.,might,"[0.43, u'evidence2']",5
+22,11839,Kenneth,rain,M,It must be raining.,must,"[1, u'evidence3']",6
+23,30590,Emily,coffee,F,The coffee is cold.,bare,"[1, u'evidence1']",3
+23,26073,Ronald,rain,M,It might be raining.,might,"[0.47, u'evidence2']",4
+23,30600,Robert,dog,M,The neighbor&quotechars dog is probably barking.,probably,"[0.99, u'evidence2']",5
+23,13892,Steven,dinner,M,Dinner must be ready.,must,"[0.98, u'evidence1']",6
+24,37939,Helen,dog,F,The neighbor&quotechars dog must be barking.,must,"[0.76, u'evidence3']",3
+24,25649,Virginia,rain,F,It might be raining.,might,"[0.73, u'evidence4']",4
+24,23162,Brenda,dinner,F,Dinner is probably ready.,probably,"[0.49, u'evidence4']",5
+24,19236,Matthew,coffee,M,The coffee is cold.,bare,"[1, u'evidence1']",6
+25,22225,Deborah,rain,F,It&quotechars raining.,bare,"[1, u'evidence1']",3
+25,14470,Melissa,dinner,F,Dinner is probably ready.,probably,"[0.68, u'evidence3']",4
+25,7741,Carol,coffee,F,The coffee must be cold.,must,"[0.85, u'evidence4']",5
+25,6138,Emily,dog,F,The neighbor&quotechars dog might be barking.,might,"[0.65, u'evidence4']",6
+26,23864,Joseph,dinner,M,Dinner is ready.,bare,"[1, u'evidence1']",3
+26,19442,Betty,rain,F,It&quotechars probably raining.,probably,"[0.55, u'evidence2']",4
+26,22242,Sandra,dog,F,The neighbor&quotechars dog might be barking.,might,"[0.63, u'evidence2']",5
+26,28060,Brenda,coffee,F,The coffee must be cold.,must,"[0.64, u'evidence4']",6
+27,21819,Carolyn,dog,F,The neighbor&quotechars dog must be barking.,must,"[0.96, u'evidence2']",3
+27,20848,Richard,dinner,M,Dinner is ready.,bare,"[0.82, u'evidence1']",4
+27,15569,Samuel,coffee,M,The coffee is probably cold.,probably,"[0.76, u'evidence3']",5
+27,15517,Ruth,rain,F,It might be raining.,might,"[0.37, u'evidence1']",6
+28,22255,Matthew,coffee,M,The coffee is cold.,bare,"[0.98, u'evidence1']",3
+28,18320,Frank,dog,M,The neighbor&quotechars dog might be barking.,might,"[0.54, u'evidence2']",4
+28,28147,Emma,rain,F,It must be raining.,must,"[0.7, u'evidence2']",5
+28,20628,Richard,dinner,M,Dinner is probably ready.,probably,"[0.62, u'evidence3']",6
+29,27272,Virginia,dog,F,The neighbor&quotechars dog is probably barking.,probably,"[0.78, u'evidence2']",3
+29,21625,Heather,coffee,F,The coffee is cold.,bare,"[1, u'evidence2']",4
+29,23577,Christina,dinner,F,Dinner might be ready.,might,"[0.77, u'evidence4']",5
+29,16261,Jessica,rain,F,It must be raining.,must,"[1, u'evidence4']",6
+30,32152,Jason,rain,M,It&quotechars raining.,bare,"[1, u'evidence4']",3
+30,12825,Nicholas,coffee,M,The coffee must be cold.,must,"[0.55, u'evidence4']",4
+30,24352,Emily,dog,F,The neighbor&quotechars dog might be barking.,might,"[0.57, u'evidence5']",5
+30,14418,Kenneth,dinner,M,Dinner is probably ready.,probably,"[0.57, u'evidence3']",6
+31,19101,Mark,dinner,M,Dinner must be ready.,must,"[0.72, u'evidence3']",3
+31,19401,Emily,rain,F,It might be raining.,might,"[0.69, u'evidence3']",4
+31,14389,Andrew,coffee,M,The coffee is cold.,bare,"[0.9, u'evidence1']",5
+31,25541,Helen,dog,F,The neighbor&quotechars dog is probably barking.,probably,"[0.81, u'evidence1']",6
+32,15153,Samuel,dinner,M,Dinner is probably ready.,probably,"[0.54, u'evidence4']",3
+32,11862,George,rain,M,It might be raining.,might,"[0.6, u'evidence4']",4
+32,13374,Charles,dog,M,The neighbor&quotechars dog is barking.,bare,"[0.71, u'evidence2']",5
+32,12400,Kenneth,coffee,M,The coffee must be cold.,must,"[0.49, u'evidence2']",6
+33,24822,Shirley,rain,F,It&quotechars raining.,bare,"[0.97, u'evidence4']",3
+33,16662,Sarah,coffee,F,The coffee must be cold.,must,"[0.8, u'evidence3']",4
+33,15779,Robert,dinner,M,Dinner might be ready.,might,"[0.72, u'evidence3']",5
+33,16454,David,dog,M,The neighbor&quotechars dog is probably barking.,probably,"[0.34, u'evidence4']",6
+34,16008,Rachel,dog,F,The neighbor&quotechars dog might be barking.,might,"[0.64, u'evidence2']",3
+34,9778,Jennifer,rain,F,It must be raining.,must,"[0.88, u'evidence2']",4
+34,12515,Helen,dinner,F,Dinner is ready.,bare,"[1, u'evidence1']",5
+34,12394,Donna,coffee,F,The coffee is probably cold.,probably,"[0.61, u'evidence3']",6
+35,30797,Jennifer,coffee,F,The coffee is probably cold.,probably,"[0.74, u'evidence3']",3
+35,13118,Catherine,dinner,F,Dinner is ready.,bare,"[1, u'evidence1']",4
+35,15551,Gary,dog,M,The neighbor&quotechars dog must be barking.,must,"[0.85, u'evidence2']",5
+35,11008,Shirley,rain,F,It might be raining.,might,"[0.49, u'evidence4']",6
+36,50244,Ronald,dinner,M,Dinner might be ready.,might,"[0.49, u'evidence3']",3
+36,39614,James,dog,M,The neighbor&quotechars dog must be barking.,must,"[0.69, u'evidence2']",4
+36,28271,Joshua,rain,M,It&quotechars probably raining.,probably,"[0.82, u'evidence2']",5
+36,32973,Rachel,coffee,F,The coffee is cold.,bare,"[1, u'evidence1']",6
+37,12962,Lisa,dinner,F,Dinner must be ready.,must,"[0.97, u'evidence4']",3
+37,23258,Timothy,rain,M,It might be raining.,might,"[0.44, u'evidence2']",4
+37,11905,Richard,coffee,M,The coffee is cold.,bare,"[0.96, u'evidence1']",5
+37,19445,William,dog,M,The neighbor&quotechars dog is probably barking.,probably,"[0.71, u'evidence3']",6
+38,41427,Samuel,rain,M,It&quotechars raining.,bare,"[1, u'evidence1']",3
+38,31365,Justin,coffee,M,The coffee must be cold.,must,"[0.59, u'evidence3']",4
+38,28301,Julie,dinner,F,Dinner is probably ready.,probably,"[0.59, u'evidence3']",5
+38,23187,Rebecca,dog,F,The neighbor&quotechars dog might be barking.,might,"[0.52, u'evidence2']",6
+39,31670,Angela,dinner,F,Dinner must be ready.,must,"[0.76, u'evidence3']",3
+39,16279,Daniel,coffee,M,The coffee might be cold.,might,"[0.93, u'evidence3']",4
+39,15713,Charles,rain,M,It&quotechars raining.,bare,"[0.99, u'evidence1']",5
+39,16124,Andrew,dog,M,The neighbor&quotechars dog is probably barking.,probably,"[0.61, u'evidence5']",6
+40,45309,Thomas,dog,M,The neighbor&quotechars dog is probably barking.,probably,"[0.84, u'evidence4']",3
+40,30775,Samantha,dinner,F,Dinner might be ready.,might,"[0.79, u'evidence3']",4
+40,25008,Heather,rain,F,It&quotechars raining.,bare,"[0.94, u'evidence1']",5
+40,13455,Andrew,coffee,M,The coffee must be cold.,must,"[0.93, u'evidence2']",6
+41,8670,Jennifer,dog,F,The neighbor&quotechars dog must be barking.,must,"[0.91, u'evidence2']",3
+41,8121,Nicholas,rain,M,It might be raining.,might,"[0.47, u'evidence2']",4
+41,24269,Kimberly,coffee,F,The coffee is cold.,bare,"[0.99, u'evidence1']",5
+41,8096,Jeffrey,dinner,M,Dinner is probably ready.,probably,"[0.75, u'evidence1']",6
+42,24182,Nicholas,rain,M,It might be raining.,might,"[0.46, u'evidence2']",3
+42,10652,Jack,dog,M,The neighbor&quotechars dog is probably barking.,probably,"[0.72, u'evidence2']",4
+42,24166,Carolyn,dinner,F,Dinner must be ready.,must,"[0.17, u'evidence3']",5
+42,10010,Kathleen,coffee,F,The coffee is cold.,bare,"[0.99, u'evidence1']",6
+43,27459,Ashley,coffee,F,The coffee might be cold.,might,"[0.52, u'evidence3']",3
+43,17954,Virginia,dinner,F,Dinner is probably ready.,probably,"[0.51, u'evidence3']",4
+43,15817,William,rain,M,It must be raining.,must,"[0.82, u'evidence2']",5
+43,24713,Tyler,dog,M,The neighbor&quotechars dog is barking.,bare,"[0.98, u'evidence2']",6
+44,20084,Christopher,rain,M,It must be raining.,must,"[0.82, u'evidence2']",3
+44,15684,Sandra,dog,F,The neighbor&quotechars dog is probably barking.,probably,"[0.54, u'evidence1']",4
+44,10573,Jennifer,dinner,F,Dinner is ready.,bare,"[0.98, u'evidence1']",5
+44,11482,George,coffee,M,The coffee might be cold.,might,"[0.23, u'evidence4']",6
+45,17956,Helen,coffee,F,The coffee must be cold.,must,"[0.88, u'evidence3']",3
+45,12670,Kenneth,dinner,M,Dinner might be ready.,might,"[0.54, u'evidence4']",4
+45,12155,Heather,dog,F,The neighbor&quotechars dog is barking.,bare,"[0.91, u'evidence2']",5
+45,11269,John,rain,M,It&quotechars probably raining.,probably,"[0.46, u'evidence4']",6
+46,38478,Julie,dog,F,The neighbor&quotechars dog must be barking.,must,"[0.93, u'evidence2']",3
+46,83287,Mary,rain,F,It&quotechars raining.,bare,"[0.96, u'evidence2']",4
+46,17895,Joshua,coffee,M,The coffee is probably cold.,probably,"[0.15, u'evidence5']",5
+46,127479,Rachel,dinner,F,Dinner might be ready.,might,"[0.46, u'evidence1']",6
+47,15424,Emily,dog,F,The neighbor&quotechars dog is barking.,bare,"[0.99, u'evidence2']",3
+47,15716,Diane,coffee,F,The coffee is probably cold.,probably,"[0.98, u'evidence4']",4
+47,10143,Elizabeth,dinner,F,Dinner must be ready.,must,"[0.99, u'evidence4']",5
+47,14823,Brian,rain,M,It might be raining.,might,"[1, u'evidence2']",6
+48,34866,Joseph,dinner,M,Dinner must be ready.,must,"[0.62, u'evidence4']",3
+48,10864,Paul,dog,M,The neighbor&quotechars dog is barking.,bare,"[0.82, u'evidence2']",4
+48,24524,Joshua,coffee,M,The coffee is probably cold.,probably,"[0.56, u'evidence4']",5
+48,9423,Charles,rain,M,It might be raining.,might,"[0.78, u'evidence1']",6
+49,19568,Laura,dinner,F,Dinner is ready.,bare,"[0.8, u'evidence4']",3
+49,17839,Janet,coffee,F,The coffee might be cold.,might,"[0.26, u'evidence4']",4
+49,15433,Samuel,rain,M,It must be raining.,must,"[0.5, u'evidence2']",5
+49,15246,Donna,dog,F,The neighbor&quotechars dog is probably barking.,probably,"[0.22, u'evidence2']",6
+50,25708,Linda,dinner,F,Dinner might be ready.,might,"[0.3, u'evidence3']",3
+50,28737,Richard,coffee,M,The coffee is cold.,bare,"[0.79, u'evidence3']",4
+50,19564,Brenda,dog,F,The neighbor&quotechars dog is probably barking.,probably,"[0.55, u'evidence2']",5
+50,34352,Deborah,rain,F,It must be raining.,must,"[0.77, u'evidence2']",6
+51,19763,Emily,coffee,F,The coffee must be cold.,must,"[0.77, u'evidence2']",3
+51,10273,Jacob,dinner,M,Dinner is ready.,bare,"[1, u'evidence1']",4
+51,35967,Brandon,dog,M,The neighbor&quotechars dog is probably barking.,probably,"[0.3, u'evidence4']",5
+51,11300,David,rain,M,It might be raining.,might,"[0.75, u'evidence2']",6
+52,46270,Thomas,dog,M,The neighbor&quotechars dog might be barking.,might,"[0.73, u'evidence2']",3
+52,33737,Scott,dinner,M,Dinner is ready.,bare,"[0.97, u'evidence1']",4
+52,21081,Kevin,rain,M,It&quotechars probably raining.,probably,"[0.78, u'evidence4']",5
+52,27584,Dennis,coffee,M,The coffee must be cold.,must,"[0.87, u'evidence3']",6
+53,38229,Heather,dog,F,The neighbor&quotechars dog is probably barking.,probably,"[1, u'evidence4']",3
+53,23984,Anthony,rain,M,It&quotechars raining.,bare,"[1, u'evidence1']",4
+53,23631,Carol,dinner,F,Dinner might be ready.,might,"[0.46, u'evidence3']",5
+53,43578,Rebecca,coffee,F,The coffee must be cold.,must,"[1, u'evidence3']",6
+54,20847,Amanda,rain,F,It&quotechars probably raining.,probably,"[0.73, u'evidence3']",3
+54,40904,William,dinner,M,Dinner is ready.,bare,"[1, u'evidence1']",4
+54,15846,Sharon,coffee,F,The coffee might be cold.,might,"[0.5, u'evidence3']",5
+54,10818,Kimberly,dog,F,The neighbor&quotechars dog must be barking.,must,"[0.78, u'evidence2']",6
+55,28172,Jason,dog,M,The neighbor&quotechars dog might be barking.,might,"[0.46, u'evidence2']",3
+55,13658,Benjamin,coffee,M,The coffee must be cold.,must,"[0.48, u'evidence3']",4
+55,10232,Robert,rain,M,It&quotechars raining.,bare,"[1, u'evidence1']",5
+55,9131,Dennis,dinner,M,Dinner is probably ready.,probably,"[0.47, u'evidence4']",6
+56,68877,Justin,dog,M,The neighbor&quotechars dog is probably barking.,probably,"[0.8, u'evidence2']",3
+56,6860,Tyler,dinner,M,Dinner might be ready.,might,"[0.85, u'evidence4']",4
+56,12472,Samantha,rain,F,It must be raining.,must,"[0.61, u'evidence2']",5
+56,55926,Ashley,coffee,F,The coffee is cold.,bare,"[0.94, u'evidence1']",6
+57,78631,Betty,rain,F,It&quotechars raining.,bare,"[0.92, u'evidence1']",3
+57,27743,Michelle,dinner,F,Dinner must be ready.,must,"[0.76, u'evidence4']",4
+57,27121,Julie,dog,F,The neighbor&quotechars dog is probably barking.,probably,"[0.39, u'evidence1']",5
+57,72096,Kathleen,coffee,F,The coffee might be cold.,might,"[0.32, u'evidence3']",6
+58,29965,Dennis,dog,M,The neighbor&quotechars dog is barking.,bare,"[0.99, u'evidence2']",3
+58,17578,Patrick,coffee,M,The coffee is probably cold.,probably,"[0.7, u'evidence3']",4
+58,19967,Kathleen,dinner,F,Dinner might be ready.,might,"[0.75, u'evidence4']",5
+58,26895,Brenda,rain,F,It must be raining.,must,"[0.88, u'evidence2']",6
+59,21617,Donald,coffee,M,The coffee must be cold.,must,"[0.97, u'evidence3']",3
+59,24916,Rachel,dog,F,The neighbor&quotechars dog might be barking.,might,"[0.48, u'evidence4']",4
+59,29953,Sarah,dinner,F,Dinner is ready.,bare,"[0.98, u'evidence1']",5
+59,23880,Joseph,rain,M,It&quotechars probably raining.,probably,"[0.7, u'evidence5']",6

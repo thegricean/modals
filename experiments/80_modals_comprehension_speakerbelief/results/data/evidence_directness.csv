@@ -1,0 +1,21 @@
+,evidence,domain,N,prob,sd,se,ci,evidencetype,type
+9,You know that the coffee has been on the table for an hour.,coffee,6,0.95,0.080249611,0.032761766,0.084216801,evidence3,indirect
+16,You take a sip of the coffee and feel that it is cold.,coffee,5,0.916,0.102127371,0.045672749,0.12680788,evidence1,direct
+17,You touch the coffee cup and feel that it is cold.,coffee,6,0.743333333,0.168839174,0.068928304,0.177185847,evidence2,indirect
+14,You see that there is no steam coming from the coffee.,coffee,11,0.681818182,0.190883115,0.057553425,0.128237022,evidence4,indirect
+13,You see that the cup isn't insulated.,coffee,12,0.5825,0.161026536,0.046484357,0.10231138,evidence5,indirect
+20,Your spouse tells you that dinner is ready.,dinner,8,0.93375,0.072493842,0.025630444,0.060606369,evidence2,indirect
+8,You just prepared dinner and set it out on the table.,dinner,6,0.93,0.128685664,0.052535702,0.135047322,evidence1,direct
+1,Dinner is usually ready at around 6pm. You look at the clock and it is 6pm.,dinner,4,0.85,0.172626765,0.086313383,0.274687705,evidence3,indirect
+15,You smell food coming from the dining room.,dinner,13,0.655384615,0.256275093,0.071077922,0.154865489,evidence4,indirect
+18,You're hungry.,dinner,9,0.563333333,0.266552059,0.088850686,0.20489005,evidence5,indirect
+11,You look outside and see Fluffy; the neighbor's dog; standing on the porch and barking.,dog,10,0.916,0.165274183,0.052264286,0.118230028,evidence1,direct
+6,You hear the sound of a dog barking.,dog,7,0.734285714,0.181554137,0.068621014,0.167909572,evidence2,indirect
+4,You are listening to music with your earphones. You look out the window and see that the mailman has just arrived at your neighbor's doorstep; when all of a sudden he jumps back.,dog,6,0.668333333,0.167142654,0.068235703,0.175405458,evidence3,indirect
+3,You are listening to music with your earphones. You know that your neighbor's dog often barks in the evening.,dog,10,0.651,0.15036622,0.047549974,0.107565514,evidence4,indirect
+19,Your neighbor just got a new dog.,dog,7,0.487142857,0.106882223,0.040397683,0.098849569,evidence5,indirect
+10,You look out the window and see raindrops falling from the sky.,rain,11,0.935454545,0.11334581,0.034175048,0.076146752,evidence1,direct
+7,You hear the sound of water dripping on the roof.,rain,4,0.9175,0.06946222,0.03473111,0.110529893,evidence2,indirect
+12,You see a person come in from outside with wet hair and wet clothes.,rain,8,0.89,0.114642301,0.040532174,0.095843362,evidence3,indirect
+5,You check the weather report on the Internet; which says it is raining.,rain,14,0.742142857,0.183604029,0.049070241,0.10600981,evidence4,indirect
+2,Earlier today; you had seen dark clouds in the sky.,rain,3,0.573333333,0.12858201,0.074236858,0.31941542,evidence5,indirect
