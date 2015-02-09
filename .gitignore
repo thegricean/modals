@@ -12,6 +12,5 @@ writing/2014/cuny_2015/CUNY_abstract.pdf
 *.bbl
 .RData
 .Rhistory
-*.pdf
 *.dvi
 .DS_Store
