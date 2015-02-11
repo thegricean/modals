@@ -113,13 +113,25 @@ Our experiments don't directly address the commitment issue, since we ask partic
 What are the modeling approaches we've been pursuing?
 --------------------
 
-- possible worlds semantics with [[must p]] = "necessarily in all worlds p" and [[p]] = "in the actual world p"; QUD inference with two different QUDS (directness of evidence, indirectness of evidence). The idea was that the incredibly low probability of making "must p" true would lead to a hyperbolic interpretation of "must p" (that's where it all started!!) Did this actually work in the end? Noah hates this (I think the issue was the unintuitive possible worlds semantics).
+- possible worlds semantics with [[must p]] = "necessarily in all worlds p" and [[p]] = "in the actual world p"; QUD inference with three different QUDS (Is it raining in the actual world? Is there direct evidence? Is there indirect evidence?). The idea was that the incredibly low probability of making "must p" true would lead to a hyperbolic interpretation of "must p" (that's where it all started!!). Also, we assume that the more number of worlds there are where p is true, the more likely the speaker is to have indirect evidence of p. But that is kind of a weird assumption to have, and in any case this model did not actuallly work. Also, Noah hates this (I think the issue was the unintuitive possible worlds semantics (as well as the weird assumptions about relationship between possible worlds and indirect evidence)).
 
-- M-implicature
+- An M-implicature model where we posit a specific belief prior that is peaky at the high and low ends. This model assumes that "p" and "must p" both have a threshold semantics: "p" is true if P(p) > theta_bare, and "must p" is true if P(p) > theta_must. It also assumes that "must p" is much costlier to utter than "p", and that the speaker has the option of saying nothing (cost = 0) (although it turns out that the null utterance is not always necessary depending on the shape of the prior!). This model produces the desired effects, where the speaker believes that p has a higher probability of being true given "p" than given "must p". However, it is unclear whether we have a good justification for the prior, or whether it makes sense for "p" to have a threshold semantics. This model also only produces the listener's inferences about the speaker's beliefs, and says nothing about the inferred evidence or the inferred state of the world (listener's posterior beliefs about the world).
+
+- An M-implicature model where we posit a real-world state (e.g. rain) that generates different distributions of evidence types/strengths (e.g. seeing rain, seeing umbrellas, weather report). These different evidence types in turn generate different distributions over speaker's beliefs about probabilities of p. Like the previous model, this model assumes that "p" and "must p" both have a threshold semantics: "p" is true if P(p) > theta_bare, and "must p" is true if P(p) > theta_must. It also assumes that "must p" is much costlier to utter than"p". The model produces the desired effects, where the speaker believes that p has a higher probability of being true given she said "p" than given "must p". In addition, the model infers the probability that the speaker has certain kinds of evidence, as well as the probability of p being true in the world. This seems useful, and addresses the distinction between speaker commitment vs listener's interpretations (a difference that we find in the newest experiment comparing speaker beliefs vs listener beliefs). This model still has the issue of assuming a threshold semantics for "p", although we could perhaps argue (if we want to) that this is sort of like a slack threshold ("p" is "true" if P(p) is greater than some threshold, but doesn't have to be perfectly true).
+
+- An implicature model that is basically identical in structure to the M-implicature model described above, but does not posit a threshold semantics for "p"--"p" is true iff P(p) = 1. This means that given the utterance "p", the listener infers that the speaker believes p with certainty. However, the listener may still be uncertain about whether p is true in the world. This gets rid of the worry about threshold semantics for "p," but introduces relative weakness in the semantics of "must p".
+
+- An M-implicature + QUD model, where the implicature is driven by a "marked" QUD, namely an unlikely QUD about evidence type, as well as the more "marked" (costly) utterance "must p". This model has been implemented but does not work.
 
 
-How do the modeling approaches we've been pursuing contribute to the issues?
+How do the modeling approaches we've been pursuing contribute to the issues? 
 --------------------
+
+So far, it seems like we can make the following minor contributions...
+
+1. We show that it is in principle possible for the weakness of "must" to arise from M-implicature, without baking in different literal semantics for "p" and "must p"
+
+2. Our model is able to make predictions at once about speaker beliefs, speaker evidence, and listener beliefs in a fairly coherent manner
 
 
 What should we do next? What could our contribution be?
@@ -145,7 +157,17 @@ It seems to me that there are two things that we could contribute:
 
 ### Models
 
-oof.
+- Figure out why M implicature + QUD model isn't working
+
+- Decide whether it makes sense to have a threshold semantics for "p"
+
+- Decide whether it makes sense for listeners first to infer weakness and then from weakness infer indirect evidence (experiments to support this?)
+
+- Implement a model where listeners first infer indirect evidence and then infer weakness
+
+- Implement a model where indirect evidence is baked into the literal semantics of "must" (vFG, Matthewson)
+
+- In general, clarify relationship between evidence and speaker belief
 
 Questions
 ---------
