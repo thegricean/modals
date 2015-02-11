@@ -107,7 +107,9 @@ Listeners rate the strength of the evidence available to the speaker as lower wh
 
 ### Commitment
 
-Our experiments don't directly address the commitment issue, since we ask participants to rate how likely they think it is that p, not how likely they think it is that the speaker believes p. They did believe that p was less likely after observing "must p" than after observing the bare form, but that of course leaves it open how strongly they believe that *the speaker* believes that p. 
+Our experiments estimate both (listeners' estimates of) speaker commitment as well as the resulting listener belief in p. In one experiment we ask them to rate how likely they think it is that p, in another, how likely they think it is that the speaker believes p. Overall listeners believe that p was less likely after observing "must p" than after observing the bare form, but for both the bare and the "must p" form they think the speaker believes p more strongly than they (the listeners) end up doing. And this is between subjects! There's no difference between resulting speaker and listener belief in p for "might p" and "probably p". 
+
+This suggests that listeners don't consider speakers to be fully committed to p when they produce "must p", in support of Dan and against vFG.
 
 
 What are the modeling approaches we've been pursuing?
@@ -150,7 +152,6 @@ It seems to me that there are two things that we could contribute:
 
 ### Experiments
 
-- experiment that directly tests listeners' expectations about *speaker commitment* rather than their beliefs about the world after observing "must p"/"p"
 - tease apart issue of evidence *type* and *strength* on 
 	1. production (choice between "p" and "must p")
 	2. comprehension (listeners' ascription of evidence to speakers) -- independent effects? does one subsume the other?
@@ -206,7 +207,7 @@ Willett (1988, p. 57)'s taxonomy of evidence types:
 Relation to attitude verbs
 --------------------------
 
-How does the view of epistemic "must" as an evidential marker relate to the rich literature on factivity/veridicality in attitude verbs and whether the content of the mental state or the state of the reported conversation gets foregrounded/backgrounded?
+How does the view of epistemic "must" as an evidential marker relate to the rich literature on factivity/veridicity in attitude verbs and whether the content of the mental state or the state of the reported conversation gets foregrounded/backgrounded?
 
 
 Extra
