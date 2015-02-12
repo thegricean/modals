@@ -17,8 +17,8 @@
         ((#f) (multinomial '(no-evidence weak-pos pos strong-pos) '(0.5 0.2 0.1 0.05)))))
 
 ; The speaker can say nothing, "p", or "must p"
-(define utterances '(none rain must))
-(define costs '(0 0.1 10))
+(define utterances '(rain must))
+(define costs '(0.1 10))
 
 (define (utterance-prior)
   (multinomial utterances
@@ -92,13 +92,14 @@
       (define rain? (rain-prior))
       (define evidence (evidence-prior rain?))
       (define probrain (probrain-prior evidence))
-      ;rain?
+      rain?
       ;probrain
-      evidence
+      ;evidence
+      ;theta-must
       (equal? (apply multinomial (speaker evidence probrain theta-rain  
                                           theta-must
                                  )) utterance)))))
 
-
+;(barplot (pragmatic-listener 'none))
 (barplot (pragmatic-listener 'rain))
 (barplot (pragmatic-listener 'must))
