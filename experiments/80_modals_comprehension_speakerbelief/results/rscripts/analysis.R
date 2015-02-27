@@ -1,50 +1,69 @@
 library(ggplot2)
 theme_set(theme_bw(18))
 #setwd("~/webprojects/70_modals_comprehension_evidence/results/")
-setwd("~/cogsci/projects/stanford/projects/modals/modals/experiments/72_modals_comprehension_evidence_room/results/")
+setwd("~/cogsci/projects/stanford/projects/modals/modals/experiments/80_modals_comprehension_speakerbelief/results/")
 source("rscripts/helpers.r")
-load("data/r.RData")
+
+# load listener belief datasets
+load("~/cogsci/projects/stanford/projects/modals/modals/experiments/72_modals_comprehension_evidence_room/results/data/r.RData")
 
 ## do analysis jointly on this dataset and the one from experiment 70, that differed only in  "windowless room" being replaced by "windowless office"
 exp2 = r
 exp2$workerid = exp2$workerid + 60
 load("~/cogsci/projects/stanford/projects/modals/modals/experiments/70_modals_comprehension_evidence/results/data/r.RData")
-r = rbind(exp2, r)
-head(r)
+r1 = merge(exp2, r,all=T)
+r1$Experiment = "listenerbelief"
+nrow(r1)
 
-baremust = r[r$item_type %in% c("bare","must"),]
+## add speakerbelief dataset for comparison of listener and speaker beliefs
+load("~/cogsci/projects/stanford/projects/modals/modals/experiments/80_modals_comprehension_speakerbelief/results/data/r.RData")
+r$workerid = r$workerid + 120
+r$response = r$Response
+r$Experiment = "speakerbelief"
+both = merge(r1,r,all=T)
+both$Experiment = as.factor(both$Experiment)
+
+head(both)
+summary(both)
+
+baremust = both[both$item_type %in% c("bare","must"),]
 baremust = droplevels(baremust)
 nrow(baremust)
 table(baremust$item_type)
 
-centered = cbind(baremust, myCenter(baremust[,c("item_type","Directness","EvidenceDirectnessCategorical")]))
+# first analyze only speaker belief experiment
+sp = droplevels(subset(baremust, Experiment == "speakerbelief"))
+centered = cbind(sp, myCenter(baremust[,c("item_type","Directness","EvidenceDirectnessCategorical","Experiment")]))
+table(centered$Experiment)
 contrasts(centered$item_type)
 head(centered)
 
-## analysis of p(rain) after bare vs "must"
-m = lmer(response~citem_type + (1|workerid) + (1|item), data=centered)
+## analysis of speaker belief after bare vs "must"
+m = lmer(response~citem_type*cDirectness + (1|workerid) + (1|item), data=centered)
 summary(m)
+
+m = lmer(response~item_type + (1|workerid) + (1|item), data=centered)
+summary(m)
+
 
 # means
-agr = aggregate(response~item_type,FUN=mean,data=r)
-agr$SD = aggregate(response~item_type,FUN=sd,data=r)$response
+agr = aggregate(response~item_type+Experiment,FUN=mean,data=r)
+agr$SD = aggregate(response~item_type+Experiment,FUN=sd,data=r)$response
 agr
+
+
+# analysis of both listener and speaker belief exps
+centered = cbind(baremust, myCenter(baremust[,c("item_type","Directness","EvidenceDirectnessCategorical","Experiment")]))
+table(centered$Experiment)
+contrasts(centered$item_type)
+head(centered)
 
 ## analysis of evidence after bare vs "must"
-m = lmer(Directness~citem_type + (1|workerid) + (1|item), data=centered)
+m = lmer(response~citem_type*cDirectness*cExperiment + (1|workerid) + (1|item), data=centered)
 summary(m)
 
-agr = aggregate(Directness~item_type,FUN=mean,data=r)
-agr$SD = aggregate(Directness~item_type,FUN=sd,data=r)$Directness
-agr
+m = lmer(response~citem_type*cExperiment + (1|workerid) + (1|item), data=centered)
+summary(m)
 
-
-## same thing but with p values
 library(lmerTest)
-## analysis of p(rain) after bare vs "must"
-m = lmer(response~citem_type + (1|workerid) + (1|item), data=centered)
-summary(m)
 
-## analysis of evidence after bare vs "must"
-m = lmer(Directness~citem_type + (1|workerid) + (1|item), data=centered)
-summary(m)
