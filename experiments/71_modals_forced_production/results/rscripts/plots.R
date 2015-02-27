@@ -1,12 +1,13 @@
 library(ggplot2)
 theme_set(theme_bw(18))
-setwd("~/webprojects/71_modals_forced_production/results/")
+#setwd("~/webprojects/71_modals_forced_production/results/")
+setwd("/Users/titlis/cogsci/projects/stanford/projects/modals/modals/experiments/71_modals_forced_production/results/")
 source("rscripts/helpers.r")
 load("data/r.RData")
 
 
 # histograms of modal choice by evidence type
-t = as.data.frame(prop.table(table(r$evidence_type,r$response),mar=1))
+t = as.data.frame(prop.table(table(r$EvidenceTypeCategorical,r$response),mar=1))
 head(t)
 t[t$Var1 == "evidence2",]
 colnames(t) = c("EvidenceType","Modal","Proportion")
@@ -20,6 +21,17 @@ ggplot(t, aes(x=EvidenceType, y=Proportion, color=ModalChoice, group=ModalChoice
   geom_point() +
   geom_line()
 ggsave("graphs/modal_choices_points.pdf")
+
+
+# histograms of modal choice by evidence type
+t = as.data.frame(prop.table(table(r$EvidenceTypeCategorical,r$response),mar=2))
+head(t)
+colnames(t) = c("EvidenceType","Modal","Proportion")
+t$ModalChoice = factor(x=as.character(t$Modal),levels=c("bare","must","probably","might"))
+
+ggplot(t, aes(x=ModalChoice,y=Proportion,fill=EvidenceType)) +
+  geom_bar(stat="identity")
+ggsave("graphs/evidence_dist.pdf")
 
 # histograms of modal choice by evidence type and item
 t = as.data.frame(prop.table(table(r$item,r$evidence_type,r$response),mar=c(1,2)))

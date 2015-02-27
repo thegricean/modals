@@ -1,6 +1,7 @@
 library(ggplot2)
 theme_set(theme_bw(18))
-setwd("~/webprojects/68_modals_freeproduction/results/")
+setwd("~/cogsci/projects/stanford/projects/modals/modals/experiments/68_modals_freeproduction/results/")
+#setwd("~/webprojects/68_modals_freeproduction/results/")
 source("rscripts/helpers.r")
 load("data/r.RData")
 
