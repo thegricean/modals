@@ -1,6 +1,8 @@
 
 	var scale = 0.5;
 
+
+
 	Ecosystem.draw("bird", {}, "BIRD", scale); // randomly samples bird properties
 	Ecosystem.draw("bug", {}, "BUG", scale);
 	Ecosystem.draw("flower", {}, "FLOWER", scale);
@@ -21,3 +23,12 @@
 
 	genus.draw("svg1", {}, scale);
 
+	Ecosystem.draw(
+    "bird", {"col1":"#ff0000",
+             "col2":"#00ff00",
+             "col3":"#0000ff",
+             "tar1":false,
+             "tar2":true,
+             "prop1":0,
+             "prop2":0},
+    "sBIRD", scale)
