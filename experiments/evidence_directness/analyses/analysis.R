@@ -21,5 +21,6 @@ write.csv(d.summary, "../data/summary2.csv")
 
 ggplot(subset(d, domain=="rain"), aes(x=prob)) +
   geom_histogram(binwidth=0.2) +
-  facet_grid(.~evidence) +
+  facet_grid(evidence~.) +
   theme_bw()
+
