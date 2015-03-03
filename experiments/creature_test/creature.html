@@ -109,7 +109,7 @@
 	    <p>How likely is it that this is a pimwit?</p>
 	    <table id="slider_table" class="slider_table">
 	      <tr><td class="left">Impossible</td><td class="right">Absolutely certain</td></tr>
-	      <tr><td colspan="2"><div id="single_slider" class="slider"></div></td></tr>
+	      <tr><td colspan="2"><div id="bird_slider_bar" class="slider"></div></td></tr>
 	    </table>
 	    <button onclick="_s.button()">Continue</button>
 	    <div class="err">Please adjust the slider before continuing.</div>
@@ -121,7 +121,7 @@
 				<table>
 				<tbody>
 				<tr>
-				THESE ARE THE PIMWITS (pimwits: 75% tar1, 100% tar2)
+				THESE ARE THE PIMWITS (pimwits: 50% tar1, 100% tar3)
 				</tr>
 				<tr>
 						<div>
@@ -140,7 +140,7 @@
 						</div>
 				</tr>
 				<tr>
-				THESE ARE THE DAXES (daxes: 25% tar1, 0% tar2)
+				THESE ARE THE DAXES (daxes: 25% tar1, 0% tar3)
 				</tr>
 				<tr>
 						<div>
@@ -165,12 +165,134 @@
 		</div>
 
 	<div class="slide" id="bug_slider">
-	    <p>Here is a single piece of evidence:</p>
-	    <p class="evidence"></p>
+	   <p class="evidence1">Imagine you see a {{}}:</p>
+	    <div id="bug_evidence2" class="evidence2"></div>
 	    <p>How likely is it that this is a pimwit?</p>
 	    <table id="slider_table" class="slider_table">
 	      <tr><td class="left">Impossible</td><td class="right">Absolutely certain</td></tr>
-	      <tr><td colspan="2"><div id="single_slider" class="slider"></div></td></tr>
+	      <tr><td colspan="2"><div id="bug_slider_bar" class="slider"></div></td></tr>
+	    </table>
+	    <button onclick="_s.button()">Continue</button>
+	    <div class="err">Please adjust the slider before continuing.</div>
+	</div>
+
+	<div class="slide" id="flower_intro">
+		<div class = "animal">
+			<p>Two types of animal, pimwits and daxes. They match in two feature colors. One feature is deterministic, the other provides indirect evidence.</p>
+				<table>
+				<tbody>
+				<tr>
+				THESE ARE THE PIMWITS (pimwits: 25% tar1, 100% tar3)
+				</tr>
+				<tr>
+						<div>
+						<svg id="flower_a_0"></svg>
+						<svg id="flower_a_1"></svg>
+						<svg id="flower_a_2"></svg>
+						<svg id="flower_a_3"></svg>
+						</div>
+				</tr>					
+				<tr>
+					<div>
+						<svg id="flower_a_4"></svg>
+						<svg id="flower_a_5"></svg>
+						<svg id="flower_a_6"></svg>
+						<svg id="flower_a_7"></svg>
+						</div>
+				</tr>
+				<tr>
+				THESE ARE THE DAXES (daxes: 25% tar1, 0% tar3)
+				</tr>
+				<tr>
+						<div>
+						<svg id="flower_b_0"></svg>
+						<svg id="flower_b_1"></svg>
+						<svg id="flower_b_2"></svg>
+						<svg id="flower_b_3"></svg>
+						</div>
+				</tr>					
+				<tr>
+					<div>
+						<svg id="flower_b_4"></svg>
+						<svg id="flower_b_5"></svg>
+						<svg id="flower_b_6"></svg>
+						<svg id="flower_b_7"></svg>
+						</div>
+				</tr>
+				</tbody>
+				</table>			
+			</div>
+			<button onclick="_s.button()">Continue</button>
+	</div>
+
+	<div class="slide" id="flower_slider">
+	   <p class="evidence1">Imagine you see a {{}}:</p>
+	    <div id="flower_evidence2" class="evidence2"></div>
+	    <p>How likely is it that this is a pimwit?</p>
+	    <table id="slider_table" class="slider_table">
+	      <tr><td class="left">Impossible</td><td class="right">Absolutely certain</td></tr>
+	      <tr><td colspan="2"><div id="flower_slider_bar" class="slider"></div></td></tr>
+	    </table>
+	    <button onclick="_s.button()">Continue</button>
+	    <div class="err">Please adjust the slider before continuing.</div>
+	</div>
+
+	<div class="slide" id="fish_intro">
+		<div class = "animal">
+			<p>Two types of animal, pimwits and daxes. They match in two feature colors. One feature is deterministic, the other provides indirect evidence.</p>
+				<table>
+				<tbody>
+				<tr>
+				THESE ARE THE PIMWITS (pimwits: 100% tar1, 100% tar2)
+				</tr>
+				<tr>
+						<div>
+						<svg id="fish_a_0"></svg>
+						<svg id="fish_a_1"></svg>
+						<svg id="fish_a_2"></svg>
+						<svg id="fish_a_3"></svg>
+						</div>
+				</tr>					
+				<tr>
+					<div>
+						<svg id="fish_a_4"></svg>
+						<svg id="fish_a_5"></svg>
+						<svg id="fish_a_6"></svg>
+						<svg id="fish_a_7"></svg>
+						</div>
+				</tr>
+				<tr>
+				THESE ARE THE DAXES (daxes: 25% tar1, 0% tar2)
+				</tr>
+				<tr>
+						<div>
+						<svg id="fish_b_0"></svg>
+						<svg id="fish_b_1"></svg>
+						<svg id="fish_b_2"></svg>
+						<svg id="fish_b_3"></svg>
+						</div>
+				</tr>					
+				<tr>
+					<div>
+						<svg id="fish_b_4"></svg>
+						<svg id="fish_b_5"></svg>
+						<svg id="fish_b_6"></svg>
+						<svg id="fish_b_7"></svg>
+						</div>
+				</tr>
+				</tbody>
+				</table>			
+			</div>
+			<button onclick="_s.button()">Continue</button>
+	</div>
+
+	<div class="slide" id="fish_slider">
+	   <p class="evidence1">Imagine you see a {{}}:</p>
+	    <div id="fish_evidence2" class="evidence2"></div>
+	    <p>How likely is it that this is a pimwit?</p>
+	    <table id="slider_table" class="slider_table">
+	      <tr><td class="left">Impossible</td><td class="right">Absolutely certain</td></tr>
+	      <tr><td colspan="2"><div id="fish_slider_bar" class="slider"></div></td></tr>
 	    </table>
 	    <button onclick="_s.button()">Continue</button>
 	    <div class="err">Please adjust the slider before continuing.</div>
