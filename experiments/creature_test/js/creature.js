@@ -1,4 +1,8 @@
 
+	
+
+
+
 function make_slides(f) {
   var   slides = {};
 
@@ -11,6 +15,9 @@ function make_slides(f) {
 
   slides.instructions = slide({
     name : "instructions",
+    start : function() {
+    	draw_rock("intro_rock");
+    },
     button : function() {
       exp.go(); //use exp.go() if and only if there is no "present" data.
     }
@@ -59,13 +66,14 @@ function make_slides(f) {
 	      this.stim = stim; //I like to store this information in the slide so I can record it later.
 
 	      $(".evidence1").html("Imagine "+stim.evidence);
-	      var paper = new Raphael(document.getElementById("evidence2"),250,250);
+	      var paper = new Raphael(document.getElementById("bird_evidence2"),250,250);
 	      var p = stim.path;
 	      var mark = paper.path(p);
-	      var circle = paper.circle(125,125,90);
-	      var square = paper.rect(0,0,250,250);
-	      circle.attr("fill","#000000");
+	      //var circle = paper.circle(125,125,90);
+	      //var square = paper.rect(0,0,250,250);
+	      //circle.attr("fill","#000000");
 	      mark.attr("fill",stim.color);
+	      //draw_rock("bird_rock");
 	      this.init_sliders();
 	      exp.sliderPost = null; //erase current slider value
 	    },

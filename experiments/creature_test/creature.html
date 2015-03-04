@@ -34,6 +34,8 @@
 
     <!-- experiment file -->
     <script src="js/creature.js"></script>
+    <script src="js/rock.js"></script>
+
     
 </head>
 
@@ -50,7 +52,10 @@
 
   <div class="slide" id="instructions">
     <h3>Instructions</h3>
+
+	<svg id='intro_rock'></svg>
     <p>Here are some instructions.</p>
+
     <button onclick="_s.button()">Continue</button>
   </div>
 
@@ -105,8 +110,14 @@
 
 	<div class="slide" id="bird_slider">
 	    <p class="evidence1">Imagine you see a {{}}:</p>
-	    <div id="evidence2" class="evidence2"></div>
+
+	    <div class="row" id="bird_row">
+	    	<div id="bird_evidence2" class="evidence2"></div>
+	    	<div id="bird_tree"><img src="images/tree.png"  width="150px" height="215px"></img></div>
+	    </div>
+
 	    <p>How likely is it that this is a pimwit?</p>
+
 	    <table id="slider_table" class="slider_table">
 	      <tr><td class="left">Impossible</td><td class="right">Absolutely certain</td></tr>
 	      <tr><td colspan="2"><div id="bird_slider_bar" class="slider"></div></td></tr>
