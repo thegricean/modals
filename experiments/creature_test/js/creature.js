@@ -149,10 +149,7 @@ function make_slides(f) {
 	      $(".evidence1").html("Imagine "+stim.evidence);
 	      var paper = new Raphael(document.getElementById("bug_evidence2"),250,250);
 	      var p = stim.path;
-	      var mark = paper.path(p);
-	      var circle = paper.circle(135,135,95);
-	      var square = paper.rect(0,0,250,250);
-	      circle.attr("fill","#000000");
+	      var mark = paper.path(p);	    
 	      mark.attr("fill",stim.color);
 	      this.init_sliders();
 	      exp.sliderPost = null; //erase current slider value
@@ -231,9 +228,6 @@ function make_slides(f) {
 	      var paper = new Raphael(document.getElementById("flower_evidence2"),250,250);
 	      var p = stim.path;
 	      var mark = paper.path(p);
-	      var circle = paper.circle(125,125,60);
-	      var square = paper.rect(0,0,250,250);
-	      circle.attr("fill","#000000");
 	      mark.attr("fill",stim.color);
 	      this.init_sliders();
 	      exp.sliderPost = null; //erase current slider value
@@ -309,9 +303,6 @@ function make_slides(f) {
 	      var paper = new Raphael(document.getElementById("fish_evidence2"),250,250);
 	      var p = stim.path;
 	      var mark = paper.path(p);
-	      var circle = paper.circle(160,90,90);
-	      var square = paper.rect(0,0,250,250);
-	      circle.attr("fill","#000000");
 	      mark.attr("fill",stim.color);
 	      this.init_sliders();
 	      exp.sliderPost = null; //erase current slider value
