@@ -45,7 +45,7 @@
   <div class="slide" id="i0" >
     <img src="../_shared/images/cocologo.png" alt="Stanford CoCoLab" id="cocologo"></img>
     <p id="cocolab">Stanford CoCoLab</p>
-    <p id="instruct-text">You will see {{}} and be asked some questions about them. The HIT should take ~{{}} minutes. Please pay attention, thanks!</p>
+    <p>In this experiment, you will see some flora and fauna from the alien planet Smultron. The HIT should take about five minutes. Please pay attention, thanks!</p>
     <button id="start_button" type="button">Start Experiment</button>
     <p id="legal">Legal information: By answering the following questions, you are participating in a study being performed by cognitive scientists in the Stanford Department of Psychology. If you have questions about this research, please contact Erin Bennett at <a href="mailto://erindb@stanford.edu">erindb@stanford.edu</a> or Noah Goodman, at ngoodman@stanford.edu. You must be  at least 18 years old to participate. Your participation in this research is voluntary. You may decline to answer any or all of the following questions. You may decline further participation, at any time, without adverse consequences. Your anonymity is assured; the researchers who have requested your participation will not receive any personal information about you.</p>
   </div>
@@ -53,19 +53,20 @@
   <div class="slide" id="instructions">
     <h3>Instructions</h3>
 
-	<svg id='intro_rock'></svg>
-    <p>Here are some instructions.</p>
+    
+
+    <p>You will see 4 scenarios displayed on the screen. Please consider each scenario carefully, and then make judgments about it.</p>
 
     <button onclick="_s.button()">Continue</button>
   </div>
 
 	<div class="slide" id="bird_intro">
 		<div class = "animal">
-			<p>Two types of animal, pimwits and daxes. They match in two feature colors. One feature is deterministic, the other provides indirect evidence.</p>
+			<p>On Smultron, there are only two types of birds: <span class="birds_a">{{}}</span> and <span class="birds_b">{{}}</span>. There are no other birds. After years of study, scientists have catalogued the <span class="birds_a">{{}}</span> and <span class="birds_b"></span>. Have a look! Pay close attention to their <b>crests</b> and <b>tails</b>.</p>
 				<table>
 				<tbody>
 				<tr>
-				THESE ARE THE PIMWITS (pimwits: 75% tar1, 100% tar2)
+				These are the <span class="birds_a">{{}}</span>: <!-- (pimwits: 75% tar1, 100% tar2) -->
 				</tr>
 				<tr>
 						<div>
@@ -84,7 +85,7 @@
 						</div>
 				</tr>
 				<tr>
-				THESE ARE THE DAXES (daxes: 25% tar1, 0% tar2)
+				These are the <span class="birds_b">{{}}</span>:  <!-- (daxes: 25% tar1, 0% tar2) -->
 				</tr>
 				<tr>
 						<div>
@@ -116,7 +117,7 @@
 	    	<div id="bird_tree"><img src="images/tree.png"  width="150px" height="215px"></img></div>
 	    </div>
 
-	    <p>How likely is it that this is a pimwit?</p>
+	    <p>How likely is it that this is a <span class="bird_a">{{}}</span>?</p>
 
 	    <table id="slider_table" class="slider_table">
 	      <tr><td class="left">Impossible</td><td class="right">Absolutely certain</td></tr>
@@ -128,11 +129,12 @@
 
 	<div class="slide" id="bug_intro">
 		<div class = "animal">
-			<p>Two types of animal, pimwits and daxes. They match in two feature colors. One feature is deterministic, the other provides indirect evidence.</p>
+			<p>On Smultron, there are only two types of bugs: <span class="bugs_a">{{}}</span> and <span class="bugs_b">{{}}</span>. There are no other bugs. After years of study, scientists have catalogued the <span class="bugs_a">{{}}</span> and <span class="bugs_b">{{}}</span>. Have a look! Pay close attention to their <b>antennae</b> and <b>stingers</b>.</p>
+			
 				<table>
 				<tbody>
 				<tr>
-				THESE ARE THE PIMWITS (pimwits: 50% tar1, 100% tar3)
+				These are the <span class="bugs_a">{{}}</span>: <!-- (pimwits: 50% tar1, 100% tar3) -->
 				</tr>
 				<tr>
 						<div>
@@ -151,7 +153,7 @@
 						</div>
 				</tr>
 				<tr>
-				THESE ARE THE DAXES (daxes: 25% tar1, 0% tar3)
+				These are the <span class="bugs_b">{{}}</span>: <!-- (daxes: 25% tar1, 0% tar3) -->
 				</tr>
 				<tr>
 						<div>
@@ -176,7 +178,7 @@
 		</div>
 
 	<div class="slide" id="bug_slider">
-	   <p class="evidence1">Imagine you see a {{}}:</p>	    
+	   <p class="evidence1">Imagine all you can you see of a bug is its {{}}:</p>	    
 	    <div class="row" id="bug_row">
 	    	<div id="bug_evidence2" class="evidence2"></div>
 	    	<div id="bug_leaf"><img src="images/leaf.png"  width="275px" height="250px"></img></div>
@@ -191,7 +193,7 @@
 				}
 			</style>
 	    </div>
-	    <p>How likely is it that this is a pimwit?</p>
+	    <p>How likely is it that this is a <span class="bug_a">{{}}</span>?</p>
 	    <table id="slider_table" class="slider_table">
 	      <tr><td class="left">Impossible</td><td class="right">Absolutely certain</td></tr>
 	      <tr><td colspan="2"><div id="bug_slider_bar" class="slider"></div></td></tr>
@@ -202,11 +204,11 @@
 
 	<div class="slide" id="flower_intro">
 		<div class = "animal">
-			<p>Two types of animal, pimwits and daxes. They match in two feature colors. One feature is deterministic, the other provides indirect evidence.</p>
+			<p>On Smultron, there are only two types of flowers: <span class="flowers_a">{{}}</span> and <span class="flowers_b">{{}}</span>. There are no other flowers. After years of study, scientists have catalogued the <span class="flowers_a">{{}}</span> and <span class="flowers_b">{{}}</span>. Have a look! Pay close attention to their <b>tendrils</b> and <b>thorns</b>.</p>
 				<table>
 				<tbody>
 				<tr>
-				THESE ARE THE PIMWITS (pimwits: 25% tar1, 100% tar3)
+				These are the <span class="flowers_a">{{}}</span>: <!-- (pimwits: 25% tar1, 100% tar3) -->
 				</tr>
 				<tr>
 						<div>
@@ -225,7 +227,7 @@
 						</div>
 				</tr>
 				<tr>
-				THESE ARE THE DAXES (daxes: 25% tar1, 0% tar3)
+				These are the <span class="flowers_b">{{}}</span>: <!-- (daxes: 25% tar1, 0% tar3) -->
 				</tr>
 				<tr>
 						<div>
@@ -266,7 +268,7 @@
 				}
 			</style>
 	    </div>
-	    <p>How likely is it that this is a pimwit?</p>
+	    <p>How likely is it that this is a <span class="flower_a">{{}}</span>?</p>
 	    <table id="slider_table" class="slider_table">
 	      <tr><td class="left">Impossible</td><td class="right">Absolutely certain</td></tr>
 	      <tr><td colspan="2"><div id="flower_slider_bar" class="slider"></div></td></tr>
@@ -277,11 +279,11 @@
 
 	<div class="slide" id="fish_intro">
 		<div class = "animal">
-			<p>Two types of animal, pimwits and daxes. They match in two feature colors. One feature is deterministic, the other provides indirect evidence.</p>
+			<p>On Smultron, there are only two types of fish: <span class="fishs_a">{{}}</span> and <span class="fishs_b">{{}}</span>. There are no other fish. After years of study, scientists have catalogued the <span class="fishs_a">{{}}</span> and <span class="fishs_b"></span>. Have a look! Pay close attention to their <b>whiskers</b> and <b>fangs</b>.</p>
 				<table>
 				<tbody>
 				<tr>
-				THESE ARE THE PIMWITS (pimwits: 100% tar1, 100% tar2)
+				These are the <span class="fishs_a">{{}}</span>: <!-- (pimwits: 100% tar1, 100% tar2) -->
 				</tr>
 				<tr>
 						<div>
@@ -300,7 +302,7 @@
 						</div>
 				</tr>
 				<tr>
-				THESE ARE THE DAXES (daxes: 25% tar1, 0% tar2)
+				These are the <span class="fishs_b">{{}}</span>: <!-- (daxes: 25% tar1, 0% tar2) -->
 				</tr>
 				<tr>
 						<div>
@@ -333,7 +335,7 @@
 	    		#fish_clam{
 					position: relative;
 					left : -240px;
-					top : -35px;
+					top : -50px;
 				}
 				#fish_row{
 					position: relative;
@@ -341,7 +343,7 @@
 				}
 			</style>
 	    </div>
-	    <p>How likely is it that this is a pimwit?</p>
+	    <p>How likely is it that this is a <span class="fish_a">{{}}</span>?</p>
 	    <table id="slider_table" class="slider_table">
 	      <tr><td class="left">Impossible</td><td class="right">Absolutely certain</td></tr>
 	      <tr><td colspan="2"><div id="fish_slider_bar" class="slider"></div></td></tr>
