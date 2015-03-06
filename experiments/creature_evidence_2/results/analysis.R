@@ -41,9 +41,35 @@ setwd("~/Documents/git/cocolab/modals/experiments/creature_evidence_2/Submiterat
 d = read.table("creature-evidence-2-trials.tsv",sep="\t",header=T)
 head(d)
 
-a = d[is.na(d$evidence_type),]
+d$q1_correct = NA
+d[!is.na(d$question1_response),]$q1_correct = 0
+d[!is.na(d$question1_response)&(100*(d$question1_response/8))==d$question1_answer,]$q1_correct = 1
+d$q2_correct = NA
+d[!is.na(d$question2_response),]$q2_correct = 0
+d[!is.na(d$question2_response)&(100*(d$question2_response/8))==d$question2_answer,]$q2_correct = 1
+d$q3_correct = NA
+d[!is.na(d$question3_response),]$q3_correct = 0
+d[!is.na(d$question3_response)&(100*(d$question3_response/8))==d$question3_answer,]$q3_correct = 1
+d$q4_correct = NA
+d[!is.na(d$question4_response),]$q4_correct = 0
+d[!is.na(d$question4_response)&(100*(d$question4_response/8))==d$question4_answer,]$q4_correct = 1
+d$score = NA
+d$score = (d$q1_correct+d$q2_correct+d$q3_correct+d$q4_correct)
+
+w = aggregate(score~workerid,data=d,sum)
+d$worker_score = NA
+d$worker_score = w$score[match(d$workerid,w$workerid)]
+
+
+d = d[!is.na(d$evidence_type),]
+
+d = subset(d, select = c(workerid,item,evidence_type,freq,response,worker_score))
 
 table(d[d$evidence_type=="indirect",]$freq,d[d$evidence_type=="indirect",]$item)
+
+aggregate(response~freq*evidence_type,d,mean)
+
+d = d[d$worker_score > 12,]
 
 aggregate(response~freq*evidence_type,d,mean)
 
@@ -52,22 +78,21 @@ d$evidence_type <- factor(d$evidence_type)
 d$freq <- factor(d$freq)
 
 
-d.summary <- summarySE(d, measure="response", groupvars=c("item","evidence_type", "freq"))
-p1 <- ggplot(d.summary, aes(x=evidence_type, y=response, fill=freq)) +
-  geom_bar(stat="identity",position=position_dodge()) +
-  geom_errorbar(aes(ymin=response-ci, ymax=response+ci),position=position_dodge()) +
+
+
+
+d.s <- bootsSummary(data=d, measurevar="response", groupvars=c("item","evidence_type","freq"))
+
+p1 <- ggplot(d.s, aes(x=evidence_type, y=response, fill=freq)) +
+geom_bar(stat="identity",position=position_dodge()) +
+  geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=evidence_type, width=0.1),position=position_dodge(width=0.9))+
   facet_grid(.~item)
 p1
 ggsave(filename="evidence-by-item.png",plot=p1,width=8,height=3)
 
-d2.summary <- summarySE(d, measure="response", groupvars=c("evidence_type", "freq"))
-p2 <- ggplot(d2.summary, aes(x=evidence_type, y=response, fill=freq)) +
+d2.s <- bootsSummary(data=d, measurevar="response", groupvars=c("evidence_type","freq"))
+p2 <- ggplot(d2.s, aes(x=evidence_type, y=response, fill=freq)) +
   geom_bar(stat="identity",position=position_dodge())+
-  geom_errorbar(aes(ymin=response-ci, ymax=response+ci),position=position_dodge()) +
-  ylim(0,1)
+  geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=evidence_type, width=0.1),position=position_dodge(width=0.9))
 p2
 ggsave(filename="evidence-by-type.png",plot=p2,width=8,height=3)
-
-aggregate(response~item,mean,data=d[d$evidence_type=="direct",])
-aggregate(response~item,mean,data=d[d$evidence_type=="report",])
-aggregate(response~freq*item,mean,data=d[d$evidence_type=="indirect",])
