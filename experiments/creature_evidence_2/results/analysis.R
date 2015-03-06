@@ -69,19 +69,19 @@ table(d[d$evidence_type=="indirect",]$freq,d[d$evidence_type=="indirect",]$item)
 
 aggregate(response~freq*evidence_type,d,mean)
 
-d = d[d$worker_score > 12,]
+d_trim = d[d$worker_score > 13,]
 
-aggregate(response~freq*evidence_type,d,mean)
+aggregate(response~freq*evidence_type,d_trim,mean)
 
-d$item <- factor(d$item)
-d$evidence_type <- factor(d$evidence_type)
-d$freq <- factor(d$freq)
-
-
+d_trim$item <- factor(d_trim$item)
+d_trim$evidence_type <- factor(d_trim$evidence_type)
+d_trim$freq <- factor(d_trim$freq)
 
 
 
-d.s <- bootsSummary(data=d, measurevar="response", groupvars=c("item","evidence_type","freq"))
+# plots by item
+
+d.s <- bootsSummary(data=d_trim, measurevar="response", groupvars=c("item","evidence_type","freq"))
 
 p1 <- ggplot(d.s, aes(x=evidence_type, y=response, fill=freq)) +
 geom_bar(stat="identity",position=position_dodge()) +
@@ -90,7 +90,9 @@ geom_bar(stat="identity",position=position_dodge()) +
 p1
 ggsave(filename="evidence-by-item.png",plot=p1,width=8,height=3)
 
-d2.s <- bootsSummary(data=d, measurevar="response", groupvars=c("evidence_type","freq"))
+# collapsing over items
+
+d2.s <- bootsSummary(data=d_trim, measurevar="response", groupvars=c("evidence_type","freq"))
 p2 <- ggplot(d2.s, aes(x=evidence_type, y=response, fill=freq)) +
   geom_bar(stat="identity",position=position_dodge())+
   geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=evidence_type, width=0.1),position=position_dodge(width=0.9))
