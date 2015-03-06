@@ -77,7 +77,7 @@ d_trim$item <- factor(d_trim$item)
 d_trim$evidence_type <- factor(d_trim$evidence_type)
 d_trim$freq <- factor(d_trim$freq)
 
-
+d_trim = na.omit(d_trim)
 
 # plots by item
 
@@ -86,7 +86,8 @@ d.s <- bootsSummary(data=d_trim, measurevar="response", groupvars=c("item","evid
 p1 <- ggplot(d.s, aes(x=evidence_type, y=response, fill=freq)) +
 geom_bar(stat="identity",position=position_dodge()) +
   geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=evidence_type, width=0.1),position=position_dodge(width=0.9))+
-  facet_grid(.~item)
+  facet_grid(.~item)+
+  ylab("strength")
 p1
 ggsave(filename="evidence-by-item.png",plot=p1,width=8,height=3)
 
@@ -95,6 +96,7 @@ ggsave(filename="evidence-by-item.png",plot=p1,width=8,height=3)
 d2.s <- bootsSummary(data=d_trim, measurevar="response", groupvars=c("evidence_type","freq"))
 p2 <- ggplot(d2.s, aes(x=evidence_type, y=response, fill=freq)) +
   geom_bar(stat="identity",position=position_dodge())+
-  geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=evidence_type, width=0.1),position=position_dodge(width=0.9))
+  geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=evidence_type, width=0.1),position=position_dodge(width=0.9))+
+  ylab("strength")
 p2
 ggsave(filename="evidence-by-type.png",plot=p2,width=8,height=3)
