@@ -24,7 +24,7 @@ ggplot(beliefs.speaker, aes(x=utterance, y=probability)) +
 
 evidence <- read.csv("rain-evidence.csv")
 evidence$evidenceType <- factor(evidence$evidenceType, levels=c("direct", "strong-inferential", "weak-inferential", "report"))
-ggplot(evidence, aes(x=utterance, y=probability, fill=evidenceType)) +
+ggplot(evidence, aes(x=utterance, y=prob_normed, fill=evidenceType)) +
   geom_bar(stat="identity", color="black", position=position_dodge()) +
   theme_bw() +
   scale_fill_manual(values=c("#023858", "#1d91c0", "#7fcdbb", "#ffffcc"), name="Evidence type") +

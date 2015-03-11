@@ -19,8 +19,28 @@ ggsave("plot.pdf", p, height=30, width=8)
   
 write.csv(d.summary, "../data/summary2.csv")
 
-ggplot(subset(d, domain=="rain"), aes(x=prob)) +
+######################################################
+# split evidence into 3 groups based on mean strength
+#####################################################
+
+d.summary$bin <- as.numeric(cut(d.summary$prob, 3))
+colnames(d.summary)[4] <- "meanProb"
+d <- join(d, d.summary, by=c("evidence", "domain"))
+
+# plot distributions
+
+ggplot(d, aes(x=prob)) +
   geom_histogram(binwidth=0.2) +
-  facet_grid(evidence~.) +
+  facet_grid(bin~.) +
   theme_bw()
 
+# compute histogram for weak, moderate, and strong evidence
+
+weak.dist <- hist(subset(d, bin==1)$prob, breaks=seq(0, 1, by=0.2))
+weak.dist$prob <- weak.dist$counts / sum(weak.dist$counts)
+
+mod.dist <- hist(subset(d, bin==2)$prob, breaks=seq(0, 1, by=0.2))
+mod.dist$prob <- mod.dist$counts / sum(mod.dist$counts)
+
+strong.dist <- hist(subset(d, bin==3)$prob, breaks=seq(0, 1, by=0.2))
+strong.dist$prob <- strong.dist$counts / sum(strong.dist$counts)
