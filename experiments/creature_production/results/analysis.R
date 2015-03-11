@@ -60,10 +60,14 @@ w = aggregate(score~workerid,data=d,sum)
 d$worker_score = NA
 d$worker_score = w$score[match(d$workerid,w$workerid)]
 
-
 d = d[!is.na(d$evidence_type),]
 
-d = subset(d, select = c(workerid,item,evidence_type,freq,response,worker_score))
+s = read.csv("strength_scores.csv",header=T)
+s$ID = paste(s$item,s$evidence_type,s$freq)
+d$ID = paste(d$item,d$evidence_type,d$freq)
+d$strength_score = s$response[match(s$ID,d$ID)]
+
+d = subset(d, select = c(workerid,item,evidence_type,freq,response,worker_score,strength_score))
 
 table(d$response,d$evidence_type)
 
@@ -76,6 +80,27 @@ d_trim$evidence_type <- factor(d_trim$evidence_type)
 d_trim$freq <- factor(d_trim$freq)
 
 d_trim = na.omit(d_trim)
+
+head(d_trim)
+
+aggregate(strength_score~response,d_trim,mean)
+
+# modal choice by evidence directness and categorical evidence type
+
+t = as.data.frame(prop.table(table(d_trim$evidence_type,d_trim$strength_score,d_trim$response),mar=1))
+head(t)
+colnames(t) = c("EvidenceType","Directness","Modal","Proportion")
+t$ModalChoice = factor(x=as.character(t$Modal),levels=c("bare","must","probably","might"))
+t$Directness = as.numeric(as.character(t$Directness))
+
+ggplot(t, aes(x=Directness,y=Proportion,color=ModalChoice)) +
+  geom_point() +
+  #geom_line() +
+  geom_smooth() +
+  facet_wrap(~EvidenceType,scales="free_y")
+ggsave("modal_choices_by_strength.pdf")
+
+
 
 # histogram of modal choice by item and evidence type
 

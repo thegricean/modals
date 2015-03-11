@@ -31,8 +31,13 @@ d[d$response=="e1",]$evidence_type = paste(d[d$response=="e1",]$choice1)
 d[d$response=="e2",]$evidence_type = paste(d[d$response=="e2",]$choice2)
 d[d$response=="e3",]$evidence_type = paste(d[d$response=="e3",]$choice3)
 
+s = read.csv("strength_scores.csv",header=T)
+s$ID = paste(s$item,s$evidence_type,s$freq)
+d$ID = paste(d$item,d$evidence_type,d$freq)
+d$strength_score = s$response[match(s$ID,d$ID)]
 
-d = subset(d, select = c(workerid,item,modal,freq,choice1,choice2,choice3,rating,evidence_type,worker_score))
+
+d = subset(d, select = c(workerid,item,modal,freq,choice1,choice2,choice3,rating,evidence_type,worker_score,strength_score))
 
 table(d$evidence_type,d$modal)
 
@@ -42,8 +47,40 @@ table(d_trim$evidence_type,d_trim$modal)
 
 d_trim = na.omit(d_trim)
 
-aggregate(rating~modal,data=d,mean)
-aggregate(rating~evidence_type,data=d,mean)
+d_trim$item <- factor(d_trim$item)
+d_trim$evidence_type <- factor(d_trim$evidence_type)
+d_trim$freq <- factor(d_trim$freq)
+
+aggregate(rating~modal,data=d_trim,mean)
+aggregate(rating~modal*evidence_type,data=d_trim,mean)
+
+aggregate(rating~evidence_type,data=d_trim,mean)
+
+
+# plot of rating by modal with evidence_type choice
+
+
+d.s <- bootsSummary(data=d_trim, measurevar="response", groupvars=c("item","evidence_type","freq","modal"))
+
+
+
+d.s <- aggregate(rating~item*modal*freq*evidence_type,data=d_trim,mean)
+
+p1 <- ggplot(d.s, aes(x=evidence_type, y=rating, fill=freq)) +
+  geom_bar(stat="identity",position=position_dodge()) +
+  #geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=evidence_type, width=0.1),position=position_dodge(width=0.9))+
+  facet_grid(modal~item)
+p1
+ggsave("rating-by-item.pdf")
+
+p2 <- ggplot(d_trim, aes(x=modal, fill=freq)) +
+  geom_histogram() +
+  #geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=evidence_type, width=0.1),position=position_dodge(width=0.9))+
+  facet_grid(freq~item)
+p2
+ggsave("rating-by-item.pdf")
+
+
 
 # histogram of modal choice by item and evidence type
 
@@ -63,7 +100,7 @@ ggplot(t, aes(x=EvidenceType, y=Proportion, color=ModalChoice, group=ModalChoice
 
 # histogram of modal choice by item and evidence strength
 
-i = d[d$evidence_type=="indirect",]
+i = d_trim[d_trim$evidence_type=="indirect",]
 
 t = as.data.frame(prop.table(table(i$freq,i$modal),mar=1))
 head(t)

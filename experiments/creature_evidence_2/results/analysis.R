@@ -67,11 +67,13 @@ d = subset(d, select = c(workerid,item,evidence_type,freq,response,worker_score)
 
 table(d[d$evidence_type=="indirect",]$freq,d[d$evidence_type=="indirect",]$item)
 
-aggregate(response~freq*evidence_type,d,mean)
+aggregate(response~freq*evidence_type*item,d,mean)
 
 d_trim = d[d$worker_score > 13,]
 
-aggregate(response~freq*evidence_type,d_trim,mean)
+aggregate(response~freq*evidence_type*item,d_trim,mean) -> strength_scores
+
+#write.csv(file="strength_scores.csv",strength_scores)
 
 d_trim$item <- factor(d_trim$item)
 d_trim$evidence_type <- factor(d_trim$evidence_type)
