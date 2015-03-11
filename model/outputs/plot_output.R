@@ -22,11 +22,21 @@ ggplot(beliefs.speaker, aes(x=utterance, y=probability)) +
   ylab("Probability") +
   xlab("Utterance")
 
-evidence <- read.csv("rain-evidence.csv")
-evidence$evidenceType <- factor(evidence$evidenceType, levels=c("direct", "strong-inferential", "weak-inferential", "report"))
-ggplot(evidence, aes(x=utterance, y=prob_normed, fill=evidenceType)) +
-  geom_bar(stat="identity", color="black", position=position_dodge()) +
+ggplot(beliefs, aes(x=type, y=probability)) +
+  geom_bar(stat="identity", color="black", fill="gray") +
+  #geom_point() +
   theme_bw() +
+  ylim(c(0, 0.8)) +
+  ylab("Probability") +
+  xlab("Belief type") +
+  facet_grid(.~utterance)
+
+evidence <- read.csv("rain-evidence.csv")
+evidence$evidence <- factor(evidence$evidence, levels=c("pos-strong", "pos-mod", "pos-weak"), labels=c("strong", "mod", "weak"))
+ggplot(evidence, aes(x=evidence, y=probability)) +
+  geom_bar(stat="identity", color="black", fill="gray") +
+  theme_bw() +
+  facet_grid(.~utterance) +
   scale_fill_manual(values=c("#023858", "#1d91c0", "#7fcdbb", "#ffffcc"), name="Evidence type") +
-  xlab("Utterance") +
+  xlab("Evidence type") +
   ylab("Probability")
