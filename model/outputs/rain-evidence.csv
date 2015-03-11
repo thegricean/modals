@@ -1,0 +1,9 @@
+utterance,evidenceType,probability,prob_normed
+bare,report,0.154320988,0.220372986
+bare,weak-inferential,0.125,0.178502119
+bare,strong-inferential,0.189534884,0.270659026
+bare,direct,0.231415929,0.330465869
+must,report,0.153577771,0.263406512
+must,weak-inferential,0.162408493,0.278552386
+must,strong-inferential,0.150916947,0.258842841
+must,direct,0.11614149,0.199198261
