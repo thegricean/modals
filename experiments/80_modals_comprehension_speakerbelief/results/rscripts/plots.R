@@ -24,6 +24,13 @@ ggplot(agr, aes(x=Modal,y=Response)) +
   geom_errorbar(aes(ymin=YMin,ymax=YMax),width=.25)
 ggsave("graphs/means.pdf")
 
+ggplot(agr, aes(x=Modal,y=Response)) +
+  geom_bar(stat="identity",fill="gray80",color="black") +
+  geom_errorbar(aes(ymin=YMin,ymax=YMax),width=.25) +
+  xlab("Utterance") +
+  ylab("Probability")
+ggsave("graphs/means_bars.pdf",width=5.5)
+
 agr = aggregate(Response ~ item_type + item,data=r,FUN=mean)
 agr$CILow = aggregate(Response ~ item_type+ item,data=r, FUN=ci.low)$Response
 agr$CIHigh = aggregate(Response ~ item_type+ item,data=r,FUN=ci.high)$Response

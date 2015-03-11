@@ -15,9 +15,17 @@ agr$YMax = agr$response + agr$CIHigh
 
 agr$Modal = factor(x=as.character(agr$item_type),levels=c("bare","must","probably","might"))
 ggplot(agr, aes(x=Modal,y=response)) +
+  geom_bar(stat="identity",fill="gray80",color="black") +
+  geom_errorbar(aes(ymin=YMin,ymax=YMax),width=.25) +
+  xlab("Utterance") +
+  ylab("Probability")
+ggsave("graphs/means_bars.pdf",width=5.5)
+
+ggplot(agr, aes(x=Modal,y=response)) +
   geom_point() +
   geom_errorbar(aes(ymin=YMin,ymax=YMax),width=.25)
 ggsave("graphs/means.pdf")
+
 
 agr = aggregate(response ~ item_type + item,data=r,FUN=mean)
 agr$CILow = aggregate(response ~ item_type+ item,data=r, FUN=ci.low)$response
