@@ -4,6 +4,81 @@ setwd("~/cogsci/projects/stanford/projects/modals/modals/experiments/72_modals_c
 source("rscripts/helpers.r")
 load("data/r.RData")
 summary(r)
+r.lbelief = r
+baremust.l = r.lbelief[r.lbelief$item_type %in% c("bare","must","might"),c("Directness","item_type","item")]
+baremust.l$Experiment = "listener"
+nrow(baremust.l)
+head(baremust.l)
+
+load("~/cogsci/projects/stanford/projects/modals/modals/experiments/80_modals_comprehension_speakerbelief/results/data/r.RData")
+r.spbelief = r
+baremust.s = r.spbelief[r.spbelief$item_type %in% c("bare","must","might"),c("Directness","item_type","item")]
+baremust.s$Experiment = "speaker"
+nrow(baremust.s)
+head(baremust.s)
+
+baremust = droplevels(rbind(baremust.s,baremust.l))
+baremust$Experiment = as.factor(as.character(baremust$Experiment))
+
+un = unique(baremust[,c("Directness","item")])
+nrow(un)
+un$StrengthBinNumObs = cut2(un$Directness,g=3)
+un$StrengthBinSize = cut(un$Directness,breaks=3)
+row.names(un) = paste(un$Directness, un$item)
+summary(un)
+baremust$StrengthBinNumObs = un[paste(baremust$Directness, baremust$item),]$StrengthBinNumObs
+baremust$StrengthBinSize = un[paste(baremust$Directness, baremust$item),]$StrengthBinSize
+
+summary(baremust)
+
+tfreq = as.data.frame(table(baremust$StrengthBinNumObs,baremust$item_type))
+t = as.data.frame(prop.table(table(baremust$StrengthBinNumObs,baremust$item_type),mar=2))
+head(t)
+head(tfreq)
+colnames(t) = c("StrengthBin","Modal","Proportion")
+colnames(tfreq) = c("StrengthBin","Modal","Freq")
+t$Freq = tfreq$Freq
+dodge = position_dodge(.9) 
+
+t$Utterance = factor(x=t$Modal,levels=c("bare","must","might"))
+t$Strength = factor(x=t$StrengthBin,levels=rev(levels(t$StrengthBin)))
+
+ggplot(t, aes(x=Utterance,y=Proportion,fill=Strength)) +
+  geom_bar(stat="identity",position=dodge,color="black") +
+  geom_text(aes(label=Freq,y=0.02),position=dodge)
+ggsave("graphs/strength_dist_cuny_strengthbinnumobs.pdf",width=6)
+
+
+tfreq = as.data.frame(table(baremust$StrengthBinSize,baremust$item_type))
+t = as.data.frame(prop.table(table(baremust$StrengthBinSize,baremust$item_type),mar=2))
+head(t)
+head(tfreq)
+colnames(t) = c("StrengthBin","Modal","Proportion")
+colnames(tfreq) = c("StrengthBin","Modal","Freq")
+t$Freq = tfreq$Freq
+dodge = position_dodge(.9) 
+
+t$Utterance = factor(x=t$Modal,levels=c("bare","must","might"))
+t$Strength = factor(x=t$StrengthBin,levels=rev(levels(t$StrengthBin)))
+t$EvidenceBin = rep(c("weak","medium","strong"),3)
+# for justine:
+write.table(t[,c("Utterance","EvidenceBin","Proportion")],file="data/evidence_given_utterance.txt",quote=F,row.names=F,col.names=F,sep=",")
+ggplot(t, aes(x=Utterance,y=Proportion,fill=Strength)) +
+  geom_bar(stat="identity",position=dodge,color="black") +
+  geom_text(aes(label=Freq,y=0.02),position=dodge)
+ggsave("graphs/strength_dist_cuny_strengthbinsize.pdf",width=6)
+
+agr = aggregate(Directness ~ item_type, FUN=mean, data=baremust)
+agr$CILow = aggregate(Directness ~ item_type, FUN=ci.low, data=baremust)$Directness
+agr$CIHigh = aggregate(Directness ~ item_type, FUN=ci.high, data=baremust)$Directness
+agr$YMin = agr$Directness - agr$CILow
+agr$YMax = agr$Directness + agr$CIHigh
+
+ggplot(agr, aes(x=item_type, y=Directness)) +
+  geom_bar(stat="identity",fill="gray80",color="black") +
+  geom_errorbar(aes(ymin=YMin,ymax=YMax),width=.25)
+ggsave("graphs/mean_strength_cuny.pdf",width=5)
+
 
 agr = aggregate(response ~ item_type,data=r,FUN=mean)
 agr$SD = aggregate(response ~ item_type,data=r,FUN=sd)$response
@@ -99,3 +174,37 @@ ggplot(agr, aes(x=EvidenceDirectness,y=Proportion)) +
   geom_errorbar(aes(ymin=YMin,ymax=YMax),position=dodge,width=.25) +
   facet_wrap(~Modal)
 ggsave("graphs/directness_categorical_means.pdf")
+
+r$BinaryStrength = as.factor(ifelse(r$Directness < .75, "weak","strong"))
+r$MixedEvidence = as.factor(paste(r$BinaryStrength,r$EvidenceTypeCategorical))
+summary(r[r$EvidenceTypeCategorical == "inferential",])
+r$FinalEvidence = as.character(r$MixedEvidence)
+r[r$EvidenceDirectnessCategorical == "direct",]$FinalEvidence = "direct"
+r[r$EvidenceTypeCategorical == "reportative",]$FinalEvidence = "report"
+r$FinalEvidence = as.factor(as.character(r$FinalEvidence))
+# do sth more reasonable than exclude these two categories
+r = droplevels(subset(r, ! FinalEvidence %in% c("weak perceptual","weak wishful")))
+
+t = as.data.frame(prop.table(table(r$item_type,r$FinalEvidence),mar=c(1)))
+head(t)
+t = droplevels(subset(t, Var1 %in% c("bare","must")))
+t$EType = factor(x=t$Var2, levels=c("direct","strong inferential","weak inferential","report"))
+ggplot(t, aes(x=Var1,y=Freq,fill=EType)) +
+  geom_bar(stat="identity",position="dodge",color="black") +
+  scale_fill_manual(values=c("#023858", "#1d91c0", "#7fcdbb", "#ffffcc"), name="Evidence type") +
+  xlab("Utterance") +
+  ylab("Proportion") +
+  theme(legend.position=c(.5,.8))
+ggsave("graphs/cuny_evidencedist.pdf",width=7)
+
+un = unique(r[,c("Directness","FinalEvidence","item")])
+un$Evidence = as.character(un$FinalEvidence)
+un[un$Evidence %in% c("weak inferential","strong inferential"),]$Evidence = "inferential"
+nrow(un)
+un
+ggplot(un, aes(x=Directness,fill=Evidence)) +
+  geom_density(alpha=.5)
+
+ggplot(un, aes(x=Directness)) +
+  geom_histogram()
+ggsave("graphs/evidencedirectness.pdf",width=6)

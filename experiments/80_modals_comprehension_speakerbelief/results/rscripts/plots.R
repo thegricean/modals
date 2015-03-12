@@ -71,6 +71,15 @@ ggplot(agr, aes(x=Modal,y=Response,color=Belief)) +
   geom_errorbar(aes(ymin=YMin,ymax=YMax),width=.25)
 ggsave("graphs/means_bybelief.pdf")
 
+dodge = position_dodge(.9)
+agr = droplevels(agr[agr$Modal != "probably",])
+ggplot(agr, aes(x=Modal,y=Response,fill=Belief)) +
+  geom_bar(stat="identity",position=dodge,color="black") +
+  geom_errorbar(aes(ymin=YMin,ymax=YMax),width=.25,position=dodge) +
+  xlab("Utterance") +
+  ylab("Probability of (degree of belief in) q")
+ggsave("graphs/means_bybelief_cuny.pdf")
+
 agr = aggregate(Response ~ item_type + item + Belief,data=r,FUN=mean)
 agr$CILow = aggregate(Response ~ item_type+ item + Belief,data=r, FUN=ci.low)$Response
 agr$CIHigh = aggregate(Response ~ item_type+ item + Belief,data=r,FUN=ci.high)$Response
