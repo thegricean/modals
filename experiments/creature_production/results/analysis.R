@@ -87,17 +87,18 @@ aggregate(strength_score~response,d_trim,mean)
 
 # modal choice by evidence directness and categorical evidence type
 
-t = as.data.frame(prop.table(table(d_trim$evidence_type,d_trim$strength_score,d_trim$response),mar=1))
+t = as.data.frame(prop.table(table(d_trim$strength_score,d_trim$response),mar=1))
 head(t)
-colnames(t) = c("EvidenceType","Directness","Modal","Proportion")
+colnames(t) = c("Directness","Modal","Proportion")
 t$ModalChoice = factor(x=as.character(t$Modal),levels=c("bare","must","probably","might"))
 t$Directness = as.numeric(as.character(t$Directness))
 
 ggplot(t, aes(x=Directness,y=Proportion,color=ModalChoice)) +
   geom_point() +
   #geom_line() +
-  geom_smooth() +
-  facet_wrap(~EvidenceType,scales="free_y")
+  geom_smooth() 
+#+
+ # facet_wrap(~EvidenceType,scales="free_y")
 ggsave("modal_choices_by_strength.pdf")
 
 
