@@ -1,0 +1,10 @@
+utterance,evidence,probability
+bare,strong,0.145425256714
+bare,medium,0.118195011821
+bare,weak,0.736379731465
+must,strong,0.0835675793521
+must,medium,0.103824041232
+must,weak,0.812608379416
+might,strong,0.0375024801855
+might,medium,0.0846517487799
+might,weak,0.877845771035

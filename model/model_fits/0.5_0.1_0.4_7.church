@@ -1,0 +1,147 @@
+(define p-strong 0.5)
+(define p-mod 0.1)
+(define p-weak 0.4)
+(define cost 7)
+(define alpha 5)
+
+;; Helper functions
+(define (power lst alpha) (map (lambda (x) (expt x alpha)) lst))
+
+(define (seq start distance end)
+  (if (> (+ start distance) end) (list start)
+      (append (list start) (seq (+ start distance) distance end))))
+
+; Whether or not it is raining in the world
+(define (rain-prior) (flip 0.5))
+
+; Evidences: set of candidate evidences for the rain
+(define evidences (list 'strong 'medium 'weak
+                        'neg-strong 'neg-med 'neg-weak
+                        ))
+
+; The probabilities of raining that we consider in the speaker's
+; belief distribution (0 means speaker believes there's a 0% of rain)
+(define probrains '(0.2 0.4 0.6 0.8 1))
+
+; Given the evidence that the speaker has, the speaker's beliefs
+; about different chances of rain
+(define (evidence-strength evidence)
+  (case evidence
+        
+        (('strong) (multinomial probrains '(0.001 0.001 0.03225806 0.09677419 0.87096774)))
+        (('medium) (multinomial probrains '(0.01492537 0.04477612 0.23880597 0.40298507 0.29850746)))
+        (('weak) (multinomial probrains '(0.001 0.1612903 0.4838710 0.2258065 0.1290323)))
+        (('neg-strong) (multinomial probrains '(0.87096774 0.09677419 0.03225806 0.001 0.001)))
+        (('neg-med) (multinomial probrains '(0.29850746 0.40298507 0.23880597 0.04477612 0.01492537)))
+        (('neg-weak) (multinomial probrains '(0.1290323 0.2258065 0.4838710 0.1612903 0.001)))
+        )
+  
+  )
+
+; Given whether it's raining in the world, how likely it is
+; that the speaker may see no evidence, weak positive evidence,
+; regular positive evidence, or strong positive evidence
+(define (evidence-prior rain?)
+  (case rain?
+        ((#t) (multinomial evidences (list p-strong p-mod p-weak 0.01 0.01 0.01)))
+        ((#f) (multinomial evidences (list 0.01 0.01 0.01 p-strong p-mod p-weak)))
+        ;((#t) (multinomial evidences '(0.9 0.35 0.1)))
+        ;((#f) (multinomial evidences '(0.01 0.1 0.7)))
+        ))
+
+; The speaker can say nothing, "p", or "must p"
+(define utterances '(
+                     ;none 
+                     rain must might
+                          ;not-rain must-not
+                          ))
+(define costs (list
+                ;0 
+                0.1 cost cost
+                  ;0.1 1
+                  ))
+
+(define (utterance-prior)
+  (multinomial utterances
+               (map (lambda (utterance-cost) (exp (- utterance-cost)))
+                    costs)))
+
+; The thetas for "p" and "must p" are drawn uniformly
+(define (theta-prior)
+  (uniform-draw '(0 0.2 0.4 0.6 0.8 1)))
+
+
+
+; Semantics of "p" and "must p"
+(define (meaning utterance)
+  (case utterance
+        (('none) #t)
+        ;(('rain) '(equal? probrain 1))
+        ;(('must) '(equal? probrain 1))
+        (('rain) '(> probrain theta-rain))
+        (('must) '(> probrain theta-must))
+        (('might) '(> probrain 0))
+        ;(('not-rain) '(< probrain theta-not))
+        ;(('must-not) '(< probrain theta-must-not))
+        ))
+
+
+(define literal-listener
+  (mem
+   (lambda (utterance theta-rain theta-must 
+                      ;theta-not theta-must-not
+     )
+     (enumeration-query
+      (define probrain (uniform-draw probrains))
+      probrain
+      (eval (meaning utterance))))))
+
+(define speaker
+  (mem
+   (lambda (evidence belief theta-rain theta-must 
+                     ;theta-not theta-must-not
+           )
+     (enumeration-query
+      (define utterance (utterance-prior))
+      (define interpretation
+        (apply multinomial
+               (list (first (literal-listener utterance 
+                                              theta-rain 
+                                              theta-must
+                                              ;theta-not
+                                              ;theta-must-not
+                            ))
+                     (power (second (literal-listener utterance 
+                                                      theta-rain 
+                                                      theta-must 
+                                                      ;theta-not
+                                                      ;theta-must-not
+                                    )) alpha))))
+      utterance
+      (equal? interpretation belief)))))
+
+(define pragmatic-listener
+  (mem
+   (lambda (utterance)
+     (enumeration-query
+      (define theta-rain (theta-prior))
+      (define theta-must (theta-prior))
+      
+      ;(define theta-must-not (theta-prior))
+      (define rain? (rain-prior))
+      (define evidence (evidence-prior rain?))
+      (define probrain (evidence-strength evidence))
+      ;rain?
+      ;probrain
+      evidence
+      ;theta-must
+      (equal? (apply multinomial (speaker evidence probrain theta-rain  
+                                          theta-must
+                                          ;theta-not
+                                          ;theta-must-not
+                                 )) utterance)))))
+
+;(barplot (pragmatic-listener 'none))
+;(barplot (pragmatic-listener 'rain))
+;(barplot (pragmatic-listener 'must))
+(list (pragmatic-listener 'rain) (pragmatic-listener 'must) (pragmatic-listener 'might))

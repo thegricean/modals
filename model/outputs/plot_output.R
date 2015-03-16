@@ -6,6 +6,16 @@ source("~/Dropbox/Work/Grad_school/Research/Utilities/summarySE.R")
 
 
 beliefs <- read.csv("rain-beliefs.csv")
+beliefs$utterance <- factor(beliefs$utterance, levels=c("bare", "must", "might"))
+ggplot(beliefs, aes(x=type, y=probability)) +
+  geom_bar(stat="identity", color="black", fill="gray") +
+  #geom_point() +
+  theme_bw() +
+  ylim(c(0, 0.8)) +
+  ylab("Probability") +
+  xlab("Belief type") +
+  facet_grid(.~utterance)
+
 beliefs.listener <- subset(beliefs, type=="listener_belief")
 ggplot(beliefs.listener, aes(x=utterance, y=probability)) +
   geom_bar(stat="identity", color="black", fill="gray") +
@@ -22,16 +32,8 @@ ggplot(beliefs.speaker, aes(x=utterance, y=probability)) +
   ylab("Probability") +
   xlab("Utterance")
 
-ggplot(beliefs, aes(x=type, y=probability)) +
-  geom_bar(stat="identity", color="black", fill="gray") +
-  #geom_point() +
-  theme_bw() +
-  ylim(c(0, 0.8)) +
-  ylab("Probability") +
-  xlab("Belief type") +
-  facet_grid(.~utterance)
-
 evidence <- read.csv("rain-evidence.csv")
+evidence$utterance <- factor(evidence$utterance, levels=c("bare", "must", "might"))
 evidence$evidence <- factor(evidence$evidence, levels=c("pos-strong", "pos-mod", "pos-weak"), labels=c("strong", "mod", "weak"))
 ggplot(evidence, aes(x=evidence, y=probability)) +
   geom_bar(stat="identity", color="black", fill="gray") +

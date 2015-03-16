@@ -1,7 +1,10 @@
 utterance,evidence,probability
-bare,pos-strong,0.39630695053
-bare,pos-mod,0.325874064758
-bare,pos-weak,0.277818984712
-must,pos-strong,0.290201633468
-must,pos-mod,0.344708427721
-must,pos-weak,0.365089938811
+bare,pos-strong,0.728146749074
+bare,pos-mod,0.236953011399
+bare,pos-weak,0.0349002395273
+must,pos-strong,0.667406802203
+must,pos-mod,0.28347512511
+must,pos-weak,0.0491180726871
+might,pos-strong,0.503168877625
+might,pos-mod,0.401670378185
+might,pos-weak,0.0951607441896
