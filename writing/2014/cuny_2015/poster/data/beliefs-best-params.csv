@@ -1,0 +1,7 @@
+utterance,probability,type
+bare,0.786862583,speaker_belief
+must,0.633594758,speaker_belief
+might,0.36106435,speaker_belief
+bare,0.73258676,listener_belief
+must,0.542783873,listener_belief
+might,0.20236084,listener_belief

@@ -1,0 +1,481 @@
+assignmentid	workerid	rt	evidence_type	language	age	gender	trial	enjoyment	asses	comments	Answer.time_in_minutes	response	evidence	item	Directness	EvidenceTypeCategorical
+382M9COHEHEWXZPJWYL736M3862UEZ	0	12711	evidence3	English	42	Female	1	2	Yes		1.45476666666667	probably	You are listening to music with your earphones. You look out the window and see that the mailman has just arrived at your neighbor's doorstep, when all of a sudden he jumps back.	dog	0.668333333333333	inferential
+382M9COHEHEWXZPJWYL736M3862UEZ	0	12069	evidence5	English	42	Female	2	2	Yes		1.45476666666667	probably	Your neighbor just got a new dog.	dog	0.487142857142857	inferential
+382M9COHEHEWXZPJWYL736M3862UEZ	0	3048	evidence2	English	42	Female	3	2	Yes		1.45476666666667	bare	You hear the sound of a dog barking.	dog	0.734285714285714	inferential
+382M9COHEHEWXZPJWYL736M3862UEZ	0	7398	evidence2	English	42	Female	4	2	Yes		1.45476666666667	must	You hear the sound of water dripping on the roof.	rain	0.9175	inferential
+382M9COHEHEWXZPJWYL736M3862UEZ	0	6695	evidence3	English	42	Female	5	2	Yes		1.45476666666667	bare	You know that the coffee has been on the table for an hour.	coffee	0.95	inferential
+382M9COHEHEWXZPJWYL736M3862UEZ	0	2360	evidence1	English	42	Female	6	2	Yes		1.45476666666667	bare	You take a sip of the coffee and feel that it is cold.	coffee	0.916	perceptual
+382M9COHEHEWXZPJWYL736M3862UEZ	0	5310	evidence5	English	42	Female	7	2	Yes		1.45476666666667	might	Earlier today, you had seen dark clouds in the sky.	rain	0.573333333333333	inferential
+382M9COHEHEWXZPJWYL736M3862UEZ	0	4695	evidence2	English	42	Female	8	2	Yes		1.45476666666667	bare	Your spouse tells you that dinner is ready.	dinner	0.93375	reportative
+382M9COHEHEWXZPJWYL736M3862UEZ	0	4159	evidence1	English	42	Female	9	2	Yes		1.45476666666667	bare	You look out the window and see raindrops falling from the sky.	rain	0.935454545454545	perceptual
+382M9COHEHEWXZPJWYL736M3862UEZ	0	2614	evidence2	English	42	Female	10	2	Yes		1.45476666666667	bare	You touch the coffee cup and feel that it is cold.	coffee	0.743333333333333	perceptual
+382M9COHEHEWXZPJWYL736M3862UEZ	0	4048	evidence4	English	42	Female	11	2	Yes		1.45476666666667	must	You smell food coming from the dining room.	dinner	0.655384615384615	inferential
+382M9COHEHEWXZPJWYL736M3862UEZ	0	2071	evidence1	English	42	Female	12	2	Yes		1.45476666666667	bare	You just prepared dinner and set it out on the table.	dinner	0.93	perceptual
+3Z4AIRP3C6CPU2P2PF1FGT2DDFG1XG	1	13322	evidence1	english	32	Male	1	1	Yes		2.00818333333333	bare	You look out the window and see raindrops falling from the sky.	rain	0.935454545454545	perceptual
+3Z4AIRP3C6CPU2P2PF1FGT2DDFG1XG	1	7429	evidence1	english	32	Male	2	1	Yes		2.00818333333333	bare	You take a sip of the coffee and feel that it is cold.	coffee	0.916	perceptual
+3Z4AIRP3C6CPU2P2PF1FGT2DDFG1XG	1	7971	evidence4	english	32	Male	3	1	Yes		2.00818333333333	might	You smell food coming from the dining room.	dinner	0.655384615384615	inferential
+3Z4AIRP3C6CPU2P2PF1FGT2DDFG1XG	1	5235	evidence2	english	32	Male	4	1	Yes		2.00818333333333	bare	Your spouse tells you that dinner is ready.	dinner	0.93375	reportative
+3Z4AIRP3C6CPU2P2PF1FGT2DDFG1XG	1	6626	evidence5	english	32	Male	5	1	Yes		2.00818333333333	might	You see that the cup isn't insulated.	coffee	0.5825	inferential
+3Z4AIRP3C6CPU2P2PF1FGT2DDFG1XG	1	8166	evidence5	english	32	Male	6	1	Yes		2.00818333333333	might	You're hungry.	dinner	0.563333333333333	wishful
+3Z4AIRP3C6CPU2P2PF1FGT2DDFG1XG	1	5560	evidence4	english	32	Male	7	1	Yes		2.00818333333333	must	You check the weather report on the Internet, which says it is raining.	rain	0.742142857142857	reportative
+3Z4AIRP3C6CPU2P2PF1FGT2DDFG1XG	1	6772	evidence3	english	32	Male	8	1	Yes		2.00818333333333	must	You know that the coffee has been on the table for an hour.	coffee	0.95	inferential
+3Z4AIRP3C6CPU2P2PF1FGT2DDFG1XG	1	11016	evidence5	english	32	Male	9	1	Yes		2.00818333333333	might	Your neighbor just got a new dog.	dog	0.487142857142857	inferential
+3Z4AIRP3C6CPU2P2PF1FGT2DDFG1XG	1	11033	evidence2	english	32	Male	10	1	Yes		2.00818333333333	probably	You hear the sound of a dog barking.	dog	0.734285714285714	inferential
+3Z4AIRP3C6CPU2P2PF1FGT2DDFG1XG	1	6324	evidence1	english	32	Male	11	1	Yes		2.00818333333333	bare	You look outside and see Fluffy, the neighbor's dog, standing on the porch and barking.	dog	0.916	perceptual
+3Z4AIRP3C6CPU2P2PF1FGT2DDFG1XG	1	4110	evidence2	english	32	Male	12	1	Yes		2.00818333333333	must	You hear the sound of water dripping on the roof.	rain	0.9175	inferential
+34YB12FSQYNB45G1TRK9CZQL80EGMA	2	18174	evidence4	English	24	Female	1	2	Yes		2.18413333333333	must	You smell food coming from the dining room.	dinner	0.655384615384615	inferential
+34YB12FSQYNB45G1TRK9CZQL80EGMA	2	13263	evidence4	English	24	Female	2	2	Yes		2.18413333333333	probably	You are listening to music with your earphones. You know that your neighbor's dog often barks in the evening.	dog	0.651	inferential
+34YB12FSQYNB45G1TRK9CZQL80EGMA	2	12942	evidence3	English	24	Female	3	2	Yes		2.18413333333333	must	You see a person come in from outside with wet hair and wet clothes.	rain	0.89	inferential
+34YB12FSQYNB45G1TRK9CZQL80EGMA	2	11768	evidence5	English	24	Female	4	2	Yes		2.18413333333333	bare	Your neighbor just got a new dog.	dog	0.487142857142857	inferential
+34YB12FSQYNB45G1TRK9CZQL80EGMA	2	7841	evidence3	English	24	Female	5	2	Yes		2.18413333333333	probably	You know that the coffee has been on the table for an hour.	coffee	0.95	inferential
+34YB12FSQYNB45G1TRK9CZQL80EGMA	2	8610	evidence3	English	24	Female	6	2	Yes		2.18413333333333	might	Dinner is usually ready at around 6pm. You look at the clock and it is 6pm.	dinner	0.85	inferential
+34YB12FSQYNB45G1TRK9CZQL80EGMA	2	6908	evidence1	English	24	Female	7	2	Yes		2.18413333333333	bare	You look outside and see Fluffy, the neighbor's dog, standing on the porch and barking.	dog	0.916	perceptual
+34YB12FSQYNB45G1TRK9CZQL80EGMA	2	8689	evidence4	English	24	Female	8	2	Yes		2.18413333333333	must	You see that there isn't any steam coming from the coffee.	coffee	0.681818181818182	inferential
+34YB12FSQYNB45G1TRK9CZQL80EGMA	2	4520	evidence1	English	24	Female	9	2	Yes		2.18413333333333	bare	You look out the window and see raindrops falling from the sky.	rain	0.935454545454545	perceptual
+34YB12FSQYNB45G1TRK9CZQL80EGMA	2	9829	evidence5	English	24	Female	10	2	Yes		2.18413333333333	might	You're hungry.	dinner	0.563333333333333	wishful
+34YB12FSQYNB45G1TRK9CZQL80EGMA	2	5141	evidence5	English	24	Female	11	2	Yes		2.18413333333333	probably	You see that the cup isn't insulated.	coffee	0.5825	inferential
+34YB12FSQYNB45G1TRK9CZQL80EGMA	2	6157	evidence2	English	24	Female	12	2	Yes		2.18413333333333	must	You hear the sound of water dripping on the roof.	rain	0.9175	inferential
+3RWE2M8QWH9KBJQGRQA64MS569ZN0E	3	14673	evidence4	english	49	Female	1	2	Yes		1.75056666666667	might	You see that there isn't any steam coming from the coffee.	coffee	0.681818181818182	inferential
+3RWE2M8QWH9KBJQGRQA64MS569ZN0E	3	8727	evidence3	english	49	Female	2	2	Yes		1.75056666666667	might	You know that the coffee has been on the table for an hour.	coffee	0.95	inferential
+3RWE2M8QWH9KBJQGRQA64MS569ZN0E	3	10399	evidence4	english	49	Female	3	2	Yes		1.75056666666667	must	You are listening to music with your earphones. You know that your neighbor's dog often barks in the evening.	dog	0.651	inferential
+3RWE2M8QWH9KBJQGRQA64MS569ZN0E	3	4498	evidence5	english	49	Female	4	2	Yes		1.75056666666667	might	You see that the cup isn't insulated.	coffee	0.5825	inferential
+3RWE2M8QWH9KBJQGRQA64MS569ZN0E	3	6163	evidence4	english	49	Female	5	2	Yes		1.75056666666667	might	You check the weather report on the Internet, which says it is raining.	rain	0.742142857142857	reportative
+3RWE2M8QWH9KBJQGRQA64MS569ZN0E	3	3595	evidence3	english	49	Female	6	2	Yes		1.75056666666667	might	Dinner is usually ready at around 6pm. You look at the clock and it is 6pm.	dinner	0.85	inferential
+3RWE2M8QWH9KBJQGRQA64MS569ZN0E	3	8233	evidence2	english	49	Female	7	2	Yes		1.75056666666667	must	You hear the sound of a dog barking.	dog	0.734285714285714	inferential
+3RWE2M8QWH9KBJQGRQA64MS569ZN0E	3	4580	evidence2	english	49	Female	8	2	Yes		1.75056666666667	might	You hear the sound of water dripping on the roof.	rain	0.9175	inferential
+3RWE2M8QWH9KBJQGRQA64MS569ZN0E	3	4038	evidence1	english	49	Female	9	2	Yes		1.75056666666667	might	You just prepared dinner and set it out on the table.	dinner	0.93	perceptual
+3RWE2M8QWH9KBJQGRQA64MS569ZN0E	3	3335	evidence2	english	49	Female	10	2	Yes		1.75056666666667	must	Your spouse tells you that dinner is ready.	dinner	0.93375	reportative
+3RWE2M8QWH9KBJQGRQA64MS569ZN0E	3	5868	evidence5	english	49	Female	11	2	Yes		1.75056666666667	might	Earlier today, you had seen dark clouds in the sky.	rain	0.573333333333333	inferential
+3RWE2M8QWH9KBJQGRQA64MS569ZN0E	3	7163	evidence3	english	49	Female	12	2	Yes		1.75056666666667	might	You are listening to music with your earphones. You look out the window and see that the mailman has just arrived at your neighbor's doorstep, when all of a sudden he jumps back.	dog	0.668333333333333	inferential
+36ZN444YTRXD0Z78WVZPPFS6IDMIOK	4	9468	evidence5	English	22	Male	1	1	Yes		1.6636	might	You see that the cup isn't insulated.	coffee	0.5825	inferential
+36ZN444YTRXD0Z78WVZPPFS6IDMIOK	4	9558	evidence1	English	22	Male	2	1	Yes		1.6636	bare	You just prepared dinner and set it out on the table.	dinner	0.93	perceptual
+36ZN444YTRXD0Z78WVZPPFS6IDMIOK	4	10460	evidence3	English	22	Male	3	1	Yes		1.6636	probably	You are listening to music with your earphones. You look out the window and see that the mailman has just arrived at your neighbor's doorstep, when all of a sudden he jumps back.	dog	0.668333333333333	inferential
+36ZN444YTRXD0Z78WVZPPFS6IDMIOK	4	5318	evidence5	English	22	Male	4	1	Yes		1.6636	might	Earlier today, you had seen dark clouds in the sky.	rain	0.573333333333333	inferential
+36ZN444YTRXD0Z78WVZPPFS6IDMIOK	4	2975	evidence2	English	22	Male	5	1	Yes		1.6636	must	You hear the sound of water dripping on the roof.	rain	0.9175	inferential
+36ZN444YTRXD0Z78WVZPPFS6IDMIOK	4	4421	evidence1	English	22	Male	6	1	Yes		1.6636	bare	You look out the window and see raindrops falling from the sky.	rain	0.935454545454545	perceptual
+36ZN444YTRXD0Z78WVZPPFS6IDMIOK	4	5212	evidence2	English	22	Male	7	1	Yes		1.6636	bare	You hear the sound of a dog barking.	dog	0.734285714285714	inferential
+36ZN444YTRXD0Z78WVZPPFS6IDMIOK	4	5384	evidence3	English	22	Male	8	1	Yes		1.6636	probably	You know that the coffee has been on the table for an hour.	coffee	0.95	inferential
+36ZN444YTRXD0Z78WVZPPFS6IDMIOK	4	6474	evidence3	English	22	Male	9	1	Yes		1.6636	might	Dinner is usually ready at around 6pm. You look at the clock and it is 6pm.	dinner	0.85	inferential
+36ZN444YTRXD0Z78WVZPPFS6IDMIOK	4	4236	evidence1	English	22	Male	10	1	Yes		1.6636	bare	You look outside and see Fluffy, the neighbor's dog, standing on the porch and barking.	dog	0.916	perceptual
+36ZN444YTRXD0Z78WVZPPFS6IDMIOK	4	6596	evidence4	English	22	Male	11	1	Yes		1.6636	must	You smell food coming from the dining room.	dinner	0.655384615384615	inferential
+36ZN444YTRXD0Z78WVZPPFS6IDMIOK	4	5277	evidence4	English	22	Male	12	1	Yes		1.6636	probably	You see that there isn't any steam coming from the coffee.	coffee	0.681818181818182	inferential
+3QIYRE09Y3GKI8BYN9E6IRBFB15N1H	5	12902	evidence3	English	24	Male	1	1	Yes		2.4333	bare	You see a person come in from outside with wet hair and wet clothes.	rain	0.89	inferential
+3QIYRE09Y3GKI8BYN9E6IRBFB15N1H	5	4458	evidence4	English	24	Male	2	1	Yes		2.4333	might	You see that there isn't any steam coming from the coffee.	coffee	0.681818181818182	inferential
+3QIYRE09Y3GKI8BYN9E6IRBFB15N1H	5	6475	evidence2	English	24	Male	3	1	Yes		2.4333	might	You hear the sound of water dripping on the roof.	rain	0.9175	inferential
+3QIYRE09Y3GKI8BYN9E6IRBFB15N1H	5	3966	evidence2	English	24	Male	4	1	Yes		2.4333	bare	Your spouse tells you that dinner is ready.	dinner	0.93375	reportative
+3QIYRE09Y3GKI8BYN9E6IRBFB15N1H	5	3985	evidence1	English	24	Male	5	1	Yes		2.4333	bare	You take a sip of the coffee and feel that it is cold.	coffee	0.916	perceptual
+3QIYRE09Y3GKI8BYN9E6IRBFB15N1H	5	5317	evidence4	English	24	Male	6	1	Yes		2.4333	might	You check the weather report on the Internet, which says it is raining.	rain	0.742142857142857	reportative
+3QIYRE09Y3GKI8BYN9E6IRBFB15N1H	5	4862	evidence4	English	24	Male	7	1	Yes		2.4333	might	You smell food coming from the dining room.	dinner	0.655384615384615	inferential
+3QIYRE09Y3GKI8BYN9E6IRBFB15N1H	5	6511	evidence4	English	24	Male	8	1	Yes		2.4333	might	You are listening to music with your earphones. You know that your neighbor's dog often barks in the evening.	dog	0.651	inferential
+3QIYRE09Y3GKI8BYN9E6IRBFB15N1H	5	8776	evidence3	English	24	Male	9	1	Yes		2.4333	must	You are listening to music with your earphones. You look out the window and see that the mailman has just arrived at your neighbor's doorstep, when all of a sudden he jumps back.	dog	0.668333333333333	inferential
+3QIYRE09Y3GKI8BYN9E6IRBFB15N1H	5	4213	evidence1	English	24	Male	10	1	Yes		2.4333	must	You look outside and see Fluffy, the neighbor's dog, standing on the porch and barking.	dog	0.916	perceptual
+3QIYRE09Y3GKI8BYN9E6IRBFB15N1H	5	4699	evidence3	English	24	Male	11	1	Yes		2.4333	bare	You know that the coffee has been on the table for an hour.	coffee	0.95	inferential
+3QIYRE09Y3GKI8BYN9E6IRBFB15N1H	5	4932	evidence5	English	24	Male	12	1	Yes		2.4333	might	You're hungry.	dinner	0.563333333333333	wishful
+3FPRZHYEPY6T0GYMC4EGG1KPVOLV3Y	6	13908	evidence1	English	37	Female	1	2	Yes		1.70276666666667	bare	You just prepared dinner and set it out on the table.	dinner	0.93	perceptual
+3FPRZHYEPY6T0GYMC4EGG1KPVOLV3Y	6	7923	evidence1	English	37	Female	2	2	Yes		1.70276666666667	bare	You look out the window and see raindrops falling from the sky.	rain	0.935454545454545	perceptual
+3FPRZHYEPY6T0GYMC4EGG1KPVOLV3Y	6	5469	evidence1	English	37	Female	3	2	Yes		1.70276666666667	bare	You take a sip of the coffee and feel that it is cold.	coffee	0.916	perceptual
+3FPRZHYEPY6T0GYMC4EGG1KPVOLV3Y	6	7208	evidence1	English	37	Female	4	2	Yes		1.70276666666667	bare	You look outside and see Fluffy, the neighbor's dog, standing on the porch and barking.	dog	0.916	perceptual
+3FPRZHYEPY6T0GYMC4EGG1KPVOLV3Y	6	10025	evidence5	English	37	Female	5	2	Yes		1.70276666666667	probably	You're hungry.	dinner	0.563333333333333	wishful
+3FPRZHYEPY6T0GYMC4EGG1KPVOLV3Y	6	5734	evidence2	English	37	Female	6	2	Yes		1.70276666666667	bare	You touch the coffee cup and feel that it is cold.	coffee	0.743333333333333	perceptual
+3FPRZHYEPY6T0GYMC4EGG1KPVOLV3Y	6	8767	evidence4	English	37	Female	7	2	Yes		1.70276666666667	probably	You see that there isn't any steam coming from the coffee.	coffee	0.681818181818182	inferential
+3FPRZHYEPY6T0GYMC4EGG1KPVOLV3Y	6	4201	evidence4	English	37	Female	8	2	Yes		1.70276666666667	might	You check the weather report on the Internet, which says it is raining.	rain	0.742142857142857	reportative
+3FPRZHYEPY6T0GYMC4EGG1KPVOLV3Y	6	5512	evidence5	English	37	Female	9	2	Yes		1.70276666666667	might	Your neighbor just got a new dog.	dog	0.487142857142857	inferential
+3FPRZHYEPY6T0GYMC4EGG1KPVOLV3Y	6	4671	evidence3	English	37	Female	10	2	Yes		1.70276666666667	must	Dinner is usually ready at around 6pm. You look at the clock and it is 6pm.	dinner	0.85	inferential
+3FPRZHYEPY6T0GYMC4EGG1KPVOLV3Y	6	5653	evidence5	English	37	Female	11	2	Yes		1.70276666666667	might	Earlier today, you had seen dark clouds in the sky.	rain	0.573333333333333	inferential
+3FPRZHYEPY6T0GYMC4EGG1KPVOLV3Y	6	5257	evidence4	English	37	Female	12	2	Yes		1.70276666666667	might	You are listening to music with your earphones. You know that your neighbor's dog often barks in the evening.	dog	0.651	inferential
+3F6KKYWMNB0EA3RA32Y1JTCO0Y8ND7	7	9496	evidence1	English	18	Male	1	2	Yes		2.97255	bare	You look out the window and see raindrops falling from the sky.	rain	0.935454545454545	perceptual
+3F6KKYWMNB0EA3RA32Y1JTCO0Y8ND7	7	49923	evidence3	English	18	Male	2	2	Yes		2.97255	might	You see a person come in from outside with wet hair and wet clothes.	rain	0.89	inferential
+3F6KKYWMNB0EA3RA32Y1JTCO0Y8ND7	7	5618	evidence4	English	18	Male	3	2	Yes		2.97255	might	You see that there isn't any steam coming from the coffee.	coffee	0.681818181818182	inferential
+3F6KKYWMNB0EA3RA32Y1JTCO0Y8ND7	7	6439	evidence4	English	18	Male	4	2	Yes		2.97255	might	You smell food coming from the dining room.	dinner	0.655384615384615	inferential
+3F6KKYWMNB0EA3RA32Y1JTCO0Y8ND7	7	22080	evidence2	English	18	Male	5	2	Yes		2.97255	bare	You hear the sound of a dog barking.	dog	0.734285714285714	inferential
+3F6KKYWMNB0EA3RA32Y1JTCO0Y8ND7	7	9679	evidence5	English	18	Male	6	2	Yes		2.97255	might	You're hungry.	dinner	0.563333333333333	wishful
+3F6KKYWMNB0EA3RA32Y1JTCO0Y8ND7	7	26365	evidence4	English	18	Male	7	2	Yes		2.97255	probably	You check the weather report on the Internet, which says it is raining.	rain	0.742142857142857	reportative
+3F6KKYWMNB0EA3RA32Y1JTCO0Y8ND7	7	5758	evidence5	English	18	Male	8	2	Yes		2.97255	probably	You see that the cup isn't insulated.	coffee	0.5825	inferential
+3F6KKYWMNB0EA3RA32Y1JTCO0Y8ND7	7	3001	evidence1	English	18	Male	9	2	Yes		2.97255	might	You take a sip of the coffee and feel that it is cold.	coffee	0.916	perceptual
+3F6KKYWMNB0EA3RA32Y1JTCO0Y8ND7	7	2291	evidence1	English	18	Male	10	2	Yes		2.97255	might	You just prepared dinner and set it out on the table.	dinner	0.93	perceptual
+3F6KKYWMNB0EA3RA32Y1JTCO0Y8ND7	7	2319	evidence1	English	18	Male	11	2	Yes		2.97255	bare	You look outside and see Fluffy, the neighbor's dog, standing on the porch and barking.	dog	0.916	perceptual
+3F6KKYWMNB0EA3RA32Y1JTCO0Y8ND7	7	8705	evidence5	English	18	Male	12	2	Yes		2.97255	might	Your neighbor just got a new dog.	dog	0.487142857142857	inferential
+3QUO65DNQUNI9Q28QCO38IGHC88UO3	8	23162	evidence4	English	31	Male	1	2	Yes	Nope	3.18966666666667	probably	You are listening to music with your earphones. You know that your neighbor's dog often barks in the evening.	dog	0.651	inferential
+3QUO65DNQUNI9Q28QCO38IGHC88UO3	8	10879	evidence1	English	31	Male	2	2	Yes	Nope	3.18966666666667	bare	You look out the window and see raindrops falling from the sky.	rain	0.935454545454545	perceptual
+3QUO65DNQUNI9Q28QCO38IGHC88UO3	8	6703	evidence4	English	31	Male	3	2	Yes	Nope	3.18966666666667	must	You check the weather report on the Internet, which says it is raining.	rain	0.742142857142857	reportative
+3QUO65DNQUNI9Q28QCO38IGHC88UO3	8	9124	evidence1	English	31	Male	4	2	Yes	Nope	3.18966666666667	bare	You just prepared dinner and set it out on the table.	dinner	0.93	perceptual
+3QUO65DNQUNI9Q28QCO38IGHC88UO3	8	8371	evidence1	English	31	Male	5	2	Yes	Nope	3.18966666666667	bare	You take a sip of the coffee and feel that it is cold.	coffee	0.916	perceptual
+3QUO65DNQUNI9Q28QCO38IGHC88UO3	8	8987	evidence3	English	31	Male	6	2	Yes	Nope	3.18966666666667	must	You see a person come in from outside with wet hair and wet clothes.	rain	0.89	inferential
+3QUO65DNQUNI9Q28QCO38IGHC88UO3	8	29129	evidence2	English	31	Male	7	2	Yes	Nope	3.18966666666667	must	Your spouse tells you that dinner is ready.	dinner	0.93375	reportative
+3QUO65DNQUNI9Q28QCO38IGHC88UO3	8	8233	evidence3	English	31	Male	8	2	Yes	Nope	3.18966666666667	probably	You know that the coffee has been on the table for an hour.	coffee	0.95	inferential
+3QUO65DNQUNI9Q28QCO38IGHC88UO3	8	6391	evidence4	English	31	Male	9	2	Yes	Nope	3.18966666666667	must	You smell food coming from the dining room.	dinner	0.655384615384615	inferential
+3QUO65DNQUNI9Q28QCO38IGHC88UO3	8	10554	evidence2	English	31	Male	10	2	Yes	Nope	3.18966666666667	probably	You hear the sound of a dog barking.	dog	0.734285714285714	inferential
+3QUO65DNQUNI9Q28QCO38IGHC88UO3	8	14190	evidence3	English	31	Male	11	2	Yes	Nope	3.18966666666667	must	You are listening to music with your earphones. You look out the window and see that the mailman has just arrived at your neighbor's doorstep, when all of a sudden he jumps back.	dog	0.668333333333333	inferential
+3QUO65DNQUNI9Q28QCO38IGHC88UO3	8	11359	evidence2	English	31	Male	12	2	Yes	Nope	3.18966666666667	might	You touch the coffee cup and feel that it is cold.	coffee	0.743333333333333	perceptual
+39GHHAVOMFQ5RHHWVT5GNI11E1BJ4N	9	20561	evidence5	English	24	Male	1	2	Yes		2.24086666666667	might	You're hungry.	dinner	0.563333333333333	wishful
+39GHHAVOMFQ5RHHWVT5GNI11E1BJ4N	9	9633	evidence5	English	24	Male	2	2	Yes		2.24086666666667	might	Earlier today, you had seen dark clouds in the sky.	rain	0.573333333333333	inferential
+39GHHAVOMFQ5RHHWVT5GNI11E1BJ4N	9	9695	evidence4	English	24	Male	3	2	Yes		2.24086666666667	probably	You smell food coming from the dining room.	dinner	0.655384615384615	inferential
+39GHHAVOMFQ5RHHWVT5GNI11E1BJ4N	9	10849	evidence3	English	24	Male	4	2	Yes		2.24086666666667	probably	You are listening to music with your earphones. You look out the window and see that the mailman has just arrived at your neighbor's doorstep, when all of a sudden he jumps back.	dog	0.668333333333333	inferential
+39GHHAVOMFQ5RHHWVT5GNI11E1BJ4N	9	6563	evidence3	English	24	Male	5	2	Yes		2.24086666666667	probably	Dinner is usually ready at around 6pm. You look at the clock and it is 6pm.	dinner	0.85	inferential
+39GHHAVOMFQ5RHHWVT5GNI11E1BJ4N	9	9177	evidence4	English	24	Male	6	2	Yes		2.24086666666667	bare	You see that there isn't any steam coming from the coffee.	coffee	0.681818181818182	inferential
+39GHHAVOMFQ5RHHWVT5GNI11E1BJ4N	9	5329	evidence1	English	24	Male	7	2	Yes		2.24086666666667	bare	You look out the window and see raindrops falling from the sky.	rain	0.935454545454545	perceptual
+39GHHAVOMFQ5RHHWVT5GNI11E1BJ4N	9	7950	evidence4	English	24	Male	8	2	Yes		2.24086666666667	might	You are listening to music with your earphones. You know that your neighbor's dog often barks in the evening.	dog	0.651	inferential
+39GHHAVOMFQ5RHHWVT5GNI11E1BJ4N	9	8715	evidence4	English	24	Male	9	2	Yes		2.24086666666667	probably	You check the weather report on the Internet, which says it is raining.	rain	0.742142857142857	reportative
+39GHHAVOMFQ5RHHWVT5GNI11E1BJ4N	9	4062	evidence2	English	24	Male	10	2	Yes		2.24086666666667	bare	You touch the coffee cup and feel that it is cold.	coffee	0.743333333333333	perceptual
+39GHHAVOMFQ5RHHWVT5GNI11E1BJ4N	9	4233	evidence2	English	24	Male	11	2	Yes		2.24086666666667	bare	You hear the sound of a dog barking.	dog	0.734285714285714	inferential
+39GHHAVOMFQ5RHHWVT5GNI11E1BJ4N	9	5236	evidence5	English	24	Male	12	2	Yes		2.24086666666667	might	You see that the cup isn't insulated.	coffee	0.5825	inferential
+32ZKVD547FMER20G7NNGFPQISW63B1	10	6128	evidence2	English	28	Male	1	2	Yes		1.44026666666667	bare	Your spouse tells you that dinner is ready.	dinner	0.93375	reportative
+32ZKVD547FMER20G7NNGFPQISW63B1	10	4561	evidence4	English	28	Male	2	2	Yes		1.44026666666667	might	You see that there isn't any steam coming from the coffee.	coffee	0.681818181818182	inferential
+32ZKVD547FMER20G7NNGFPQISW63B1	10	4878	evidence3	English	28	Male	3	2	Yes		1.44026666666667	might	You see a person come in from outside with wet hair and wet clothes.	rain	0.89	inferential
+32ZKVD547FMER20G7NNGFPQISW63B1	10	6154	evidence5	English	28	Male	4	2	Yes		1.44026666666667	might	You're hungry.	dinner	0.563333333333333	wishful
+32ZKVD547FMER20G7NNGFPQISW63B1	10	3809	evidence4	English	28	Male	5	2	Yes		1.44026666666667	probably	You smell food coming from the dining room.	dinner	0.655384615384615	inferential
+32ZKVD547FMER20G7NNGFPQISW63B1	10	4480	evidence1	English	28	Male	6	2	Yes		1.44026666666667	probably	You look out the window and see raindrops falling from the sky.	rain	0.935454545454545	perceptual
+32ZKVD547FMER20G7NNGFPQISW63B1	10	8228	evidence4	English	28	Male	7	2	Yes		1.44026666666667	might	You are listening to music with your earphones. You know that your neighbor's dog often barks in the evening.	dog	0.651	inferential
+32ZKVD547FMER20G7NNGFPQISW63B1	10	3727	evidence1	English	28	Male	8	2	Yes		1.44026666666667	must	You take a sip of the coffee and feel that it is cold.	coffee	0.916	perceptual
+32ZKVD547FMER20G7NNGFPQISW63B1	10	5503	evidence5	English	28	Male	9	2	Yes		1.44026666666667	probably	You see that the cup isn't insulated.	coffee	0.5825	inferential
+32ZKVD547FMER20G7NNGFPQISW63B1	10	7179	evidence3	English	28	Male	10	2	Yes		1.44026666666667	probably	You are listening to music with your earphones. You look out the window and see that the mailman has just arrived at your neighbor's doorstep, when all of a sudden he jumps back.	dog	0.668333333333333	inferential
+32ZKVD547FMER20G7NNGFPQISW63B1	10	4765	evidence5	English	28	Male	11	2	Yes		1.44026666666667	might	Your neighbor just got a new dog.	dog	0.487142857142857	inferential
+32ZKVD547FMER20G7NNGFPQISW63B1	10	4853	evidence2	English	28	Male	12	2	Yes		1.44026666666667	probably	You hear the sound of water dripping on the roof.	rain	0.9175	inferential
+3ZSANO2JCF68O0XB24AD6NPFZAWSFZ	11	8791	evidence1	English	22	Female	1	1	Yes		2.2225	bare	You just prepared dinner and set it out on the table.	dinner	0.93	perceptual
+3ZSANO2JCF68O0XB24AD6NPFZAWSFZ	11	8068	evidence1	English	22	Female	2	1	Yes		2.2225	bare	You look outside and see Fluffy, the neighbor's dog, standing on the porch and barking.	dog	0.916	perceptual
+3ZSANO2JCF68O0XB24AD6NPFZAWSFZ	11	8411	evidence1	English	22	Female	3	1	Yes		2.2225	probably	You take a sip of the coffee and feel that it is cold.	coffee	0.916	perceptual
+3ZSANO2JCF68O0XB24AD6NPFZAWSFZ	11	4733	evidence2	English	22	Female	4	1	Yes		2.2225	bare	Your spouse tells you that dinner is ready.	dinner	0.93375	reportative
+3ZSANO2JCF68O0XB24AD6NPFZAWSFZ	11	9887	evidence4	English	22	Female	5	1	Yes		2.2225	might	You check the weather report on the Internet, which says it is raining.	rain	0.742142857142857	reportative
+3ZSANO2JCF68O0XB24AD6NPFZAWSFZ	11	4583	evidence3	English	22	Female	6	1	Yes		2.2225	probably	You know that the coffee has been on the table for an hour.	coffee	0.95	inferential
+3ZSANO2JCF68O0XB24AD6NPFZAWSFZ	11	9082	evidence4	English	22	Female	7	1	Yes		2.2225	might	You are listening to music with your earphones. You know that your neighbor's dog often barks in the evening.	dog	0.651	inferential
+3ZSANO2JCF68O0XB24AD6NPFZAWSFZ	11	8979	evidence3	English	22	Female	8	1	Yes		2.2225	must	You see a person come in from outside with wet hair and wet clothes.	rain	0.89	inferential
+3ZSANO2JCF68O0XB24AD6NPFZAWSFZ	11	11837	evidence3	English	22	Female	9	1	Yes		2.2225	must	You are listening to music with your earphones. You look out the window and see that the mailman has just arrived at your neighbor's doorstep, when all of a sudden he jumps back.	dog	0.668333333333333	inferential
+3ZSANO2JCF68O0XB24AD6NPFZAWSFZ	11	10630	evidence5	English	22	Female	10	1	Yes		2.2225	might	You're hungry.	dinner	0.563333333333333	wishful
+3ZSANO2JCF68O0XB24AD6NPFZAWSFZ	11	10988	evidence2	English	22	Female	11	1	Yes		2.2225	probably	You touch the coffee cup and feel that it is cold.	coffee	0.743333333333333	perceptual
+3ZSANO2JCF68O0XB24AD6NPFZAWSFZ	11	5868	evidence2	English	22	Female	12	1	Yes		2.2225	probably	You hear the sound of water dripping on the roof.	rain	0.9175	inferential
+3EO896NRAWUP82WMAU6OVQDTU0STJT	12	20129	evidence3	English	21	Female	1	1	Yes		3.73625	must	You know that the coffee has been on the table for an hour.	coffee	0.95	inferential
+3EO896NRAWUP82WMAU6OVQDTU0STJT	12	10433	evidence1	English	21	Female	2	1	Yes		3.73625	bare	You just prepared dinner and set it out on the table.	dinner	0.93	perceptual
+3EO896NRAWUP82WMAU6OVQDTU0STJT	12	22181	evidence5	English	21	Female	3	1	Yes		3.73625	might	Your neighbor just got a new dog.	dog	0.487142857142857	inferential
+3EO896NRAWUP82WMAU6OVQDTU0STJT	12	15118	evidence4	English	21	Female	4	1	Yes		3.73625	probably	You check the weather report on the Internet, which says it is raining.	rain	0.742142857142857	reportative
+3EO896NRAWUP82WMAU6OVQDTU0STJT	12	10549	evidence3	English	21	Female	5	1	Yes		3.73625	probably	Dinner is usually ready at around 6pm. You look at the clock and it is 6pm.	dinner	0.85	inferential
+3EO896NRAWUP82WMAU6OVQDTU0STJT	12	10315	evidence1	English	21	Female	6	1	Yes		3.73625	bare	You look out the window and see raindrops falling from the sky.	rain	0.935454545454545	perceptual
+3EO896NRAWUP82WMAU6OVQDTU0STJT	12	16031	evidence2	English	21	Female	7	1	Yes		3.73625	bare	Your spouse tells you that dinner is ready.	dinner	0.93375	reportative
+3EO896NRAWUP82WMAU6OVQDTU0STJT	12	13232	evidence5	English	21	Female	8	1	Yes		3.73625	might	Earlier today, you had seen dark clouds in the sky.	rain	0.573333333333333	inferential
+3EO896NRAWUP82WMAU6OVQDTU0STJT	12	32631	evidence2	English	21	Female	9	1	Yes		3.73625	bare	You touch the coffee cup and feel that it is cold.	coffee	0.743333333333333	perceptual
+3EO896NRAWUP82WMAU6OVQDTU0STJT	12	14167	evidence4	English	21	Female	10	1	Yes		3.73625	probably	You are listening to music with your earphones. You know that your neighbor's dog often barks in the evening.	dog	0.651	inferential
+3EO896NRAWUP82WMAU6OVQDTU0STJT	12	7502	evidence1	English	21	Female	11	1	Yes		3.73625	bare	You take a sip of the coffee and feel that it is cold.	coffee	0.916	perceptual
+3EO896NRAWUP82WMAU6OVQDTU0STJT	12	4513	evidence2	English	21	Female	12	1	Yes		3.73625	bare	You hear the sound of a dog barking.	dog	0.734285714285714	inferential
+3ZV9H2YQQD66F5YR2EJC23332XO3WH	13	11111	evidence5	english	28	Female	1	1	Yes		1.90786666666667	might	You see that the cup isn't insulated.	coffee	0.5825	inferential
+3ZV9H2YQQD66F5YR2EJC23332XO3WH	13	6992	evidence1	english	28	Female	2	1	Yes		1.90786666666667	bare	You take a sip of the coffee and feel that it is cold.	coffee	0.916	perceptual
+3ZV9H2YQQD66F5YR2EJC23332XO3WH	13	6822	evidence2	english	28	Female	3	1	Yes		1.90786666666667	bare	Your spouse tells you that dinner is ready.	dinner	0.93375	reportative
+3ZV9H2YQQD66F5YR2EJC23332XO3WH	13	6887	evidence4	english	28	Female	4	1	Yes		1.90786666666667	must	You smell food coming from the dining room.	dinner	0.655384615384615	inferential
+3ZV9H2YQQD66F5YR2EJC23332XO3WH	13	6393	evidence1	english	28	Female	5	1	Yes		1.90786666666667	bare	You look out the window and see raindrops falling from the sky.	rain	0.935454545454545	perceptual
+3ZV9H2YQQD66F5YR2EJC23332XO3WH	13	5688	evidence3	english	28	Female	6	1	Yes		1.90786666666667	probably	Dinner is usually ready at around 6pm. You look at the clock and it is 6pm.	dinner	0.85	inferential
+3ZV9H2YQQD66F5YR2EJC23332XO3WH	13	12898	evidence5	english	28	Female	7	1	Yes		1.90786666666667	might	Earlier today, you had seen dark clouds in the sky.	rain	0.573333333333333	inferential
+3ZV9H2YQQD66F5YR2EJC23332XO3WH	13	7393	evidence1	english	28	Female	8	1	Yes		1.90786666666667	bare	You look outside and see Fluffy, the neighbor's dog, standing on the porch and barking.	dog	0.916	perceptual
+3ZV9H2YQQD66F5YR2EJC23332XO3WH	13	5003	evidence2	english	28	Female	9	1	Yes		1.90786666666667	bare	You touch the coffee cup and feel that it is cold.	coffee	0.743333333333333	perceptual
+3ZV9H2YQQD66F5YR2EJC23332XO3WH	13	8823	evidence2	english	28	Female	10	1	Yes		1.90786666666667	probably	You hear the sound of water dripping on the roof.	rain	0.9175	inferential
+3ZV9H2YQQD66F5YR2EJC23332XO3WH	13	9927	evidence3	english	28	Female	11	1	Yes		1.90786666666667	must	You are listening to music with your earphones. You look out the window and see that the mailman has just arrived at your neighbor's doorstep, when all of a sudden he jumps back.	dog	0.668333333333333	inferential
+3ZV9H2YQQD66F5YR2EJC23332XO3WH	13	7910	evidence5	english	28	Female	12	1	Yes		1.90786666666667	must	Your neighbor just got a new dog.	dog	0.487142857142857	inferential
+3W2LOLRXLBE737PCOQ15WQCOL4URKC	14	8632	evidence3	English	24	Male	1	2	Yes	Thank you :)	6.79736666666667	probably	You are listening to music with your earphones. You look out the window and see that the mailman has just arrived at your neighbor's doorstep, when all of a sudden he jumps back.	dog	0.668333333333333	inferential
+3W2LOLRXLBE737PCOQ15WQCOL4URKC	14	6234	evidence1	English	24	Male	2	2	Yes	Thank you :)	6.79736666666667	bare	You look out the window and see raindrops falling from the sky.	rain	0.935454545454545	perceptual
+3W2LOLRXLBE737PCOQ15WQCOL4URKC	14	7147	evidence1	English	24	Male	3	2	Yes	Thank you :)	6.79736666666667	bare	You just prepared dinner and set it out on the table.	dinner	0.93	perceptual
+3W2LOLRXLBE737PCOQ15WQCOL4URKC	14	13327	evidence5	English	24	Male	4	2	Yes	Thank you :)	6.79736666666667	might	Your neighbor just got a new dog.	dog	0.487142857142857	inferential
+3W2LOLRXLBE737PCOQ15WQCOL4URKC	14	4192	evidence4	English	24	Male	5	2	Yes	Thank you :)	6.79736666666667	might	You check the weather report on the Internet, which says it is raining.	rain	0.742142857142857	reportative
+3W2LOLRXLBE737PCOQ15WQCOL4URKC	14	4612	evidence2	English	24	Male	6	2	Yes	Thank you :)	6.79736666666667	probably	You hear the sound of water dripping on the roof.	rain	0.9175	inferential
+3W2LOLRXLBE737PCOQ15WQCOL4URKC	14	8461	evidence2	English	24	Male	7	2	Yes	Thank you :)	6.79736666666667	bare	You touch the coffee cup and feel that it is cold.	coffee	0.743333333333333	perceptual
+3W2LOLRXLBE737PCOQ15WQCOL4URKC	14	5523	evidence4	English	24	Male	8	2	Yes	Thank you :)	6.79736666666667	probably	You are listening to music with your earphones. You know that your neighbor's dog often barks in the evening.	dog	0.651	inferential
+3W2LOLRXLBE737PCOQ15WQCOL4URKC	14	10285	evidence3	English	24	Male	9	2	Yes	Thank you :)	6.79736666666667	might	Dinner is usually ready at around 6pm. You look at the clock and it is 6pm.	dinner	0.85	inferential
+3W2LOLRXLBE737PCOQ15WQCOL4URKC	14	6270	evidence5	English	24	Male	10	2	Yes	Thank you :)	6.79736666666667	probably	You see that the cup isn't insulated.	coffee	0.5825	inferential
+3W2LOLRXLBE737PCOQ15WQCOL4URKC	14	8014	evidence4	English	24	Male	11	2	Yes	Thank you :)	6.79736666666667	probably	You see that there isn't any steam coming from the coffee.	coffee	0.681818181818182	inferential
+3W2LOLRXLBE737PCOQ15WQCOL4URKC	14	5806	evidence4	English	24	Male	12	2	Yes	Thank you :)	6.79736666666667	might	You smell food coming from the dining room.	dinner	0.655384615384615	inferential
+3TEM0PF1Q5WBP7Z32WW38HGBS5Y0DA	15	30349	evidence4	English	55	Male	1	2	Yes		4.94073333333333	probably	You check the weather report on the Internet, which says it is raining.	rain	0.742142857142857	reportative
+3TEM0PF1Q5WBP7Z32WW38HGBS5Y0DA	15	22527	evidence3	English	55	Male	2	2	Yes		4.94073333333333	must	You see a person come in from outside with wet hair and wet clothes.	rain	0.89	inferential
+3TEM0PF1Q5WBP7Z32WW38HGBS5Y0DA	15	32847	evidence5	English	55	Male	3	2	Yes		4.94073333333333	might	Your neighbor just got a new dog.	dog	0.487142857142857	inferential
+3TEM0PF1Q5WBP7Z32WW38HGBS5Y0DA	15	20309	evidence1	English	55	Male	4	2	Yes		4.94073333333333	bare	You take a sip of the coffee and feel that it is cold.	coffee	0.916	perceptual
+3TEM0PF1Q5WBP7Z32WW38HGBS5Y0DA	15	17888	evidence2	English	55	Male	5	2	Yes		4.94073333333333	bare	You touch the coffee cup and feel that it is cold.	coffee	0.743333333333333	perceptual
+3TEM0PF1Q5WBP7Z32WW38HGBS5Y0DA	15	14591	evidence4	English	55	Male	6	2	Yes		4.94073333333333	might	You see that there isn't any steam coming from the coffee.	coffee	0.681818181818182	inferential
+3TEM0PF1Q5WBP7Z32WW38HGBS5Y0DA	15	26733	evidence2	English	55	Male	7	2	Yes		4.94073333333333	must	You hear the sound of a dog barking.	dog	0.734285714285714	inferential
+3TEM0PF1Q5WBP7Z32WW38HGBS5Y0DA	15	21152	evidence4	English	55	Male	8	2	Yes		4.94073333333333	might	You are listening to music with your earphones. You know that your neighbor's dog often barks in the evening.	dog	0.651	inferential
+3TEM0PF1Q5WBP7Z32WW38HGBS5Y0DA	15	15879	evidence2	English	55	Male	9	2	Yes		4.94073333333333	bare	Your spouse tells you that dinner is ready.	dinner	0.93375	reportative
+3TEM0PF1Q5WBP7Z32WW38HGBS5Y0DA	15	13197	evidence5	English	55	Male	10	2	Yes		4.94073333333333	might	You're hungry.	dinner	0.563333333333333	wishful
+3TEM0PF1Q5WBP7Z32WW38HGBS5Y0DA	15	20768	evidence3	English	55	Male	11	2	Yes		4.94073333333333	probably	Dinner is usually ready at around 6pm. You look at the clock and it is 6pm.	dinner	0.85	inferential
+3TEM0PF1Q5WBP7Z32WW38HGBS5Y0DA	15	22726	evidence5	English	55	Male	12	2	Yes		4.94073333333333	might	Earlier today, you had seen dark clouds in the sky.	rain	0.573333333333333	inferential
+3XXU1SWE8MUDR0WRIM51IG857220A9	16	17748	evidence5	english	21	Female	1	2	Yes	I like the simplicity and having one question per page.	2.92093333333333	might	You see that the cup isn't insulated.	coffee	0.5825	inferential
+3XXU1SWE8MUDR0WRIM51IG857220A9	16	13739	evidence1	english	21	Female	2	2	Yes	I like the simplicity and having one question per page.	2.92093333333333	bare	You look outside and see Fluffy, the neighbor's dog, standing on the porch and barking.	dog	0.916	perceptual
+3XXU1SWE8MUDR0WRIM51IG857220A9	16	6838	evidence2	english	21	Female	3	2	Yes	I like the simplicity and having one question per page.	2.92093333333333	bare	Your spouse tells you that dinner is ready.	dinner	0.93375	reportative
+3XXU1SWE8MUDR0WRIM51IG857220A9	16	14164	evidence3	english	21	Female	4	2	Yes	I like the simplicity and having one question per page.	2.92093333333333	probably	You are listening to music with your earphones. You look out the window and see that the mailman has just arrived at your neighbor's doorstep, when all of a sudden he jumps back.	dog	0.668333333333333	inferential
+3XXU1SWE8MUDR0WRIM51IG857220A9	16	11806	evidence4	english	21	Female	5	2	Yes	I like the simplicity and having one question per page.	2.92093333333333	might	You are listening to music with your earphones. You know that your neighbor's dog often barks in the evening.	dog	0.651	inferential
+3XXU1SWE8MUDR0WRIM51IG857220A9	16	13840	evidence1	english	21	Female	6	2	Yes	I like the simplicity and having one question per page.	2.92093333333333	bare	You look out the window and see raindrops falling from the sky.	rain	0.935454545454545	perceptual
+3XXU1SWE8MUDR0WRIM51IG857220A9	16	7110	evidence1	english	21	Female	7	2	Yes	I like the simplicity and having one question per page.	2.92093333333333	bare	You take a sip of the coffee and feel that it is cold.	coffee	0.916	perceptual
+3XXU1SWE8MUDR0WRIM51IG857220A9	16	8138	evidence1	english	21	Female	8	2	Yes	I like the simplicity and having one question per page.	2.92093333333333	bare	You just prepared dinner and set it out on the table.	dinner	0.93	perceptual
+3XXU1SWE8MUDR0WRIM51IG857220A9	16	10246	evidence3	english	21	Female	9	2	Yes	I like the simplicity and having one question per page.	2.92093333333333	might	You see a person come in from outside with wet hair and wet clothes.	rain	0.89	inferential
+3XXU1SWE8MUDR0WRIM51IG857220A9	16	9398	evidence3	english	21	Female	10	2	Yes	I like the simplicity and having one question per page.	2.92093333333333	must	Dinner is usually ready at around 6pm. You look at the clock and it is 6pm.	dinner	0.85	inferential
+3XXU1SWE8MUDR0WRIM51IG857220A9	16	13651	evidence4	english	21	Female	11	2	Yes	I like the simplicity and having one question per page.	2.92093333333333	might	You check the weather report on the Internet, which says it is raining.	rain	0.742142857142857	reportative
+3XXU1SWE8MUDR0WRIM51IG857220A9	16	7937	evidence3	english	21	Female	12	2	Yes	I like the simplicity and having one question per page.	2.92093333333333	probably	You know that the coffee has been on the table for an hour.	coffee	0.95	inferential
+3U0SRXB7CD48BDAFL3TLOITSFZ1RNJ	17	16759	evidence4	english	23	Male	1	2	Yes		2.0866	probably	You check the weather report on the Internet, which says it is raining.	rain	0.742142857142857	reportative
+3U0SRXB7CD48BDAFL3TLOITSFZ1RNJ	17	6443	evidence4	english	23	Male	2	2	Yes		2.0866	might	You see that there isn't any steam coming from the coffee.	coffee	0.681818181818182	inferential
+3U0SRXB7CD48BDAFL3TLOITSFZ1RNJ	17	5730	evidence5	english	23	Male	3	2	Yes		2.0866	might	Earlier today, you had seen dark clouds in the sky.	rain	0.573333333333333	inferential
+3U0SRXB7CD48BDAFL3TLOITSFZ1RNJ	17	11136	evidence5	english	23	Male	4	2	Yes		2.0866	might	Your neighbor just got a new dog.	dog	0.487142857142857	inferential
+3U0SRXB7CD48BDAFL3TLOITSFZ1RNJ	17	5810	evidence2	english	23	Male	5	2	Yes		2.0866	might	You hear the sound of a dog barking.	dog	0.734285714285714	inferential
+3U0SRXB7CD48BDAFL3TLOITSFZ1RNJ	17	14455	evidence3	english	23	Male	6	2	Yes		2.0866	probably	Dinner is usually ready at around 6pm. You look at the clock and it is 6pm.	dinner	0.85	inferential
+3U0SRXB7CD48BDAFL3TLOITSFZ1RNJ	17	10915	evidence1	english	23	Male	7	2	Yes		2.0866	bare	You just prepared dinner and set it out on the table.	dinner	0.93	perceptual
+3U0SRXB7CD48BDAFL3TLOITSFZ1RNJ	17	13222	evidence2	english	23	Male	8	2	Yes		2.0866	bare	Your spouse tells you that dinner is ready.	dinner	0.93375	reportative
+3U0SRXB7CD48BDAFL3TLOITSFZ1RNJ	17	6627	evidence1	english	23	Male	9	2	Yes		2.0866	bare	You take a sip of the coffee and feel that it is cold.	coffee	0.916	perceptual
+3U0SRXB7CD48BDAFL3TLOITSFZ1RNJ	17	5558	evidence1	english	23	Male	10	2	Yes		2.0866	bare	You look outside and see Fluffy, the neighbor's dog, standing on the porch and barking.	dog	0.916	perceptual
+3U0SRXB7CD48BDAFL3TLOITSFZ1RNJ	17	3215	evidence2	english	23	Male	11	2	Yes		2.0866	bare	You touch the coffee cup and feel that it is cold.	coffee	0.743333333333333	perceptual
+3U0SRXB7CD48BDAFL3TLOITSFZ1RNJ	17	10535	evidence3	english	23	Male	12	2	Yes		2.0866	probably	You see a person come in from outside with wet hair and wet clothes.	rain	0.89	inferential
+3M68NM076H604S4NMM74M776K9CR69	18	25746	evidence2	English	21	Female	1	2	Yes		3.20918333333333	bare	You hear the sound of a dog barking.	dog	0.734285714285714	inferential
+3M68NM076H604S4NMM74M776K9CR69	18	15495	evidence1	English	21	Female	2	2	Yes		3.20918333333333	bare	You look outside and see Fluffy, the neighbor's dog, standing on the porch and barking.	dog	0.916	perceptual
+3M68NM076H604S4NMM74M776K9CR69	18	14705	evidence4	English	21	Female	3	2	Yes		3.20918333333333	might	You smell food coming from the dining room.	dinner	0.655384615384615	inferential
+3M68NM076H604S4NMM74M776K9CR69	18	15799	evidence2	English	21	Female	4	2	Yes		3.20918333333333	probably	You hear the sound of water dripping on the roof.	rain	0.9175	inferential
+3M68NM076H604S4NMM74M776K9CR69	18	5663	evidence1	English	21	Female	5	2	Yes		3.20918333333333	bare	You take a sip of the coffee and feel that it is cold.	coffee	0.916	perceptual
+3M68NM076H604S4NMM74M776K9CR69	18	4832	evidence3	English	21	Female	6	2	Yes		3.20918333333333	probably	You know that the coffee has been on the table for an hour.	coffee	0.95	inferential
+3M68NM076H604S4NMM74M776K9CR69	18	7488	evidence2	English	21	Female	7	2	Yes		3.20918333333333	might	You touch the coffee cup and feel that it is cold.	coffee	0.743333333333333	perceptual
+3M68NM076H604S4NMM74M776K9CR69	18	12277	evidence3	English	21	Female	8	2	Yes		3.20918333333333	probably	Dinner is usually ready at around 6pm. You look at the clock and it is 6pm.	dinner	0.85	inferential
+3M68NM076H604S4NMM74M776K9CR69	18	4831	evidence1	English	21	Female	9	2	Yes		3.20918333333333	bare	You just prepared dinner and set it out on the table.	dinner	0.93	perceptual
+3M68NM076H604S4NMM74M776K9CR69	18	22249	evidence3	English	21	Female	10	2	Yes		3.20918333333333	might	You see a person come in from outside with wet hair and wet clothes.	rain	0.89	inferential
+3M68NM076H604S4NMM74M776K9CR69	18	16743	evidence3	English	21	Female	11	2	Yes		3.20918333333333	must	You are listening to music with your earphones. You look out the window and see that the mailman has just arrived at your neighbor's doorstep, when all of a sudden he jumps back.	dog	0.668333333333333	inferential
+3M68NM076H604S4NMM74M776K9CR69	18	7550	evidence1	English	21	Female	12	2	Yes		3.20918333333333	bare	You look out the window and see raindrops falling from the sky.	rain	0.935454545454545	perceptual
+3TUI152ZZBM5L5OQ316NML6KGCUQ19	19	12826	evidence1	English	34	Male	1	1	Yes		2.1882	probably	You take a sip of the coffee and feel that it is cold.	coffee	0.916	perceptual
+3TUI152ZZBM5L5OQ316NML6KGCUQ19	19	8024	evidence2	English	34	Male	2	1	Yes		2.1882	bare	Your spouse tells you that dinner is ready.	dinner	0.93375	reportative
+3TUI152ZZBM5L5OQ316NML6KGCUQ19	19	4903	evidence1	English	34	Male	3	1	Yes		2.1882	bare	You just prepared dinner and set it out on the table.	dinner	0.93	perceptual
+3TUI152ZZBM5L5OQ316NML6KGCUQ19	19	7640	evidence1	English	34	Male	4	1	Yes		2.1882	might	You look out the window and see raindrops falling from the sky.	rain	0.935454545454545	perceptual
+3TUI152ZZBM5L5OQ316NML6KGCUQ19	19	12129	evidence5	English	34	Male	5	1	Yes		2.1882	might	Your neighbor just got a new dog.	dog	0.487142857142857	inferential
+3TUI152ZZBM5L5OQ316NML6KGCUQ19	19	11874	evidence3	English	34	Male	6	1	Yes		2.1882	probably	You are listening to music with your earphones. You look out the window and see that the mailman has just arrived at your neighbor's doorstep, when all of a sudden he jumps back.	dog	0.668333333333333	inferential
+3TUI152ZZBM5L5OQ316NML6KGCUQ19	19	6278	evidence4	English	34	Male	7	1	Yes		2.1882	bare	You check the weather report on the Internet, which says it is raining.	rain	0.742142857142857	reportative
+3TUI152ZZBM5L5OQ316NML6KGCUQ19	19	6366	evidence1	English	34	Male	8	1	Yes		2.1882	bare	You look outside and see Fluffy, the neighbor's dog, standing on the porch and barking.	dog	0.916	perceptual
+3TUI152ZZBM5L5OQ316NML6KGCUQ19	19	8441	evidence2	English	34	Male	9	1	Yes		2.1882	bare	You hear the sound of water dripping on the roof.	rain	0.9175	inferential
+3TUI152ZZBM5L5OQ316NML6KGCUQ19	19	9708	evidence4	English	34	Male	10	1	Yes		2.1882	probably	You see that there isn't any steam coming from the coffee.	coffee	0.681818181818182	inferential
+3TUI152ZZBM5L5OQ316NML6KGCUQ19	19	12482	evidence4	English	34	Male	11	1	Yes		2.1882	probably	You smell food coming from the dining room.	dinner	0.655384615384615	inferential
+3TUI152ZZBM5L5OQ316NML6KGCUQ19	19	3854	evidence2	English	34	Male	12	1	Yes		2.1882	bare	You touch the coffee cup and feel that it is cold.	coffee	0.743333333333333	perceptual
+3L4D84MILZRZ3T5RA0PZH7A5J6YHJ8	20	18393	evidence4	English	29	Male	1	2	Yes	nothing at this time	3.28528333333333	might	You smell food coming from the dining room.	dinner	0.655384615384615	inferential
+3L4D84MILZRZ3T5RA0PZH7A5J6YHJ8	20	9784	evidence2	English	29	Male	2	2	Yes	nothing at this time	3.28528333333333	must	You hear the sound of water dripping on the roof.	rain	0.9175	inferential
+3L4D84MILZRZ3T5RA0PZH7A5J6YHJ8	20	11182	evidence3	English	29	Male	3	2	Yes	nothing at this time	3.28528333333333	must	You know that the coffee has been on the table for an hour.	coffee	0.95	inferential
+3L4D84MILZRZ3T5RA0PZH7A5J6YHJ8	20	18768	evidence3	English	29	Male	4	2	Yes	nothing at this time	3.28528333333333	probably	You are listening to music with your earphones. You look out the window and see that the mailman has just arrived at your neighbor's doorstep, when all of a sudden he jumps back.	dog	0.668333333333333	inferential
+3L4D84MILZRZ3T5RA0PZH7A5J6YHJ8	20	8088	evidence2	English	29	Male	5	2	Yes	nothing at this time	3.28528333333333	bare	Your spouse tells you that dinner is ready.	dinner	0.93375	reportative
+3L4D84MILZRZ3T5RA0PZH7A5J6YHJ8	20	12056	evidence4	English	29	Male	6	2	Yes	nothing at this time	3.28528333333333	might	You are listening to music with your earphones. You know that your neighbor's dog often barks in the evening.	dog	0.651	inferential
+3L4D84MILZRZ3T5RA0PZH7A5J6YHJ8	20	10984	evidence5	English	29	Male	7	2	Yes	nothing at this time	3.28528333333333	might	Earlier today, you had seen dark clouds in the sky.	rain	0.573333333333333	inferential
+3L4D84MILZRZ3T5RA0PZH7A5J6YHJ8	20	28080	evidence5	English	29	Male	8	2	Yes	nothing at this time	3.28528333333333	might	You see that the cup isn't insulated.	coffee	0.5825	inferential
+3L4D84MILZRZ3T5RA0PZH7A5J6YHJ8	20	6479	evidence4	English	29	Male	9	2	Yes	nothing at this time	3.28528333333333	bare	You check the weather report on the Internet, which says it is raining.	rain	0.742142857142857	reportative
+3L4D84MILZRZ3T5RA0PZH7A5J6YHJ8	20	8024	evidence1	English	29	Male	10	2	Yes	nothing at this time	3.28528333333333	bare	You look outside and see Fluffy, the neighbor's dog, standing on the porch and barking.	dog	0.916	perceptual
+3L4D84MILZRZ3T5RA0PZH7A5J6YHJ8	20	8736	evidence5	English	29	Male	11	2	Yes	nothing at this time	3.28528333333333	might	You're hungry.	dinner	0.563333333333333	wishful
+3L4D84MILZRZ3T5RA0PZH7A5J6YHJ8	20	9152	evidence4	English	29	Male	12	2	Yes	nothing at this time	3.28528333333333	must	You see that there isn't any steam coming from the coffee.	coffee	0.681818181818182	inferential
+3K5TEWLKGVA8QJG5X7L3K7MEE6LIVO	21	17301	evidence5	english	30	Female	1	2	Yes		1.81255	must	You're hungry.	dinner	0.563333333333333	wishful
+3K5TEWLKGVA8QJG5X7L3K7MEE6LIVO	21	11032	evidence4	english	30	Female	2	2	Yes		1.81255	probably	You are listening to music with your earphones. You know that your neighbor's dog often barks in the evening.	dog	0.651	inferential
+3K5TEWLKGVA8QJG5X7L3K7MEE6LIVO	21	4999	evidence1	english	30	Female	3	2	Yes		1.81255	bare	You just prepared dinner and set it out on the table.	dinner	0.93	perceptual
+3K5TEWLKGVA8QJG5X7L3K7MEE6LIVO	21	10290	evidence5	english	30	Female	4	2	Yes		1.81255	bare	Your neighbor just got a new dog.	dog	0.487142857142857	inferential
+3K5TEWLKGVA8QJG5X7L3K7MEE6LIVO	21	4303	evidence3	english	30	Female	5	2	Yes		1.81255	bare	You know that the coffee has been on the table for an hour.	coffee	0.95	inferential
+3K5TEWLKGVA8QJG5X7L3K7MEE6LIVO	21	4316	evidence5	english	30	Female	6	2	Yes		1.81255	might	Earlier today, you had seen dark clouds in the sky.	rain	0.573333333333333	inferential
+3K5TEWLKGVA8QJG5X7L3K7MEE6LIVO	21	4732	evidence4	english	30	Female	7	2	Yes		1.81255	must	You smell food coming from the dining room.	dinner	0.655384615384615	inferential
+3K5TEWLKGVA8QJG5X7L3K7MEE6LIVO	21	5399	evidence2	english	30	Female	8	2	Yes		1.81255	probably	You hear the sound of water dripping on the roof.	rain	0.9175	inferential
+3K5TEWLKGVA8QJG5X7L3K7MEE6LIVO	21	5581	evidence4	english	30	Female	9	2	Yes		1.81255	probably	You see that there isn't any steam coming from the coffee.	coffee	0.681818181818182	inferential
+3K5TEWLKGVA8QJG5X7L3K7MEE6LIVO	21	3052	evidence2	english	30	Female	10	2	Yes		1.81255	bare	You touch the coffee cup and feel that it is cold.	coffee	0.743333333333333	perceptual
+3K5TEWLKGVA8QJG5X7L3K7MEE6LIVO	21	5503	evidence4	english	30	Female	11	2	Yes		1.81255	probably	You check the weather report on the Internet, which says it is raining.	rain	0.742142857142857	reportative
+3K5TEWLKGVA8QJG5X7L3K7MEE6LIVO	21	10950	evidence3	english	30	Female	12	2	Yes		1.81255	must	You are listening to music with your earphones. You look out the window and see that the mailman has just arrived at your neighbor's doorstep, when all of a sudden he jumps back.	dog	0.668333333333333	inferential
+3PPTZCWALQJ2G19YBCFFEFQWTR7QZY	22	18983	evidence3	English	33	Female	1	2	Yes	No comments	2.41988333333333	bare	Dinner is usually ready at around 6pm. You look at the clock and it is 6pm.	dinner	0.85	inferential
+3PPTZCWALQJ2G19YBCFFEFQWTR7QZY	22	19141	evidence3	English	33	Female	2	2	Yes	No comments	2.41988333333333	must	You see a person come in from outside with wet hair and wet clothes.	rain	0.89	inferential
+3PPTZCWALQJ2G19YBCFFEFQWTR7QZY	22	10996	evidence1	English	33	Female	3	2	Yes	No comments	2.41988333333333	bare	You look outside and see Fluffy, the neighbor's dog, standing on the porch and barking.	dog	0.916	perceptual
+3PPTZCWALQJ2G19YBCFFEFQWTR7QZY	22	6814	evidence2	English	33	Female	4	2	Yes	No comments	2.41988333333333	bare	You hear the sound of water dripping on the roof.	rain	0.9175	inferential
+3PPTZCWALQJ2G19YBCFFEFQWTR7QZY	22	12773	evidence5	English	33	Female	5	2	Yes	No comments	2.41988333333333	might	Earlier today, you had seen dark clouds in the sky.	rain	0.573333333333333	inferential
+3PPTZCWALQJ2G19YBCFFEFQWTR7QZY	22	7220	evidence1	English	33	Female	6	2	Yes	No comments	2.41988333333333	bare	You just prepared dinner and set it out on the table.	dinner	0.93	perceptual
+3PPTZCWALQJ2G19YBCFFEFQWTR7QZY	22	9017	evidence2	English	33	Female	7	2	Yes	No comments	2.41988333333333	must	You hear the sound of a dog barking.	dog	0.734285714285714	inferential
+3PPTZCWALQJ2G19YBCFFEFQWTR7QZY	22	12596	evidence3	English	33	Female	8	2	Yes	No comments	2.41988333333333	probably	You are listening to music with your earphones. You look out the window and see that the mailman has just arrived at your neighbor's doorstep, when all of a sudden he jumps back.	dog	0.668333333333333	inferential
+3PPTZCWALQJ2G19YBCFFEFQWTR7QZY	22	8211	evidence4	English	33	Female	9	2	Yes	No comments	2.41988333333333	might	You smell food coming from the dining room.	dinner	0.655384615384615	inferential
+3PPTZCWALQJ2G19YBCFFEFQWTR7QZY	22	7977	evidence2	English	33	Female	10	2	Yes	No comments	2.41988333333333	must	You touch the coffee cup and feel that it is cold.	coffee	0.743333333333333	perceptual
+3PPTZCWALQJ2G19YBCFFEFQWTR7QZY	22	5046	evidence1	English	33	Female	11	2	Yes	No comments	2.41988333333333	bare	You take a sip of the coffee and feel that it is cold.	coffee	0.916	perceptual
+3PPTZCWALQJ2G19YBCFFEFQWTR7QZY	22	5259	evidence5	English	33	Female	12	2	Yes	No comments	2.41988333333333	probably	You see that the cup isn't insulated.	coffee	0.5825	inferential
+3X08E93BHVH7I963UY46BCGAOMZ66R	23	17827	evidence2	English	60	Female	1	1	Yes	Sorry don't have any	3.07348333333333	probably	You hear the sound of water dripping on the roof.	rain	0.9175	inferential
+3X08E93BHVH7I963UY46BCGAOMZ66R	23	15948	evidence3	English	60	Female	2	1	Yes	Sorry don't have any	3.07348333333333	must	You see a person come in from outside with wet hair and wet clothes.	rain	0.89	inferential
+3X08E93BHVH7I963UY46BCGAOMZ66R	23	10323	evidence2	English	60	Female	3	1	Yes	Sorry don't have any	3.07348333333333	bare	You touch the coffee cup and feel that it is cold.	coffee	0.743333333333333	perceptual
+3X08E93BHVH7I963UY46BCGAOMZ66R	23	19225	evidence2	English	60	Female	4	1	Yes	Sorry don't have any	3.07348333333333	bare	You hear the sound of a dog barking.	dog	0.734285714285714	inferential
+3X08E93BHVH7I963UY46BCGAOMZ66R	23	6821	evidence2	English	60	Female	5	1	Yes	Sorry don't have any	3.07348333333333	bare	Your spouse tells you that dinner is ready.	dinner	0.93375	reportative
+3X08E93BHVH7I963UY46BCGAOMZ66R	23	10835	evidence5	English	60	Female	6	1	Yes	Sorry don't have any	3.07348333333333	must	Earlier today, you had seen dark clouds in the sky.	rain	0.573333333333333	inferential
+3X08E93BHVH7I963UY46BCGAOMZ66R	23	6167	evidence4	English	60	Female	7	1	Yes	Sorry don't have any	3.07348333333333	might	You see that there isn't any steam coming from the coffee.	coffee	0.681818181818182	inferential
+3X08E93BHVH7I963UY46BCGAOMZ66R	23	5452	evidence1	English	60	Female	8	1	Yes	Sorry don't have any	3.07348333333333	bare	You take a sip of the coffee and feel that it is cold.	coffee	0.916	perceptual
+3X08E93BHVH7I963UY46BCGAOMZ66R	23	6502	evidence5	English	60	Female	9	1	Yes	Sorry don't have any	3.07348333333333	probably	Your neighbor just got a new dog.	dog	0.487142857142857	inferential
+3X08E93BHVH7I963UY46BCGAOMZ66R	23	12964	evidence3	English	60	Female	10	1	Yes	Sorry don't have any	3.07348333333333	must	You are listening to music with your earphones. You look out the window and see that the mailman has just arrived at your neighbor's doorstep, when all of a sudden he jumps back.	dog	0.668333333333333	inferential
+3X08E93BHVH7I963UY46BCGAOMZ66R	23	9806	evidence5	English	60	Female	11	1	Yes	Sorry don't have any	3.07348333333333	might	You're hungry.	dinner	0.563333333333333	wishful
+3X08E93BHVH7I963UY46BCGAOMZ66R	23	8465	evidence4	English	60	Female	12	1	Yes	Sorry don't have any	3.07348333333333	probably	You smell food coming from the dining room.	dinner	0.655384615384615	inferential
+31N2WW6R9RP44JCWCP9CYFH37UYF3V	24	19784	evidence2	English	27	Male	1	1	Yes		3.03788333333333	bare	You hear the sound of water dripping on the roof.	rain	0.9175	inferential
+31N2WW6R9RP44JCWCP9CYFH37UYF3V	24	12125	evidence1	English	27	Male	2	1	Yes		3.03788333333333	bare	You take a sip of the coffee and feel that it is cold.	coffee	0.916	perceptual
+31N2WW6R9RP44JCWCP9CYFH37UYF3V	24	14519	evidence1	English	27	Male	3	1	Yes		3.03788333333333	bare	You look outside and see Fluffy, the neighbor's dog, standing on the porch and barking.	dog	0.916	perceptual
+31N2WW6R9RP44JCWCP9CYFH37UYF3V	24	16552	evidence5	English	27	Male	4	1	Yes		3.03788333333333	might	Your neighbor just got a new dog.	dog	0.487142857142857	inferential
+31N2WW6R9RP44JCWCP9CYFH37UYF3V	24	6677	evidence1	English	27	Male	5	1	Yes		3.03788333333333	bare	You look out the window and see raindrops falling from the sky.	rain	0.935454545454545	perceptual
+31N2WW6R9RP44JCWCP9CYFH37UYF3V	24	15368	evidence2	English	27	Male	6	1	Yes		3.03788333333333	bare	Your spouse tells you that dinner is ready.	dinner	0.93375	reportative
+31N2WW6R9RP44JCWCP9CYFH37UYF3V	24	9671	evidence5	English	27	Male	7	1	Yes		3.03788333333333	might	You see that the cup isn't insulated.	coffee	0.5825	inferential
+31N2WW6R9RP44JCWCP9CYFH37UYF3V	24	9912	evidence4	English	27	Male	8	1	Yes		3.03788333333333	might	You are listening to music with your earphones. You know that your neighbor's dog often barks in the evening.	dog	0.651	inferential
+31N2WW6R9RP44JCWCP9CYFH37UYF3V	24	8743	evidence3	English	27	Male	9	1	Yes		3.03788333333333	probably	You know that the coffee has been on the table for an hour.	coffee	0.95	inferential
+31N2WW6R9RP44JCWCP9CYFH37UYF3V	24	15751	evidence5	English	27	Male	10	1	Yes		3.03788333333333	might	You're hungry.	dinner	0.563333333333333	wishful
+31N2WW6R9RP44JCWCP9CYFH37UYF3V	24	7735	evidence4	English	27	Male	11	1	Yes		3.03788333333333	must	You smell food coming from the dining room.	dinner	0.655384615384615	inferential
+31N2WW6R9RP44JCWCP9CYFH37UYF3V	24	8841	evidence4	English	27	Male	12	1	Yes		3.03788333333333	probably	You check the weather report on the Internet, which says it is raining.	rain	0.742142857142857	reportative
+32VNZTT0A73MP5093YEPP9NSOI7R4P	25	23658	evidence1	English	27	Female	1	2	Yes	Fun HIT, I enjoyed it!	2.7503	bare	You look out the window and see raindrops falling from the sky.	rain	0.935454545454545	perceptual
+32VNZTT0A73MP5093YEPP9NSOI7R4P	25	9909	evidence5	English	27	Female	2	2	Yes	Fun HIT, I enjoyed it!	2.7503	might	You're hungry.	dinner	0.563333333333333	wishful
+32VNZTT0A73MP5093YEPP9NSOI7R4P	25	16812	evidence1	English	27	Female	3	2	Yes	Fun HIT, I enjoyed it!	2.7503	bare	You take a sip of the coffee and feel that it is cold.	coffee	0.916	perceptual
+32VNZTT0A73MP5093YEPP9NSOI7R4P	25	8127	evidence4	English	27	Female	4	2	Yes	Fun HIT, I enjoyed it!	2.7503	must	You smell food coming from the dining room.	dinner	0.655384615384615	inferential
+32VNZTT0A73MP5093YEPP9NSOI7R4P	25	10355	evidence4	English	27	Female	5	2	Yes	Fun HIT, I enjoyed it!	2.7503	might	You see that there isn't any steam coming from the coffee.	coffee	0.681818181818182	inferential
+32VNZTT0A73MP5093YEPP9NSOI7R4P	25	18720	evidence3	English	27	Female	6	2	Yes	Fun HIT, I enjoyed it!	2.7503	probably	You are listening to music with your earphones. You look out the window and see that the mailman has just arrived at your neighbor's doorstep, when all of a sudden he jumps back.	dog	0.668333333333333	inferential
+32VNZTT0A73MP5093YEPP9NSOI7R4P	25	13370	evidence4	English	27	Female	7	2	Yes	Fun HIT, I enjoyed it!	2.7503	might	You are listening to music with your earphones. You know that your neighbor's dog often barks in the evening.	dog	0.651	inferential
+32VNZTT0A73MP5093YEPP9NSOI7R4P	25	6345	evidence3	English	27	Female	8	2	Yes	Fun HIT, I enjoyed it!	2.7503	must	You know that the coffee has been on the table for an hour.	coffee	0.95	inferential
+32VNZTT0A73MP5093YEPP9NSOI7R4P	25	7422	evidence1	English	27	Female	9	2	Yes	Fun HIT, I enjoyed it!	2.7503	bare	You look outside and see Fluffy, the neighbor's dog, standing on the porch and barking.	dog	0.916	perceptual
+32VNZTT0A73MP5093YEPP9NSOI7R4P	25	9847	evidence3	English	27	Female	10	2	Yes	Fun HIT, I enjoyed it!	2.7503	must	You see a person come in from outside with wet hair and wet clothes.	rain	0.89	inferential
+32VNZTT0A73MP5093YEPP9NSOI7R4P	25	7052	evidence5	English	27	Female	11	2	Yes	Fun HIT, I enjoyed it!	2.7503	might	Earlier today, you had seen dark clouds in the sky.	rain	0.573333333333333	inferential
+32VNZTT0A73MP5093YEPP9NSOI7R4P	25	7097	evidence1	English	27	Female	12	2	Yes	Fun HIT, I enjoyed it!	2.7503	bare	You just prepared dinner and set it out on the table.	dinner	0.93	perceptual
+3EA3QWIZ4IUTDRCGSCLOJPYTHL5IT8	26	23428	evidence4	English	28	Male	1	1	Yes		3.66173333333333	bare	You check the weather report on the Internet, which says it is raining.	rain	0.742142857142857	reportative
+3EA3QWIZ4IUTDRCGSCLOJPYTHL5IT8	26	14397	evidence3	English	28	Male	2	1	Yes		3.66173333333333	must	You see a person come in from outside with wet hair and wet clothes.	rain	0.89	inferential
+3EA3QWIZ4IUTDRCGSCLOJPYTHL5IT8	26	19677	evidence5	English	28	Male	3	1	Yes		3.66173333333333	might	You see that the cup isn't insulated.	coffee	0.5825	inferential
+3EA3QWIZ4IUTDRCGSCLOJPYTHL5IT8	26	8041	evidence4	English	28	Male	4	1	Yes		3.66173333333333	might	You see that there isn't any steam coming from the coffee.	coffee	0.681818181818182	inferential
+3EA3QWIZ4IUTDRCGSCLOJPYTHL5IT8	26	16557	evidence4	English	28	Male	5	1	Yes		3.66173333333333	probably	You are listening to music with your earphones. You know that your neighbor's dog often barks in the evening.	dog	0.651	inferential
+3EA3QWIZ4IUTDRCGSCLOJPYTHL5IT8	26	16221	evidence2	English	28	Male	6	1	Yes		3.66173333333333	bare	Your spouse tells you that dinner is ready.	dinner	0.93375	reportative
+3EA3QWIZ4IUTDRCGSCLOJPYTHL5IT8	26	10289	evidence5	English	28	Male	7	1	Yes		3.66173333333333	might	Earlier today, you had seen dark clouds in the sky.	rain	0.573333333333333	inferential
+3EA3QWIZ4IUTDRCGSCLOJPYTHL5IT8	26	13749	evidence3	English	28	Male	8	1	Yes		3.66173333333333	bare	You know that the coffee has been on the table for an hour.	coffee	0.95	inferential
+3EA3QWIZ4IUTDRCGSCLOJPYTHL5IT8	26	25253	evidence5	English	28	Male	9	1	Yes		3.66173333333333	might	Your neighbor just got a new dog.	dog	0.487142857142857	inferential
+3EA3QWIZ4IUTDRCGSCLOJPYTHL5IT8	26	25629	evidence1	English	28	Male	10	1	Yes		3.66173333333333	bare	You just prepared dinner and set it out on the table.	dinner	0.93	perceptual
+3EA3QWIZ4IUTDRCGSCLOJPYTHL5IT8	26	8135	evidence1	English	28	Male	11	1	Yes		3.66173333333333	bare	You look outside and see Fluffy, the neighbor's dog, standing on the porch and barking.	dog	0.916	perceptual
+3EA3QWIZ4IUTDRCGSCLOJPYTHL5IT8	26	9375	evidence5	English	28	Male	12	1	Yes		3.66173333333333	might	You're hungry.	dinner	0.563333333333333	wishful
+3COPXFW7XBBMRU9XBYXGRVC9KM7PKJ	27	31634	evidence5	English	24	Female	1	2	Yes	It was a fun study and would like to do more like it in the future. 	10.8992333333333	might	You're hungry.	dinner	0.563333333333333	wishful
+3COPXFW7XBBMRU9XBYXGRVC9KM7PKJ	27	23033	evidence1	English	24	Female	2	2	Yes	It was a fun study and would like to do more like it in the future. 	10.8992333333333	bare	You look out the window and see raindrops falling from the sky.	rain	0.935454545454545	perceptual
+3COPXFW7XBBMRU9XBYXGRVC9KM7PKJ	27	15660	evidence1	English	24	Female	3	2	Yes	It was a fun study and would like to do more like it in the future. 	10.8992333333333	bare	You look outside and see Fluffy, the neighbor's dog, standing on the porch and barking.	dog	0.916	perceptual
+3COPXFW7XBBMRU9XBYXGRVC9KM7PKJ	27	15348	evidence4	English	24	Female	4	2	Yes	It was a fun study and would like to do more like it in the future. 	10.8992333333333	might	You check the weather report on the Internet, which says it is raining.	rain	0.742142857142857	reportative
+3COPXFW7XBBMRU9XBYXGRVC9KM7PKJ	27	14148	evidence3	English	24	Female	5	2	Yes	It was a fun study and would like to do more like it in the future. 	10.8992333333333	must	You are listening to music with your earphones. You look out the window and see that the mailman has just arrived at your neighbor's doorstep, when all of a sudden he jumps back.	dog	0.668333333333333	inferential
+3COPXFW7XBBMRU9XBYXGRVC9KM7PKJ	27	8495	evidence1	English	24	Female	6	2	Yes	It was a fun study and would like to do more like it in the future. 	10.8992333333333	bare	You just prepared dinner and set it out on the table.	dinner	0.93	perceptual
+3COPXFW7XBBMRU9XBYXGRVC9KM7PKJ	27	87624	evidence3	English	24	Female	7	2	Yes	It was a fun study and would like to do more like it in the future. 	10.8992333333333	probably	You know that the coffee has been on the table for an hour.	coffee	0.95	inferential
+3COPXFW7XBBMRU9XBYXGRVC9KM7PKJ	27	18174	evidence5	English	24	Female	8	2	Yes	It was a fun study and would like to do more like it in the future. 	10.8992333333333	probably	You see that the cup isn't insulated.	coffee	0.5825	inferential
+3COPXFW7XBBMRU9XBYXGRVC9KM7PKJ	27	7366	evidence1	English	24	Female	9	2	Yes	It was a fun study and would like to do more like it in the future. 	10.8992333333333	bare	You take a sip of the coffee and feel that it is cold.	coffee	0.916	perceptual
+3COPXFW7XBBMRU9XBYXGRVC9KM7PKJ	27	10041	evidence2	English	24	Female	10	2	Yes	It was a fun study and would like to do more like it in the future. 	10.8992333333333	bare	Your spouse tells you that dinner is ready.	dinner	0.93375	reportative
+3COPXFW7XBBMRU9XBYXGRVC9KM7PKJ	27	14657	evidence3	English	24	Female	11	2	Yes	It was a fun study and would like to do more like it in the future. 	10.8992333333333	must	You see a person come in from outside with wet hair and wet clothes.	rain	0.89	inferential
+3COPXFW7XBBMRU9XBYXGRVC9KM7PKJ	27	11821	evidence4	English	24	Female	12	2	Yes	It was a fun study and would like to do more like it in the future. 	10.8992333333333	probably	You are listening to music with your earphones. You know that your neighbor's dog often barks in the evening.	dog	0.651	inferential
+3JRJSWSMQHKCY5C0HEP6GXW3VTLE3E	28	13312	evidence2	English	40	Male	1	2	Yes	None	4.01508333333333	must	You hear the sound of water dripping on the roof.	rain	0.9175	inferential
+3JRJSWSMQHKCY5C0HEP6GXW3VTLE3E	28	19252	evidence4	English	40	Male	2	2	Yes	None	4.01508333333333	probably	You check the weather report on the Internet, which says it is raining.	rain	0.742142857142857	reportative
+3JRJSWSMQHKCY5C0HEP6GXW3VTLE3E	28	10587	evidence2	English	40	Male	3	2	Yes	None	4.01508333333333	bare	Your spouse tells you that dinner is ready.	dinner	0.93375	reportative
+3JRJSWSMQHKCY5C0HEP6GXW3VTLE3E	28	11463	evidence4	English	40	Male	4	2	Yes	None	4.01508333333333	must	You see that there isn't any steam coming from the coffee.	coffee	0.681818181818182	inferential
+3JRJSWSMQHKCY5C0HEP6GXW3VTLE3E	28	10230	evidence3	English	40	Male	5	2	Yes	None	4.01508333333333	must	You see a person come in from outside with wet hair and wet clothes.	rain	0.89	inferential
+3JRJSWSMQHKCY5C0HEP6GXW3VTLE3E	28	25746	evidence5	English	40	Male	6	2	Yes	None	4.01508333333333	might	Your neighbor just got a new dog.	dog	0.487142857142857	inferential
+3JRJSWSMQHKCY5C0HEP6GXW3VTLE3E	28	13070	evidence5	English	40	Male	7	2	Yes	None	4.01508333333333	might	You're hungry.	dinner	0.563333333333333	wishful
+3JRJSWSMQHKCY5C0HEP6GXW3VTLE3E	28	34532	evidence3	English	40	Male	8	2	Yes	None	4.01508333333333	probably	You know that the coffee has been on the table for an hour.	coffee	0.95	inferential
+3JRJSWSMQHKCY5C0HEP6GXW3VTLE3E	28	15482	evidence1	English	40	Male	9	2	Yes	None	4.01508333333333	bare	You look outside and see Fluffy, the neighbor's dog, standing on the porch and barking.	dog	0.916	perceptual
+3JRJSWSMQHKCY5C0HEP6GXW3VTLE3E	28	8633	evidence1	English	40	Male	10	2	Yes	None	4.01508333333333	bare	You take a sip of the coffee and feel that it is cold.	coffee	0.916	perceptual
+3JRJSWSMQHKCY5C0HEP6GXW3VTLE3E	28	10719	evidence4	English	40	Male	11	2	Yes	None	4.01508333333333	must	You smell food coming from the dining room.	dinner	0.655384615384615	inferential
+3JRJSWSMQHKCY5C0HEP6GXW3VTLE3E	28	28313	evidence3	English	40	Male	12	2	Yes	None	4.01508333333333	bare	You are listening to music with your earphones. You look out the window and see that the mailman has just arrived at your neighbor's doorstep, when all of a sudden he jumps back.	dog	0.668333333333333	inferential
+3KXIR214I4F5LLJOO8ZOO1FKCQR42N	29	16235	evidence5	english	29	Male	1	1	Yes	thanks	7.8269	might	Earlier today, you had seen dark clouds in the sky.	rain	0.573333333333333	inferential
+3KXIR214I4F5LLJOO8ZOO1FKCQR42N	29	15645	evidence4	english	29	Male	2	1	Yes	thanks	7.8269	probably	You check the weather report on the Internet, which says it is raining.	rain	0.742142857142857	reportative
+3KXIR214I4F5LLJOO8ZOO1FKCQR42N	29	10111	evidence3	english	29	Male	3	1	Yes	thanks	7.8269	must	You see a person come in from outside with wet hair and wet clothes.	rain	0.89	inferential
+3KXIR214I4F5LLJOO8ZOO1FKCQR42N	29	18464	evidence1	english	29	Male	4	1	Yes	thanks	7.8269	bare	You take a sip of the coffee and feel that it is cold.	coffee	0.916	perceptual
+3KXIR214I4F5LLJOO8ZOO1FKCQR42N	29	15308	evidence5	english	29	Male	5	1	Yes	thanks	7.8269	might	You're hungry.	dinner	0.563333333333333	wishful
+3KXIR214I4F5LLJOO8ZOO1FKCQR42N	29	8830	evidence2	english	29	Male	6	1	Yes	thanks	7.8269	bare	You touch the coffee cup and feel that it is cold.	coffee	0.743333333333333	perceptual
+3KXIR214I4F5LLJOO8ZOO1FKCQR42N	29	12943	evidence5	english	29	Male	7	1	Yes	thanks	7.8269	might	Your neighbor just got a new dog.	dog	0.487142857142857	inferential
+3KXIR214I4F5LLJOO8ZOO1FKCQR42N	29	13274	evidence1	english	29	Male	8	1	Yes	thanks	7.8269	bare	You look outside and see Fluffy, the neighbor's dog, standing on the porch and barking.	dog	0.916	perceptual
+3KXIR214I4F5LLJOO8ZOO1FKCQR42N	29	11212	evidence5	english	29	Male	9	1	Yes	thanks	7.8269	might	You see that the cup isn't insulated.	coffee	0.5825	inferential
+3KXIR214I4F5LLJOO8ZOO1FKCQR42N	29	7837	evidence2	english	29	Male	10	1	Yes	thanks	7.8269	bare	Your spouse tells you that dinner is ready.	dinner	0.93375	reportative
+3KXIR214I4F5LLJOO8ZOO1FKCQR42N	29	8483	evidence1	english	29	Male	11	1	Yes	thanks	7.8269	bare	You just prepared dinner and set it out on the table.	dinner	0.93	perceptual
+3KXIR214I4F5LLJOO8ZOO1FKCQR42N	29	10592	evidence3	english	29	Male	12	1	Yes	thanks	7.8269	probably	You are listening to music with your earphones. You look out the window and see that the mailman has just arrived at your neighbor's doorstep, when all of a sudden he jumps back.	dog	0.668333333333333	inferential
+3ATTHHXXWAN0U8L0XMML8SJZUHTIXR	30	18947	evidence5	english	33	Male	1	1	Yes		7.02776666666667	might	Earlier today, you had seen dark clouds in the sky.	rain	0.573333333333333	inferential
+3ATTHHXXWAN0U8L0XMML8SJZUHTIXR	30	17116	evidence3	english	33	Male	2	1	Yes		7.02776666666667	bare	You know that the coffee has been on the table for an hour.	coffee	0.95	inferential
+3ATTHHXXWAN0U8L0XMML8SJZUHTIXR	30	16951	evidence1	english	33	Male	3	1	Yes		7.02776666666667	bare	You look outside and see Fluffy, the neighbor's dog, standing on the porch and barking.	dog	0.916	perceptual
+3ATTHHXXWAN0U8L0XMML8SJZUHTIXR	30	14212	evidence3	english	33	Male	4	1	Yes		7.02776666666667	bare	You see a person come in from outside with wet hair and wet clothes.	rain	0.89	inferential
+3ATTHHXXWAN0U8L0XMML8SJZUHTIXR	30	10737	evidence5	english	33	Male	5	1	Yes		7.02776666666667	probably	You see that the cup isn't insulated.	coffee	0.5825	inferential
+3ATTHHXXWAN0U8L0XMML8SJZUHTIXR	30	13215	evidence1	english	33	Male	6	1	Yes		7.02776666666667	bare	You just prepared dinner and set it out on the table.	dinner	0.93	perceptual
+3ATTHHXXWAN0U8L0XMML8SJZUHTIXR	30	25115	evidence3	english	33	Male	7	1	Yes		7.02776666666667	probably	You are listening to music with your earphones. You look out the window and see that the mailman has just arrived at your neighbor's doorstep, when all of a sudden he jumps back.	dog	0.668333333333333	inferential
+3ATTHHXXWAN0U8L0XMML8SJZUHTIXR	30	6698	evidence4	english	33	Male	8	1	Yes		7.02776666666667	probably	You smell food coming from the dining room.	dinner	0.655384615384615	inferential
+3ATTHHXXWAN0U8L0XMML8SJZUHTIXR	30	9918	evidence4	english	33	Male	9	1	Yes		7.02776666666667	bare	You check the weather report on the Internet, which says it is raining.	rain	0.742142857142857	reportative
+3ATTHHXXWAN0U8L0XMML8SJZUHTIXR	30	19417	evidence5	english	33	Male	10	1	Yes		7.02776666666667	might	You're hungry.	dinner	0.563333333333333	wishful
+3ATTHHXXWAN0U8L0XMML8SJZUHTIXR	30	7287	evidence2	english	33	Male	11	1	Yes		7.02776666666667	bare	You touch the coffee cup and feel that it is cold.	coffee	0.743333333333333	perceptual
+3ATTHHXXWAN0U8L0XMML8SJZUHTIXR	30	13377	evidence5	english	33	Male	12	1	Yes		7.02776666666667	might	Your neighbor just got a new dog.	dog	0.487142857142857	inferential
+3X66WABAJWHAIJ8RN9FUG0HF890G3X	31	10890	evidence5	English	21	Male	1	1	Yes	No comments, thanks!	8.59868333333333	might	Your neighbor just got a new dog.	dog	0.487142857142857	inferential
+3X66WABAJWHAIJ8RN9FUG0HF890G3X	31	6542	evidence4	English	21	Male	2	1	Yes	No comments, thanks!	8.59868333333333	probably	You check the weather report on the Internet, which says it is raining.	rain	0.742142857142857	reportative
+3X66WABAJWHAIJ8RN9FUG0HF890G3X	31	5400	evidence5	English	21	Male	3	1	Yes	No comments, thanks!	8.59868333333333	might	You're hungry.	dinner	0.563333333333333	wishful
+3X66WABAJWHAIJ8RN9FUG0HF890G3X	31	8788	evidence3	English	21	Male	4	1	Yes	No comments, thanks!	8.59868333333333	might	You are listening to music with your earphones. You look out the window and see that the mailman has just arrived at your neighbor's doorstep, when all of a sudden he jumps back.	dog	0.668333333333333	inferential
+3X66WABAJWHAIJ8RN9FUG0HF890G3X	31	4816	evidence4	English	21	Male	5	1	Yes	No comments, thanks!	8.59868333333333	probably	You see that there isn't any steam coming from the coffee.	coffee	0.681818181818182	inferential
+3X66WABAJWHAIJ8RN9FUG0HF890G3X	31	3931	evidence3	English	21	Male	6	1	Yes	No comments, thanks!	8.59868333333333	probably	You see a person come in from outside with wet hair and wet clothes.	rain	0.89	inferential
+3X66WABAJWHAIJ8RN9FUG0HF890G3X	31	3421	evidence1	English	21	Male	7	1	Yes	No comments, thanks!	8.59868333333333	bare	You just prepared dinner and set it out on the table.	dinner	0.93	perceptual
+3X66WABAJWHAIJ8RN9FUG0HF890G3X	31	4673	evidence1	English	21	Male	8	1	Yes	No comments, thanks!	8.59868333333333	bare	You look outside and see Fluffy, the neighbor's dog, standing on the porch and barking.	dog	0.916	perceptual
+3X66WABAJWHAIJ8RN9FUG0HF890G3X	31	3637	evidence5	English	21	Male	9	1	Yes	No comments, thanks!	8.59868333333333	might	You see that the cup isn't insulated.	coffee	0.5825	inferential
+3X66WABAJWHAIJ8RN9FUG0HF890G3X	31	2752	evidence2	English	21	Male	10	1	Yes	No comments, thanks!	8.59868333333333	bare	Your spouse tells you that dinner is ready.	dinner	0.93375	reportative
+3X66WABAJWHAIJ8RN9FUG0HF890G3X	31	3386	evidence3	English	21	Male	11	1	Yes	No comments, thanks!	8.59868333333333	must	You know that the coffee has been on the table for an hour.	coffee	0.95	inferential
+3X66WABAJWHAIJ8RN9FUG0HF890G3X	31	3721	evidence2	English	21	Male	12	1	Yes	No comments, thanks!	8.59868333333333	probably	You hear the sound of water dripping on the roof.	rain	0.9175	inferential
+3L6L49WXW0WXKI2B6R1MM8IWW0I45O	32	17656	evidence2	English	26	Male	1	2	Yes		2.58528333333333	bare	You touch the coffee cup and feel that it is cold.	coffee	0.743333333333333	perceptual
+3L6L49WXW0WXKI2B6R1MM8IWW0I45O	32	13647	evidence3	English	26	Male	2	2	Yes		2.58528333333333	probably	Dinner is usually ready at around 6pm. You look at the clock and it is 6pm.	dinner	0.85	inferential
+3L6L49WXW0WXKI2B6R1MM8IWW0I45O	32	18844	evidence2	English	26	Male	3	2	Yes		2.58528333333333	bare	You hear the sound of a dog barking.	dog	0.734285714285714	inferential
+3L6L49WXW0WXKI2B6R1MM8IWW0I45O	32	9019	evidence4	English	26	Male	4	2	Yes		2.58528333333333	probably	You check the weather report on the Internet, which says it is raining.	rain	0.742142857142857	reportative
+3L6L49WXW0WXKI2B6R1MM8IWW0I45O	32	11416	evidence5	English	26	Male	5	2	Yes		2.58528333333333	might	You see that the cup isn't insulated.	coffee	0.5825	inferential
+3L6L49WXW0WXKI2B6R1MM8IWW0I45O	32	5199	evidence1	English	26	Male	6	2	Yes		2.58528333333333	bare	You take a sip of the coffee and feel that it is cold.	coffee	0.916	perceptual
+3L6L49WXW0WXKI2B6R1MM8IWW0I45O	32	9664	evidence1	English	26	Male	7	2	Yes		2.58528333333333	bare	You look outside and see Fluffy, the neighbor's dog, standing on the porch and barking.	dog	0.916	perceptual
+3L6L49WXW0WXKI2B6R1MM8IWW0I45O	32	10440	evidence3	English	26	Male	8	2	Yes		2.58528333333333	must	You see a person come in from outside with wet hair and wet clothes.	rain	0.89	inferential
+3L6L49WXW0WXKI2B6R1MM8IWW0I45O	32	7175	evidence1	English	26	Male	9	2	Yes		2.58528333333333	bare	You just prepared dinner and set it out on the table.	dinner	0.93	perceptual
+3L6L49WXW0WXKI2B6R1MM8IWW0I45O	32	7066	evidence1	English	26	Male	10	2	Yes		2.58528333333333	bare	You look out the window and see raindrops falling from the sky.	rain	0.935454545454545	perceptual
+3L6L49WXW0WXKI2B6R1MM8IWW0I45O	32	10271	evidence4	English	26	Male	11	2	Yes		2.58528333333333	might	You are listening to music with your earphones. You know that your neighbor's dog often barks in the evening.	dog	0.651	inferential
+3L6L49WXW0WXKI2B6R1MM8IWW0I45O	32	5685	evidence4	English	26	Male	12	2	Yes		2.58528333333333	must	You smell food coming from the dining room.	dinner	0.655384615384615	inferential
+3ATPCQ38J89AOVSCQUGAA82PJFHYA8	33	12679	evidence5	English	21	Male	1	2	Yes		11.7209666666667	might	Earlier today, you had seen dark clouds in the sky.	rain	0.573333333333333	inferential
+3ATPCQ38J89AOVSCQUGAA82PJFHYA8	33	14877	evidence1	English	21	Male	2	2	Yes		11.7209666666667	might	You look outside and see Fluffy, the neighbor's dog, standing on the porch and barking.	dog	0.916	perceptual
+3ATPCQ38J89AOVSCQUGAA82PJFHYA8	33	6447	evidence2	English	21	Male	3	2	Yes		11.7209666666667	probably	You hear the sound of water dripping on the roof.	rain	0.9175	inferential
+3ATPCQ38J89AOVSCQUGAA82PJFHYA8	33	11232	evidence5	English	21	Male	4	2	Yes		11.7209666666667	might	You're hungry.	dinner	0.563333333333333	wishful
+3ATPCQ38J89AOVSCQUGAA82PJFHYA8	33	6471	evidence4	English	21	Male	5	2	Yes		11.7209666666667	bare	You check the weather report on the Internet, which says it is raining.	rain	0.742142857142857	reportative
+3ATPCQ38J89AOVSCQUGAA82PJFHYA8	33	19825	evidence3	English	21	Male	6	2	Yes		11.7209666666667	must	You are listening to music with your earphones. You look out the window and see that the mailman has just arrived at your neighbor's doorstep, when all of a sudden he jumps back.	dog	0.668333333333333	inferential
+3ATPCQ38J89AOVSCQUGAA82PJFHYA8	33	9391	evidence1	English	21	Male	7	2	Yes		11.7209666666667	bare	You just prepared dinner and set it out on the table.	dinner	0.93	perceptual
+3ATPCQ38J89AOVSCQUGAA82PJFHYA8	33	5544	evidence2	English	21	Male	8	2	Yes		11.7209666666667	bare	You hear the sound of a dog barking.	dog	0.734285714285714	inferential
+3ATPCQ38J89AOVSCQUGAA82PJFHYA8	33	6303	evidence1	English	21	Male	9	2	Yes		11.7209666666667	bare	You take a sip of the coffee and feel that it is cold.	coffee	0.916	perceptual
+3ATPCQ38J89AOVSCQUGAA82PJFHYA8	33	4576	evidence4	English	21	Male	10	2	Yes		11.7209666666667	must	You smell food coming from the dining room.	dinner	0.655384615384615	inferential
+3ATPCQ38J89AOVSCQUGAA82PJFHYA8	33	10728	evidence5	English	21	Male	11	2	Yes		11.7209666666667	might	You see that the cup isn't insulated.	coffee	0.5825	inferential
+3ATPCQ38J89AOVSCQUGAA82PJFHYA8	33	5744	evidence4	English	21	Male	12	2	Yes		11.7209666666667	probably	You see that there isn't any steam coming from the coffee.	coffee	0.681818181818182	inferential
+3DPNQGW4LLET3M2PBABREEWWSVR462	34	13824	evidence1	English	25	Male	1	1	Yes	There were no problems with it.	14.9763333333333	bare	You look outside and see Fluffy, the neighbor's dog, standing on the porch and barking.	dog	0.916	perceptual
+3DPNQGW4LLET3M2PBABREEWWSVR462	34	5672	evidence1	English	25	Male	2	1	Yes	There were no problems with it.	14.9763333333333	bare	You take a sip of the coffee and feel that it is cold.	coffee	0.916	perceptual
+3DPNQGW4LLET3M2PBABREEWWSVR462	34	16737	evidence5	English	25	Male	3	1	Yes	There were no problems with it.	14.9763333333333	must	You're hungry.	dinner	0.563333333333333	wishful
+3DPNQGW4LLET3M2PBABREEWWSVR462	34	9051	evidence4	English	25	Male	4	1	Yes	There were no problems with it.	14.9763333333333	might	You are listening to music with your earphones. You know that your neighbor's dog often barks in the evening.	dog	0.651	inferential
+3DPNQGW4LLET3M2PBABREEWWSVR462	34	747826	evidence4	English	25	Male	5	1	Yes	There were no problems with it.	14.9763333333333	bare	You check the weather report on the Internet, which says it is raining.	rain	0.742142857142857	reportative
+3DPNQGW4LLET3M2PBABREEWWSVR462	34	9111	evidence4	English	25	Male	6	1	Yes	There were no problems with it.	14.9763333333333	must	You smell food coming from the dining room.	dinner	0.655384615384615	inferential
+3DPNQGW4LLET3M2PBABREEWWSVR462	34	14036	evidence5	English	25	Male	7	1	Yes	There were no problems with it.	14.9763333333333	might	Earlier today, you had seen dark clouds in the sky.	rain	0.573333333333333	inferential
+3DPNQGW4LLET3M2PBABREEWWSVR462	34	4379	evidence4	English	25	Male	8	1	Yes	There were no problems with it.	14.9763333333333	might	You see that there isn't any steam coming from the coffee.	coffee	0.681818181818182	inferential
+3DPNQGW4LLET3M2PBABREEWWSVR462	34	9597	evidence3	English	25	Male	9	1	Yes	There were no problems with it.	14.9763333333333	probably	You know that the coffee has been on the table for an hour.	coffee	0.95	inferential
+3DPNQGW4LLET3M2PBABREEWWSVR462	34	11199	evidence3	English	25	Male	10	1	Yes	There were no problems with it.	14.9763333333333	probably	Dinner is usually ready at around 6pm. You look at the clock and it is 6pm.	dinner	0.85	inferential
+3DPNQGW4LLET3M2PBABREEWWSVR462	34	7008	evidence1	English	25	Male	11	1	Yes	There were no problems with it.	14.9763333333333	bare	You look out the window and see raindrops falling from the sky.	rain	0.935454545454545	perceptual
+3DPNQGW4LLET3M2PBABREEWWSVR462	34	15854	evidence5	English	25	Male	12	1	Yes	There were no problems with it.	14.9763333333333	might	Your neighbor just got a new dog.	dog	0.487142857142857	inferential
+3IHR8NYAM701DSKUQ6A0KENDN0IP4U	35	24999	evidence2	English	26	Female	1	2	Yes		15.4156166666667	must	You hear the sound of a dog barking.	dog	0.734285714285714	inferential
+3IHR8NYAM701DSKUQ6A0KENDN0IP4U	35	5583	evidence1	English	26	Female	2	2	Yes		15.4156166666667	bare	You take a sip of the coffee and feel that it is cold.	coffee	0.916	perceptual
+3IHR8NYAM701DSKUQ6A0KENDN0IP4U	35	4433	evidence4	English	26	Female	3	2	Yes		15.4156166666667	might	You smell food coming from the dining room.	dinner	0.655384615384615	inferential
+3IHR8NYAM701DSKUQ6A0KENDN0IP4U	35	29700	evidence5	English	26	Female	4	2	Yes		15.4156166666667	might	You see that the cup isn't insulated.	coffee	0.5825	inferential
+3IHR8NYAM701DSKUQ6A0KENDN0IP4U	35	25558	evidence4	English	26	Female	5	2	Yes		15.4156166666667	might	You are listening to music with your earphones. You know that your neighbor's dog often barks in the evening.	dog	0.651	inferential
+3IHR8NYAM701DSKUQ6A0KENDN0IP4U	35	35650	evidence2	English	26	Female	6	2	Yes		15.4156166666667	bare	You touch the coffee cup and feel that it is cold.	coffee	0.743333333333333	perceptual
+3IHR8NYAM701DSKUQ6A0KENDN0IP4U	35	16037	evidence3	English	26	Female	7	2	Yes		15.4156166666667	must	You see a person come in from outside with wet hair and wet clothes.	rain	0.89	inferential
+3IHR8NYAM701DSKUQ6A0KENDN0IP4U	35	46716	evidence1	English	26	Female	8	2	Yes		15.4156166666667	bare	You just prepared dinner and set it out on the table.	dinner	0.93	perceptual
+3IHR8NYAM701DSKUQ6A0KENDN0IP4U	35	55146	evidence2	English	26	Female	9	2	Yes		15.4156166666667	bare	Your spouse tells you that dinner is ready.	dinner	0.93375	reportative
+3IHR8NYAM701DSKUQ6A0KENDN0IP4U	35	25318	evidence1	English	26	Female	10	2	Yes		15.4156166666667	bare	You look outside and see Fluffy, the neighbor's dog, standing on the porch and barking.	dog	0.916	perceptual
+3IHR8NYAM701DSKUQ6A0KENDN0IP4U	35	15167	evidence1	English	26	Female	11	2	Yes		15.4156166666667	bare	You look out the window and see raindrops falling from the sky.	rain	0.935454545454545	perceptual
+3IHR8NYAM701DSKUQ6A0KENDN0IP4U	35	5430	evidence5	English	26	Female	12	2	Yes		15.4156166666667	might	Earlier today, you had seen dark clouds in the sky.	rain	0.573333333333333	inferential
+34Q075JO1XCHXCJRM3C87FF238W01L	36	25513	evidence5	english	53	Male	1	1	Yes		19.0933	might	Your neighbor just got a new dog.	dog	0.487142857142857	inferential
+34Q075JO1XCHXCJRM3C87FF238W01L	36	11462	evidence3	english	53	Male	2	1	Yes		19.0933	must	You see a person come in from outside with wet hair and wet clothes.	rain	0.89	inferential
+34Q075JO1XCHXCJRM3C87FF238W01L	36	9255	evidence3	english	53	Male	3	1	Yes		19.0933	probably	Dinner is usually ready at around 6pm. You look at the clock and it is 6pm.	dinner	0.85	inferential
+34Q075JO1XCHXCJRM3C87FF238W01L	36	8064	evidence1	english	53	Male	4	1	Yes		19.0933	bare	You take a sip of the coffee and feel that it is cold.	coffee	0.916	perceptual
+34Q075JO1XCHXCJRM3C87FF238W01L	36	6360	evidence2	english	53	Male	5	1	Yes		19.0933	bare	Your spouse tells you that dinner is ready.	dinner	0.93375	reportative
+34Q075JO1XCHXCJRM3C87FF238W01L	36	5894	evidence5	english	53	Male	6	1	Yes		19.0933	might	Earlier today, you had seen dark clouds in the sky.	rain	0.573333333333333	inferential
+34Q075JO1XCHXCJRM3C87FF238W01L	36	6831	evidence5	english	53	Male	7	1	Yes		19.0933	might	You're hungry.	dinner	0.563333333333333	wishful
+34Q075JO1XCHXCJRM3C87FF238W01L	36	7703	evidence2	english	53	Male	8	1	Yes		19.0933	probably	You touch the coffee cup and feel that it is cold.	coffee	0.743333333333333	perceptual
+34Q075JO1XCHXCJRM3C87FF238W01L	36	11967	evidence4	english	53	Male	9	1	Yes		19.0933	might	You are listening to music with your earphones. You know that your neighbor's dog often barks in the evening.	dog	0.651	inferential
+34Q075JO1XCHXCJRM3C87FF238W01L	36	6751	evidence3	english	53	Male	10	1	Yes		19.0933	bare	You know that the coffee has been on the table for an hour.	coffee	0.95	inferential
+34Q075JO1XCHXCJRM3C87FF238W01L	36	7264	evidence1	english	53	Male	11	1	Yes		19.0933	bare	You look out the window and see raindrops falling from the sky.	rain	0.935454545454545	perceptual
+34Q075JO1XCHXCJRM3C87FF238W01L	36	9431	evidence2	english	53	Male	12	1	Yes		19.0933	bare	You hear the sound of a dog barking.	dog	0.734285714285714	inferential
+3RRCEFRB7MBZ9YJK71SZPUIO6W44BP	37	12027	evidence1	English	30	Male	1	2	Yes	Thanks!	3.59023333333333	bare	You take a sip of the coffee and feel that it is cold.	coffee	0.916	perceptual
+3RRCEFRB7MBZ9YJK71SZPUIO6W44BP	37	22019	evidence5	English	30	Male	2	2	Yes	Thanks!	3.59023333333333	might	Your neighbor just got a new dog.	dog	0.487142857142857	inferential
+3RRCEFRB7MBZ9YJK71SZPUIO6W44BP	37	11769	evidence3	English	30	Male	3	2	Yes	Thanks!	3.59023333333333	probably	Dinner is usually ready at around 6pm. You look at the clock and it is 6pm.	dinner	0.85	inferential
+3RRCEFRB7MBZ9YJK71SZPUIO6W44BP	37	8717	evidence2	English	30	Male	4	2	Yes	Thanks!	3.59023333333333	must	You hear the sound of a dog barking.	dog	0.734285714285714	inferential
+3RRCEFRB7MBZ9YJK71SZPUIO6W44BP	37	17182	evidence2	English	30	Male	5	2	Yes	Thanks!	3.59023333333333	must	You hear the sound of water dripping on the roof.	rain	0.9175	inferential
+3RRCEFRB7MBZ9YJK71SZPUIO6W44BP	37	36460	evidence5	English	30	Male	6	2	Yes	Thanks!	3.59023333333333	might	Earlier today, you had seen dark clouds in the sky.	rain	0.573333333333333	inferential
+3RRCEFRB7MBZ9YJK71SZPUIO6W44BP	37	7564	evidence4	English	30	Male	7	2	Yes	Thanks!	3.59023333333333	must	You see that there isn't any steam coming from the coffee.	coffee	0.681818181818182	inferential
+3RRCEFRB7MBZ9YJK71SZPUIO6W44BP	37	15391	evidence1	English	30	Male	8	2	Yes	Thanks!	3.59023333333333	bare	You just prepared dinner and set it out on the table.	dinner	0.93	perceptual
+3RRCEFRB7MBZ9YJK71SZPUIO6W44BP	37	27761	evidence4	English	30	Male	9	2	Yes	Thanks!	3.59023333333333	might	You check the weather report on the Internet, which says it is raining.	rain	0.742142857142857	reportative
+3RRCEFRB7MBZ9YJK71SZPUIO6W44BP	37	10980	evidence3	English	30	Male	10	2	Yes	Thanks!	3.59023333333333	must	You know that the coffee has been on the table for an hour.	coffee	0.95	inferential
+3RRCEFRB7MBZ9YJK71SZPUIO6W44BP	37	8748	evidence1	English	30	Male	11	2	Yes	Thanks!	3.59023333333333	bare	You look outside and see Fluffy, the neighbor's dog, standing on the porch and barking.	dog	0.916	perceptual
+3RRCEFRB7MBZ9YJK71SZPUIO6W44BP	37	5668	evidence4	English	30	Male	12	2	Yes	Thanks!	3.59023333333333	must	You smell food coming from the dining room.	dinner	0.655384615384615	inferential
+3OXV7EAXLEP8LQJLBW68494QEVW63K	38	19016	evidence4	english	30	Female	1	2	Yes	this was enjoyable	2.8061	probably	You check the weather report on the Internet, which says it is raining.	rain	0.742142857142857	reportative
+3OXV7EAXLEP8LQJLBW68494QEVW63K	38	15755	evidence3	english	30	Female	2	2	Yes	this was enjoyable	2.8061	probably	Dinner is usually ready at around 6pm. You look at the clock and it is 6pm.	dinner	0.85	inferential
+3OXV7EAXLEP8LQJLBW68494QEVW63K	38	10518	evidence1	english	30	Female	3	2	Yes	this was enjoyable	2.8061	bare	You just prepared dinner and set it out on the table.	dinner	0.93	perceptual
+3OXV7EAXLEP8LQJLBW68494QEVW63K	38	19417	evidence4	english	30	Female	4	2	Yes	this was enjoyable	2.8061	must	You see that there isn't any steam coming from the coffee.	coffee	0.681818181818182	inferential
+3OXV7EAXLEP8LQJLBW68494QEVW63K	38	12577	evidence2	english	30	Female	5	2	Yes	this was enjoyable	2.8061	probably	You hear the sound of a dog barking.	dog	0.734285714285714	inferential
+3OXV7EAXLEP8LQJLBW68494QEVW63K	38	7091	evidence2	english	30	Female	6	2	Yes	this was enjoyable	2.8061	bare	You touch the coffee cup and feel that it is cold.	coffee	0.743333333333333	perceptual
+3OXV7EAXLEP8LQJLBW68494QEVW63K	38	4761	evidence3	english	30	Female	7	2	Yes	this was enjoyable	2.8061	bare	You know that the coffee has been on the table for an hour.	coffee	0.95	inferential
+3OXV7EAXLEP8LQJLBW68494QEVW63K	38	8569	evidence5	english	30	Female	8	2	Yes	this was enjoyable	2.8061	might	Your neighbor just got a new dog.	dog	0.487142857142857	inferential
+3OXV7EAXLEP8LQJLBW68494QEVW63K	38	6660	evidence3	english	30	Female	9	2	Yes	this was enjoyable	2.8061	must	You see a person come in from outside with wet hair and wet clothes.	rain	0.89	inferential
+3OXV7EAXLEP8LQJLBW68494QEVW63K	38	6354	evidence5	english	30	Female	10	2	Yes	this was enjoyable	2.8061	might	Earlier today, you had seen dark clouds in the sky.	rain	0.573333333333333	inferential
+3OXV7EAXLEP8LQJLBW68494QEVW63K	38	11274	evidence4	english	30	Female	11	2	Yes	this was enjoyable	2.8061	might	You are listening to music with your earphones. You know that your neighbor's dog often barks in the evening.	dog	0.651	inferential
+3OXV7EAXLEP8LQJLBW68494QEVW63K	38	5649	evidence2	english	30	Female	12	2	Yes	this was enjoyable	2.8061	must	Your spouse tells you that dinner is ready.	dinner	0.93375	reportative
+33PPO7FECVEMW2GJ6ML9ELG7EZHDIK	39	6937	evidence1	english	25	Male	1	2	Yes		32.9559666666667	might	You look out the window and see raindrops falling from the sky.	rain	0.935454545454545	perceptual
+33PPO7FECVEMW2GJ6ML9ELG7EZHDIK	39	2575	evidence3	english	25	Male	2	2	Yes		32.9559666666667	might	You know that the coffee has been on the table for an hour.	coffee	0.95	inferential
+33PPO7FECVEMW2GJ6ML9ELG7EZHDIK	39	2760	evidence1	english	25	Male	3	2	Yes		32.9559666666667	must	You just prepared dinner and set it out on the table.	dinner	0.93	perceptual
+33PPO7FECVEMW2GJ6ML9ELG7EZHDIK	39	2616	evidence3	english	25	Male	4	2	Yes		32.9559666666667	might	You see a person come in from outside with wet hair and wet clothes.	rain	0.89	inferential
+33PPO7FECVEMW2GJ6ML9ELG7EZHDIK	39	1574	evidence4	english	25	Male	5	2	Yes		32.9559666666667	might	You smell food coming from the dining room.	dinner	0.655384615384615	inferential
+33PPO7FECVEMW2GJ6ML9ELG7EZHDIK	39	3196	evidence2	english	25	Male	6	2	Yes		32.9559666666667	must	Your spouse tells you that dinner is ready.	dinner	0.93375	reportative
+33PPO7FECVEMW2GJ6ML9ELG7EZHDIK	39	2318	evidence5	english	25	Male	7	2	Yes		32.9559666666667	might	You see that the cup isn't insulated.	coffee	0.5825	inferential
+33PPO7FECVEMW2GJ6ML9ELG7EZHDIK	39	2918	evidence3	english	25	Male	8	2	Yes		32.9559666666667	must	You are listening to music with your earphones. You look out the window and see that the mailman has just arrived at your neighbor's doorstep, when all of a sudden he jumps back.	dog	0.668333333333333	inferential
+33PPO7FECVEMW2GJ6ML9ELG7EZHDIK	39	3993	evidence4	english	25	Male	9	2	Yes		32.9559666666667	might	You are listening to music with your earphones. You know that your neighbor's dog often barks in the evening.	dog	0.651	inferential
+33PPO7FECVEMW2GJ6ML9ELG7EZHDIK	39	3656	evidence4	english	25	Male	10	2	Yes		32.9559666666667	must	You check the weather report on the Internet, which says it is raining.	rain	0.742142857142857	reportative
+33PPO7FECVEMW2GJ6ML9ELG7EZHDIK	39	2347	evidence1	english	25	Male	11	2	Yes		32.9559666666667	might	You look outside and see Fluffy, the neighbor's dog, standing on the porch and barking.	dog	0.916	perceptual
+33PPO7FECVEMW2GJ6ML9ELG7EZHDIK	39	2803	evidence2	english	25	Male	12	2	Yes		32.9559666666667	must	You touch the coffee cup and feel that it is cold.	coffee	0.743333333333333	perceptual

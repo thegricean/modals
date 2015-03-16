@@ -5,17 +5,26 @@ source("rscripts/helpers.r")
 load("data/r.RData")
 summary(r)
 r.lbelief = r
+r.lbelief$Experiment = "listener"
 baremust.l = r.lbelief[r.lbelief$item_type %in% c("bare","must","might"),c("Directness","item_type","item")]
-baremust.l$Experiment = "listener"
 nrow(baremust.l)
 head(baremust.l)
 
 load("~/cogsci/projects/stanford/projects/modals/modals/experiments/80_modals_comprehension_speakerbelief/results/data/r.RData")
 r.spbelief = r
+r.spbelief$Experiment = "speaker"
 baremust.s = r.spbelief[r.spbelief$item_type %in% c("bare","must","might"),c("Directness","item_type","item")]
-baremust.s$Experiment = "speaker"
 nrow(baremust.s)
 head(baremust.s)
+r.spbelief$response = r.spbelief$Response
+r.spbelief$Response = NULL
+  
+r.combined = merge(r.lbelief,r.spbelief,all=T)
+r.combined$assignmentid = NULL
+head(r.combined)
+write.table(r.combined,file="data/combined.comprehension.experiments.txt",row.names=F,col.names=T,quote=F,sep="\t")
+write.table(r.combined,file="../../../writing/2014/cuny_2015/poster/data/combined.comprehension.experiments.txt",row.names=F,col.names=T,quote=F,sep="\t")
+
 
 baremust = droplevels(rbind(baremust.s,baremust.l))
 baremust$Experiment = as.factor(as.character(baremust$Experiment))
@@ -197,13 +206,26 @@ ggplot(t, aes(x=Var1,y=Freq,fill=EType)) +
   theme(legend.position=c(.5,.8))
 ggsave("graphs/cuny_evidencedist.pdf",width=7)
 
-un = unique(r[,c("Directness","FinalEvidence","item")])
-un$Evidence = as.character(un$FinalEvidence)
-un[un$Evidence %in% c("weak inferential","strong inferential"),]$Evidence = "inferential"
+r$EvidenceType = as.factor(ifelse(r$EvidenceDirectnessCategorical == "direct","direct",ifelse(r$EvidenceTypeCategorical == "reportative","reportative","indirect")))
+un = unique(r[,c("Directness","item","EvidenceType")])
+un$StrengthBinNumObs = cut2(un$Directness,g=3)
+un$StrengthBinSize = cut(un$Directness,breaks=3)
+un$Strength = un$StrengthBinSize
+un$WordStrength = cut(un$Directness,breaks=3,labels=c("weak","medium","strong"))
 nrow(un)
 un
-ggplot(un, aes(x=Directness,fill=Evidence)) +
+
+ggplot(un, aes(x=Directness,fill=WordStrength)) +
   geom_density(alpha=.5)
+
+ggplot(un, aes(x=Directness, fill=Strength)) +
+  geom_histogram() +
+  xlab("Strength")
+  #geom_density(aes(fill=WordStrength),alpha=.5)
+ggsave("graphs/strength_histogram_cuny.pdf",width=6,height=4)
+
+ggplot(un, aes(x=Directness,fill=EvidenceType)) +
+  geom_histogram()
 
 ggplot(un, aes(x=Directness)) +
   geom_histogram()

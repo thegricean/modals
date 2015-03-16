@@ -5,6 +5,7 @@ setwd("/Users/titlis/cogsci/projects/stanford/projects/modals/modals/experiments
 source("rscripts/helpers.r")
 load("data/r.RData")
 
+write.table(r, file="../../../writing/2014/cuny_2015/poster/data/production.txt",sep="\t",col.names=T,row.names=F,quote=F)
 
 # histogram of bare/must choices by 3-binned evidence strength
 baremust = droplevels(subset(r, response %in% c("bare","must","might")))

@@ -1,0 +1,481 @@
+workerid	rt	sentence	language	age	gender	trial	enjoyment	asses	comments	Answer.time_in_minutes	response	evidence	item	item_type	sentence.1	Directness	EvidenceTypeCategorical	EvidenceDirectnessCategorical	Experiment
+0	8048	Dinner might be ready.	English	23	M	3	2	Yes		1.14118333333333	0.46	evidence4	dinner	might	Dinner might be ready.	0.655384615384615	inferential	indirect	listener
+0	11083	The coffee is cold.	English	23	F	4	2	Yes		1.14118333333333	1	evidence1	coffee	bare	The coffee is cold.	0.916	perceptual	direct	listener
+0	11516	It's probably raining.	English	23	M	2	2	Yes		1.14118333333333	0.85	evidence1	rain	probably	It's probably raining.	0.935454545454545	perceptual	direct	listener
+0	11844	The neighbor&quotechars dog is probably barking.	english	23	F	3	1	Yes	great hit	1.56663333333333	0.74	evidence1	dog	probably	The neighbor&quotechars dog is probably barking.	0.916	perceptual	direct	speaker
+0	12935	The coffee might be cold.	english	23	M	4	1	Yes	great hit	1.56663333333333	0.71	evidence2	coffee	might	The coffee might be cold.	0.743333333333333	perceptual	indirect	speaker
+0	14284	The neighbor's dog must be barking.	English	23	F	1	2	Yes		1.14118333333333	0.74	evidence2	dog	must	The neighbor's dog must be barking.	0.734285714285714	inferential	indirect	listener
+0	15424	Dinner is ready.	english	23	F	2	1	Yes	great hit	1.56663333333333	0.96	evidence1	dinner	bare	Dinner is ready.	0.93	perceptual	direct	speaker
+0	34955	It must be raining.	english	23	M	1	1	Yes	great hit	1.56663333333333	0.85	evidence2	rain	must	It must be raining.	0.9175	inferential	indirect	speaker
+1	8007	The coffee might be cold.	English	38	M	2	2	Yes		0.989133333333333	0.47	evidence3	coffee	might	The coffee might be cold.	0.95	inferential	indirect	speaker
+1	8280	Dinner is ready.	English	38	M	3	2	Yes		0.989133333333333	0.99	evidence1	dinner	bare	Dinner is ready.	0.93	perceptual	direct	speaker
+1	8726	The coffee might be cold.	English	31	F	4	2	Yes		1.33888333333333	0.71	evidence3	coffee	might	The coffee might be cold.	0.95	inferential	indirect	listener
+1	11247	The neighbor&quotechars dog is probably barking.	English	38	M	4	2	Yes		0.989133333333333	0.75	evidence3	dog	probably	The neighbor&quotechars dog is probably barking.	0.668333333333333	inferential	indirect	speaker
+1	12536	It must be raining.	English	38	F	1	2	Yes		0.989133333333333	0.89	evidence3	rain	must	It must be raining.	0.89	inferential	indirect	speaker
+1	13868	Dinner must be ready.	English	31	F	3	2	Yes		1.33888333333333	0.65	evidence4	dinner	must	Dinner must be ready.	0.655384615384615	inferential	indirect	listener
+1	13983	The neighbor's dog is barking.	English	31	F	2	2	Yes		1.33888333333333	0.82	evidence2	dog	bare	The neighbor's dog is barking.	0.734285714285714	inferential	indirect	listener
+1	20750	It's probably raining.	English	31	M	1	2	Yes		1.33888333333333	0.7	evidence2	rain	probably	It's probably raining.	0.9175	inferential	indirect	listener
+2	5710	The coffee is probably cold.	English	26	F	4	2	Yes	none	1.83011666666667	0.84	evidence1	coffee	probably	The coffee is probably cold.	0.916	perceptual	direct	listener
+2	6540	It might be raining.	English	26	F	3	2	Yes	none	1.83011666666667	0.82	evidence1	rain	might	It might be raining.	0.935454545454545	perceptual	direct	listener
+2	9095	The coffee might be cold.	English 	18	M	2	2	Yes	Thank you! Interesting study. 	1.41296666666667	0.77	evidence3	coffee	might	The coffee might be cold.	0.95	inferential	indirect	speaker
+2	9191	The neighbor's dog is barking.	English	26	F	2	2	Yes	none	1.83011666666667	0.86	evidence2	dog	bare	The neighbor's dog is barking.	0.734285714285714	inferential	indirect	listener
+2	10807	The neighbor&quotechars dog is barking.	English 	18	F	3	2	Yes	Thank you! Interesting study. 	1.41296666666667	0.98	evidence2	dog	bare	The neighbor&quotechars dog is barking.	0.734285714285714	inferential	indirect	speaker
+2	12591	Dinner must be ready.	English 	18	M	1	2	Yes	Thank you! Interesting study. 	1.41296666666667	0.33	evidence5	dinner	must	Dinner must be ready.	0.563333333333333	wishful	indirect	speaker
+2	12784	Dinner must be ready.	English	26	M	1	2	Yes	none	1.83011666666667	0.23	evidence5	dinner	must	Dinner must be ready.	0.563333333333333	wishful	indirect	listener
+2	13182	It&quotechars probably raining.	English 	18	F	4	2	Yes	Thank you! Interesting study. 	1.41296666666667	0.81	evidence3	rain	probably	It&quotechars probably raining.	0.89	inferential	indirect	speaker
+3	18278	It's probably raining.	English	41	F	2	2	Yes	I found this HIT interesting to complete. Good luck with your study!	2.14695	0.43	evidence4	rain	probably	It's probably raining.	0.742142857142857	reportative	indirect	listener
+3	19814	Dinner is ready.	English	41	F	4	2	Yes	I found this HIT interesting to complete. Good luck with your study!	2.14695	0.99	evidence1	dinner	bare	Dinner is ready.	0.93	perceptual	direct	listener
+3	21043	It&quotechars raining.	english	21	F	4	1	Yes		2.09513333333333	0.97	evidence1	rain	bare	It&quotechars raining.	0.935454545454545	perceptual	direct	speaker
+3	21767	The coffee might be cold.	english	21	F	3	1	Yes		2.09513333333333	0.3	evidence4	coffee	might	The coffee might be cold.	0.681818181818182	inferential	indirect	speaker
+3	21877	The neighbor's dog might be barking.	English	41	F	3	2	Yes	I found this HIT interesting to complete. Good luck with your study!	2.14695	0.18	evidence5	dog	might	The neighbor's dog might be barking.	0.487142857142857	inferential	indirect	listener
+3	22565	Dinner must be ready.	english	21	M	2	1	Yes		2.09513333333333	0.47	evidence4	dinner	must	Dinner must be ready.	0.655384615384615	inferential	indirect	speaker
+3	26220	The neighbor&quotechars dog is probably barking.	english	21	M	1	1	Yes		2.09513333333333	0.82	evidence2	dog	probably	The neighbor&quotechars dog is probably barking.	0.734285714285714	inferential	indirect	speaker
+3	27915	The coffee must be cold.	English	41	F	1	2	Yes	I found this HIT interesting to complete. Good luck with your study!	2.14695	0.45	evidence3	coffee	must	The coffee must be cold.	0.95	inferential	indirect	listener
+4	7966	Dinner is probably ready.	english	46	F	3	2	Yes		2.27988333333333	0.72	evidence4	dinner	probably	Dinner is probably ready.	0.655384615384615	inferential	indirect	listener
+4	10208	The coffee must be cold.	english	46	M	4	2	Yes		2.27988333333333	0.89	evidence1	coffee	must	The coffee must be cold.	0.916	perceptual	direct	listener
+4	10586	It might be raining.	english	46	M	2	2	Yes		2.27988333333333	0.52	evidence2	rain	might	It might be raining.	0.9175	inferential	indirect	listener
+4	11343	Dinner must be ready.	English	23	F	4	2	Yes		1.31813333333333	0.62	evidence3	dinner	must	Dinner must be ready.	0.85	inferential	indirect	speaker
+4	14100	The neighbor's dog is barking.	english	46	F	1	2	Yes		2.27988333333333	0.93	evidence2	dog	bare	The neighbor's dog is barking.	0.734285714285714	inferential	indirect	listener
+4	15911	It&quotechars probably raining.	English	23	M	2	2	Yes		1.31813333333333	0.59	evidence4	rain	probably	It&quotechars probably raining.	0.742142857142857	reportative	indirect	speaker
+4	16983	The neighbor&quotechars dog might be barking.	English	23	M	3	2	Yes		1.31813333333333	0.54	evidence4	dog	might	The neighbor&quotechars dog might be barking.	0.651	inferential	indirect	speaker
+4	17974	The coffee is cold.	English	23	F	1	2	Yes		1.31813333333333	0.95	evidence4	coffee	bare	The coffee is cold.	0.681818181818182	inferential	indirect	speaker
+5	13243	Dinner is probably ready.	English	27	F	3	1	Yes		3.4503	0.69	evidence4	dinner	probably	Dinner is probably ready.	0.655384615384615	inferential	indirect	speaker
+5	15309	The neighbor&quotechars dog is barking.	English	27	F	4	1	Yes		3.4503	1	evidence2	dog	bare	The neighbor&quotechars dog is barking.	0.734285714285714	inferential	indirect	speaker
+5	16015	The coffee might be cold.	English	35	F	4	2	Yes		1.84451666666667	0.6	evidence3	coffee	might	The coffee might be cold.	0.95	inferential	indirect	listener
+5	19487	It must be raining.	English	35	M	2	2	Yes		1.84451666666667	0.47	evidence4	rain	must	It must be raining.	0.742142857142857	reportative	indirect	listener
+5	19837	Dinner is probably ready.	English	35	F	3	2	Yes		1.84451666666667	0.6	evidence3	dinner	probably	Dinner is probably ready.	0.85	inferential	indirect	listener
+5	20262	It must be raining.	English	27	F	1	1	Yes		3.4503	0.98	evidence2	rain	must	It must be raining.	0.9175	inferential	indirect	speaker
+5	25903	The neighbor's dog is barking.	English	35	M	1	2	Yes		1.84451666666667	0.9	evidence2	dog	bare	The neighbor's dog is barking.	0.734285714285714	inferential	indirect	listener
+5	26924	The coffee might be cold.	English	27	F	2	1	Yes		3.4503	0.69	evidence2	coffee	might	The coffee might be cold.	0.743333333333333	perceptual	indirect	speaker
+6	9193	Dinner must be ready.	English	25	F	4	1	Yes		1.03146666666667	0.86	evidence3	dinner	must	Dinner must be ready.	0.85	inferential	indirect	speaker
+6	10572	It might be raining.	English	25	F	2	1	Yes		1.03146666666667	0.61	evidence1	rain	might	It might be raining.	0.935454545454545	perceptual	direct	speaker
+6	12668	The neighbor&quotechars dog is barking.	English	25	F	1	1	Yes		1.03146666666667	1	evidence2	dog	bare	The neighbor&quotechars dog is barking.	0.734285714285714	inferential	indirect	speaker
+6	15074	The coffee is probably cold.	English	25	M	3	1	Yes		1.03146666666667	0.63	evidence3	coffee	probably	The coffee is probably cold.	0.95	inferential	indirect	speaker
+6	19064	The neighbor's dog is barking.	English	29	F	4	2	Yes	Interesting phrases!	3.65625	0.96	evidence2	dog	bare	The neighbor's dog is barking.	0.734285714285714	inferential	indirect	listener
+6	23953	Dinner might be ready.	English	29	M	3	2	Yes	Interesting phrases!	3.65625	0.77	evidence5	dinner	might	Dinner might be ready.	0.563333333333333	wishful	indirect	listener
+6	27868	It's probably raining.	English	29	M	2	2	Yes	Interesting phrases!	3.65625	0.75	evidence4	rain	probably	It's probably raining.	0.742142857142857	reportative	indirect	listener
+6	50001	The coffee must be cold.	English	29	M	1	2	Yes	Interesting phrases!	3.65625	0.72	evidence4	coffee	must	The coffee must be cold.	0.681818181818182	inferential	indirect	listener
+7	7568	The coffee must be cold.	English	30	M	4	2	Yes		1.0209	0.9	evidence3	coffee	must	The coffee must be cold.	0.95	inferential	indirect	speaker
+7	8511	Dinner is ready.	English	30	M	3	2	Yes		1.0209	0.96	evidence2	dinner	bare	Dinner is ready.	0.93375	reportative	indirect	speaker
+7	11033	It's raining.	english	21	M	3	2	Yes		2.59543333333333	1	evidence1	rain	bare	It's raining.	0.935454545454545	perceptual	direct	listener
+7	11549	The neighbor&quotechars dog is probably barking.	English	30	M	2	2	Yes		1.0209	0.27	evidence5	dog	probably	The neighbor&quotechars dog is probably barking.	0.487142857142857	inferential	indirect	speaker
+7	13992	It might be raining.	English	30	M	1	2	Yes		1.0209	0.49	evidence3	rain	might	It might be raining.	0.89	inferential	indirect	speaker
+7	21453	The neighbor's dog is probably barking.	english	21	M	1	2	Yes		2.59543333333333	0.81	evidence4	dog	probably	The neighbor's dog is probably barking.	0.651	inferential	indirect	listener
+7	28773	The coffee must be cold.	english	21	M	4	2	Yes		2.59543333333333	0.81	evidence4	coffee	must	The coffee must be cold.	0.681818181818182	inferential	indirect	listener
+7	38692	Dinner might be ready.	english	21	F	2	2	Yes		2.59543333333333	0.7	evidence3	dinner	might	Dinner might be ready.	0.85	inferential	indirect	listener
+8	7701	The neighbor&quotechars dog is barking.	English	28	F	4	2	Yes		1.02523333333333	1	evidence2	dog	bare	The neighbor&quotechars dog is barking.	0.734285714285714	inferential	indirect	speaker
+8	8373	Dinner is probably ready.	English	28	M	2	2	Yes		1.02523333333333	0.75	evidence3	dinner	probably	Dinner is probably ready.	0.85	inferential	indirect	speaker
+8	10864	The coffee is probably cold.	English	26	F	4	2	Yes	Thank you!	2.10408333333333	0.71	evidence3	coffee	probably	The coffee is probably cold.	0.95	inferential	indirect	listener
+8	14163	Dinner must be ready.	English	26	F	2	2	Yes	Thank you!	2.10408333333333	0.53	evidence3	dinner	must	Dinner must be ready.	0.85	inferential	indirect	listener
+8	14975	It must be raining.	English	28	M	1	2	Yes		1.02523333333333	0.9	evidence4	rain	must	It must be raining.	0.742142857142857	reportative	indirect	speaker
+8	15062	The coffee might be cold.	English	28	M	3	2	Yes		1.02523333333333	0.71	evidence2	coffee	might	The coffee might be cold.	0.743333333333333	perceptual	indirect	speaker
+8	21859	The neighbor's dog might be barking.	English	26	F	3	2	Yes	Thank you!	2.10408333333333	0.47	evidence5	dog	might	The neighbor's dog might be barking.	0.487142857142857	inferential	indirect	listener
+8	34897	It's raining.	English	26	M	1	2	Yes	Thank you!	2.10408333333333	0.93	evidence2	rain	bare	It's raining.	0.9175	inferential	indirect	listener
+9	3814	The neighbor's dog is probably barking.	ENGLISH	24	M	2	2	Yes	THANK YOU! :)	2.10505	0.69	evidence2	dog	probably	The neighbor's dog is probably barking.	0.734285714285714	inferential	indirect	listener
+9	4980	The coffee must be cold.	ENGLISH	24	F	3	2	Yes	THANK YOU! :)	2.10505	0.74	evidence4	coffee	must	The coffee must be cold.	0.681818181818182	inferential	indirect	listener
+9	5038	Dinner is ready.	ENGLISH	24	M	1	2	Yes	THANK YOU! :)	2.10505	0.75	evidence4	dinner	bare	Dinner is ready.	0.655384615384615	inferential	indirect	listener
+9	8808	It might be raining.	ENGLISH	24	M	4	2	Yes	THANK YOU! :)	2.10505	0.82	evidence5	rain	might	It might be raining.	0.573333333333333	inferential	indirect	listener
+9	8844	The neighbor&quotechars dog is barking.	English	27	F	2	2	Yes		1.61576666666667	0.85	evidence2	dog	bare	The neighbor&quotechars dog is barking.	0.734285714285714	inferential	indirect	speaker
+9	11204	Dinner might be ready.	English	27	F	3	2	Yes		1.61576666666667	0.42	evidence3	dinner	might	Dinner might be ready.	0.85	inferential	indirect	speaker
+9	17812	The coffee is probably cold.	English	27	M	4	2	Yes		1.61576666666667	0.42	evidence3	coffee	probably	The coffee is probably cold.	0.95	inferential	indirect	speaker
+9	25718	It must be raining.	English	27	F	1	2	Yes		1.61576666666667	1	evidence2	rain	must	It must be raining.	0.9175	inferential	indirect	speaker
+10	9068	Dinner is ready.	English	28	M	3	2	Yes	thanks	1.11861666666667	1	evidence1	dinner	bare	Dinner is ready.	0.93	perceptual	direct	listener
+10	10829	It must be raining.	English	28	M	2	2	Yes	thanks	1.11861666666667	0.87	evidence2	rain	must	It must be raining.	0.9175	inferential	indirect	listener
+10	10836	The coffee is probably cold.	English	28	M	4	2	Yes	thanks	1.11861666666667	0.82	evidence3	coffee	probably	The coffee is probably cold.	0.95	inferential	indirect	listener
+10	11715	It might be raining.	english	21	F	4	1	Yes		1.4295	0.29	evidence2	rain	might	It might be raining.	0.9175	inferential	indirect	speaker
+10	12177	The neighbor&quotechars dog is barking.	english	21	F	2	1	Yes		1.4295	0.94	evidence2	dog	bare	The neighbor&quotechars dog is barking.	0.734285714285714	inferential	indirect	speaker
+10	14523	Dinner must be ready.	english	21	M	3	1	Yes		1.4295	0.51	evidence4	dinner	must	Dinner must be ready.	0.655384615384615	inferential	indirect	speaker
+10	17400	The coffee is probably cold.	english	21	F	1	1	Yes		1.4295	0.92	evidence1	coffee	probably	The coffee is probably cold.	0.916	perceptual	direct	speaker
+10	18486	The neighbor's dog might be barking.	English	28	F	1	2	Yes	thanks	1.11861666666667	0.68	evidence2	dog	might	The neighbor's dog might be barking.	0.734285714285714	inferential	indirect	listener
+11	18469	Dinner might be ready.	english	52	M	4	2	Yes	would love to know how i did	3.64733333333333	0.51	evidence4	dinner	might	Dinner might be ready.	0.655384615384615	inferential	indirect	listener
+11	21179	Dinner is probably ready.	English	33	F	3	1	Yes	The reason why should be clarified to represent a possible interpretation for the statement, rather than the implication that it represents a single unique reason they would make their claim.	3.69228333333333	0.48	evidence3	dinner	probably	Dinner is probably ready.	0.85	inferential	indirect	speaker
+11	24256	The coffee might be cold.	English	33	M	4	1	Yes	The reason why should be clarified to represent a possible interpretation for the statement, rather than the implication that it represents a single unique reason they would make their claim.	3.69228333333333	0.37	evidence3	coffee	might	The coffee might be cold.	0.95	inferential	indirect	speaker
+11	43864	The neighbor's dog is probably barking.	english	52	M	2	2	Yes	would love to know how i did	3.64733333333333	0.47	evidence2	dog	probably	The neighbor's dog is probably barking.	0.734285714285714	inferential	indirect	listener
+11	47965	The neighbor&quotechars dog must be barking.	English	33	F	2	1	Yes	The reason why should be clarified to represent a possible interpretation for the statement, rather than the implication that it represents a single unique reason they would make their claim.	3.69228333333333	0.69	evidence3	dog	must	The neighbor&quotechars dog must be barking.	0.668333333333333	inferential	indirect	speaker
+11	51297	It must be raining.	english	52	M	1	2	Yes	would love to know how i did	3.64733333333333	0.24	evidence2	rain	must	It must be raining.	0.9175	inferential	indirect	listener
+11	54503	The coffee is cold.	english	52	F	3	2	Yes	would love to know how i did	3.64733333333333	0.5	evidence2	coffee	bare	The coffee is cold.	0.743333333333333	perceptual	indirect	listener
+11	55436	It&quotechars raining.	English	33	M	1	1	Yes	The reason why should be clarified to represent a possible interpretation for the statement, rather than the implication that it represents a single unique reason they would make their claim.	3.69228333333333	0.84	evidence1	rain	bare	It&quotechars raining.	0.935454545454545	perceptual	direct	speaker
+12	16657	It might be raining.	English	57	F	2	1	Yes		3.29875	0.47	evidence2	rain	might	It might be raining.	0.9175	inferential	indirect	speaker
+12	23942	The neighbor's dog might be barking.	English	30	F	4	2	Yes	I looked at hedging language in this HIT.  For example "probably" indicates a higher degree of probability than "might be," and I tried to evaluate what circumstances would be appropriate for a particular hedging word.  	5.28798333333333	0.23	evidence4	dog	might	The neighbor's dog might be barking.	0.651	inferential	indirect	listener
+12	24983	It's probably raining.	English	30	F	3	2	Yes	I looked at hedging language in this HIT.  For example "probably" indicates a higher degree of probability than "might be," and I tried to evaluate what circumstances would be appropriate for a particular hedging word.  	5.28798333333333	0.33	evidence4	rain	probably	It's probably raining.	0.742142857142857	reportative	indirect	listener
+12	27762	The coffee is cold.	English	30	M	2	2	Yes	I looked at hedging language in this HIT.  For example "probably" indicates a higher degree of probability than "might be," and I tried to evaluate what circumstances would be appropriate for a particular hedging word.  	5.28798333333333	0.76	evidence4	coffee	bare	The coffee is cold.	0.681818181818182	inferential	indirect	listener
+12	27828	The coffee is cold.	English	57	M	1	1	Yes		3.29875	0.95	evidence1	coffee	bare	The coffee is cold.	0.916	perceptual	direct	speaker
+12	32063	The neighbor&quotechars dog must be barking.	English	57	F	4	1	Yes		3.29875	0.76	evidence2	dog	must	The neighbor&quotechars dog must be barking.	0.734285714285714	inferential	indirect	speaker
+12	77342	Dinner is probably ready.	English	57	F	3	1	Yes		3.29875	0.47	evidence4	dinner	probably	Dinner is probably ready.	0.655384615384615	inferential	indirect	speaker
+12	123109	Dinner must be ready.	English	30	F	1	2	Yes	I looked at hedging language in this HIT.  For example "probably" indicates a higher degree of probability than "might be," and I tried to evaluate what circumstances would be appropriate for a particular hedging word.  	5.28798333333333	0.77	evidence4	dinner	must	Dinner must be ready.	0.655384615384615	inferential	indirect	listener
+13	17878	The coffee is probably cold.	English	30	M	3	2	Yes		2.1497	0.47	evidence3	coffee	probably	The coffee is probably cold.	0.95	inferential	indirect	listener
+13	18133	The neighbor's dog is barking.	English	30	M	2	2	Yes		2.1497	0.93	evidence2	dog	bare	The neighbor's dog is barking.	0.734285714285714	inferential	indirect	listener
+13	23023	Dinner might be ready.	English	22	F	4	2	Yes	I thought it was a neat study on how people interpret sentences.	3.61475	0.33	evidence3	dinner	might	Dinner might be ready.	0.85	inferential	indirect	speaker
+13	25746	It must be raining.	English	30	M	4	2	Yes		2.1497	0.64	evidence2	rain	must	It must be raining.	0.9175	inferential	indirect	listener
+13	25871	The coffee is cold.	English	22	M	2	2	Yes	I thought it was a neat study on how people interpret sentences.	3.61475	1	evidence1	coffee	bare	The coffee is cold.	0.916	perceptual	direct	speaker
+13	35831	Dinner might be ready.	English	30	F	1	2	Yes		2.1497	0.72	evidence4	dinner	might	Dinner might be ready.	0.655384615384615	inferential	indirect	listener
+13	36995	It must be raining.	English	22	M	1	2	Yes	I thought it was a neat study on how people interpret sentences.	3.61475	0.82	evidence2	rain	must	It must be raining.	0.9175	inferential	indirect	speaker
+13	49830	The neighbor&quotechars dog is probably barking.	English	22	M	3	2	Yes	I thought it was a neat study on how people interpret sentences.	3.61475	0.48	evidence4	dog	probably	The neighbor&quotechars dog is probably barking.	0.651	inferential	indirect	speaker
+14	8550	The coffee is cold.	English	26	M	4	2	Yes	Interesting study!	1.81595	0.99	evidence1	coffee	bare	The coffee is cold.	0.916	perceptual	direct	speaker
+14	12762	Dinner is ready.	ENglish	38	M	2	1	Yes		1.9464	0.61	evidence1	dinner	bare	Dinner is ready.	0.93	perceptual	direct	listener
+14	12808	The coffee is probably cold.	ENglish	38	M	3	1	Yes		1.9464	0.48	evidence4	coffee	probably	The coffee is probably cold.	0.681818181818182	inferential	indirect	listener
+14	13393	The neighbor&quotechars dog must be barking.	English	26	F	3	2	Yes	Interesting study!	1.81595	0.83	evidence2	dog	must	The neighbor&quotechars dog must be barking.	0.734285714285714	inferential	indirect	speaker
+14	14232	The neighbor's dog must be barking.	ENglish	38	M	4	1	Yes		1.9464	0.56	evidence3	dog	must	The neighbor's dog must be barking.	0.668333333333333	inferential	indirect	listener
+14	16214	It&quotechars probably raining.	English	26	M	2	2	Yes	Interesting study!	1.81595	0.78	evidence2	rain	probably	It&quotechars probably raining.	0.9175	inferential	indirect	speaker
+14	21208	Dinner might be ready.	English	26	F	1	2	Yes	Interesting study!	1.81595	0.62	evidence4	dinner	might	Dinner might be ready.	0.655384615384615	inferential	indirect	speaker
+14	23587	It might be raining.	ENglish	38	F	1	1	Yes		1.9464	0.49	evidence2	rain	might	It might be raining.	0.9175	inferential	indirect	listener
+15	7684	The coffee is cold.	English	23	M	2	2	Yes		1.13035	1	evidence1	coffee	bare	The coffee is cold.	0.916	perceptual	direct	listener
+15	9946	It must be raining.	English	23	F	4	2	Yes		1.13035	0.6	evidence2	rain	must	It must be raining.	0.9175	inferential	indirect	listener
+15	11063	Dinner is probably ready.	English	23	M	3	2	Yes		1.13035	0.62	evidence3	dinner	probably	Dinner is probably ready.	0.85	inferential	indirect	listener
+15	15287	The coffee is probably cold.	english	28	F	3	2	Yes		2.05425	0.7	evidence3	coffee	probably	The coffee is probably cold.	0.95	inferential	indirect	speaker
+15	17098	The neighbor's dog might be barking.	English	23	M	1	2	Yes		1.13035	0.47	evidence1	dog	might	The neighbor's dog might be barking.	0.916	perceptual	direct	listener
+15	20727	Dinner might be ready.	english	28	F	2	2	Yes		2.05425	0.54	evidence4	dinner	might	Dinner might be ready.	0.655384615384615	inferential	indirect	speaker
+15	24904	It&quotechars raining.	english	28	M	1	2	Yes		2.05425	1	evidence2	rain	bare	It&quotechars raining.	0.9175	inferential	indirect	speaker
+15	25608	The neighbor&quotechars dog must be barking.	english	28	M	4	2	Yes		2.05425	0.83	evidence3	dog	must	The neighbor&quotechars dog must be barking.	0.668333333333333	inferential	indirect	speaker
+16	14619	Dinner is probably ready.	english	23	F	4	2	Yes		1.4661	0.6	evidence4	dinner	probably	Dinner is probably ready.	0.655384615384615	inferential	indirect	speaker
+16	14959	It&quotechars raining.	english	23	F	3	2	Yes		1.4661	0.97	evidence1	rain	bare	It&quotechars raining.	0.935454545454545	perceptual	direct	speaker
+16	15692	The neighbor&quotechars dog might be barking.	english	23	F	2	2	Yes		1.4661	0.46	evidence3	dog	might	The neighbor&quotechars dog might be barking.	0.668333333333333	inferential	indirect	speaker
+16	24614	The coffee must be cold.	english	23	M	1	2	Yes		1.4661	0.61	evidence3	coffee	must	The coffee must be cold.	0.95	inferential	indirect	speaker
+16	35395	The coffee might be cold.	English	57	M	2	2	Yes		7.04701666666667	0.65	evidence3	coffee	might	The coffee might be cold.	0.95	inferential	indirect	listener
+16	36585	Dinner is ready.	English	57	M	4	2	Yes		7.04701666666667	0.91	evidence2	dinner	bare	Dinner is ready.	0.93375	reportative	indirect	listener
+16	60417	It must be raining.	English	57	F	1	2	Yes		7.04701666666667	0.71	evidence2	rain	must	It must be raining.	0.9175	inferential	indirect	listener
+16	75316	The neighbor's dog is probably barking.	English	57	F	3	2	Yes		7.04701666666667	0.51	evidence5	dog	probably	The neighbor's dog is probably barking.	0.487142857142857	inferential	indirect	listener
+17	18327	The neighbor's dog is barking.	English	39	F	4	2	Yes		2.63426666666667	0.88	evidence2	dog	bare	The neighbor's dog is barking.	0.734285714285714	inferential	indirect	listener
+17	22270	The coffee must be cold.	English	43	F	3	2	Yes	Thanks!	3.52268333333333	0.9	evidence3	coffee	must	The coffee must be cold.	0.95	inferential	indirect	speaker
+17	23814	The coffee is probably cold.	English	39	F	2	2	Yes		2.63426666666667	0.67	evidence3	coffee	probably	The coffee is probably cold.	0.95	inferential	indirect	listener
+17	25564	Dinner is probably ready.	English	43	F	2	2	Yes	Thanks!	3.52268333333333	0.88	evidence3	dinner	probably	Dinner is probably ready.	0.85	inferential	indirect	speaker
+17	32214	Dinner might be ready.	English	39	F	3	2	Yes		2.63426666666667	0.49	evidence3	dinner	might	Dinner might be ready.	0.85	inferential	indirect	listener
+17	41953	It might be raining.	English	43	F	4	2	Yes	Thanks!	3.52268333333333	0.9	evidence4	rain	might	It might be raining.	0.742142857142857	reportative	indirect	speaker
+17	44470	The neighbor&quotechars dog is barking.	English	43	M	1	2	Yes	Thanks!	3.52268333333333	0.99	evidence2	dog	bare	The neighbor&quotechars dog is barking.	0.734285714285714	inferential	indirect	speaker
+17	45399	It must be raining.	English	39	M	1	2	Yes		2.63426666666667	0.56	evidence3	rain	must	It must be raining.	0.89	inferential	indirect	listener
+18	14136	The neighbor&quotechars dog must be barking.	English	27	M	1	2	Yes		1.42591666666667	0.99	evidence2	dog	must	The neighbor&quotechars dog must be barking.	0.734285714285714	inferential	indirect	speaker
+18	15351	Dinner is ready.	English	27	M	2	2	Yes		1.42591666666667	0.99	evidence1	dinner	bare	Dinner is ready.	0.93	perceptual	direct	speaker
+18	15762	The coffee might be cold.	English	27	M	4	2	Yes		1.42591666666667	0.61	evidence3	coffee	might	The coffee might be cold.	0.95	inferential	indirect	speaker
+18	19934	It&quotechars probably raining.	English	27	M	3	2	Yes		1.42591666666667	0.75	evidence5	rain	probably	It&quotechars probably raining.	0.573333333333333	inferential	indirect	speaker
+18	28978	The coffee is probably cold.	English	59	M	4	2	Yes	Thank You	3.60251666666667	0.59	evidence3	coffee	probably	The coffee is probably cold.	0.95	inferential	indirect	listener
+18	32050	It might be raining.	English	59	F	2	2	Yes	Thank You	3.60251666666667	0.48	evidence5	rain	might	It might be raining.	0.573333333333333	inferential	indirect	listener
+18	43457	The neighbor's dog is barking.	English	59	M	3	2	Yes	Thank You	3.60251666666667	0.97	evidence2	dog	bare	The neighbor's dog is barking.	0.734285714285714	inferential	indirect	listener
+18	49289	Dinner must be ready.	English	59	F	1	2	Yes	Thank You	3.60251666666667	0.47	evidence4	dinner	must	Dinner must be ready.	0.655384615384615	inferential	indirect	listener
+19	6646	The coffee might be cold.	english	20	M	4	2	Yes		1.15793333333333	0.5	evidence5	coffee	might	The coffee might be cold.	0.5825	inferential	indirect	listener
+19	7040	It's probably raining.	english	20	M	2	2	Yes		1.15793333333333	0.54	evidence5	rain	probably	It's probably raining.	0.573333333333333	inferential	indirect	listener
+19	8916	Dinner is ready.	english	20	M	3	2	Yes		1.15793333333333	0.73	evidence3	dinner	bare	Dinner is ready.	0.85	inferential	indirect	listener
+19	10733	Dinner must be ready.	English	23	F	3	2	Yes		1.81403333333333	0.91	evidence4	dinner	must	Dinner must be ready.	0.655384615384615	inferential	indirect	speaker
+19	12678	The neighbor's dog must be barking.	english	20	M	1	2	Yes		1.15793333333333	0.74	evidence2	dog	must	The neighbor's dog must be barking.	0.734285714285714	inferential	indirect	listener
+19	19587	The neighbor&quotechars dog is barking.	English	23	F	2	2	Yes		1.81403333333333	0.99	evidence2	dog	bare	The neighbor&quotechars dog is barking.	0.734285714285714	inferential	indirect	speaker
+19	20857	The coffee is probably cold.	English	23	F	1	2	Yes		1.81403333333333	0.81	evidence4	coffee	probably	The coffee is probably cold.	0.681818181818182	inferential	indirect	speaker
+19	32420	It might be raining.	English	23	M	4	2	Yes		1.81403333333333	0.49	evidence4	rain	might	It might be raining.	0.742142857142857	reportative	indirect	speaker
+20	13885	It&quotechars probably raining.	English	26	F	3	2	Yes		1.51033333333333	0.47	evidence5	rain	probably	It&quotechars probably raining.	0.573333333333333	inferential	indirect	speaker
+20	16132	The neighbor&quotechars dog must be barking.	English	26	F	2	2	Yes		1.51033333333333	0.92	evidence2	dog	must	The neighbor&quotechars dog must be barking.	0.734285714285714	inferential	indirect	speaker
+20	17869	Dinner is ready.	English	26	M	1	2	Yes		1.51033333333333	0.82	evidence2	dinner	bare	Dinner is ready.	0.93375	reportative	indirect	speaker
+20	18998	Dinner might be ready.	English	30	M	4	1	Yes	good luck with your research. 	2.16998333333333	0.37	evidence4	dinner	might	Dinner might be ready.	0.655384615384615	inferential	indirect	listener
+20	19866	The coffee might be cold.	English	26	F	4	2	Yes		1.51033333333333	0.51	evidence4	coffee	might	The coffee might be cold.	0.681818181818182	inferential	indirect	speaker
+20	21493	It's raining.	English	30	F	2	1	Yes	good luck with your research. 	2.16998333333333	0.84	evidence1	rain	bare	It's raining.	0.935454545454545	perceptual	direct	listener
+20	23664	The neighbor's dog must be barking.	English	30	M	1	1	Yes	good luck with your research. 	2.16998333333333	0.6	evidence2	dog	must	The neighbor's dog must be barking.	0.734285714285714	inferential	indirect	listener
+20	31045	The coffee is probably cold.	English	30	M	3	1	Yes	good luck with your research. 	2.16998333333333	0.44	evidence4	coffee	probably	The coffee is probably cold.	0.681818181818182	inferential	indirect	listener
+21	14807	The neighbor&quotechars dog must be barking.	english	30	M	4	2	Yes		1.84253333333333	0.86	evidence2	dog	must	The neighbor&quotechars dog must be barking.	0.734285714285714	inferential	indirect	speaker
+21	15838	The coffee might be cold.	English	19	M	4	2	Yes	Interesting survey	1.78423333333333	0.65	evidence3	coffee	might	The coffee might be cold.	0.95	inferential	indirect	listener
+21	15966	The coffee might be cold.	english	30	F	3	2	Yes		1.84253333333333	0.76	evidence3	coffee	might	The coffee might be cold.	0.95	inferential	indirect	speaker
+21	16186	Dinner is ready.	english	30	M	2	2	Yes		1.84253333333333	0.97	evidence1	dinner	bare	Dinner is ready.	0.93	perceptual	direct	speaker
+21	17771	The neighbor's dog must be barking.	English	19	F	3	2	Yes	Interesting survey	1.78423333333333	0.24	evidence2	dog	must	The neighbor's dog must be barking.	0.734285714285714	inferential	indirect	listener
+21	18605	It's raining.	English	19	M	2	2	Yes	Interesting survey	1.78423333333333	1	evidence1	rain	bare	It's raining.	0.935454545454545	perceptual	direct	listener
+21	27028	Dinner is probably ready.	English	19	F	1	2	Yes	Interesting survey	1.78423333333333	0.67	evidence3	dinner	probably	Dinner is probably ready.	0.85	inferential	indirect	listener
+21	36814	It&quotechars probably raining.	english	30	F	1	2	Yes		1.84253333333333	0.7	evidence4	rain	probably	It&quotechars probably raining.	0.742142857142857	reportative	indirect	speaker
+22	8061	Dinner is probably ready.	English	25	F	4	1	No		1.22681666666667	0.6	evidence3	dinner	probably	Dinner is probably ready.	0.85	inferential	indirect	listener
+22	11839	It must be raining.	English	43	M	4	2	Yes	This was fun and interesting.	1.49253333333333	1	evidence3	rain	must	It must be raining.	0.89	inferential	indirect	speaker
+22	13016	It must be raining.	English	25	M	3	1	No		1.22681666666667	0.55	evidence2	rain	must	It must be raining.	0.9175	inferential	indirect	listener
+22	14576	Dinner is probably ready.	English	43	F	2	2	Yes	This was fun and interesting.	1.49253333333333	0.78	evidence3	dinner	probably	Dinner is probably ready.	0.85	inferential	indirect	speaker
+22	16136	The neighbor&quotechars dog might be barking.	English	43	M	3	2	Yes	This was fun and interesting.	1.49253333333333	0.43	evidence2	dog	might	The neighbor&quotechars dog might be barking.	0.734285714285714	inferential	indirect	speaker
+22	16203	The coffee is cold.	English	43	F	1	2	Yes	This was fun and interesting.	1.49253333333333	1	evidence1	coffee	bare	The coffee is cold.	0.916	perceptual	direct	speaker
+22	16916	The coffee is cold.	English	25	M	2	1	No		1.22681666666667	0.55	evidence1	coffee	bare	The coffee is cold.	0.916	perceptual	direct	listener
+22	19129	The neighbor's dog might be barking.	English	25	F	1	1	No		1.22681666666667	0.66	evidence2	dog	might	The neighbor's dog might be barking.	0.734285714285714	inferential	indirect	listener
+23	13892	Dinner must be ready.	english	22	M	4	1	Yes		2.38496666666667	0.98	evidence1	dinner	must	Dinner must be ready.	0.93	perceptual	direct	speaker
+23	26073	It might be raining.	english	22	M	2	1	Yes		2.38496666666667	0.47	evidence2	rain	might	It might be raining.	0.9175	inferential	indirect	speaker
+23	26769	It's raining.	English	59	F	2	2	Yes	interesting	3.0134	0.99	evidence1	rain	bare	It's raining.	0.935454545454545	perceptual	direct	listener
+23	28217	The neighbor's dog is probably barking.	English	59	F	4	2	Yes	interesting	3.0134	0.59	evidence2	dog	probably	The neighbor's dog is probably barking.	0.734285714285714	inferential	indirect	listener
+23	29038	The coffee might be cold.	English	59	M	3	2	Yes	interesting	3.0134	0.83	evidence3	coffee	might	The coffee might be cold.	0.95	inferential	indirect	listener
+23	30590	The coffee is cold.	english	22	F	1	1	Yes		2.38496666666667	1	evidence1	coffee	bare	The coffee is cold.	0.916	perceptual	direct	speaker
+23	30600	The neighbor&quotechars dog is probably barking.	english	22	M	3	1	Yes		2.38496666666667	0.99	evidence2	dog	probably	The neighbor&quotechars dog is probably barking.	0.734285714285714	inferential	indirect	speaker
+23	37667	Dinner must be ready.	English	59	M	1	2	Yes	interesting	3.0134	0.98	evidence4	dinner	must	Dinner must be ready.	0.655384615384615	inferential	indirect	listener
+24	11364	The neighbor's dog is barking.	English	21	F	4	1	Yes	No comments, thanks!	1.17468333333333	0.91	evidence2	dog	bare	The neighbor's dog is barking.	0.734285714285714	inferential	indirect	listener
+24	11482	It might be raining.	English	21	M	3	1	Yes	No comments, thanks!	1.17468333333333	0.46	evidence4	rain	might	It might be raining.	0.742142857142857	reportative	indirect	listener
+24	12206	The coffee is probably cold.	English	21	M	2	1	Yes	No comments, thanks!	1.17468333333333	0.47	evidence3	coffee	probably	The coffee is probably cold.	0.95	inferential	indirect	listener
+24	13495	Dinner must be ready.	English	21	F	1	1	Yes	No comments, thanks!	1.17468333333333	0.76	evidence4	dinner	must	Dinner must be ready.	0.655384615384615	inferential	indirect	listener
+24	19236	The coffee is cold.	English	23	M	4	2	Yes		2.2341	1	evidence1	coffee	bare	The coffee is cold.	0.916	perceptual	direct	speaker
+24	23162	Dinner is probably ready.	English	23	F	3	2	Yes		2.2341	0.49	evidence4	dinner	probably	Dinner is probably ready.	0.655384615384615	inferential	indirect	speaker
+24	25649	It might be raining.	English	23	F	2	2	Yes		2.2341	0.73	evidence4	rain	might	It might be raining.	0.742142857142857	reportative	indirect	speaker
+24	37939	The neighbor&quotechars dog must be barking.	English	23	F	1	2	Yes		2.2341	0.76	evidence3	dog	must	The neighbor&quotechars dog must be barking.	0.668333333333333	inferential	indirect	speaker
+25	6138	The neighbor&quotechars dog might be barking.	english	19	F	4	2	No		1.15906666666667	0.65	evidence4	dog	might	The neighbor&quotechars dog might be barking.	0.651	inferential	indirect	speaker
+25	6732	The coffee might be cold.	English	28	F	2	2	Yes		1.38116666666667	0.77	evidence2	coffee	might	The coffee might be cold.	0.743333333333333	perceptual	indirect	listener
+25	7741	The coffee must be cold.	english	19	F	3	2	No		1.15906666666667	0.85	evidence4	coffee	must	The coffee must be cold.	0.681818181818182	inferential	indirect	speaker
+25	11297	It must be raining.	English	28	F	3	2	Yes		1.38116666666667	0.93	evidence1	rain	must	It must be raining.	0.935454545454545	perceptual	direct	listener
+25	12382	The neighbor's dog is barking.	English	28	F	4	2	Yes		1.38116666666667	1	evidence2	dog	bare	The neighbor's dog is barking.	0.734285714285714	inferential	indirect	listener
+25	14470	Dinner is probably ready.	english	19	F	2	2	No		1.15906666666667	0.68	evidence3	dinner	probably	Dinner is probably ready.	0.85	inferential	indirect	speaker
+25	22225	It&quotechars raining.	english	19	F	1	2	No		1.15906666666667	1	evidence1	rain	bare	It&quotechars raining.	0.935454545454545	perceptual	direct	speaker
+25	25216	Dinner is probably ready.	English	28	M	1	2	Yes		1.38116666666667	0.72	evidence4	dinner	probably	Dinner is probably ready.	0.655384615384615	inferential	indirect	listener
+26	7257	Dinner might be ready.	English	25	F	4	2	Yes		0.843766666666667	0.28	evidence3	dinner	might	Dinner might be ready.	0.85	inferential	indirect	listener
+26	7944	The coffee is cold.	English	25	M	3	2	Yes		0.843766666666667	0.82	evidence1	coffee	bare	The coffee is cold.	0.916	perceptual	direct	listener
+26	9765	The neighbor's dog must be barking.	English	25	M	2	2	Yes		0.843766666666667	0.43	evidence2	dog	must	The neighbor's dog must be barking.	0.734285714285714	inferential	indirect	listener
+26	11713	It's probably raining.	English	25	M	1	2	Yes		0.843766666666667	0.17	evidence1	rain	probably	It's probably raining.	0.935454545454545	perceptual	direct	listener
+26	19442	It&quotechars probably raining.	english	31	F	2	1	Yes		2.1503	0.55	evidence2	rain	probably	It&quotechars probably raining.	0.9175	inferential	indirect	speaker
+26	22242	The neighbor&quotechars dog might be barking.	english	31	F	3	1	Yes		2.1503	0.63	evidence2	dog	might	The neighbor&quotechars dog might be barking.	0.734285714285714	inferential	indirect	speaker
+26	23864	Dinner is ready.	english	31	M	1	1	Yes		2.1503	1	evidence1	dinner	bare	Dinner is ready.	0.93	perceptual	direct	speaker
+26	28060	The coffee must be cold.	english	31	F	4	1	Yes		2.1503	0.64	evidence4	coffee	must	The coffee must be cold.	0.681818181818182	inferential	indirect	speaker
+27	11647	It's raining.	english	42	F	2	2	Yes	it was fun would do again..	1.77608333333333	0.9	evidence2	rain	bare	It's raining.	0.9175	inferential	indirect	listener
+27	14368	The coffee might be cold.	english	42	F	4	2	Yes	it was fun would do again..	1.77608333333333	0.72	evidence4	coffee	might	The coffee might be cold.	0.681818181818182	inferential	indirect	listener
+27	14591	Dinner is probably ready.	english	42	M	1	2	Yes	it was fun would do again..	1.77608333333333	0.71	evidence1	dinner	probably	Dinner is probably ready.	0.93	perceptual	direct	listener
+27	15517	It might be raining.	english	28	F	4	2	Yes	I liked the format "do you think > drop down > Why do you think.	1.86491666666667	0.37	evidence1	rain	might	It might be raining.	0.935454545454545	perceptual	direct	speaker
+27	15569	The coffee is probably cold.	english	28	M	3	2	Yes	I liked the format "do you think > drop down > Why do you think.	1.86491666666667	0.76	evidence3	coffee	probably	The coffee is probably cold.	0.95	inferential	indirect	speaker
+27	20848	Dinner is ready.	english	28	M	2	2	Yes	I liked the format "do you think > drop down > Why do you think.	1.86491666666667	0.82	evidence1	dinner	bare	Dinner is ready.	0.93	perceptual	direct	speaker
+27	21819	The neighbor&quotechars dog must be barking.	english	28	F	1	2	Yes	I liked the format "do you think > drop down > Why do you think.	1.86491666666667	0.96	evidence2	dog	must	The neighbor&quotechars dog must be barking.	0.734285714285714	inferential	indirect	speaker
+27	27384	The neighbor's dog must be barking.	english	42	M	3	2	Yes	it was fun would do again..	1.77608333333333	0.58	evidence3	dog	must	The neighbor's dog must be barking.	0.668333333333333	inferential	indirect	listener
+28	12087	Dinner is ready.	English	25	M	4	2	Yes	nice study	2.01186666666667	0.98	evidence1	dinner	bare	Dinner is ready.	0.93	perceptual	direct	listener
+28	18320	The neighbor&quotechars dog might be barking.	English	29	M	2	2	Yes		2.2055	0.54	evidence2	dog	might	The neighbor&quotechars dog might be barking.	0.734285714285714	inferential	indirect	speaker
+28	18636	The coffee might be cold.	English	25	M	3	2	Yes	nice study	2.01186666666667	0.48	evidence3	coffee	might	The coffee might be cold.	0.95	inferential	indirect	listener
+28	19883	It's probably raining.	English	25	F	2	2	Yes	nice study	2.01186666666667	0.21	evidence2	rain	probably	It's probably raining.	0.9175	inferential	indirect	listener
+28	20628	Dinner is probably ready.	English	29	M	4	2	Yes		2.2055	0.62	evidence3	dinner	probably	Dinner is probably ready.	0.85	inferential	indirect	speaker
+28	22255	The coffee is cold.	English	29	M	1	2	Yes		2.2055	0.98	evidence1	coffee	bare	The coffee is cold.	0.916	perceptual	direct	speaker
+28	28147	It must be raining.	English	29	F	3	2	Yes		2.2055	0.7	evidence2	rain	must	It must be raining.	0.9175	inferential	indirect	speaker
+28	42063	The neighbor's dog must be barking.	English	25	F	1	2	Yes	nice study	2.01186666666667	0.12	evidence4	dog	must	The neighbor's dog must be barking.	0.651	inferential	indirect	listener
+29	11131	It's raining.	English	23	F	3	1	No		1.36945	0.84	evidence2	rain	bare	It's raining.	0.9175	inferential	indirect	listener
+29	11568	Dinner must be ready.	English	23	M	4	1	No		1.36945	0.77	evidence4	dinner	must	Dinner must be ready.	0.655384615384615	inferential	indirect	listener
+29	15786	The neighbor's dog is probably barking.	English	23	M	2	1	No		1.36945	0.49	evidence5	dog	probably	The neighbor's dog is probably barking.	0.487142857142857	inferential	indirect	listener
+29	16261	It must be raining.	english	36	F	4	1	Yes		2.00865	1	evidence4	rain	must	It must be raining.	0.742142857142857	reportative	indirect	speaker
+29	19801	The coffee might be cold.	English	23	F	1	1	No		1.36945	0.55	evidence4	coffee	might	The coffee might be cold.	0.681818181818182	inferential	indirect	listener
+29	21625	The coffee is cold.	english	36	F	2	1	Yes		2.00865	1	evidence2	coffee	bare	The coffee is cold.	0.743333333333333	perceptual	indirect	speaker
+29	23577	Dinner might be ready.	english	36	F	3	1	Yes		2.00865	0.77	evidence4	dinner	might	Dinner might be ready.	0.655384615384615	inferential	indirect	speaker
+29	27272	The neighbor&quotechars dog is probably barking.	english	36	F	1	1	Yes		2.00865	0.78	evidence2	dog	probably	The neighbor&quotechars dog is probably barking.	0.734285714285714	inferential	indirect	speaker
+30	10030	The coffee is cold.	english	41	M	4	2	Yes		1.47621666666667	0.9	evidence1	coffee	bare	The coffee is cold.	0.916	perceptual	direct	listener
+30	12825	The coffee must be cold.	English	42	M	2	1	Yes	none	2.34718333333333	0.55	evidence4	coffee	must	The coffee must be cold.	0.681818181818182	inferential	indirect	speaker
+30	13906	Dinner must be ready.	english	41	F	2	2	Yes		1.47621666666667	0.76	evidence4	dinner	must	Dinner must be ready.	0.655384615384615	inferential	indirect	listener
+30	14418	Dinner is probably ready.	English	42	M	4	1	Yes	none	2.34718333333333	0.57	evidence3	dinner	probably	Dinner is probably ready.	0.85	inferential	indirect	speaker
+30	17906	It might be raining.	english	41	M	3	2	Yes		1.47621666666667	0.38	evidence4	rain	might	It might be raining.	0.742142857142857	reportative	indirect	listener
+30	24352	The neighbor&quotechars dog might be barking.	English	42	F	3	1	Yes	none	2.34718333333333	0.57	evidence5	dog	might	The neighbor&quotechars dog might be barking.	0.487142857142857	inferential	indirect	speaker
+30	25042	The neighbor's dog is probably barking.	english	41	F	1	2	Yes		1.47621666666667	0.59	evidence3	dog	probably	The neighbor's dog is probably barking.	0.668333333333333	inferential	indirect	listener
+30	32152	It&quotechars raining.	English	42	M	1	1	Yes	none	2.34718333333333	1	evidence4	rain	bare	It&quotechars raining.	0.742142857142857	reportative	indirect	speaker
+31	10588	It might be raining.	English	25	F	2	2	Yes	This was interesting! Thank you!	2.06013333333333	0.33	evidence5	rain	might	It might be raining.	0.573333333333333	inferential	indirect	listener
+31	10804	The coffee is probably cold.	English	25	F	4	2	Yes	This was interesting! Thank you!	2.06013333333333	0.21	evidence3	coffee	probably	The coffee is probably cold.	0.95	inferential	indirect	listener
+31	14389	The coffee is cold.	English	50	M	3	1	Yes	interesting, i tried to go with my first instinct and what i would be doing if i said those statements	2.47176666666667	0.9	evidence1	coffee	bare	The coffee is cold.	0.916	perceptual	direct	speaker
+31	14436	The neighbor's dog must be barking.	English	25	M	1	2	Yes	This was interesting! Thank you!	2.06013333333333	0.5	evidence2	dog	must	The neighbor's dog must be barking.	0.734285714285714	inferential	indirect	listener
+31	19101	Dinner must be ready.	English	50	M	1	1	Yes	interesting, i tried to go with my first instinct and what i would be doing if i said those statements	2.47176666666667	0.72	evidence3	dinner	must	Dinner must be ready.	0.85	inferential	indirect	speaker
+31	19401	It might be raining.	English	50	F	2	1	Yes	interesting, i tried to go with my first instinct and what i would be doing if i said those statements	2.47176666666667	0.69	evidence3	rain	might	It might be raining.	0.89	inferential	indirect	speaker
+31	25541	The neighbor&quotechars dog is probably barking.	English	50	F	4	1	Yes	interesting, i tried to go with my first instinct and what i would be doing if i said those statements	2.47176666666667	0.81	evidence1	dog	probably	The neighbor&quotechars dog is probably barking.	0.916	perceptual	direct	speaker
+31	57218	Dinner is ready.	English	25	F	3	2	Yes	This was interesting! Thank you!	2.06013333333333	0.75	evidence4	dinner	bare	Dinner is ready.	0.655384615384615	inferential	indirect	listener
+32	10002	Dinner is ready.	English	18	M	4	2	Yes		1.71033333333333	1	evidence1	dinner	bare	Dinner is ready.	0.93	perceptual	direct	listener
+32	11862	It might be raining.		NA	M	2	-1	Yes		1.38435	0.6	evidence4	rain	might	It might be raining.	0.742142857142857	reportative	indirect	speaker
+32	12400	The coffee must be cold.		NA	M	4	-1	Yes		1.38435	0.49	evidence2	coffee	must	The coffee must be cold.	0.743333333333333	perceptual	indirect	speaker
+32	13374	The neighbor&quotechars dog is barking.		NA	M	3	-1	Yes		1.38435	0.71	evidence2	dog	bare	The neighbor&quotechars dog is barking.	0.734285714285714	inferential	indirect	speaker
+32	13829	The coffee is probably cold.	English	18	M	2	2	Yes		1.71033333333333	0.52	evidence3	coffee	probably	The coffee is probably cold.	0.95	inferential	indirect	listener
+32	15153	Dinner is probably ready.		NA	M	1	-1	Yes		1.38435	0.54	evidence4	dinner	probably	Dinner is probably ready.	0.655384615384615	inferential	indirect	speaker
+32	21103	The neighbor's dog must be barking.	English	18	F	1	2	Yes		1.71033333333333	0.38	evidence3	dog	must	The neighbor's dog must be barking.	0.668333333333333	inferential	indirect	listener
+32	33715	It might be raining.	English	18	M	3	2	Yes		1.71033333333333	0.31	evidence5	rain	might	It might be raining.	0.573333333333333	inferential	indirect	listener
+33	11953	Dinner must be ready.	English	39	F	4	2	Yes	none- thanks.	1.64995	0.76	evidence4	dinner	must	Dinner must be ready.	0.655384615384615	inferential	indirect	listener
+33	14968	The neighbor's dog is probably barking.	English	39	F	3	2	Yes	none- thanks.	1.64995	0.75	evidence2	dog	probably	The neighbor's dog is probably barking.	0.734285714285714	inferential	indirect	listener
+33	15555	It might be raining.	English	39	M	2	2	Yes	none- thanks.	1.64995	0.4	evidence2	rain	might	It might be raining.	0.9175	inferential	indirect	listener
+33	15779	Dinner might be ready.	english	51	M	3	1	Yes		1.74073333333333	0.72	evidence3	dinner	might	Dinner might be ready.	0.85	inferential	indirect	speaker
+33	16454	The neighbor&quotechars dog is probably barking.	english	51	M	4	1	Yes		1.74073333333333	0.34	evidence4	dog	probably	The neighbor&quotechars dog is probably barking.	0.651	inferential	indirect	speaker
+33	16662	The coffee must be cold.	english	51	F	2	1	Yes		1.74073333333333	0.8	evidence3	coffee	must	The coffee must be cold.	0.95	inferential	indirect	speaker
+33	21507	The coffee is cold.	English	39	M	1	2	Yes	none- thanks.	1.64995	0.93	evidence2	coffee	bare	The coffee is cold.	0.743333333333333	perceptual	indirect	listener
+33	24822	It&quotechars raining.	english	51	F	1	1	Yes		1.74073333333333	0.97	evidence4	rain	bare	It&quotechars raining.	0.742142857142857	reportative	indirect	speaker
+34	9086	Dinner is ready.	English	31	F	3	2	Yes		1.3554	0.99	evidence1	dinner	bare	Dinner is ready.	0.93	perceptual	direct	listener
+34	9778	It must be raining.	English	20	F	2	2	Yes		3.30536666666667	0.88	evidence2	rain	must	It must be raining.	0.9175	inferential	indirect	speaker
+34	11458	It's probably raining.	English	31	F	4	2	Yes		1.3554	0.59	evidence4	rain	probably	It's probably raining.	0.742142857142857	reportative	indirect	listener
+34	12394	The coffee is probably cold.	English	20	F	4	2	Yes		3.30536666666667	0.61	evidence3	coffee	probably	The coffee is probably cold.	0.95	inferential	indirect	speaker
+34	12515	Dinner is ready.	English	20	F	3	2	Yes		3.30536666666667	1	evidence1	dinner	bare	Dinner is ready.	0.93	perceptual	direct	speaker
+34	14612	The coffee might be cold.	English	31	F	1	2	Yes		1.3554	0.78	evidence1	coffee	might	The coffee might be cold.	0.916	perceptual	direct	listener
+34	16008	The neighbor&quotechars dog might be barking.	English	20	F	1	2	Yes		3.30536666666667	0.64	evidence2	dog	might	The neighbor&quotechars dog might be barking.	0.734285714285714	inferential	indirect	speaker
+34	21411	The neighbor's dog must be barking.	English	31	M	2	2	Yes		1.3554	0.88	evidence2	dog	must	The neighbor's dog must be barking.	0.734285714285714	inferential	indirect	listener
+35	10216	The neighbor's dog is barking.	English	30	M	3	2	Yes	Thanks!	1.73598333333333	0.98	evidence2	dog	bare	The neighbor's dog is barking.	0.734285714285714	inferential	indirect	listener
+35	11008	It might be raining.	English	28	F	4	2	Yes		1.76218333333333	0.49	evidence4	rain	might	It might be raining.	0.742142857142857	reportative	indirect	speaker
+35	13118	Dinner is ready.	English	28	F	2	2	Yes		1.76218333333333	1	evidence1	dinner	bare	Dinner is ready.	0.93	perceptual	direct	speaker
+35	15311	The coffee might be cold.	English	30	M	4	2	Yes	Thanks!	1.73598333333333	0.47	evidence3	coffee	might	The coffee might be cold.	0.95	inferential	indirect	listener
+35	15551	The neighbor&quotechars dog must be barking.	English	28	M	3	2	Yes		1.76218333333333	0.85	evidence2	dog	must	The neighbor&quotechars dog must be barking.	0.734285714285714	inferential	indirect	speaker
+35	16112	Dinner is probably ready.	English	30	M	2	2	Yes	Thanks!	1.73598333333333	0.7	evidence3	dinner	probably	Dinner is probably ready.	0.85	inferential	indirect	listener
+35	24219	It must be raining.	English	30	F	1	2	Yes	Thanks!	1.73598333333333	0.93	evidence2	rain	must	It must be raining.	0.9175	inferential	indirect	listener
+35	30797	The coffee is probably cold.	English	28	F	1	2	Yes		1.76218333333333	0.74	evidence3	coffee	probably	The coffee is probably cold.	0.95	inferential	indirect	speaker
+36	12552	The coffee must be cold.	english	21	M	2	1	Yes		2.22488333333333	0.38	evidence5	coffee	must	The coffee must be cold.	0.5825	inferential	indirect	listener
+36	12736	It's probably raining.	english	21	F	4	1	Yes		2.22488333333333	0.7	evidence2	rain	probably	It's probably raining.	0.9175	inferential	indirect	listener
+36	28271	It&quotechars probably raining.	English	31	M	3	2	Yes	Unique and interesting.	3.26436666666667	0.82	evidence2	rain	probably	It&quotechars probably raining.	0.9175	inferential	indirect	speaker
+36	29680	Dinner might be ready.	english	21	M	3	1	Yes		2.22488333333333	0.38	evidence4	dinner	might	Dinner might be ready.	0.655384615384615	inferential	indirect	listener
+36	32973	The coffee is cold.	English	31	F	4	2	Yes	Unique and interesting.	3.26436666666667	1	evidence1	coffee	bare	The coffee is cold.	0.916	perceptual	direct	speaker
+36	39614	The neighbor&quotechars dog must be barking.	English	31	M	2	2	Yes	Unique and interesting.	3.26436666666667	0.69	evidence2	dog	must	The neighbor&quotechars dog must be barking.	0.734285714285714	inferential	indirect	speaker
+36	50244	Dinner might be ready.	English	31	M	1	2	Yes	Unique and interesting.	3.26436666666667	0.49	evidence3	dinner	might	Dinner might be ready.	0.85	inferential	indirect	speaker
+36	58753	The neighbor's dog is barking.	english	21	M	1	1	Yes		2.22488333333333	1	evidence1	dog	bare	The neighbor's dog is barking.	0.916	perceptual	direct	listener
+37	11613	Dinner is ready.	English	21	F	3	2	Confused	I liked the survey.	1.8587	1	evidence1	dinner	bare	Dinner is ready.	0.93	perceptual	direct	listener
+37	11905	The coffee is cold.	english	22	M	3	2	Yes		1.97186666666667	0.96	evidence1	coffee	bare	The coffee is cold.	0.916	perceptual	direct	speaker
+37	12962	Dinner must be ready.	english	22	F	1	2	Yes		1.97186666666667	0.97	evidence4	dinner	must	Dinner must be ready.	0.655384615384615	inferential	indirect	speaker
+37	13986	The coffee might be cold.	English	21	M	2	2	Confused	I liked the survey.	1.8587	0.85	evidence3	coffee	might	The coffee might be cold.	0.95	inferential	indirect	listener
+37	17977	It's probably raining.	English	21	F	4	2	Confused	I liked the survey.	1.8587	0.67	evidence5	rain	probably	It's probably raining.	0.573333333333333	inferential	indirect	listener
+37	19445	The neighbor&quotechars dog is probably barking.	english	22	M	4	2	Yes		1.97186666666667	0.71	evidence3	dog	probably	The neighbor&quotechars dog is probably barking.	0.668333333333333	inferential	indirect	speaker
+37	23258	It might be raining.	english	22	M	2	2	Yes		1.97186666666667	0.44	evidence2	rain	might	It might be raining.	0.9175	inferential	indirect	speaker
+37	27679	The neighbor's dog must be barking.	English	21	F	1	2	Confused	I liked the survey.	1.8587	0.73	evidence5	dog	must	The neighbor's dog must be barking.	0.487142857142857	inferential	indirect	listener
+38	7587	The neighbor's dog is barking.	English	27	F	3	1	Yes		1.07493333333333	0.96	evidence2	dog	bare	The neighbor's dog is barking.	0.734285714285714	inferential	indirect	listener
+38	9568	It must be raining.	English	27	M	4	1	Yes		1.07493333333333	0.53	evidence3	rain	must	It must be raining.	0.89	inferential	indirect	listener
+38	11824	The coffee might be cold.	English	27	F	2	1	Yes		1.07493333333333	0.7	evidence3	coffee	might	The coffee might be cold.	0.95	inferential	indirect	listener
+38	20512	Dinner is probably ready.	English	27	M	1	1	Yes		1.07493333333333	0.73	evidence4	dinner	probably	Dinner is probably ready.	0.655384615384615	inferential	indirect	listener
+38	23187	The neighbor&quotechars dog might be barking.	English	26	F	4	2	Yes	No comments.	2.8636	0.52	evidence2	dog	might	The neighbor&quotechars dog might be barking.	0.734285714285714	inferential	indirect	speaker
+38	28301	Dinner is probably ready.	English	26	F	3	2	Yes	No comments.	2.8636	0.59	evidence3	dinner	probably	Dinner is probably ready.	0.85	inferential	indirect	speaker
+38	31365	The coffee must be cold.	English	26	M	2	2	Yes	No comments.	2.8636	0.59	evidence3	coffee	must	The coffee must be cold.	0.95	inferential	indirect	speaker
+38	41427	It&quotechars raining.	English	26	M	1	2	Yes	No comments.	2.8636	1	evidence1	rain	bare	It&quotechars raining.	0.935454545454545	perceptual	direct	speaker
+39	6928	The neighbor's dog is probably barking.	English	22	M	4	1	Yes		0.9429	0.73	evidence2	dog	probably	The neighbor's dog is probably barking.	0.734285714285714	inferential	indirect	listener
+39	8678	Dinner is ready.	English	22	M	3	1	Yes		0.9429	0.77	evidence1	dinner	bare	Dinner is ready.	0.93	perceptual	direct	listener
+39	9519	The coffee might be cold.	English	22	F	1	1	Yes		0.9429	0.7	evidence3	coffee	might	The coffee might be cold.	0.95	inferential	indirect	listener
+39	11373	It must be raining.	English	22	F	2	1	Yes		0.9429	0.9	evidence3	rain	must	It must be raining.	0.89	inferential	indirect	listener
+39	15713	It&quotechars raining.	English	26	M	3	2	Yes		1.82098333333333	0.99	evidence1	rain	bare	It&quotechars raining.	0.935454545454545	perceptual	direct	speaker
+39	16124	The neighbor&quotechars dog is probably barking.	English	26	M	4	2	Yes		1.82098333333333	0.61	evidence5	dog	probably	The neighbor&quotechars dog is probably barking.	0.487142857142857	inferential	indirect	speaker
+39	16279	The coffee might be cold.	English	26	M	2	2	Yes		1.82098333333333	0.93	evidence3	coffee	might	The coffee might be cold.	0.95	inferential	indirect	speaker
+39	31670	Dinner must be ready.	English	26	F	1	2	Yes		1.82098333333333	0.76	evidence3	dinner	must	Dinner must be ready.	0.85	inferential	indirect	speaker
+40	10637	The coffee is cold.	English	27	F	3	2	Yes		1.51408333333333	0.77	evidence2	coffee	bare	The coffee is cold.	0.743333333333333	perceptual	indirect	listener
+40	12477	Dinner might be ready.	English	27	F	4	2	Yes		1.51408333333333	0.47	evidence3	dinner	might	Dinner might be ready.	0.85	inferential	indirect	listener
+40	13455	The coffee must be cold.	Patois	37	M	4	1	Yes		2.73633333333333	0.93	evidence2	coffee	must	The coffee must be cold.	0.743333333333333	perceptual	indirect	speaker
+40	21124	The neighbor's dog is probably barking.	English	27	F	2	2	Yes		1.51408333333333	0.47	evidence3	dog	probably	The neighbor's dog is probably barking.	0.668333333333333	inferential	indirect	listener
+40	22410	It must be raining.	English	27	M	1	2	Yes		1.51408333333333	0.47	evidence2	rain	must	It must be raining.	0.9175	inferential	indirect	listener
+40	25008	It&quotechars raining.	Patois	37	F	3	1	Yes		2.73633333333333	0.94	evidence1	rain	bare	It&quotechars raining.	0.935454545454545	perceptual	direct	speaker
+40	30775	Dinner might be ready.	Patois	37	F	2	1	Yes		2.73633333333333	0.79	evidence3	dinner	might	Dinner might be ready.	0.85	inferential	indirect	speaker
+40	45309	The neighbor&quotechars dog is probably barking.	Patois	37	M	1	1	Yes		2.73633333333333	0.84	evidence4	dog	probably	The neighbor&quotechars dog is probably barking.	0.651	inferential	indirect	speaker
+41	8096	Dinner is probably ready.	English	24	M	4	2	Yes		1.12408333333333	0.75	evidence1	dinner	probably	Dinner is probably ready.	0.93	perceptual	direct	speaker
+41	8121	It might be raining.	English	24	M	2	2	Yes		1.12408333333333	0.47	evidence2	rain	might	It might be raining.	0.9175	inferential	indirect	speaker
+41	8670	The neighbor&quotechars dog must be barking.	English	24	F	1	2	Yes		1.12408333333333	0.91	evidence2	dog	must	The neighbor&quotechars dog must be barking.	0.734285714285714	inferential	indirect	speaker
+41	10518	Dinner might be ready.	English	32	F	3	2	Yes		2.9433	0.47	evidence3	dinner	might	Dinner might be ready.	0.85	inferential	indirect	listener
+41	11623	The coffee is cold.	English	32	F	4	2	Yes		2.9433	0.77	evidence1	coffee	bare	The coffee is cold.	0.916	perceptual	direct	listener
+41	13173	The neighbor's dog is probably barking.	English	32	F	2	2	Yes		2.9433	0.44	evidence2	dog	probably	The neighbor's dog is probably barking.	0.734285714285714	inferential	indirect	listener
+41	19074	It must be raining.	English	32	M	1	2	Yes		2.9433	0.59	evidence3	rain	must	It must be raining.	0.89	inferential	indirect	listener
+41	24269	The coffee is cold.	English	24	F	3	2	Yes		1.12408333333333	0.99	evidence1	coffee	bare	The coffee is cold.	0.916	perceptual	direct	speaker
+42	10010	The coffee is cold.	English	27	F	4	1	Yes	none	7.89921666666667	0.99	evidence1	coffee	bare	The coffee is cold.	0.916	perceptual	direct	speaker
+42	10652	The neighbor&quotechars dog is probably barking.	English	27	M	2	1	Yes	none	7.89921666666667	0.72	evidence2	dog	probably	The neighbor&quotechars dog is probably barking.	0.734285714285714	inferential	indirect	speaker
+42	11743	It must be raining.	English	36	F	3	2	Yes	No comments.	1.7956	0.62	evidence3	rain	must	It must be raining.	0.89	inferential	indirect	listener
+42	11943	The neighbor's dog is barking.	English	36	M	4	2	Yes	No comments.	1.7956	0.73	evidence2	dog	bare	The neighbor's dog is barking.	0.734285714285714	inferential	indirect	listener
+42	17493	The coffee is probably cold.	English	36	F	2	2	Yes	No comments.	1.7956	0.65	evidence3	coffee	probably	The coffee is probably cold.	0.95	inferential	indirect	listener
+42	24166	Dinner must be ready.	English	27	F	3	1	Yes	none	7.89921666666667	0.17	evidence3	dinner	must	Dinner must be ready.	0.85	inferential	indirect	speaker
+42	24182	It might be raining.	English	27	M	1	1	Yes	none	7.89921666666667	0.46	evidence2	rain	might	It might be raining.	0.9175	inferential	indirect	speaker
+42	24523	Dinner might be ready.	English	36	F	1	2	Yes	No comments.	1.7956	0.26	evidence4	dinner	might	Dinner might be ready.	0.655384615384615	inferential	indirect	listener
+43	10417	Dinner must be ready.	English	41	M	3	1	Yes	who lives in a windowless room?	1.94611666666667	0.82	evidence4	dinner	must	Dinner must be ready.	0.655384615384615	inferential	indirect	listener
+43	15817	It must be raining.	English	23	M	3	1	Yes		1.82388333333333	0.82	evidence2	rain	must	It must be raining.	0.9175	inferential	indirect	speaker
+43	17428	It might be raining.	English	41	M	4	1	Yes	who lives in a windowless room?	1.94611666666667	0.57	evidence3	rain	might	It might be raining.	0.89	inferential	indirect	listener
+43	17954	Dinner is probably ready.	English	23	F	2	1	Yes		1.82388333333333	0.51	evidence3	dinner	probably	Dinner is probably ready.	0.85	inferential	indirect	speaker
+43	18573	The coffee is cold.	English	41	M	2	1	Yes	who lives in a windowless room?	1.94611666666667	0.75	evidence1	coffee	bare	The coffee is cold.	0.916	perceptual	direct	listener
+43	19209	The neighbor's dog is probably barking.	English	41	M	1	1	Yes	who lives in a windowless room?	1.94611666666667	0.64	evidence2	dog	probably	The neighbor's dog is probably barking.	0.734285714285714	inferential	indirect	listener
+43	24713	The neighbor&quotechars dog is barking.	English	23	M	4	1	Yes		1.82388333333333	0.98	evidence2	dog	bare	The neighbor&quotechars dog is barking.	0.734285714285714	inferential	indirect	speaker
+43	27459	The coffee might be cold.	English	23	F	1	1	Yes		1.82388333333333	0.52	evidence3	coffee	might	The coffee might be cold.	0.95	inferential	indirect	speaker
+44	10573	Dinner is ready.	english	33	F	3	2	Yes		5.87181666666667	0.98	evidence1	dinner	bare	Dinner is ready.	0.93	perceptual	direct	speaker
+44	11482	The coffee might be cold.	english	33	M	4	2	Yes		5.87181666666667	0.23	evidence4	coffee	might	The coffee might be cold.	0.681818181818182	inferential	indirect	speaker
+44	12135	It's raining.	English	22	M	3	1	Yes		2.02145	0.8	evidence2	rain	bare	It's raining.	0.9175	inferential	indirect	listener
+44	15684	The neighbor&quotechars dog is probably barking.	english	33	F	2	2	Yes		5.87181666666667	0.54	evidence1	dog	probably	The neighbor&quotechars dog is probably barking.	0.916	perceptual	direct	speaker
+44	17215	The neighbor's dog must be barking.	English	22	M	2	1	Yes		2.02145	0.82	evidence2	dog	must	The neighbor's dog must be barking.	0.734285714285714	inferential	indirect	listener
+44	19831	The coffee might be cold.	English	22	F	4	1	Yes		2.02145	0.61	evidence4	coffee	might	The coffee might be cold.	0.681818181818182	inferential	indirect	listener
+44	20084	It must be raining.	english	33	M	1	2	Yes		5.87181666666667	0.82	evidence2	rain	must	It must be raining.	0.9175	inferential	indirect	speaker
+44	47103	Dinner is probably ready.	English	22	F	1	1	Yes		2.02145	0.49	evidence4	dinner	probably	Dinner is probably ready.	0.655384615384615	inferential	indirect	listener
+45	9957	The coffee might be cold.	english	46	M	3	1	Yes	none	1.80248333333333	0.25	evidence1	coffee	might	The coffee might be cold.	0.916	perceptual	direct	listener
+45	11269	It&quotechars probably raining.	english	41	M	4	2	Yes		1.27368333333333	0.46	evidence4	rain	probably	It&quotechars probably raining.	0.742142857142857	reportative	indirect	speaker
+45	12155	The neighbor&quotechars dog is barking.	english	41	F	3	2	Yes		1.27368333333333	0.91	evidence2	dog	bare	The neighbor&quotechars dog is barking.	0.734285714285714	inferential	indirect	speaker
+45	12670	Dinner might be ready.	english	41	M	2	2	Yes		1.27368333333333	0.54	evidence4	dinner	might	Dinner might be ready.	0.655384615384615	inferential	indirect	speaker
+45	15681	The neighbor's dog is probably barking.	english	46	F	2	1	Yes	none	1.80248333333333	0.32	evidence2	dog	probably	The neighbor's dog is probably barking.	0.734285714285714	inferential	indirect	listener
+45	17956	The coffee must be cold.	english	41	F	1	2	Yes		1.27368333333333	0.88	evidence3	coffee	must	The coffee must be cold.	0.95	inferential	indirect	speaker
+45	20672	It's raining.	english	46	F	1	1	Yes	none	1.80248333333333	0.7	evidence1	rain	bare	It's raining.	0.935454545454545	perceptual	direct	listener
+45	37841	Dinner must be ready.	english	46	M	4	1	Yes	none	1.80248333333333	0.51	evidence4	dinner	must	Dinner must be ready.	0.655384615384615	inferential	indirect	listener
+46	7288	It's raining.	English	26	M	2	2	Yes		6.00988333333333	0.85	evidence1	rain	bare	It's raining.	0.935454545454545	perceptual	direct	listener
+46	7856	The coffee must be cold.	English	26	F	4	2	Yes		6.00988333333333	0.38	evidence3	coffee	must	The coffee must be cold.	0.95	inferential	indirect	listener
+46	9018	The neighbor's dog is probably barking.	English	26	F	3	2	Yes		6.00988333333333	0.77	evidence2	dog	probably	The neighbor's dog is probably barking.	0.734285714285714	inferential	indirect	listener
+46	17895	The coffee is probably cold.	english	25	M	3	1	Yes		5.05335	0.15	evidence5	coffee	probably	The coffee is probably cold.	0.5825	inferential	indirect	speaker
+46	38478	The neighbor&quotechars dog must be barking.	english	25	F	1	1	Yes		5.05335	0.93	evidence2	dog	must	The neighbor&quotechars dog must be barking.	0.734285714285714	inferential	indirect	speaker
+46	83287	It&quotechars raining.	english	25	F	2	1	Yes		5.05335	0.96	evidence2	rain	bare	It&quotechars raining.	0.9175	inferential	indirect	speaker
+46	127479	Dinner might be ready.	english	25	F	4	1	Yes		5.05335	0.46	evidence1	dinner	might	Dinner might be ready.	0.93	perceptual	direct	speaker
+46	319194	Dinner might be ready.	English	26	M	1	2	Yes		6.00988333333333	0.24	evidence4	dinner	might	Dinner might be ready.	0.655384615384615	inferential	indirect	listener
+47	10143	Dinner must be ready.	english	22	F	3	2	Yes		1.30828333333333	0.99	evidence4	dinner	must	Dinner must be ready.	0.655384615384615	inferential	indirect	speaker
+47	10348	The coffee must be cold.	english	27	M	3	2	Yes		1.12598333333333	0.87	evidence1	coffee	must	The coffee must be cold.	0.916	perceptual	direct	listener
+47	12467	Dinner might be ready.	english	27	M	2	2	Yes		1.12598333333333	0.61	evidence4	dinner	might	Dinner might be ready.	0.655384615384615	inferential	indirect	listener
+47	12891	It's raining.	english	27	F	1	2	Yes		1.12598333333333	0.94	evidence1	rain	bare	It's raining.	0.935454545454545	perceptual	direct	listener
+47	14823	It might be raining.	english	22	M	4	2	Yes		1.30828333333333	1	evidence2	rain	might	It might be raining.	0.9175	inferential	indirect	speaker
+47	15424	The neighbor&quotechars dog is barking.	english	22	F	1	2	Yes		1.30828333333333	0.99	evidence2	dog	bare	The neighbor&quotechars dog is barking.	0.734285714285714	inferential	indirect	speaker
+47	15716	The coffee is probably cold.	english	22	F	2	2	Yes		1.30828333333333	0.98	evidence4	coffee	probably	The coffee is probably cold.	0.681818181818182	inferential	indirect	speaker
+47	15929	The neighbor's dog is probably barking.	english	27	F	4	2	Yes		1.12598333333333	0.7	evidence2	dog	probably	The neighbor's dog is probably barking.	0.734285714285714	inferential	indirect	listener
+48	9423	It might be raining.	english	27	M	4	2	Yes		6.8191	0.78	evidence1	rain	might	It might be raining.	0.935454545454545	perceptual	direct	speaker
+48	10864	The neighbor&quotechars dog is barking.	english	27	M	2	2	Yes		6.8191	0.82	evidence2	dog	bare	The neighbor&quotechars dog is barking.	0.734285714285714	inferential	indirect	speaker
+48	11543	Dinner is ready.	English	32	F	4	2	Yes	It was different and the compensation was adequate.  Thanks for the opportunity.	3.37328333333333	0.98	evidence1	dinner	bare	Dinner is ready.	0.93	perceptual	direct	listener
+48	16640	The neighbor's dog must be barking.	English	32	M	3	2	Yes	It was different and the compensation was adequate.  Thanks for the opportunity.	3.37328333333333	0.57	evidence2	dog	must	The neighbor's dog must be barking.	0.734285714285714	inferential	indirect	listener
+48	20622	The coffee is probably cold.	English	32	M	1	2	Yes	It was different and the compensation was adequate.  Thanks for the opportunity.	3.37328333333333	0.82	evidence3	coffee	probably	The coffee is probably cold.	0.95	inferential	indirect	listener
+48	24524	The coffee is probably cold.	english	27	M	3	2	Yes		6.8191	0.56	evidence4	coffee	probably	The coffee is probably cold.	0.681818181818182	inferential	indirect	speaker
+48	34866	Dinner must be ready.	english	27	M	1	2	Yes		6.8191	0.62	evidence4	dinner	must	Dinner must be ready.	0.655384615384615	inferential	indirect	speaker
+48	108799	It might be raining.	English	32	M	2	2	Yes	It was different and the compensation was adequate.  Thanks for the opportunity.	3.37328333333333	0.52	evidence5	rain	might	It might be raining.	0.573333333333333	inferential	indirect	listener
+49	9726	The coffee is cold.	English	24	F	4	1	Yes		1.99788333333333	1	evidence1	coffee	bare	The coffee is cold.	0.916	perceptual	direct	listener
+49	13095	The neighbor's dog must be barking.	English	24	M	3	1	Yes		1.99788333333333	0.88	evidence2	dog	must	The neighbor's dog must be barking.	0.734285714285714	inferential	indirect	listener
+49	15246	The neighbor&quotechars dog is probably barking.	English	28	F	4	1	Confused		1.62541666666667	0.22	evidence2	dog	probably	The neighbor&quotechars dog is probably barking.	0.734285714285714	inferential	indirect	speaker
+49	15433	It must be raining.	English	28	M	3	1	Confused		1.62541666666667	0.5	evidence2	rain	must	It must be raining.	0.9175	inferential	indirect	speaker
+49	16040	Dinner is probably ready.	English	24	F	2	1	Yes		1.99788333333333	0.77	evidence4	dinner	probably	Dinner is probably ready.	0.655384615384615	inferential	indirect	listener
+49	17839	The coffee might be cold.	English	28	F	2	1	Confused		1.62541666666667	0.26	evidence4	coffee	might	The coffee might be cold.	0.681818181818182	inferential	indirect	speaker
+49	19568	Dinner is ready.	English	28	F	1	1	Confused		1.62541666666667	0.8	evidence4	dinner	bare	Dinner is ready.	0.655384615384615	inferential	indirect	speaker
+49	29359	It might be raining.	English	24	F	1	1	Yes		1.99788333333333	0.52	evidence5	rain	might	It might be raining.	0.573333333333333	inferential	indirect	listener
+50	4147	The neighbor's dog must be barking.	English	33	F	4	2	No		1.22623333333333	0.47	evidence2	dog	must	The neighbor's dog must be barking.	0.734285714285714	inferential	indirect	listener
+50	6391	It's probably raining.	English	33	M	3	2	No		1.22623333333333	0.48	evidence3	rain	probably	It's probably raining.	0.89	inferential	indirect	listener
+50	6554	Dinner might be ready.	English	33	F	2	2	No		1.22623333333333	0.49	evidence4	dinner	might	Dinner might be ready.	0.655384615384615	inferential	indirect	listener
+50	12288	The coffee is cold.	English	33	F	1	2	No		1.22623333333333	0.47	evidence1	coffee	bare	The coffee is cold.	0.916	perceptual	direct	listener
+50	19564	The neighbor&quotechars dog is probably barking.	english	28	F	3	2	Yes		8.70846666666667	0.55	evidence2	dog	probably	The neighbor&quotechars dog is probably barking.	0.734285714285714	inferential	indirect	speaker
+50	25708	Dinner might be ready.	english	28	F	1	2	Yes		8.70846666666667	0.3	evidence3	dinner	might	Dinner might be ready.	0.85	inferential	indirect	speaker
+50	28737	The coffee is cold.	english	28	M	2	2	Yes		8.70846666666667	0.79	evidence3	coffee	bare	The coffee is cold.	0.95	inferential	indirect	speaker
+50	34352	It must be raining.	english	28	F	4	2	Yes		8.70846666666667	0.77	evidence2	rain	must	It must be raining.	0.9175	inferential	indirect	speaker
+51	9980	The coffee might be cold.	english	32	M	3	2	Yes	fun task	12.2859	0.48	evidence3	coffee	might	The coffee might be cold.	0.95	inferential	indirect	listener
+51	10273	Dinner is ready.	English	27	M	2	1	Yes		9.67545	1	evidence1	dinner	bare	Dinner is ready.	0.93	perceptual	direct	speaker
+51	11300	It might be raining.	English	27	M	4	1	Yes		9.67545	0.75	evidence2	rain	might	It might be raining.	0.9175	inferential	indirect	speaker
+51	11359	Dinner is probably ready.	english	32	M	4	2	Yes	fun task	12.2859	0.49	evidence3	dinner	probably	Dinner is probably ready.	0.85	inferential	indirect	listener
+51	13219	It's raining.	english	32	F	2	2	Yes	fun task	12.2859	0.98	evidence1	rain	bare	It's raining.	0.935454545454545	perceptual	direct	listener
+51	19332	The neighbor's dog must be barking.	english	32	M	1	2	Yes	fun task	12.2859	0.94	evidence2	dog	must	The neighbor's dog must be barking.	0.734285714285714	inferential	indirect	listener
+51	19763	The coffee must be cold.	English	27	F	1	1	Yes		9.67545	0.77	evidence2	coffee	must	The coffee must be cold.	0.743333333333333	perceptual	indirect	speaker
+51	35967	The neighbor&quotechars dog is probably barking.	English	27	M	3	1	Yes		9.67545	0.3	evidence4	dog	probably	The neighbor&quotechars dog is probably barking.	0.651	inferential	indirect	speaker
+52	6696	It might be raining.	English	27	M	3	2	Yes	Love the format	1.46316666666667	0.87	evidence2	rain	might	It might be raining.	0.9175	inferential	indirect	listener
+52	8907	The neighbor's dog is barking.	English	27	F	4	2	Yes	Love the format	1.46316666666667	1	evidence2	dog	bare	The neighbor's dog is barking.	0.734285714285714	inferential	indirect	listener
+52	9712	The coffee must be cold.	English	27	F	2	2	Yes	Love the format	1.46316666666667	0.83	evidence2	coffee	must	The coffee must be cold.	0.743333333333333	perceptual	indirect	listener
+52	16358	Dinner is probably ready.	English	27	M	1	2	Yes	Love the format	1.46316666666667	0.64	evidence3	dinner	probably	Dinner is probably ready.	0.85	inferential	indirect	listener
+52	21081	It&quotechars probably raining.	English	25	M	3	1	Yes		5.662	0.78	evidence4	rain	probably	It&quotechars probably raining.	0.742142857142857	reportative	indirect	speaker
+52	27584	The coffee must be cold.	English	25	M	4	1	Yes		5.662	0.87	evidence3	coffee	must	The coffee must be cold.	0.95	inferential	indirect	speaker
+52	33737	Dinner is ready.	English	25	M	2	1	Yes		5.662	0.97	evidence1	dinner	bare	Dinner is ready.	0.93	perceptual	direct	speaker
+52	46270	The neighbor&quotechars dog might be barking.	English	25	M	1	1	Yes		5.662	0.73	evidence2	dog	might	The neighbor&quotechars dog might be barking.	0.734285714285714	inferential	indirect	speaker
+53	12352	It must be raining.	English	23	M	3	2	Yes	I like the presentation, HIT was interesting/engaging. Thanks.	1.62373333333333	0.89	evidence2	rain	must	It must be raining.	0.9175	inferential	indirect	listener
+53	14495	The coffee might be cold.	English	23	F	2	2	Yes	I like the presentation, HIT was interesting/engaging. Thanks.	1.62373333333333	0.77	evidence3	coffee	might	The coffee might be cold.	0.95	inferential	indirect	listener
+53	15442	The neighbor's dog is barking.	English	23	F	4	2	Yes	I like the presentation, HIT was interesting/engaging. Thanks.	1.62373333333333	1	evidence2	dog	bare	The neighbor's dog is barking.	0.734285714285714	inferential	indirect	listener
+53	22604	Dinner is probably ready.	English	23	M	1	2	Yes	I like the presentation, HIT was interesting/engaging. Thanks.	1.62373333333333	0.56	evidence4	dinner	probably	Dinner is probably ready.	0.655384615384615	inferential	indirect	listener
+53	23631	Dinner might be ready.	English	29	F	3	1	Yes		3.52683333333333	0.46	evidence3	dinner	might	Dinner might be ready.	0.85	inferential	indirect	speaker
+53	23984	It&quotechars raining.	English	29	M	2	1	Yes		3.52683333333333	1	evidence1	rain	bare	It&quotechars raining.	0.935454545454545	perceptual	direct	speaker
+53	38229	The neighbor&quotechars dog is probably barking.	English	29	F	1	1	Yes		3.52683333333333	1	evidence4	dog	probably	The neighbor&quotechars dog is probably barking.	0.651	inferential	indirect	speaker
+53	43578	The coffee must be cold.	English	29	F	4	1	Yes		3.52683333333333	1	evidence3	coffee	must	The coffee must be cold.	0.95	inferential	indirect	speaker
+54	10818	The neighbor&quotechars dog must be barking.	english	27	F	4	1	Yes	ty	1.70038333333333	0.78	evidence2	dog	must	The neighbor&quotechars dog must be barking.	0.734285714285714	inferential	indirect	speaker
+54	15846	The coffee might be cold.	english	27	F	3	1	Yes	ty	1.70038333333333	0.5	evidence3	coffee	might	The coffee might be cold.	0.95	inferential	indirect	speaker
+54	19963	It might be raining.	English	30	M	4	2	Yes		2.2721	0.32	evidence5	rain	might	It might be raining.	0.573333333333333	inferential	indirect	listener
+54	20847	It&quotechars probably raining.	english	27	F	1	1	Yes	ty	1.70038333333333	0.73	evidence3	rain	probably	It&quotechars probably raining.	0.89	inferential	indirect	speaker
+54	21169	The coffee is probably cold.	English	30	M	2	2	Yes		2.2721	0.57	evidence4	coffee	probably	The coffee is probably cold.	0.681818181818182	inferential	indirect	listener
+54	33972	The neighbor's dog is barking.	English	30	M	1	2	Yes		2.2721	0.85	evidence1	dog	bare	The neighbor's dog is barking.	0.916	perceptual	direct	listener
+54	35680	Dinner must be ready.	English	30	M	3	2	Yes		2.2721	0.4	evidence3	dinner	must	Dinner must be ready.	0.85	inferential	indirect	listener
+54	40904	Dinner is ready.	english	27	M	2	1	Yes	ty	1.70038333333333	1	evidence1	dinner	bare	Dinner is ready.	0.93	perceptual	direct	speaker
+55	8143	The coffee is cold.	english	32	M	4	2	Yes		1.67341666666667	1	evidence1	coffee	bare	The coffee is cold.	0.916	perceptual	direct	listener
+55	9131	Dinner is probably ready.		27	M	4	2	Yes		2.6137	0.47	evidence4	dinner	probably	Dinner is probably ready.	0.655384615384615	inferential	indirect	speaker
+55	10232	It&quotechars raining.		27	M	3	2	Yes		2.6137	1	evidence1	rain	bare	It&quotechars raining.	0.935454545454545	perceptual	direct	speaker
+55	13658	The coffee must be cold.		27	M	2	2	Yes		2.6137	0.48	evidence3	coffee	must	The coffee must be cold.	0.95	inferential	indirect	speaker
+55	19665	Dinner must be ready.	english	32	F	1	2	Yes		1.67341666666667	0.74	evidence3	dinner	must	Dinner must be ready.	0.85	inferential	indirect	listener
+55	21110	The neighbor's dog is probably barking.	english	32	F	2	2	Yes		1.67341666666667	0.5	evidence4	dog	probably	The neighbor's dog is probably barking.	0.651	inferential	indirect	listener
+55	28172	The neighbor&quotechars dog might be barking.		27	M	1	2	Yes		2.6137	0.46	evidence2	dog	might	The neighbor&quotechars dog might be barking.	0.734285714285714	inferential	indirect	speaker
+55	34977	It might be raining.	english	32	F	3	2	Yes		1.67341666666667	0.77	evidence2	rain	might	It might be raining.	0.9175	inferential	indirect	listener
+56	6860	Dinner might be ready.	english	24	M	2	2	Yes	thank you	2.71605	0.85	evidence4	dinner	might	Dinner might be ready.	0.655384615384615	inferential	indirect	speaker
+56	8287	It's raining.	English	24	F	2	2	Yes		1.09448333333333	0.95	evidence1	rain	bare	It's raining.	0.935454545454545	perceptual	direct	listener
+56	12428	The coffee must be cold.	English	24	F	3	2	Yes		1.09448333333333	0.35	evidence3	coffee	must	The coffee must be cold.	0.95	inferential	indirect	listener
+56	12472	It must be raining.	english	24	F	3	2	Yes	thank you	2.71605	0.61	evidence2	rain	must	It must be raining.	0.9175	inferential	indirect	speaker
+56	12516	Dinner is probably ready.	English	24	M	4	2	Yes		1.09448333333333	0.79	evidence4	dinner	probably	Dinner is probably ready.	0.655384615384615	inferential	indirect	listener
+56	14051	The neighbor's dog might be barking.	English	24	M	1	2	Yes		1.09448333333333	0.6	evidence2	dog	might	The neighbor's dog might be barking.	0.734285714285714	inferential	indirect	listener
+56	55926	The coffee is cold.	english	24	F	4	2	Yes	thank you	2.71605	0.94	evidence1	coffee	bare	The coffee is cold.	0.916	perceptual	direct	speaker
+56	68877	The neighbor&quotechars dog is probably barking.	english	24	M	1	2	Yes	thank you	2.71605	0.8	evidence2	dog	probably	The neighbor&quotechars dog is probably barking.	0.734285714285714	inferential	indirect	speaker
+57	9167	It's raining.	English	33	M	4	1	Yes		30.4376333333333	0.69	evidence4	rain	bare	It's raining.	0.742142857142857	reportative	indirect	listener
+57	9303	Dinner is probably ready.	English	33	M	3	1	Yes		30.4376333333333	0.61	evidence3	dinner	probably	Dinner is probably ready.	0.85	inferential	indirect	listener
+57	22174	The coffee must be cold.	English	33	F	1	1	Yes		30.4376333333333	0.5	evidence4	coffee	must	The coffee must be cold.	0.681818181818182	inferential	indirect	listener
+57	27121	The neighbor&quotechars dog is probably barking.	English	23	F	3	2	Yes		22.6097666666667	0.39	evidence1	dog	probably	The neighbor&quotechars dog is probably barking.	0.916	perceptual	direct	speaker
+57	27743	Dinner must be ready.	English	23	F	2	2	Yes		22.6097666666667	0.76	evidence4	dinner	must	Dinner must be ready.	0.655384615384615	inferential	indirect	speaker
+57	40158	The neighbor's dog might be barking.	English	33	F	2	1	Yes		30.4376333333333	0.48	evidence2	dog	might	The neighbor's dog might be barking.	0.734285714285714	inferential	indirect	listener
+57	72096	The coffee might be cold.	English	23	F	4	2	Yes		22.6097666666667	0.32	evidence3	coffee	might	The coffee might be cold.	0.95	inferential	indirect	speaker
+57	78631	It&quotechars raining.	English	23	F	1	2	Yes		22.6097666666667	0.92	evidence1	rain	bare	It&quotechars raining.	0.935454545454545	perceptual	direct	speaker
+58	7688	The coffee is cold.	English	32	F	4	2	Yes	none	1.17315	0.98	evidence2	coffee	bare	The coffee is cold.	0.743333333333333	perceptual	indirect	listener
+58	9017	It must be raining.	English	32	M	3	2	Yes	none	1.17315	0.79	evidence5	rain	must	It must be raining.	0.573333333333333	inferential	indirect	listener
+58	10732	Dinner is probably ready.	English	32	M	2	2	Yes	none	1.17315	0.65	evidence3	dinner	probably	Dinner is probably ready.	0.85	inferential	indirect	listener
+58	17578	The coffee is probably cold.	English 	49	M	2	2	Yes		2.18251666666667	0.7	evidence3	coffee	probably	The coffee is probably cold.	0.95	inferential	indirect	speaker
+58	18867	The neighbor's dog might be barking.	English	32	F	1	2	Yes	none	1.17315	0.46	evidence4	dog	might	The neighbor's dog might be barking.	0.651	inferential	indirect	listener
+58	19967	Dinner might be ready.	English 	49	F	3	2	Yes		2.18251666666667	0.75	evidence4	dinner	might	Dinner might be ready.	0.655384615384615	inferential	indirect	speaker
+58	26895	It must be raining.	English 	49	F	4	2	Yes		2.18251666666667	0.88	evidence2	rain	must	It must be raining.	0.9175	inferential	indirect	speaker
+58	29965	The neighbor&quotechars dog is barking.	English 	49	M	1	2	Yes		2.18251666666667	0.99	evidence2	dog	bare	The neighbor&quotechars dog is barking.	0.734285714285714	inferential	indirect	speaker
+59	21617	The coffee must be cold.	English	24	M	1	2	Yes	I enjoy these sorts of HITs! I think language is incredibly interesting and am happy to participate in a small way towards better understanding of language interpretation. Thank you!	2.40998333333333	0.97	evidence3	coffee	must	The coffee must be cold.	0.95	inferential	indirect	speaker
+59	23880	It&quotechars probably raining.	English	24	M	4	2	Yes	I enjoy these sorts of HITs! I think language is incredibly interesting and am happy to participate in a small way towards better understanding of language interpretation. Thank you!	2.40998333333333	0.7	evidence5	rain	probably	It&quotechars probably raining.	0.573333333333333	inferential	indirect	speaker
+59	24879	Dinner is ready.	Romanian	26	M	2	2	Yes	Made me think a little.	2.86811666666667	1	evidence2	dinner	bare	Dinner is ready.	0.93375	reportative	indirect	listener
+59	24916	The neighbor&quotechars dog might be barking.	English	24	F	2	2	Yes	I enjoy these sorts of HITs! I think language is incredibly interesting and am happy to participate in a small way towards better understanding of language interpretation. Thank you!	2.40998333333333	0.48	evidence4	dog	might	The neighbor&quotechars dog might be barking.	0.651	inferential	indirect	speaker
+59	25714	The coffee is probably cold.	Romanian	26	M	4	2	Yes	Made me think a little.	2.86811666666667	0.75	evidence4	coffee	probably	The coffee is probably cold.	0.681818181818182	inferential	indirect	listener
+59	25920	It must be raining.	Romanian	26	F	3	2	Yes	Made me think a little.	2.86811666666667	0.94	evidence2	rain	must	It must be raining.	0.9175	inferential	indirect	listener
+59	29953	Dinner is ready.	English	24	F	3	2	Yes	I enjoy these sorts of HITs! I think language is incredibly interesting and am happy to participate in a small way towards better understanding of language interpretation. Thank you!	2.40998333333333	0.98	evidence1	dinner	bare	Dinner is ready.	0.93	perceptual	direct	speaker
+59	44759	The neighbor's dog might be barking.	Romanian	26	F	1	2	Yes	Made me think a little.	2.86811666666667	0.99	evidence2	dog	might	The neighbor's dog might be barking.	0.734285714285714	inferential	indirect	listener
