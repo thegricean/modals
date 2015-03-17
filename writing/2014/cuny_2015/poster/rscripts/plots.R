@@ -82,32 +82,52 @@ evidence$ResponseType = "model"
 baremust$StrengthBinSize = cut(baremust$Directness,breaks=3)
 baremust$Strength = cut(baremust$Directness,breaks=3,labels=c("weak","medium","strong"))
 
-tfreq = as.data.frame(table(baremust$Strength,baremust$item_type))
-t = as.data.frame(prop.table(table(baremust$Strength,baremust$item_type),mar=2))
+head(baremust)
+baremust$Strength_strong = ifelse(baremust$Strength == "strong",1,0)
+baremust$Strength_medium = ifelse(baremust$Strength == "medium",1,0)
+baremust$Strength_weak = ifelse(baremust$Strength == "weak",1,0)
+
+library(dplyr)
+toplot = droplevels(baremust) %>% 
+  select(Strength_strong,Strength_medium,Strength_weak,item_type) %>%
+  gather(strength, Proportion, -item_type)
+
+agr = aggregate(Proportion~strength+item_type,data=toplot,FUN="mean")
+agr$CILow = aggregate(Proportion~strength+item_type,data=toplot,FUN="ci.low")$Proportion
+agr$CIHigh = aggregate(Proportion~strength+item_type,data=toplot,FUN="ci.high")$Proportion
+agr$YMin = agr$Proportion - agr$CILow
+agr$YMax = agr$Proportion + agr$CIHigh
+t=agr
+t$StrengthBin = gsub("Strength_","",t$strength)
 head(t)
-head(tfreq)
-colnames(t) = c("StrengthBin","Modal","Proportion")
-colnames(tfreq) = c("StrengthBin","Modal","Freq")
-t$Freq = tfreq$Freq
+
+#tfreq = as.data.frame(table(baremust$Strength,baremust$item_type))
+#t = as.data.frame(prop.table(table(baremust$Strength,baremust$item_type),mar=2))
+#head(t)
+#head(tfreq)
+#colnames(t) = c("StrengthBin","Modal","Proportion")
+#colnames(tfreq) = c("StrengthBin","Modal","Freq")
+#t$Freq = tfreq$Freq
 t$ResponseType = "empirical"
 dodge = position_dodge(.9) 
 
 #t$Utterance = factor(x=t$Modal,levels=c("bare","must","might"))
-t$Utterance = factor(x=t$Modal,levels=c("might","must","bare"))
-#t$Strength = factor(x=t$StrengthBin,levels=rev(levels(t$StrengthBin)))
-t$Strength = t$StrengthBin
-t = droplevels(t[t$Modal != "probably",])
+t$Utterance = factor(x=t$item_type,levels=c("might","must","bare"))
+t$Strength = factor(x=t$StrengthBin,levels=c("weak","medium","strong"))
 merged = merge(t,evidence,all=T)
+merged[is.na(merged$YMin),]$YMin = 0
+merged[is.na(merged$YMax),]$YMax = 0
 
 ggplot(merged, aes(x=Utterance,y=Proportion,fill=Strength)) +
   geom_bar(stat="identity",position=dodge,color="black") +
   scale_fill_manual(values=rev(designer.colors(n=3, col=c("#046C9A","#ABDDDE"))),name="Evidence\nstrength") +
+  geom_errorbar(aes(ymin=YMin,ymax=YMax),position=dodge,width=.25) +
   #scale_fill_manual(values=wes_palette("Royal1"),name="Evidence strength") + #Moonrise2, Darjeeling2, Moonrise3, Chevalier
   ylab("Probability of evidence strength") +
   facet_wrap(~ResponseType) +
   theme(plot.margin=unit(c(0,0,0,0),units="cm"),axis.title.y=element_text(size=14))  
-  #theme(legend.position="top",plot.margin=unit(c(-0.5,0,0,0),units="cm"))
-ggsave("pics/evidence.pdf",width=7.5,height=3)
+#theme(legend.position="top",plot.margin=unit(c(-0.5,0,0,0),units="cm"))
+gggsave("pics/evidence.pdf",width=7.5,height=3)
 ggsave("pics/evidence_darjeeling2.pdf",width=7,height=4)
 ggsave("pics/evidence_moonrise2.pdf",width=7,height=4)
 ggsave("pics/evidence_moonrise3.pdf",width=7,height=4)
