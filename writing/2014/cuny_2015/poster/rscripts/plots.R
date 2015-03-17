@@ -1,7 +1,11 @@
 library(ggplot2)
 theme_set(theme_bw(18))
 setwd("~/cogsci/projects/stanford/projects/modals/modals/writing/2014/cuny_2015/poster/")
+#greg
+#setwd("~/Documents/git/CoCoLab/modals/writing/2014/cuny_2015/poster/")
 source("rscripts/helpers.r")
+
+
 
 d = read.table("data/combined.comprehension.experiments.txt",sep="\t",quote="",header=T)
 nrow(d)
@@ -54,12 +58,14 @@ agrr$Utterance = factor(agrr$item_type,levels=c("might","must","bare"))
 ggplot(agrr, aes(x=Utterance, y=response, fill=Experiment)) +
   geom_bar(stat="identity",color="black",position=dodge) +
 #  scale_fill_manual(values=designer.colors(n=3, col=c("#046C9A","#ABDDDE")),name="Belief",breaks=levels(agrr$Experiment),label=c("listener (Exp. 3a)", "speaker (Exp. 3b)")) +
-  scale_fill_manual(values=wes_palette("Moonrise2"),name="Belief",breaks=levels(agrr$Experiment),label=c("listener (Exp. 3a)", "speaker (Exp. 3b)")) +
+  scale_fill_manual(values=wes_palette("Moonrise2"),name="Belief",breaks=levels(agrr$Experiment),label=c("listener\n(Exp. 3a)", "speaker\n(Exp. 3b)")) +
   geom_errorbar(aes(ymin=YMin,ymax=YMax),width=.25,position=dodge) +
   facet_wrap(~ResponseType) +
   ylab("Probability of belief in q") +
-  theme(legend.position="top",plot.margin=unit(c(-0.5,0,0,0),units="cm"))
+  #theme(legend.key.size = unit(1.2, "cm"))
+ 3theme(legend.position="top",plot.margin=unit(c(-0.5,0,0,0),units="cm"))
 ggsave("pics/mean_beliefs.pdf",width=5.5,height=3.5)
+#ggsave("pics/mean_beliefs_greg.pdf",width=7.8,height=3)
 
 
 ## evidence
