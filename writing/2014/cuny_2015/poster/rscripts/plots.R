@@ -17,11 +17,12 @@ nrow(un)
 
 ggplot(un, aes(x=Directness, fill=Strength)) +
   geom_histogram() +
-  scale_fill_manual(values=wes_palette("Moonrise3"),name="Evidence strength") +  
-  xlab("Strength") +
+  scale_fill_manual(values=rev(designer.colors(n=3, col=c("#046C9A","#ABDDDE"))),name="Evidence\nstrength") +
+  #scale_fill_manual(values=wes_palette("Rushmore"),name="Evidence\nstrength") +  
+  xlab("Probability of q (evidence strength)") +
   ylab("Number of cases") #+
 #  theme(legend.position="top")
-ggsave("pics/strength_histogram.pdf",width=6,height=3.2)
+ggsave("pics/strength_histogram.pdf",width=5.5,height=3.2)
 
 
 ### plot beliefs about q
@@ -47,16 +48,18 @@ summary(agrr)
 agrr[is.na(agrr$YMin),]$YMin = 0
 agrr[is.na(agrr$YMax),]$YMax = 0
 dodge = position_dodge(.9)
-agrr$Utterance = factor(agrr$item_type,levels=c("bare","must","might"))
+#agrr$Utterance = factor(agrr$item_type,levels=c("bare","must","might"))
+agrr$Utterance = factor(agrr$item_type,levels=c("might","must","bare"))
 
 ggplot(agrr, aes(x=Utterance, y=response, fill=Experiment)) +
   geom_bar(stat="identity",color="black",position=dodge) +
-  scale_fill_manual(values=wes_palette("Moonrise3"),name="Belief",breaks=levels(agrr$Experiment),label=c("listener (Exp. 3a)", "speaker (Exp. 3b)")) +
+#  scale_fill_manual(values=designer.colors(n=3, col=c("#046C9A","#ABDDDE")),name="Belief",breaks=levels(agrr$Experiment),label=c("listener (Exp. 3a)", "speaker (Exp. 3b)")) +
+  scale_fill_manual(values=wes_palette("Moonrise2"),name="Belief",breaks=levels(agrr$Experiment),label=c("listener (Exp. 3a)", "speaker (Exp. 3b)")) +
   geom_errorbar(aes(ymin=YMin,ymax=YMax),width=.25,position=dodge) +
   facet_wrap(~ResponseType) +
   ylab("Probability of belief in q") +
-  theme(legend.position="top")
-ggsave("pics/mean_beliefs.pdf",width=6,height=3.5)
+  theme(legend.position="top",plot.margin=unit(c(-0.5,0,0,0),units="cm"))
+ggsave("pics/mean_beliefs.pdf",width=5.5,height=3.5)
 
 
 ## evidence
@@ -83,17 +86,22 @@ t$Freq = tfreq$Freq
 t$ResponseType = "empirical"
 dodge = position_dodge(.9) 
 
-t$Utterance = factor(x=t$Modal,levels=c("bare","must","might"))
-t$Strength = factor(x=t$StrengthBin,levels=rev(levels(t$StrengthBin)))
+#t$Utterance = factor(x=t$Modal,levels=c("bare","must","might"))
+t$Utterance = factor(x=t$Modal,levels=c("might","must","bare"))
+#t$Strength = factor(x=t$StrengthBin,levels=rev(levels(t$StrengthBin)))
+t$Strength = t$StrengthBin
 t = droplevels(t[t$Modal != "probably",])
 merged = merge(t,evidence,all=T)
 
 ggplot(merged, aes(x=Utterance,y=Proportion,fill=Strength)) +
   geom_bar(stat="identity",position=dodge,color="black") +
-  scale_fill_manual(values=wes_palette("Royal1"),name="Evidence strength") + #Moonrise2, Darjeeling2, Moonrise3, Chevalier
+  scale_fill_manual(values=rev(designer.colors(n=3, col=c("#046C9A","#ABDDDE"))),name="Evidence\nstrength") +
+  #scale_fill_manual(values=wes_palette("Royal1"),name="Evidence strength") + #Moonrise2, Darjeeling2, Moonrise3, Chevalier
   ylab("Probability of evidence strength") +
   facet_wrap(~ResponseType) +
-  theme(legend.position="top")
+  theme(plot.margin=unit(c(0,0,0,0),units="cm"),axis.title.y=element_text(size=14))  
+  #theme(legend.position="top",plot.margin=unit(c(-0.5,0,0,0),units="cm"))
+ggsave("pics/evidence.pdf",width=7.5,height=3)
 ggsave("pics/evidence_darjeeling2.pdf",width=7,height=4)
 ggsave("pics/evidence_moonrise2.pdf",width=7,height=4)
 ggsave("pics/evidence_moonrise3.pdf",width=7,height=4)
@@ -116,14 +124,17 @@ head(tfreq)
 colnames(t) = c("StrengthBin","Modal","Proportion")
 colnames(tfreq) = c("StrengthBin","Modal","Proportion")
 t$Freq = tfreq$Proportion
-t$Strength = factor(x=t$StrengthBin,levels=rev(levels(t$StrengthBin)))
-t$Utterance = factor(x=t$Modal,levels=c("bare","must","might"))
+#t$Strength = factor(x=t$StrengthBin,levels=rev(levels(t$StrengthBin)))
+t$Strength = t$StrengthBin
+#t$Utterance = factor(x=t$Modal,levels=c("bare","must","might"))
+t$Utterance = factor(x=t$Modal,levels=c("might","must","bare"))
 t = t[order(t$Utterance),]
 
 ggplot(t, aes(x=Strength,y=Proportion,fill=Utterance)) +
   geom_bar(stat="identity") +
-  scale_fill_manual(values=wes_palette("Moonrise3"),name="Utterance") +  
+  scale_fill_manual(values=wes_palette("Darjeeling"),name="Utterance") +  
   xlab("Strength") +
-  ylab("Probability of utterance") 
+  ylab("Probability of utterance") +
+  theme(plot.margin=unit(c(0,-0.5,0,0),units="cm"))
 ggsave("pics/production.pdf",width=4.4,height=3.2)  
   

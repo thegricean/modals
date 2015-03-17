@@ -26,7 +26,7 @@ both$Experiment = as.factor(both$Experiment)
 head(both)
 summary(both)
 
-baremust = both[both$item_type %in% c("bare","must"),]
+baremust = both[both$item_type %in% c("bare","must","might"),]
 baremust = droplevels(baremust)
 nrow(baremust)
 table(baremust$item_type)
