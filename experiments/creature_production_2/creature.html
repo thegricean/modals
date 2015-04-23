@@ -45,7 +45,7 @@
   <div class="slide" id="i0" >
     <img src="../_shared/images/cocologo.png" alt="Stanford CoCoLab" id="cocologo"></img>
     <p id="cocolab">Stanford CoCoLab</p>
-    <p>In this experiment, you will see some plants and animals from the alien planet Smultron. The HIT should take about five minutes. Please pay attention, thanks!</p>
+    <p>In this experiment, you will see some flora and fauna from the alien planet Smultron. The HIT should take about five minutes. Please pay attention, thanks!</p>
     <button id="start_button" type="button">Start Experiment</button>
     <p id="legal">Legal information: By answering the following questions, you are participating in a study being performed by cognitive scientists in the Stanford Department of Psychology. If you have questions about this research, please contact Erin Bennett at <a href="mailto://erindb@stanford.edu">erindb@stanford.edu</a> or Noah Goodman, at ngoodman@stanford.edu. You must be  at least 18 years old to participate. Your participation in this research is voluntary. You may decline to answer any or all of the following questions. You may decline further participation, at any time, without adverse consequences. Your anonymity is assured; the researchers who have requested your participation will not receive any personal information about you.</p>
   </div>
@@ -53,10 +53,9 @@
   <div class="slide" id="instructions">
     <h3>Instructions</h3>
 
-    <p>In this task, you and a friend visit planet Smultron. Scientists have extensively studied the life on this planet, and you have too. You are in a rover on the surface of the planet, looking out the window at the world around you. There is lots of fog, so you only catch glimpses of the planet's plants and animals.
-    </p>
+    
 
-    <p>You will see 4 sets of scenarios involving bugs, birds, flowers, and fish on planet Smultron. Please consider each scenario carefully, and then make judgments about it.</p>
+    <p>You will see 4 scenarios displayed on the screen. Please consider each scenario carefully, and then make judgments about it.</p>
 
     <button onclick="_s.button()">Continue</button>
   </div>
@@ -114,7 +113,6 @@
 			<p><span id="bird_q3">{{}}</span> <input type="text" id="bird_q3_a"/></p>
 			<p><span id="bird_q4">{{}}</span> <input type="text" id="bird_q4_a"/></p>
 			<button onclick="_s.button()">Continue</button>
-			<div class="qerr">Please answer all the questions before continuing.</div>			
 		</div>
 
 	<div class="slide" id="bird_slider">
@@ -123,21 +121,18 @@
 
 	    <div class="row" id="bird_row">
 	    	<div id="bird_evidence2" class="evidence2"></div>
-	    	<style>
-	    		#bird_evidence2{
-					background-color: #383838;
-				}
-			</style>
+	    	<div id="bird_tree"><img src="images/tree.png"  width="150px" height="215px"></img></div>
 	    </div>
 
-	    <p>How likely is it that the bird outside the spaceship is a <span class="bird_a">{{}}</span>?</p>
+	    <p>Given what you know, what do you say to Mary,</br> who is sitting in the spaceship waiting for a report?</p>
 
-	    <table id="slider_table" class="slider_table">
-	      <tr><td class="left">Impossible</td><td class="right">Absolutely certain</td></tr>
-	      <tr><td colspan="2"><div id="bird_slider_bar" class="slider"></div></td></tr>
-	    </table>
+	    <table>
+	    	<div id="bird_radiotable" align="center">{{}}
+			</div>
+	    </table> 
+
 	    <button onclick="_s.button()">Continue</button>
-	    <div class="err">Please adjust the slider before continuing.</div>
+	    <div class="err">Please make a selection before continuing.</div>
 	</div>
 
 	<div class="slide" id="bug_intro">
@@ -195,7 +190,6 @@
 			<p><span id="bug_q3">{{}}</span> <input type="text" id="bug_q3_a"/></p>
 			<p><span id="bug_q4">{{}}</span> <input type="text" id="bug_q4_a"/></p>
 			<button onclick="_s.button()">Continue</button>
-			<div class="qerr">Please answer all the questions before continuing.</div>		
 		</div>
 
 	<div class="slide" id="bug_slider">
@@ -203,19 +197,27 @@
 	   <p class="evidence1">Imagine all you can you see of a bug is its {{}}:</p>	    
 	    <div class="row" id="bug_row">
 	    	<div id="bug_evidence2" class="evidence2"></div>
+	    	<div id="bug_leaf"><img src="images/leaf.png"  width="275px" height="250px"></img></div>
 	    	<style>
-	    		#bug_evidence2{
-					background-color: #383838;
+	    		#bug_leaf{
+					position: relative;
+					left : -255px;
+				}
+				#bug_row{
+					position: relative;
+					right : -125px;
 				}
 			</style>
 	    </div>
-	    <p>How likely is it that the bug outside the spaceship is a <span class="bug_a">{{}}</span>?</p>
-	    <table id="slider_table" class="slider_table">
-	      <tr><td class="left">Impossible</td><td class="right">Absolutely certain</td></tr>
-	      <tr><td colspan="2"><div id="bug_slider_bar" class="slider"></div></td></tr>
-	    </table>
+	    <p>Given what you know, what do you say to Mary,</br> who is sitting in the spaceship waiting for a report?</p>
+
+	    <table>
+	    	<div id="bug_radiotable" align="center">{{}}
+			</div>
+	    </table> 
+
 	    <button onclick="_s.button()">Continue</button>
-	    <div class="err">Please adjust the slider before continuing.</div>
+	    <div class="err">Please make a selection before continuing.</div>
 	</div>
 
 	<div class="slide" id="flower_intro">
@@ -271,7 +273,6 @@
 			<p><span id="flower_q3">{{}}</span> <input type="text" id="flower_q3_a"/></p>
 			<p><span id="flower_q4">{{}}</span> <input type="text" id="flower_q4_a"/></p>
 			<button onclick="_s.button()">Continue</button>
-			<div class="qerr">Please answer all the questions before continuing.</div>		
 		</div>
 
 	<div class="slide" id="flower_slider">
@@ -279,19 +280,28 @@
 	   <p class="evidence1">Imagine you see a {{}}:</p>
 	    <div class="row" id="flower_row">
 	    	<div id="flower_evidence2" class="evidence2"></div>
+	    	<div id="flower_leaf"><img src="images/rock.png"  width="175px" height="150px"></img></div>
 	    	<style>
-	    		#flower_evidence2{
-					background-color: #383838;
+	    		#flower_leaf{
+					position: relative;
+					left : -215px;
+					top : -70px;
+				}
+				#flower_row{
+					position: relative;
+					right : -125px;
 				}
 			</style>
 	    </div>
-	    <p>How likely is it that the flower outside the spaceship is a <span class="flower_a">{{}}</span>?</p>
-	    <table id="slider_table" class="slider_table">
-	      <tr><td class="left">Impossible</td><td class="right">Absolutely certain</td></tr>
-	      <tr><td colspan="2"><div id="flower_slider_bar" class="slider"></div></td></tr>
-	    </table>
+	    <p>Given what you know, what do you say to Mary,</br> who is sitting in the spaceship waiting for a report?</p>
+
+	    <table>
+	    	<div id="flower_radiotable" align="center">{{}}
+			</div>
+	    </table> 
+
 	    <button onclick="_s.button()">Continue</button>
-	    <div class="err">Please adjust the slider before continuing.</div>
+	    <div class="err">Please make a selection before continuing.</div>
 	</div>
 
 	<div class="slide" id="fish_intro">
@@ -347,7 +357,6 @@
 			<p><span id="fish_q3">{{}}</span> <input type="text" id="fish_q3_a"/></p>
 			<p><span id="fish_q4">{{}}</span> <input type="text" id="fish_q4_a"/></p>
 			<button onclick="_s.button()">Continue</button>
-			<div class="qerr">Please answer all the questions before continuing.</div>		
 		</div>
 
 	<div class="slide" id="fish_slider">
@@ -355,19 +364,28 @@
 	   <p class="evidence1">Imagine you see a {{}}:</p>
 	    <div class="row" id="fish_row">
 	    	<div id="fish_evidence2" class="evidence2"></div>
+	    	<div id="fish_clam"><img src="images/clam.png"  width="250px" height="225px"></img></div>
 	    	<style>
-	    		#fish_evidence2{
-					background-color: #383838;
+	    		#fish_clam{
+					position: relative;
+					left : -240px;
+					top : -50px;
+				}
+				#fish_row{
+					position: relative;
+					right : -125px;
 				}
 			</style>
 	    </div>
-	    <p>How likely is it that the fish outside the spaceship is a <span class="fish_a">{{}}</span>?</p>
-	    <table id="slider_table" class="slider_table">
-	      <tr><td class="left">Impossible</td><td class="right">Absolutely certain</td></tr>
-	      <tr><td colspan="2"><div id="fish_slider_bar" class="slider"></div></td></tr>
-	    </table>
+	    <p>Given what you know, what do you say to Mary,</br> who is sitting in the spaceship waiting for a report?</p>
+
+	    <table>
+	    	<div id="fish_radiotable" align="center">{{}}
+			</div>
+	    </table> 
+
 	    <button onclick="_s.button()">Continue</button>
-	    <div class="err">Please adjust the slider before continuing.</div>
+	    <div class="err">Please make a selection before continuing.</div>
 	</div>
 
 

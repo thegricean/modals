@@ -55,7 +55,7 @@ function make_slides(f) {
 			]),
 	  	
 	  	present_handle : function(stim) {
-	      $(".err").hide();
+	      $(".qerr").hide();
 	      this.stim = stim;
 			//draw the pimwits: 75% tar1, 100% tar2
 			//var pim_tar = _.shuffle([true,true,true,true,true,true,false,false]);
@@ -81,8 +81,25 @@ function make_slides(f) {
 	  	},
 
 	  	button : function() {
-	        this.log_responses();
-	        _stream.apply(this);
+	  		var ok_to_go_on = true;
+	  		if ($("#bird_q1_a").val().length < 1) {
+	  			ok_to_go_on = false;
+	  		}
+			if ($("#bird_q2_a").val().length < 1) {
+	  			ok_to_go_on = false;
+	  		}	  		
+			if ($("#bird_q3_a").val().length < 1) {
+	  			ok_to_go_on = false;
+	  		}	  			
+			if ($("#bird_q4_a").val().length < 1) {
+	  			ok_to_go_on = false;
+	  		}	  			
+	  		if (ok_to_go_on) {  		  		
+	        	this.log_responses();
+	        	_stream.apply(this);
+	        } else {
+	        	$(".qerr").show();
+	        }
 	      },
 
 	    log_responses : function() {
@@ -177,7 +194,7 @@ function make_slides(f) {
 			]),
 
 	  	present_handle : function(stim) {
-	      $(".err").hide();
+	      $(".qerr").hide();
 	      this.stim = stim;
 
 
@@ -208,8 +225,25 @@ function make_slides(f) {
 	  	},
 
 	  	button : function() {
-	        this.log_responses();
-	        _stream.apply(this);
+	        var ok_to_go_on = true;
+	  		if ($("#bug_q1_a").val().length < 1) {
+	  			ok_to_go_on = false;
+	  		}
+			if ($("#bug_q2_a").val().length < 1) {
+	  			ok_to_go_on = false;
+	  		}	  		
+			if ($("#bug_q3_a").val().length < 1) {
+	  			ok_to_go_on = false;
+	  		}	  			
+			if ($("#bug_q4_a").val().length < 1) {
+	  			ok_to_go_on = false;
+	  		}	  			
+	  		if (ok_to_go_on) {  		  		
+	        	this.log_responses();
+	        	_stream.apply(this);
+	        } else {
+	        	$(".qerr").show();
+	        }
 	      },
 
 	    log_responses : function() {
@@ -303,7 +337,7 @@ function make_slides(f) {
 			]),
 	  	
 	  	present_handle : function(stim) {
-	      $(".err").hide();
+	      $(".qerr").hide();
 	      this.stim = stim;
 
 			//decide which tar is deterministic and which is indirect
@@ -332,8 +366,25 @@ function make_slides(f) {
 	  	},
 
 	  	button : function() {
-	        this.log_responses();
-	        _stream.apply(this);
+	        var ok_to_go_on = true;
+	  		if ($("#flower_q1_a").val().length < 1) {
+	  			ok_to_go_on = false;
+	  		}
+			if ($("#flower_q2_a").val().length < 1) {
+	  			ok_to_go_on = false;
+	  		}	  		
+			if ($("#flower_q3_a").val().length < 1) {
+	  			ok_to_go_on = false;
+	  		}	  			
+			if ($("#flower_q4_a").val().length < 1) {
+	  			ok_to_go_on = false;
+	  		}	  			
+	  		if (ok_to_go_on) {  		  		
+	        	this.log_responses();
+	        	_stream.apply(this);
+	        } else {
+	        	$(".qerr").show();
+	        }
 	      },
 
 	    log_responses : function() {
@@ -426,7 +477,7 @@ function make_slides(f) {
 			]),
 	  	
 	  	present_handle : function(stim) {
-	      $(".err").hide();
+	      $(".qerr").hide();
 	      this.stim = stim;
 
 			//decide which tar is deterministic and which is indirect
@@ -455,8 +506,25 @@ function make_slides(f) {
 	  	},
 
 	  	button : function() {
-	        this.log_responses();
-	        _stream.apply(this);
+	        var ok_to_go_on = true;
+	  		if ($("#fish_q1_a").val().length < 1) {
+	  			ok_to_go_on = false;
+	  		}
+			if ($("#fish_q2_a").val().length < 1) {
+	  			ok_to_go_on = false;
+	  		}	  		
+			if ($("#fish_q3_a").val().length < 1) {
+	  			ok_to_go_on = false;
+	  		}	  			
+			if ($("#fish_q4_a").val().length < 1) {
+	  			ok_to_go_on = false;
+	  		}	  			
+	  		if (ok_to_go_on) {  		  		
+	        	this.log_responses();
+	        	_stream.apply(this);
+	        } else {
+	        	$(".qerr").show();
+	        }
 	      },
 
 	    log_responses : function() {

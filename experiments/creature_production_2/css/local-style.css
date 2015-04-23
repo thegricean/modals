@@ -1,0 +1,20 @@
+.slider {
+  /* default is width 400 and margin 10 */
+	width: 400;
+	margin: 10px;
+}
+
+div.row div {
+    display: inline-block;
+}
+
+#bird_tree{
+	position: relative;
+	left : -225px;
+}
+
+#bird_row{
+	position: relative;
+	right : -125px;
+}
+

@@ -1,44 +1,13 @@
 library(ggplot2)
 
-summarySE <- function(data=NULL, measurevar, groupvars=NULL, na.rm=FALSE,
-                      conf.interval=.95, .drop=TRUE) {
-  require(plyr)
-  
-  # New version of length which can handle NA's: if na.rm==T, don't count them
-  length2 <- function (x, na.rm=FALSE) {
-    if (na.rm) sum(!is.na(x))
-    else       length(x)
-  }
-  
-  # This does the summary. For each group's data frame, return a vector with
-  # N, mean, and sd
-  datac <- ddply(data, groupvars, .drop=.drop,
-                 .fun = function(xx, col) {
-                   c(N    = length2(xx[[col]], na.rm=na.rm),
-                     mean = mean   (xx[[col]], na.rm=na.rm),
-                     sd   = sd     (xx[[col]], na.rm=na.rm)
-                   )
-                 },
-                 measurevar
-  )
-  
-  # Rename the "mean" column    
-  datac <- rename(datac, c("mean" = measurevar))
-  
-  datac$se <- datac$sd / sqrt(datac$N)  # Calculate standard error of the mean
-  
-  # Confidence interval multiplier for standard error
-  # Calculate t-statistic for confidence interval: 
-  # e.g., if conf.interval is .95, use .975 (above/below), and use df=N-1
-  ciMult <- qt(conf.interval/2 + .5, datac$N-1)
-  datac$ci <- datac$se * ciMult
-  
-  return(datac)
-}
+setwd("~/Documents/git/cocolab/modals/experiments/creature_evidence_3/Submiterator-master")
 
-setwd("~/Documents/git/cocolab/modals/experiments/creature_evidence_2/Submiterator-master")
+d = read.table("~/Documents/git/cocolab/modals/experiments/creature_evidence_3/Submiterator-master/creature-evidence-3-trials.tsv",sep="\t",header=T)
+head(d)
 
-d = read.table("creature-evidence-2-trials.tsv",sep="\t",header=T)
+# question4_response is "o" somewhere and this ruins everything
+
+d$question4_response <- as.integer(as.character(d$question4_response))
 head(d)
 
 d$q1_correct = NA
@@ -52,7 +21,7 @@ d[!is.na(d$question3_response),]$q3_correct = 0
 d[!is.na(d$question3_response)&(100*(d$question3_response/8))==d$question3_answer,]$q3_correct = 1
 d$q4_correct = NA
 d[!is.na(d$question4_response),]$q4_correct = 0
-d[!is.na(d$question4_response)&(100*(d$question4_response/8))==d$question4_answer,]$q4_correct = 1
+d[!is.na(d$question4_response)&d$question4_response != "o"&(100*(d$question4_response/8))==d$question4_answer,]$q4_correct = 1
 d$score = NA
 d$score = (d$q1_correct+d$q2_correct+d$q3_correct+d$q4_correct)
 
@@ -99,6 +68,8 @@ d2.s <- bootsSummary(data=d_trim, measurevar="response", groupvars=c("evidence_t
 p2 <- ggplot(d2.s, aes(x=evidence_type, y=response, fill=freq)) +
   geom_bar(stat="identity",position=position_dodge())+
   geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=evidence_type, width=0.1),position=position_dodge(width=0.9))+
-  ylab("strength")
+  ylab("strength") +
+  ylim(0,1)
 p2
 ggsave(filename="evidence-by-type.png",plot=p2,width=8,height=3)
+
