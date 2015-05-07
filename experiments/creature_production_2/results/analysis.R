@@ -95,9 +95,9 @@ t$ModalChoice = factor(x=as.character(t$Modal),levels=c("bare","must","probably"
 
 ggplot(t, aes(x=EvidenceStrength,y=Proportion,fill=ModalChoice)) +
   geom_bar(stat="identity")
-#ggsave("indirect_modal_dist.pdf")
+ggsave("../results/indirect_modal_dist.pdf")
 
 ggplot(t, aes(x=EvidenceStrength, y=Proportion, color=ModalChoice, group=ModalChoice)) +
   geom_point() +
   geom_line()
-#ggsave("indirect_modal_choices_points.pdf")
+ggsave("../results/indirect_modal_choices_points.pdf")
