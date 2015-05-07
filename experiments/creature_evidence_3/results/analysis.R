@@ -42,7 +42,7 @@ d_trim = d[d$worker_score > 13,]
 
 aggregate(response~freq*evidence_type*item,d_trim,mean) -> strength_scores
 
-#write.csv(file="strength_scores.csv",strength_scores)
+write.csv(file="strength_scores.csv",strength_scores)
 
 d_trim$item <- factor(d_trim$item)
 d_trim$evidence_type <- factor(d_trim$evidence_type)
