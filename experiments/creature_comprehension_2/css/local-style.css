@@ -1,0 +1,17 @@
+.slider {
+  /* default is width 400 and margin 10 */
+	width: 400;
+	margin: 10px;
+}
+
+div.row div {
+    display: inline-block;
+}
+/*
+#bird_evidence1 {
+	background-color: #383838;
+}*/
+
+.poe{
+					background-color: #383838;
+				}
