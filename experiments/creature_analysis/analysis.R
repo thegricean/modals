@@ -68,7 +68,7 @@ t = t[order(t$Utterance),]
 ggplot(t, aes(x=Utterance,y=Proportion,fill=Strength)) +
   geom_bar(stat="identity",position=position_dodge(.9)) +
   #scale_fill_manual(values=wes_palette("Darjeeling"),name="Utterance") +  
-  xlab("Strength") +
+  #xlab("Strength") +
   ylab("Probability of utterance strength") #+
 ggsave("plots/evidence.pdf",width=4.4,height=3.2)
 
